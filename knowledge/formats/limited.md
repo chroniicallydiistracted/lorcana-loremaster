@@ -1,8 +1,10 @@
 # Limited: Sealed and Draft Framework
 
-**Project version:** 3.0  
-**Environment:** Exact supplied event/pool; Set 14 prerelease preparation is theorycrafting before October 16, 2026  
-**Formats:** Sealed and Draft, analyzed separately  
+**Project version:** 3.0
+
+**Environment:** Exact supplied event/pool; Set 14 prerelease preparation is theorycrafting before October 16, 2026
+
+**Formats:** Sealed and Draft, analyzed separately
 **Regional baseline:** United States / North America
 
 Limited decks are built from a supplied pool, not a collection. Reliable curve, inkability, character density, board impact, and flexible card quality normally matter more than Constructed-level synergy.
