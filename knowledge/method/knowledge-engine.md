@@ -66,7 +66,7 @@ this script is not permission to auto-adjudicate unseen text.
 
 ## Quality evaluation
 
-`benchmarks/game-master.json` contains 100 source-cited reference cases across rules,
+`benchmarks/game-master.json` contains 109 source-cited reference cases across rules,
 keywords, formats, Limited, new mechanics, multiplayer, cooperative boundaries,
 organized play, cards, learning, collections, international questions, lore,
 strategy, hidden information, probability and date handling.
@@ -76,8 +76,11 @@ values, exact probabilities, and uncertainty/refusal status. The independent Pyt
 tests additionally exercise changed source bytes, invalid reviews, effective-date
 boundaries, continued PDF sections, glyphs, hostile FTS input and preserved user decks.
 These checks do not establish unrestricted question-answer accuracy or competitive
-deck strength. A future conversational evaluator needs independent expert grading,
-held-out interaction questions and adversarial examples beyond the finite FAQ topics.
+deck strength. The separate [compound suite](scenario-evaluation.md) adds 24 unfamiliar
+compound prompts, claim/source contracts, an independent probability oracle and
+critical-mutation tests. Its responses are reference-assisted fixtures; independent
+expert/prose grading remains pending. It does not claim a blinded conversational
+model evaluation.
 
 ## Downloads and next evidence
 
@@ -91,7 +94,9 @@ Bucky errata, Hyperia OP instructions, CCQ terms, replacement policy, community 
 and CORE Lore Guide training document. CORE means Core Operations, Rules and
 Enforcement; this is tournament training, not a narrative storybook.
 
-Exact Quest and Gateway booklets were not found in the public Resources/product
+The follow-up web research acquired Gateway's original English Rules, Guidebook and
+both Deck Tips; its reward-pack manifests remain a gap. Seven official story/index
+pages are also cached. Exact Quest scenario booklets remain unacquired in the public
 links examined. See `sources/gaps.json` for the acquisition queue. Do not substitute
 the ordinary Quick Start or Comprehensive Rules for a scenario rulebook.
 
@@ -103,3 +108,9 @@ Git tracks tools, guides, reviews, benchmark data, source registries and lockfil
 Large raw exports, official snapshots, derived databases, image bytes, archive and
 vendor source remain local and are excluded. Restoring a checkout requires the
 supplied raw export and original cached evidence or a newly reviewed source refresh.
+
+Supplemental services are documented in `providers.md`. Their six initial public
+API snapshots have separate hashes and a 24-hour minimum cache; they never update
+the official card review or legality policy. `tools/providers.py coverage` reconciles
+the observed Hyperia base numbers and printing metadata, reports unknown prices,
+and distinguishes sealed products from card-number-bearing product records.

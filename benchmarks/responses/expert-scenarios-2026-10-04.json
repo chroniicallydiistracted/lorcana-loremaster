@@ -1,0 +1,814 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-04",
+  "provenance": "Codex-authored reference-assisted fixtures. No blinded generation, external model run, independent expert grade or measured game outcome is claimed.",
+  "responses": [
+    {
+      "scenario_id": "rush-evasive-bodyguard",
+      "prompt_sha256": "37b322f56f1c54a4932282fe4d2a1f02ea632cdf3f827d6b07f0903578b0cb8b",
+      "answer": "You may challenge the exerted Evasive character: your character has both Rush and Evasive, and the ready Bodyguard is not an eligible challenge choice. You cannot challenge that ready Bodyguard or quest with the freshly played character. Rush changes challenge eligibility, not quest eligibility.",
+      "claims": [
+        {
+          "key": "challenge_exerted_evasive",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "cr-8.9.1",
+            "cr-8.6.1",
+            "cr-4.6.4.2",
+            "cr-8.3.3"
+          ]
+        },
+        {
+          "key": "challenge_ready_bodyguard",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "cr-4.6.4.2"
+          ]
+        },
+        {
+          "key": "quest_drying",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "cr-1.7.5"
+          ]
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "scenario_id": "ward-mass-bottom",
+      "prompt_sha256": "0702e08b474dce718e31c9700ed34e8e5110172383e1a3b4ba46058575f267a4",
+      "answer": "Scuttle goes to the bottom; Hades remains. Under the Sea applies to all opposing characters with current strength two or less without choosing them, so Ward does not prevent it. Use modified current strength, not the printed value.",
+      "claims": [
+        {
+          "key": "bottom_scuttle",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews",
+            "cr-8.15.1"
+          ]
+        },
+        {
+          "key": "bottom_hades",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews"
+          ]
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "scenario_id": "duo-inherited-state",
+      "prompt_sha256": "72b6b2071011f4c23e5f88c6224288ed54ac1e58ad42756c5c5e624a99f8a3ed",
+      "answer": "The Duo is drying and exerted. The zero payment does not bypass inherited state, so it cannot quest, challenge or sing now. Compare delaying the Shift with preserving both bases; immediate five-lore access is unavailable here.",
+      "claims": [
+        {
+          "key": "duo_state",
+          "value": "drying_and_exerted",
+          "classification": "official_fact",
+          "sources": [
+            "cr-8.10.4.2"
+          ]
+        },
+        {
+          "key": "quest_challenge_sing_now",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "cr-1.7.5",
+            "cr-8.10.4.2"
+          ]
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "scenario_id": "singer-team-contribution",
+      "prompt_sha256": "d8935127dda46f90dc3ad8741e849fb29384292b91d416262560783155a2f178",
+      "answer": "The two Singers count as seven, short of eight. Adding your ordinary one-cost character reaches eight. A free-for-all opponent is not your teammate and cannot contribute through Sing Together. Exerting three characters also gives up their quests and challenges.",
+      "claims": [
+        {
+          "key": "first_two_enough",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "cr-8.11.1",
+            "cr-8.12.1"
+          ]
+        },
+        {
+          "key": "my_three_enough",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "cr-8.11.1",
+            "cr-8.12.1"
+          ]
+        },
+        {
+          "key": "opponent_can_contribute",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "cr-8.12.1"
+          ]
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "scenario_id": "empty-deck-recovery-window",
+      "prompt_sha256": "e41e8f94d1452830e2128cc64102e66c28c75a5114dc6e5b26dce26c7a1234da",
+      "answer": "You have not lost merely because the deck became empty during this main phase. The loss condition applies if your own turn ends with no cards in your deck. If you legally restore a card before that point and it remains there, that particular loss condition is avoided; any other game-ending condition still applies.",
+      "claims": [
+        {
+          "key": "immediate_loss",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "cr-1.8.1.2"
+          ]
+        },
+        {
+          "key": "own_turn_ends_empty_loses",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "cr-1.8.1.2"
+          ]
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "scenario_id": "move-damage-resist",
+      "prompt_sha256": "147bde4e478e2711464d3be2f8a14ecada1547057a322d082c0ae64a15a2e348",
+      "answer": "Two damage moves. Resist reduces damage dealt; moving damage removes it from one object and puts it on another rather than dealing it. A trigger specifically requiring damage to be dealt is not satisfied solely by this move.",
+      "claims": [
+        {
+          "key": "damage_received",
+          "value": 2,
+          "classification": "official_fact",
+          "sources": [
+            "cr-1.9.2.4",
+            "cr-8.8.1"
+          ]
+        },
+        {
+          "key": "counts_as_dealing_damage",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "cr-1.9.2.1",
+            "cr-1.9.2.2",
+            "cr-1.9.2.4"
+          ]
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "scenario_id": "dale-current-willpower",
+      "prompt_sha256": "a1c6ee6b2465e95d74fb74a5d74293d25399e5afb45537d9cc92d142122abe5b",
+      "answer": "Thomas deals six using current willpower, rather than four remaining health. The opponent takes six and is banished. Thomas takes three more damage, bringing its total to five against six willpower, so it survives. Damage does not reduce the willpower stat.",
+      "claims": [
+        {
+          "key": "thomas_damage_dealt",
+          "value": 6,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews"
+          ]
+        },
+        {
+          "key": "thomas_survives",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews",
+            "cr-1.8.1.4"
+          ]
+        },
+        {
+          "key": "opposing_character_banished",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews",
+            "cr-1.8.1.4"
+          ]
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "scenario_id": "elinor-unused-pluto-discount",
+      "prompt_sha256": "b86dc9de8a1ab6e34461fb64c6233c0984747e5bd0f0c4280bb13cb53407583d",
+      "answer": "Yes. You can exert dry ready Pluto for its ability even if the discount goes unused, reaching three exerted characters. At turn end Elinor can deal one to a chosen opposing character, gain a lore and draw. Compare that gain with Pluto’s alternative quest and the consequences of exposing another exerted body; the threshold alone does not prove the best line.",
+      "claims": [
+        {
+          "key": "pluto_activation_legal",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews",
+            "cr-1.7.5"
+          ]
+        },
+        {
+          "key": "elinor_threshold_reached",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews"
+          ]
+        },
+        {
+          "key": "line_requires_cost_comparison",
+          "value": true,
+          "classification": "strategic_inference",
+          "sources": [
+            "review-plans"
+          ]
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "scenario_id": "peacekeeper-after-challenge",
+      "prompt_sha256": "7fe47ec8b82a6ed56770bdb5439a328fff38654c474a1d28c54c1fc6bdbfe111",
+      "answer": "Calming Words does not apply because one of your characters already challenged this turn. Even when its condition is met, its restriction concerns challenges, not quests. If you want its challenge protection, plan the Shift before any of your challenges.",
+      "claims": [
+        {
+          "key": "challenge_lock_applies",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews"
+          ]
+        },
+        {
+          "key": "quests_prohibited",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews"
+          ]
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "scenario_id": "duo-banish-stack",
+      "prompt_sha256": "05e1438e3245f7981c2370e03fb78de11e8ec091008e67e740eb55d0fb584819",
+      "answer": "Its replacement puts the Duo into your inkwell facedown and exerted instead of banishing it. Both cards under it follow to that zone, giving three facedown exerted ink cards. None goes to discard through this event. That resource gain can materially change the next turn.",
+      "claims": [
+        {
+          "key": "cards_into_inkwell",
+          "value": 3,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews",
+            "cr-8.10.7"
+          ]
+        },
+        {
+          "key": "ink_state",
+          "value": "facedown_and_exerted",
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews"
+          ]
+        },
+        {
+          "key": "cards_into_discard",
+          "value": 0,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews",
+            "cr-8.10.7"
+          ]
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "scenario_id": "free-evolution-drying",
+      "prompt_sha256": "ccb4759f3bc7a8d71efe1fc95bb3847d1a1c77536fed76aac48d0f38986f64fd",
+      "answer": "No to both. The free play ignores costs and does not allow choosing another alternate cost. It is a newly played character, rather than a Shift onto the former character, so it is drying. The dry state of the banished character is not inherited.",
+      "claims": [
+        {
+          "key": "may_use_shift_alternate",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "cr-6.1.7"
+          ]
+        },
+        {
+          "key": "new_character_drying",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews",
+            "cr-1.7.5"
+          ]
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "scenario_id": "hyperia-publication-legality",
+      "prompt_sha256": "2e848d0af8b212020cd66e4b66d1db3ffeb92ef1768f3f9b3f6b8896f8a10d5e",
+      "answer": "Neither assertion is right. The verified US Set 14 prerelease is October 16, so this new identity is forward-looking on October 4. An older physical printing of a card reprinted into the eligible Core pool can remain usable through that identity. Check the event’s region and current policy before registration.",
+      "claims": [
+        {
+          "key": "new_mim_core_legal_oct4",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "legality",
+            "hyperia-city"
+          ]
+        },
+        {
+          "key": "old_printing_legal_if_identity_reprinted",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "legality",
+            "tournament-rules-2026-07-14"
+          ]
+        }
+      ],
+      "unknowns": [
+        "future_policy_changes"
+      ]
+    },
+    {
+      "scenario_id": "ban-list-versus-rotation",
+      "prompt_sha256": "2959a5083dc6303a73bbe119a7abc8671575a4a5506ed46f13a64cb6481bbbe9",
+      "answer": "No. A card also needs an eligible set identity under Core rotation; Fortisphere fails that check in this snapshot. Hiram Toymaker is listed as banned in Infinity. Keep bans, rotation and format separate rather than treating an empty Core ban list as universal eligibility.",
+      "claims": [
+        {
+          "key": "fortisphere_core_legal",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "legality",
+            "catalog"
+          ]
+        },
+        {
+          "key": "hiram_listed_ban_format",
+          "value": "infinity",
+          "classification": "official_fact",
+          "sources": [
+            "legality"
+          ]
+        },
+        {
+          "key": "empty_ban_list_overrides_rotation",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "legality"
+          ]
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "scenario_id": "conditional-observed-mulligan",
+      "prompt_sha256": "e615638ce8557b3f251a36d66ac0e307a1e3dfffb7567c5d28735a89aa7d965b",
+      "answer": "The replacements sample the 53 previously unseen cards, containing two remaining targets. Returned cards are unavailable until the later shuffle. The exact chance is 153/1378, or 11.1030%. Subtract all targets in the original hand, including returned targets; this is conditional on this hand and this return choice.",
+      "claims": [
+        {
+          "key": "replacement_population",
+          "value": 53,
+          "classification": "calculation",
+          "sources": [
+            "cr-2.2.2.1"
+          ]
+        },
+        {
+          "key": "replacement_targets",
+          "value": 2,
+          "classification": "calculation",
+          "sources": [
+            "cr-2.2.2.1"
+          ]
+        },
+        {
+          "key": "exact_probability",
+          "value": "153/1378",
+          "classification": "calculation",
+          "sources": [
+            "cr-2.2.2.1"
+          ]
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "scenario_id": "duo-access-versus-play",
+      "prompt_sha256": "b74eec608bfba1248e4332b3470709df5666528e139095130f313346a74cdda5",
+      "answer": "The disjoint group counts are eight, twelve and four. Joint opening access is 8640176/48275865, or 17.8975%, using the joint sampling distribution. This is not a legal Shift or quest rate: deployment, ink, survival and inherited ready/dry status still matter. Do not multiply marginal access rates.",
+      "claims": [
+        {
+          "key": "group_counts",
+          "value": [
+            8,
+            12,
+            4
+          ],
+          "classification": "calculation",
+          "sources": [
+            "baha-deck",
+            "catalog"
+          ]
+        },
+        {
+          "key": "exact_probability",
+          "value": "8640176/48275865",
+          "classification": "calculation",
+          "sources": [
+            "baha-deck",
+            "catalog"
+          ]
+        },
+        {
+          "key": "measures_legal_quest_probability",
+          "value": false,
+          "classification": "calculation",
+          "sources": [
+            "baha-deck",
+            "cr-8.10.4.2"
+          ]
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "scenario_id": "nani-remaining-deck",
+      "prompt_sha256": "6922494ef790ffb3a49b9a316f67aa63aa42a19c3020a58cbdee223aaf707627",
+      "answer": "Nani has 28 targets among 45 remaining cards, so a uniform unknown top four contains a target with probability 4189/4257, or 98.4026%. This calculation uses the stated remaining-deck information, not the original 39/60. Mike finds a character on your reveal if any card remains because your remaining deck is all characters; opponents reveal too, so their benefit must be considered.",
+      "claims": [
+        {
+          "key": "remaining_nani_targets",
+          "value": 28,
+          "classification": "calculation",
+          "sources": [
+            "elinor-deck",
+            "catalog"
+          ]
+        },
+        {
+          "key": "nani_exact_probability",
+          "value": "4189/4257",
+          "classification": "calculation",
+          "sources": [
+            "elinor-deck",
+            "catalog"
+          ]
+        },
+        {
+          "key": "mike_own_character_if_card_remains",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews",
+            "elinor-deck"
+          ]
+        },
+        {
+          "key": "mike_opponent_also_reveals",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews"
+          ]
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "scenario_id": "player-view-immediate-win",
+      "prompt_sha256": "a9c6391216e295598fea9b5300e22273d8db1c1293a460d3b7ceed15abff49c1",
+      "answer": "Quest now to reach twenty and win under the stated conditions. Disrupting a guessed hidden card gives up a sufficient immediate win. The two unknown cards are not known threats and should not be treated as revealed information.",
+      "claims": [
+        {
+          "key": "quest_reaches_twenty",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "cr-1.8.1.1"
+          ]
+        },
+        {
+          "key": "unknown_hand_identity_is_known",
+          "value": false,
+          "classification": "strategic_inference",
+          "sources": [
+            "cr-7.3.1"
+          ]
+        },
+        {
+          "key": "recommended_line",
+          "value": "quest_now",
+          "classification": "strategic_inference",
+          "sources": [
+            "cr-1.8.1.1"
+          ]
+        }
+      ],
+      "unknowns": [
+        "opponent_hand_identities"
+      ]
+    },
+    {
+      "scenario_id": "event-publication-denominator",
+      "prompt_sha256": "7556cee3db7cc8c26d6a00bc17ec464e524ec98b3b4a3c1124be552021aaa422",
+      "answer": "No. The official roster is 95 and the selected sample contains six lists; the provider’s 96 records are a disclosed discrepancy. This is a purposeful list sample, not a field census. Finishes do not supply a matchup game denominator, and the records lack complete paired results. Report the observed lists and reported finishes without manufacturing shares or win rates.",
+      "claims": [
+        {
+          "key": "official_registered_entrants",
+          "value": 95,
+          "classification": "empirical_observation",
+          "sources": [
+            "events"
+          ]
+        },
+        {
+          "key": "selected_game_grid_lists",
+          "value": 6,
+          "classification": "empirical_observation",
+          "sources": [
+            "events"
+          ]
+        },
+        {
+          "key": "global_metashare_supported",
+          "value": false,
+          "classification": "insufficient_evidence",
+          "sources": [
+            "events"
+          ]
+        },
+        {
+          "key": "matchup_win_rate_supported",
+          "value": false,
+          "classification": "insufficient_evidence",
+          "sources": [
+            "events"
+          ]
+        }
+      ],
+      "unknowns": [
+        "complete_same_format_field_lists",
+        "complete_paired_game_results",
+        "independent_final_standings"
+      ]
+    },
+    {
+      "scenario_id": "balanced-owned-interaction-test",
+      "prompt_sha256": "bb2046dbf44f2903c9e27eebf73f76e716eb42c99c85b43b89a1d3d965c91dfc",
+      "answer": "Cut two Dr. Bushroot Evil Botanist and add two Chernabog Unnatural Force. The candidate stays at sixty, with uninkable cards rising from eight to ten; the September collection owns three Chernabog. You trade two three-lore Ward bodies for immediate chosen shuffle removal. Ward blocks an opposing Chernabog choice, and the opponent may play a character from discard for free afterward. Treat this as a controlled test, not a proved improvement.",
+      "claims": [
+        {
+          "key": "changes",
+          "value": {
+            "Dr. Bushroot - Evil Botanist": -2,
+            "Chernabog - Unnatural Force": 2
+          },
+          "classification": "strategic_inference",
+          "sources": [
+            "review-plans",
+            "baha-deck",
+            "profiles"
+          ]
+        },
+        {
+          "key": "revised_size",
+          "value": 60,
+          "classification": "calculation",
+          "sources": [
+            "review-plans",
+            "baha-deck",
+            "catalog"
+          ]
+        },
+        {
+          "key": "revised_uninkable",
+          "value": 10,
+          "classification": "calculation",
+          "sources": [
+            "review-plans",
+            "baha-deck",
+            "catalog"
+          ]
+        },
+        {
+          "key": "owned_chernabog_copies",
+          "value": 3,
+          "classification": "empirical_observation",
+          "sources": [
+            "collection",
+            "catalog"
+          ]
+        },
+        {
+          "key": "opponent_may_play_discard_character_free",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews"
+          ]
+        }
+      ],
+      "unknowns": [
+        "measured_candidate_matchup_advantage"
+      ]
+    },
+    {
+      "scenario_id": "simultaneous-collection-allocation",
+      "prompt_sha256": "2b68575f15bfa2536f97b0ec0ec84b49d5ca922dd86feb009de01f9db0795ad4",
+      "answer": "You need 37 missing gameplay copies if both baselines are assembled simultaneously. Separate reviews total 36 because they each allocate the same owned Mushu independently. Elinor needs one and Baha four while the export owns one, so joint demand is short four Mushu rather than the three counted by adding per-deck gaps. Later purchases or trades are not recorded.",
+      "claims": [
+        {
+          "key": "combined_missing_copies",
+          "value": 37,
+          "classification": "calculation",
+          "sources": [
+            "elinor-deck",
+            "baha-deck",
+            "collection",
+            "catalog"
+          ]
+        },
+        {
+          "key": "independent_missing_sum_sufficient",
+          "value": false,
+          "classification": "calculation",
+          "sources": [
+            "elinor-deck",
+            "baha-deck",
+            "collection",
+            "catalog"
+          ]
+        }
+      ],
+      "unknowns": [
+        "inventory_changes_since_september15"
+      ]
+    },
+    {
+      "scenario_id": "foil-fifth-copy",
+      "prompt_sha256": "66325e48843a84cb260cda8591d98e00b09adcceb4b363066a54bcaa97b78b47",
+      "answer": "It becomes 61 cards, which exceeds the minimum legally but does not waive Bobby’s four-copy limit. The fifth copy is illegal regardless of finish. A revision should keep four or fewer Bobby and identify a balancing cut for every addition; the foil can replace a regular Bobby one-for-one without changing gameplay identity.",
+      "claims": [
+        {
+          "key": "new_deck_size",
+          "value": 61,
+          "classification": "calculation",
+          "sources": [
+            "elinor-deck"
+          ]
+        },
+        {
+          "key": "full_name_copy_count",
+          "value": 5,
+          "classification": "calculation",
+          "sources": [
+            "elinor-deck",
+            "catalog"
+          ]
+        },
+        {
+          "key": "foil_bypasses_copy_limit",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "tournament-rules-2026-07-14",
+            "catalog"
+          ]
+        },
+        {
+          "key": "passes_supported_checks",
+          "value": false,
+          "classification": "calculation",
+          "sources": [
+            "elinor-deck",
+            "catalog"
+          ]
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "scenario_id": "belle-lorcana-continuity",
+      "prompt_sha256": "91780ddfb0e60ed93fe171596324dc0a9550dfc180a08b5936191d4e0835ffec",
+      "answer": "The official Lorcana story describes Belle risking mixed ink to recover the rose, which becomes a lantern, then heading to help Beast. This concerns a Belle glimmer within Lorcana. It does not establish an alteration of the original film’s continuity; connect the themes without treating the two narratives as one event.",
+      "claims": [
+        {
+          "key": "lorcana_rose_becomes_lantern",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "story-belle"
+          ]
+        },
+        {
+          "key": "film_continuity_change_proved",
+          "value": false,
+          "classification": "insufficient_evidence",
+          "sources": [
+            "story-belle",
+            "story-first-chapter"
+          ]
+        }
+      ],
+      "unknowns": [
+        "any_unprovided_primary_film_continuity_evidence"
+      ]
+    },
+    {
+      "scenario_id": "absent-hyperia-price",
+      "prompt_sha256": "f7f829b4e6084a64ec65da374e0a6c4aa0e61ff562651e5a76772a59cbb19c80",
+      "answer": "No quote means unknown, not zero. The September inventory records owned quantities, not a current regional purchase price. A purchase total needs an actual dated quote with matching printing, finish, condition, currency and shipping; do not fill absent variants with invented values.",
+      "claims": [
+        {
+          "key": "missing_quote_means_zero",
+          "value": false,
+          "classification": "insufficient_evidence",
+          "sources": [
+            "provider-coverage"
+          ]
+        },
+        {
+          "key": "inventory_proves_current_price",
+          "value": false,
+          "classification": "insufficient_evidence",
+          "sources": [
+            "provider-coverage",
+            "collection"
+          ]
+        }
+      ],
+      "unknowns": [
+        "matching_current_variant_quote",
+        "current_stock_and_shipping"
+      ]
+    },
+    {
+      "scenario_id": "quest-booklet-boundary",
+      "prompt_sha256": "de342a3360383f5435f94567ee0ab4d1f87e87aa3a46bb95c5133b8f83fd85e2",
+      "answer": "The supported card text can be discussed, but the full boss turn and difficulty-specific victory condition require the exact product and scenario booklet. Ordinary Core procedure does not establish those encounter rules. Identify the product and difficulty and retrieve the matching official instructions before adjudicating them.",
+      "claims": [
+        {
+          "key": "core_rules_alone_sufficient",
+          "value": false,
+          "classification": "insufficient_evidence",
+          "sources": [
+            "source-gaps"
+          ]
+        },
+        {
+          "key": "needs_exact_product_booklet",
+          "value": true,
+          "classification": "insufficient_evidence",
+          "sources": [
+            "source-gaps"
+          ]
+        }
+      ],
+      "unknowns": [
+        "exact_product",
+        "difficulty",
+        "official_scenario_booklet"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-04",
+  "evidence_directory": "research/2026-10-04",
+  "profiles": [
+    {
+      "profile_id": "elinor",
+      "name": "Amber/Emerald Elinor",
+      "format": "core",
+      "checked_at": "2026-10-04",
+      "classification": "strategic_inference",
+      "sample_ids": [
+        "hunter-16598-166030",
+        "hunter-16854-168094"
+      ],
+      "main_plan": "Develop a broad character board, convert exerted bodies into Elinor value, and protect profitable quests with bodyguards, bounce and Shift.",
+      "packages": [
+        {
+          "role": "early development",
+          "cards": [
+            "Aurora - Holding Court",
+            "Bobby Zimuruski - Spray Cheese Kid",
+            "Thomas - Wide-Eyed Recruit",
+            "The Queen - Regal Monarch"
+          ],
+          "purpose": "Cheap bodies supply pressure and opportunities to build the three-exerted-character condition."
+        },
+        {
+          "role": "cost savings",
+          "cards": [
+            "Pluto - Friendly Pooch",
+            "Grandmother Willow - Ancient Advisor",
+            "Aurora - Holding Court"
+          ],
+          "purpose": "Discounts improve deployment but do not add permanent ink; protect enough inkable cards."
+        },
+        {
+          "role": "character access",
+          "cards": [
+            "Mike Wazowski - Heroic Climber",
+            "Nani - Stage Manager",
+            "Pocahontas - Guiding the Tribe"
+          ],
+          "purpose": "An all-character deck improves Mike reveals; Nani and Pocahontas reward cheap-character density."
+        },
+        {
+          "role": "engine and protection",
+          "cards": [
+            "Elinor - Renowned Diplomat",
+            "Dale - Ready for His Shot",
+            "David - Protective Snowboarder",
+            "Pocahontas - Peacekeeper"
+          ],
+          "purpose": "Elinor rewards exerting; Dale uses current willpower for challenge damage; shifted Peacekeeper conditionally prevents challenges."
+        },
+        {
+          "role": "interaction",
+          "cards": [
+            "Ursula - Deceiver",
+            "Rapunzel - Tower Defender"
+          ],
+          "purpose": "Disrupt songs or bounce a chosen character; discarding for Rapunzel has a resource cost."
+        }
+      ],
+      "flex_slots": [
+        "Observed Squeaks versus Mickey Amber Champion packages change evasion, bounce density and Dale challenge math.",
+        "Saved Moluk slots such as Mowgli and Mickey Expedition Leader remain defensible alternatives; current samples do not prove a strict upgrade."
+      ],
+      "vulnerabilities": [
+        "Broad removal can punish an exerted board.",
+        "Mike also provides access to opponents; bodyguards do not stop non-challenge interaction."
+      ],
+      "mulligan": "Prioritize an inkable one-cost character and a coherent two-cost follow-up. Keep discounts alongside actual deployment and ink; trim redundant expensive pieces. Keep Ursula more often against known song engines.",
+      "sequencing": "Resolve character discounts in the required order, develop cheap bodies before Nani/Elinor, and check Peacekeeper before any challenge. Consider unused Pluto exertion only when its cost and the Elinor threshold justify it.",
+      "evidence_limits": "Observed exact lists support inclusion and copy ranges; role assignments and coaching are strategic inference. Small purposeful sample; no matchup win rates or optimality claim."
+    },
+    {
+      "profile_id": "mickey-minnie",
+      "name": "Emerald/Sapphire Mickey & Minnie",
+      "format": "core",
+      "checked_at": "2026-10-04",
+      "classification": "strategic_inference",
+      "sample_ids": [
+        "hunter-16854-168088"
+      ],
+      "main_plan": "Assemble both named bases for a free Duo Shift, convert character value into resilient pressure, and use interaction to preserve a questing window.",
+      "packages": [
+        {
+          "role": "Mickey bases",
+          "cards": [
+            "Mickey Mouse - Bob Cratchit",
+            "Mickey Mouse - Detective"
+          ],
+          "purpose": "Mickey access is a separate requirement from Minnie access; Detective provides permanent ink."
+        },
+        {
+          "role": "Minnie bases",
+          "cards": [
+            "Minnie Mouse - Curious Adventurer",
+            "Minnie Mouse - Practical Traveler",
+            "Minnie Mouse - Spinning Skater"
+          ],
+          "purpose": "Cheap Minnie versions provide pressure and the second distinct Duo Shift base."
+        },
+        {
+          "role": "Duo payoff",
+          "cards": [
+            "Mickey Mouse & Minnie Mouse - Adventuring Duo"
+          ],
+          "purpose": "The zero Shift payment still requires both bases and carries their relevant state; printed cost is not the play curve."
+        },
+        {
+          "role": "card flow",
+          "cards": [
+            "Tod - Clever Fox",
+            "Strike A Good Match",
+            "Donald Duck - Perfect Gentleman",
+            "Milo Thatch - Getting His Hands Dirty"
+          ],
+          "purpose": "Separate filtering and conditional draw from net resources; Donald also offers opponents cards."
+        },
+        {
+          "role": "interaction",
+          "cards": [
+            "Chernabog - Unnatural Force",
+            "Milo Thatch - Getting His Hands Dirty",
+            "Hades - Infernal Schemer",
+            "Under the Sea"
+          ],
+          "purpose": "Compare chosen removal with mass bottom-decking. Chernabog and Hades may give opponents resources."
+        },
+        {
+          "role": "resilient pressure",
+          "cards": [
+            "Hades - Meticulous Schemer",
+            "Winifred - Exasperated Elephant",
+            "Scuttle - Birdbrained"
+          ],
+          "purpose": "Ward constrains choosing, not challenges or non-choosing mass effects."
+        }
+      ],
+      "flex_slots": [
+        "The current sample uses fewer vanilla Ward bodies and a broader removal suite than the saved Baha list.",
+        "Prince Phillip at nine printed ink lacks a base in this sample; do not treat its Shift as generally available."
+      ],
+      "vulnerabilities": [
+        "Removing either base interrupts the early Duo line.",
+        "Large printed costs and conditional draw can produce slow hands despite high inkability."
+      ],
+      "mulligan": "Keep distinct Mickey and Minnie bases plus usable ink. Keep the Duo when both bases and sequencing are credible; return duplicate expensive threats. Detective matters when the hand needs a route to the late game.",
+      "sequencing": "Choose which versions to expose, track whether both bases are dry and their damage, and calculate the cost of converting two bodies into one. Do not assume Ward prevents Under the Sea.",
+      "evidence_limits": "Observed exact lists support inclusion and copy ranges; role assignments and coaching are strategic inference. Small purposeful sample; no matchup win rates or optimality claim."
+    },
+    {
+      "profile_id": "retro",
+      "name": "Amethyst/Emerald Retro",
+      "format": "core",
+      "checked_at": "2026-10-04",
+      "classification": "strategic_inference",
+      "sample_ids": [
+        "hunter-16854-168118"
+      ],
+      "main_plan": "Use card flow and Retro Evolution Device to convert small bodies into increasingly powerful on-play interaction and closing threats.",
+      "packages": [
+        {
+          "role": "early bodies",
+          "cards": [
+            "Aladdin - Doing His Part",
+            "Aladdin - Prince Ali",
+            "Lyle Tiberius Rourke - Adventurer for Hire"
+          ],
+          "purpose": "Supply deployable bodies and Aladdin bases rather than relying on expensive opening hands."
+        },
+        {
+          "role": "card flow",
+          "cards": [
+            "Tod - Clever Fox",
+            "Aladdin & Genie - Mischievous Pals",
+            "Hades - Looking for a Deal",
+            "Junior Woodchuck Guidebook"
+          ],
+          "purpose": "Filtering, hand replacement and item value support repeated threats; evaluate their exact costs."
+        },
+        {
+          "role": "upgrade engine",
+          "cards": [
+            "Retro Evolution Device"
+          ],
+          "purpose": "The item exerts, costs one ink and banishes your character; it plays a replacement up to two printed cost higher. It is not a Shift and the new body normally dries."
+        },
+        {
+          "role": "removal and finishers",
+          "cards": [
+            "Milo Thatch - Getting His Hands Dirty",
+            "Prince Phillip - Vanquisher of Foes",
+            "Malicious, Mean, and Scary",
+            "Under the Sea"
+          ],
+          "purpose": "Damage enables Prince Phillip; choose mass removal according to strength, damage and timing."
+        }
+      ],
+      "flex_slots": [
+        "The observed champion uses four Device and three Under the Sea; this single list does not establish mandatory copy counts."
+      ],
+      "vulnerabilities": [
+        "Item removal or insufficient sacrificial bodies interrupts upgrade sequences.",
+        "Banishing bodies can cost pressure; mass removal and tempo bounce can delay recovery."
+      ],
+      "mulligan": "Keep early bodies with an ink plan; keep Device when its deployment and conversion costs are realistic. Return redundant expensive finishers unless hand replacement and sequencing justify them.",
+      "sequencing": "Plan printed-cost upgrade steps and the one-ink activation before sacrificing. Save an appropriate damage enabler for Prince Phillip rather than assuming every opposing character is damaged.",
+      "evidence_limits": "Observed exact lists support inclusion and copy ranges; role assignments and coaching are strategic inference. Small purposeful sample; no matchup win rates or optimality claim."
+    },
+    {
+      "profile_id": "songs",
+      "name": "Amber/Emerald Songs and recursion",
+      "format": "core",
+      "checked_at": "2026-10-04",
+      "classification": "strategic_inference",
+      "sample_ids": [
+        "hunter-16854-168128"
+      ],
+      "main_plan": "Develop singers, turn song payments into tempo and card flow, then recur high-impact characters to control the board and close.",
+      "packages": [
+        {
+          "role": "singers",
+          "cards": [
+            "Angel - Siren Singer",
+            "Ursula - Vanessa",
+            "Ariel - Ethereal Voice"
+          ],
+          "purpose": "Printed cost and Singer value differ; a newly played singer normally cannot exert to sing."
+        },
+        {
+          "role": "filtering and tempo songs",
+          "cards": [
+            "Strike A Good Match",
+            "Akood et Emuti",
+            "Malicious, Mean, and Scary"
+          ],
+          "purpose": "Choose singing versus questing according to the board; discounts do not guarantee a character in hand."
+        },
+        {
+          "role": "recursion",
+          "cards": [
+            "Circle of Life",
+            "Meilin Lee - Losing Control"
+          ],
+          "purpose": "Use an actual discard target and the exact card timing rather than assuming a live engine in every opening."
+        },
+        {
+          "role": "large interaction",
+          "cards": [
+            "Milo Thatch - Getting His Hands Dirty",
+            "Prince Phillip - Vanquisher of Foes",
+            "Under the Sea"
+          ],
+          "purpose": "Mass answers have different conditions and costs; singing removes potential questers for the turn."
+        }
+      ],
+      "flex_slots": [
+        "The observed runner-up uses eight-cost Sing Together songs; verify the actual singer totals and available dry characters."
+      ],
+      "vulnerabilities": [
+        "Singer removal delays action deployment.",
+        "Song-heavy hands without characters or discard targets can be inefficient."
+      ],
+      "mulligan": "Keep a singer and useful follow-up rather than multiple situational songs. On the draw Angel has a card-specific first-turn discount. Adapt keeps to the known opponent, not an assumed matchup percentage.",
+      "sequencing": "Decide which dry singers can be spent without losing the race. Sequence discard targets before recursion and damage before Prince Phillip.",
+      "evidence_limits": "Observed exact lists support inclusion and copy ranges; role assignments and coaching are strategic inference. Small purposeful sample; no matchup win rates or optimality claim."
+    },
+    {
+      "profile_id": "amber-amethyst",
+      "name": "Amber/Amethyst Midrange",
+      "format": "core",
+      "checked_at": "2026-10-04",
+      "classification": "strategic_inference",
+      "sample_ids": [
+        "hunter-12941-164930",
+        "hunter-16854-168129"
+      ],
+      "main_plan": "Deploy efficient characters and resource support, then stabilize through card advantage, challenge value and damage interaction.",
+      "packages": [
+        {
+          "role": "early development",
+          "cards": [
+            "Luisa Madrigal - Pushing Through",
+            "Rafiki - Mystical Fighter",
+            "Cheshire Cat - Inexplicable"
+          ],
+          "purpose": "Build a board while preserving profitable future challenges."
+        },
+        {
+          "role": "resource plan",
+          "cards": [
+            "Grandmother Willow - Ancient Advisor",
+            "Hamm - Piggy Bank"
+          ],
+          "purpose": "Keep ink development separate from cost savings and the actual conditions of acceleration."
+        },
+        {
+          "role": "midgame bodies",
+          "cards": [
+            "Isis Vanderchill - Ice Queen of St. Canard",
+            "Tigger - Bouncing All the Way",
+            "Gaston - Superior Archer",
+            "Luisa Madrigal - Confident Climber"
+          ],
+          "purpose": "Assess immediate value, damage state and the next-turn lore clock together."
+        },
+        {
+          "role": "interaction and card flow",
+          "cards": [
+            "Besties, Assemble!",
+            "The Horseman Strikes!",
+            "Demona - Scourge of the Wyvern Clan",
+            "Ursula - Whisper of Vanessa"
+          ],
+          "purpose": "Different draw, removal and exert effects solve different board problems."
+        }
+      ],
+      "flex_slots": [
+        "Current samples differ in early Luisa/Rafiki counts, Agustin/Nakoma versus Dumbo/Demona, and the expensive Stitch package."
+      ],
+      "vulnerabilities": [
+        "A curve of strong bodies can still lose initiative to cheap deployment or bounce.",
+        "Keeping too much late value weakens early ink and board access."
+      ],
+      "mulligan": "Keep early development and a route to the resource plan. Return multiple late bodies without sufficient support; match interaction to the actual opposing threats.",
+      "sequencing": "Plan challenge damage and target legality before committing bodies. Prefer a stabilizing line over an automatic value play when the opposing lore clock is immediate.",
+      "evidence_limits": "Observed exact lists support inclusion and copy ranges; role assignments and coaching are strategic inference. Small purposeful sample; no matchup win rates or optimality claim."
+    },
+    {
+      "profile_id": "emerald-steel",
+      "name": "Emerald/Steel character tempo",
+      "format": "core",
+      "checked_at": "2026-10-04",
+      "classification": "strategic_inference",
+      "sample_ids": [
+        "hunter-16854-168158"
+      ],
+      "main_plan": "Develop early characters, use damage and challenge interaction to preserve initiative, and convert Shift/Evasive threats into lore.",
+      "packages": [
+        {
+          "role": "early board",
+          "cards": [
+            "Darkwing Duck - Crime Fighter",
+            "Tod - All Alone",
+            "Launchpad - Trusty Sidekick"
+          ],
+          "purpose": "Cheap bodies create pressure and named Shift bases."
+        },
+        {
+          "role": "interaction",
+          "cards": [
+            "Darkwing Duck - Shadowy Superhero",
+            "Strength of a Raging Fire",
+            "He Hurled His Thunderbolt",
+            "Ursula - Deceiver"
+          ],
+          "purpose": "Target and damage requirements matter; preserve the characters needed for Strength of a Raging Fire."
+        },
+        {
+          "role": "Shift and evasion",
+          "cards": [
+            "Tod & Copper - Best of Friends",
+            "Rapunzel & Flynn Rider - Unlikely Pair",
+            "Mushu - Stealthy Dragon"
+          ],
+          "purpose": "Lower-cost deployment and evasion can preserve tempo, but check real bases and dry status."
+        },
+        {
+          "role": "engines",
+          "cards": [
+            "Elinor - Renowned Diplomat",
+            "Vixey - Forest Friend",
+            "Angel - Experiment 624"
+          ],
+          "purpose": "Assess these exact abilities within the body/damage plan, not only the color-pair label."
+        }
+      ],
+      "flex_slots": [
+        "The single selected list finished outside the top cut; inclusion supplies a representative plan, not proof of comparative strength."
+      ],
+      "vulnerabilities": [
+        "Losing cheap bodies weakens damage scaling and Shift access.",
+        "Broad removal can exhaust pressure before the deck closes."
+      ],
+      "mulligan": "Keep early development with a relevant answer. Keep Shift payoffs alongside bases and sufficient ink; avoid a hand dominated by conditional interaction.",
+      "sequencing": "Count current characters for damage effects and choose challenge trades that preserve the clock. Do not infer a favorable matchup from the provider archetype label.",
+      "evidence_limits": "Observed exact lists support inclusion and copy ranges; role assignments and coaching are strategic inference. Small purposeful sample; no matchup win rates or optimality claim."
+    }
+  ],
+  "source_bindings": [
+    {
+      "path": "data/raw/ravensburger/catalog.en.json",
+      "sha256": "49266e492d7545c7c7c617d239c3eb3756794b56f485a4c0918e4e4fc1abe3c3"
+    },
+    {
+      "path": "data/policy/card-text-reviews.json",
+      "sha256": "36c6d06a65aff17a7d88da95ac0fae135030f4ec3edf2d560ffff283cbc17608"
+    },
+    {
+      "path": "data/policy/legality.json",
+      "sha256": "90948c4d007a887ab3e138dc9e83aec076cf911982a1d8f6986f44b746aad258"
+    },
+    {
+      "path": "research/2026-10-04/events.json",
+      "sha256": "1fdea2272cad620bac81531f1bd15f3d360c4f2ff007841f6d370e4d93688423"
+    },
+    {
+      "path": "research/2026-10-04/decklists.json",
+      "sha256": "72ddb1a4dee547b525f5c3e893c77021b09a4e15ad1694863c53c2a6822c6403"
+    }
+  ]
+}

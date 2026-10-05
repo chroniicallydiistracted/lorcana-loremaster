@@ -2,37 +2,7 @@
   "attempted_at": "2026-10-04",
   "sources": [
     {
-      "source_id": "deep-trouble",
-      "status": "downloaded",
-      "content_changed": true
-    },
-    {
-      "source_id": "quickstart",
-      "status": "downloaded",
-      "content_changed": true
-    },
-    {
-      "source_id": "lore-guide",
-      "status": "downloaded",
-      "content_changed": true
-    },
-    {
-      "source_id": "hyperia-op",
-      "status": "downloaded",
-      "content_changed": true
-    },
-    {
-      "source_id": "ccq-terms",
-      "status": "downloaded",
-      "content_changed": true
-    },
-    {
-      "source_id": "community-code",
-      "status": "downloaded",
-      "content_changed": true
-    },
-    {
-      "source_id": "replacement-policy",
+      "source_id": "collection-quest-organizer",
       "status": "downloaded",
       "content_changed": true
     }

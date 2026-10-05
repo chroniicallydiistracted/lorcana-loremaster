@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-04",
+  "window_start": "2026-09-05",
+  "format": "core",
+  "selection": "Purposeful sample of accessible exact lists across US/DE/BE. Not a census or global metagame estimate.",
+  "records": [
+    {
+      "event_id": "hunter-16854",
+      "status": "included",
+      "event_name": "Game Grid Open - CCQ",
+      "event_start_date": "2026-10-03",
+      "event_end_date": "2026-10-03",
+      "event_timezone": "America/Denver",
+      "country": "US",
+      "format": "core",
+      "legal_pool": "Sets 9–13 under October 4 policy",
+      "native_provider": "lorcanahunter",
+      "native_event_id": "16854",
+      "upstream_event_url": "https://tcg.ravensburgerplay.com/events/1016280",
+      "reported_event_url": "https://lorcanahunter.com/tournament/16854/game-grid-lehi-game-grid-open-ccq",
+      "registered_entrants": 95,
+      "entrants_in_provider_standings": 96,
+      "publication_scope": "Hunter exposes standings/bracket and declares 95 decks. Captured excerpts and six selected exact lists; official default round has no visible standings/pairings.",
+      "standings_are_final": null,
+      "paired_results_available": true,
+      "pairings_complete": null,
+      "duplicate_of": null,
+      "inclusion_reason": "Date, Core format and roster count cross-checked with official Play Hub; selected published lists resolved and validated. Finishes remain secondary observations.",
+      "exclusion_reason": null,
+      "unknowns": [
+        "Hunter says 96 player records versus official roster 95; source location label differs from official venue.",
+        "Paired coverage and registration-to-list identity mapping not fully audited."
+      ],
+      "sources": [
+        {
+          "url": "https://lorcanahunter.com/tournament/16854/game-grid-lehi-game-grid-open-ccq",
+          "path": "research/2026-10-04/snapshots/recent-events-1.txt",
+          "sha256": "c96cb70fc0b6a966d34aeb2154edf4ba433f7fa846054d3eb540f6089129f135",
+          "kind": "supplemental_event_excerpt",
+          "observed_on": "2026-10-04",
+          "captured_at_utc": "2026-10-05T03:00:17.661201+00:00",
+          "timing_note": "Saved web-tool excerpt; origin retrieval time not exposed. Not original HTML."
+        },
+        {
+          "url": "https://tcg.ravensburgerplay.com/events/1016280",
+          "path": "research/2026-10-04/snapshots/recent-events-2.txt",
+          "sha256": "21553a9b53cd53fb13b15fba625d0f9214e9601258493b4092f239a95e7727b4",
+          "kind": "official_event_excerpt",
+          "observed_on": "2026-10-04",
+          "captured_at_utc": "2026-10-05T03:00:17.661722+00:00",
+          "timing_note": "Saved web-tool excerpt; origin retrieval time not exposed. Not original HTML."
+        }
+      ]
+    },
+    {
+      "event_id": "hunter-16598",
+      "status": "included",
+      "event_name": "Setmeisterschaft Angriff der Ranke",
+      "event_start_date": "2026-09-27",
+      "event_end_date": "2026-09-27",
+      "event_timezone": "Europe/Berlin",
+      "country": "DE",
+      "format": "core",
+      "legal_pool": "Sets 9–13 under October 4 policy",
+      "native_provider": "lorcanahunter",
+      "native_event_id": "16598",
+      "upstream_event_url": "https://tcg.ravensburgerplay.com/events/832430",
+      "reported_event_url": "https://lorcanahunter.com/tournament/16598/spielhohle-regensburg-setmeisterschaft-angriff-der-ranke",
+      "registered_entrants": 20,
+      "entrants_in_provider_standings": 25,
+      "publication_scope": "One selected winner list; full field not transcribed.",
+      "standings_are_final": null,
+      "paired_results_available": true,
+      "pairings_complete": null,
+      "duplicate_of": null,
+      "inclusion_reason": "Date, Core format and roster count cross-checked with official Play Hub; selected published lists resolved and validated. Finishes remain secondary observations.",
+      "exclusion_reason": null,
+      "unknowns": [
+        "25 provider player records versus official roster 20; zero-record entries appear in provider page."
+      ],
+      "sources": [
+        {
+          "url": "https://lorcanahunter.com/tournament/16598/spielhohle-regensburg-setmeisterschaft-angriff-der-ranke",
+          "path": "research/2026-10-04/snapshots/recent-events-2.txt",
+          "sha256": "21553a9b53cd53fb13b15fba625d0f9214e9601258493b4092f239a95e7727b4",
+          "kind": "supplemental_event_excerpt",
+          "observed_on": "2026-10-04",
+          "captured_at_utc": "2026-10-05T03:00:17.661844+00:00",
+          "timing_note": "Saved web-tool excerpt; origin retrieval time not exposed. Not original HTML."
+        },
+        {
+          "url": "https://tcg.ravensburgerplay.com/events/832430",
+          "path": "research/2026-10-04/snapshots/primary-events-and-discovery.txt",
+          "sha256": "0d24ad1e38f96ce3005eb8f4253ae87b5c3a3f235e5c7b0a4c01aeb237679f93",
+          "kind": "official_event_excerpt",
+          "observed_on": "2026-10-04",
+          "captured_at_utc": "2026-10-05T03:00:17.662157+00:00",
+          "timing_note": "Saved web-tool excerpt; origin retrieval time not exposed. Not original HTML."
+        }
+      ]
+    },
+    {
+      "event_id": "hunter-12941",
+      "status": "included",
+      "event_name": "WildCards - Attack of the Vine! Set Championship",
+      "event_start_date": "2026-09-27",
+      "event_end_date": "2026-09-27",
+      "event_timezone": "Europe/Brussels",
+      "country": "BE",
+      "format": "core",
+      "legal_pool": "Sets 9–13 under October 4 policy",
+      "native_provider": "lorcanahunter",
+      "native_event_id": "12941",
+      "upstream_event_url": "https://tcg.ravensburgerplay.com/events/817144",
+      "reported_event_url": "https://lorcanahunter.com/tournament/12941/wildcards-wildcards-attack-of-the-vine-set-championship",
+      "registered_entrants": 9,
+      "entrants_in_provider_standings": 19,
+      "publication_scope": "One selected winner list; full field not transcribed.",
+      "standings_are_final": null,
+      "paired_results_available": true,
+      "pairings_complete": null,
+      "duplicate_of": null,
+      "inclusion_reason": "Date, Core format and roster count cross-checked with official Play Hub; selected published lists resolved and validated. Finishes remain secondary observations.",
+      "exclusion_reason": null,
+      "unknowns": [
+        "Provider shows 9/16 players and 19 standings records; official roster says 9."
+      ],
+      "sources": [
+        {
+          "url": "https://lorcanahunter.com/tournament/12941/wildcards-wildcards-attack-of-the-vine-set-championship",
+          "path": "research/2026-10-04/snapshots/recent-events-2.txt",
+          "sha256": "21553a9b53cd53fb13b15fba625d0f9214e9601258493b4092f239a95e7727b4",
+          "kind": "supplemental_event_excerpt",
+          "observed_on": "2026-10-04",
+          "captured_at_utc": "2026-10-05T03:00:17.662306+00:00",
+          "timing_note": "Saved web-tool excerpt; origin retrieval time not exposed. Not original HTML."
+        },
+        {
+          "url": "https://tcg.ravensburgerplay.com/events/817144",
+          "path": "research/2026-10-04/snapshots/primary-events-and-discovery.txt",
+          "sha256": "0d24ad1e38f96ce3005eb8f4253ae87b5c3a3f235e5c7b0a4c01aeb237679f93",
+          "kind": "official_event_excerpt",
+          "observed_on": "2026-10-04",
+          "captured_at_utc": "2026-10-05T03:00:17.662350+00:00",
+          "timing_note": "Saved web-tool excerpt; origin retrieval time not exposed. Not original HTML."
+        }
+      ]
+    },
+    {
+      "event_id": "candidate-icl-2026-10-07",
+      "status": "excluded",
+      "event_name": "ICL Season 4 Round 4",
+      "event_start_date": "2026-10-07",
+      "format": "core",
+      "exclusion_reason": "Future event relative to October 4 cutoff, even though discovered on results index.",
+      "sources": [
+        {
+          "url": "https://inkdecks.com/lorcana-tournaments",
+          "path": "research/2026-10-04/snapshots/primary-events-and-discovery.txt",
+          "sha256": "0d24ad1e38f96ce3005eb8f4253ae87b5c3a3f235e5c7b0a4c01aeb237679f93",
+          "kind": "supplemental_discovery_excerpt",
+          "observed_on": "2026-10-04",
+          "captured_at_utc": "2026-10-05T03:00:17.662384+00:00",
+          "timing_note": "Saved web-tool excerpt; origin retrieval time not exposed. Not original HTML."
+        }
+      ]
+    }
+  ]
+}

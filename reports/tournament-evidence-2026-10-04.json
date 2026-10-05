@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "as_of": "2026-10-04",
+  "window_start": "2026-09-05",
+  "included_events": [
+    "hunter-16854",
+    "hunter-16598",
+    "hunter-12941"
+  ],
+  "excluded_or_candidate_events": [
+    {
+      "event_id": "candidate-icl-2026-10-07",
+      "reason": "Future event relative to October 4 cutoff, even though discovered on results index."
+    }
+  ],
+  "exact_lists": [
+    {
+      "list_id": "hunter-16854-168118",
+      "cards": 60,
+      "verdict": "passes_supported_checks"
+    },
+    {
+      "list_id": "hunter-16598-166030",
+      "cards": 60,
+      "verdict": "passes_supported_checks"
+    },
+    {
+      "list_id": "hunter-12941-164930",
+      "cards": 60,
+      "verdict": "passes_supported_checks"
+    },
+    {
+      "list_id": "hunter-16854-168128",
+      "cards": 60,
+      "verdict": "passes_supported_checks"
+    },
+    {
+      "list_id": "hunter-16854-168088",
+      "cards": 60,
+      "verdict": "passes_supported_checks"
+    },
+    {
+      "list_id": "hunter-16854-168129",
+      "cards": 60,
+      "verdict": "passes_supported_checks"
+    },
+    {
+      "list_id": "hunter-16854-168094",
+      "cards": 60,
+      "verdict": "passes_supported_checks"
+    },
+    {
+      "list_id": "hunter-16854-168158",
+      "cards": 60,
+      "verdict": "passes_supported_checks"
+    }
+  ],
+  "errors": [],
+  "limitations": "Purposeful list sample, partial standings and provider discrepancies. No global field share or matchup win rates computed."
+}

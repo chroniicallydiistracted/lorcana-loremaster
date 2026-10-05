@@ -42,3 +42,37 @@ For matchup tests report sample sizes and uncertainty; do not assert causal adva
 from a few games or from a favorable pilot mismatch.
 
 No measured Set 14 dataset or gameplay simulator was added during this migration.
+
+## Current provider research route
+
+The October 4 follow-up [provider audit](providers.md) checks live services and
+documentation rather than relying on the archived web directory. Start event discovery
+with the Ravensburger Play Hub, then use InkDecks, LorcanaHunter or Elorcana to find
+lists and upstream results. Record discovered candidates before treating them as
+included observations. Their interface labels and summary statistics do not supply
+missing event evidence.
+
+Use the `research/templates/event-observation.json` record to preserve format,
+registration/list timing, stage, field and published-list denominators. Leave absent
+data null. Inclusion requires an event date inside the selected observation window,
+a verified format and an identifiable source; unknowns stay in the candidate queue.
+An October 4 scan of product and card services is not a measured Hyperia metagame.
+
+For practice, use the engine and opponent qualifications in the provider guide and
+the logging requirements in `testing.md`. Client results and AI practice can identify
+questions to test, but remain distinct from verified in-person paired results.
+
+## October 4 exact-list sample
+
+[`research/2026-10-04/`](../../research/2026-10-04/) adds three recent Core events
+and eight selected complete lists, with event dates/format corroborated officially.
+Lists and reported finishes come from LorcanaHunter. Official final standings and
+complete pairings remain unverified; roster discrepancies are retained. An October 7
+discovery row is excluded as future-dated. This purposeful sample is neither global
+metashare nor matchup win-rate evidence.
+
+[Concrete profiles](../strategy/current-archetypes.md) and the
+[deck-review workflow](../strategy/deck-review-workflow.md) supply source-bound
+comparisons, exact calculations and balanced hypotheses. Current Core uses Sets
+9–13. There is still no verified Set 14 field or matchup dataset; Hyperia proposals
+remain theorycrafting.

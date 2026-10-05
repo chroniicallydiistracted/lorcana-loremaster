@@ -1,0 +1,89 @@
+{
+  "name": "Elinor — September 27 Kezy comparison",
+  "as_of": "2026-10-04",
+  "format": "core",
+  "classification": "strategic_inference",
+  "parent_sha256": "30bbfc6ec67ea658c47d384eae96c565686a6b753cf4de5b334acca3353cf053",
+  "cards": [
+    {
+      "identity_id": "b2e4454088493f11ad6048c6b396d2c646a96a35",
+      "full_name": "Aurora - Holding Court",
+      "quantity": 4
+    },
+    {
+      "identity_id": "cb878152b6ffe069a87f49091e1ef762cd612744",
+      "full_name": "Bobby Zimuruski - Spray Cheese Kid",
+      "quantity": 4
+    },
+    {
+      "identity_id": "98a41ededf0b9cfe8fa7096aaf97b6290be8f370",
+      "full_name": "Pluto - Friendly Pooch",
+      "quantity": 4
+    },
+    {
+      "identity_id": "edc8d296f601e44b6311621379644a538907c472",
+      "full_name": "The Queen - Regal Monarch",
+      "quantity": 2
+    },
+    {
+      "identity_id": "176d4f9ef0f3934a4e2e165efe91f2668911a73b",
+      "full_name": "Thomas - Wide-Eyed Recruit",
+      "quantity": 4
+    },
+    {
+      "identity_id": "fe426a6642fdf84207e8082b4576aa424c939d4a",
+      "full_name": "David - Protective Snowboarder",
+      "quantity": 4
+    },
+    {
+      "identity_id": "62092be95228b2e9c3a084edd89921802d742013",
+      "full_name": "Grandmother Willow - Ancient Advisor",
+      "quantity": 4
+    },
+    {
+      "identity_id": "b52f0412172a907036023f0ba0143a7e3a43cca0",
+      "full_name": "Mike Wazowski - Heroic Climber",
+      "quantity": 4
+    },
+    {
+      "identity_id": "bc89124dd0201cff9c7f741f524790400b1c49d3",
+      "full_name": "Pocahontas - Guiding the Tribe",
+      "quantity": 4
+    },
+    {
+      "identity_id": "9f9ad2fd43b08b53c6f66fe9ad9b318b774415ae",
+      "full_name": "Squeaks - Cozy Caterpillar",
+      "quantity": 2
+    },
+    {
+      "identity_id": "2f0ee159014b24c95f95963bdfa4b8ec79329fac",
+      "full_name": "Ursula - Deceiver",
+      "quantity": 4
+    },
+    {
+      "identity_id": "0ffddb242b1306d0c67490363616322fb5fe1356",
+      "full_name": "Nani - Stage Manager",
+      "quantity": 4
+    },
+    {
+      "identity_id": "658c40f7316edca54df15e4dd250912fc172584b",
+      "full_name": "Dale - Ready for His Shot",
+      "quantity": 4
+    },
+    {
+      "identity_id": "f8991ab7e9bf5831166232c5770b5d0f569a005f",
+      "full_name": "Elinor - Renowned Diplomat",
+      "quantity": 4
+    },
+    {
+      "identity_id": "78c52c74f960109e345c66f5a0bdf03a6d44ec16",
+      "full_name": "Rapunzel - Tower Defender",
+      "quantity": 4
+    },
+    {
+      "identity_id": "66140b66c2bc1f20ba729220ec7325594431879b",
+      "full_name": "Pocahontas - Peacekeeper",
+      "quantity": 4
+    }
+  ]
+}

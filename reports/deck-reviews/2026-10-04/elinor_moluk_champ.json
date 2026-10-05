@@ -1,0 +1,1306 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-04",
+  "name": "Elinor Amber/Emerald — Moluk European Championship Winner",
+  "input": {
+    "path": "/home/andre/lorcana-loremaster/decks/elinor_moluk_champ.json",
+    "sha256": "30bbfc6ec67ea658c47d384eae96c565686a6b753cf4de5b334acca3353cf053"
+  },
+  "pool": null,
+  "source_bindings": [
+    {
+      "path": "data/raw/ravensburger/catalog.en.json",
+      "sha256": "49266e492d7545c7c7c617d239c3eb3756794b56f485a4c0918e4e4fc1abe3c3"
+    },
+    {
+      "path": "data/policy/card-text-reviews.json",
+      "sha256": "36c6d06a65aff17a7d88da95ac0fae135030f4ec3edf2d560ffff283cbc17608"
+    },
+    {
+      "path": "data/policy/legality.json",
+      "sha256": "90948c4d007a887ab3e138dc9e83aec076cf911982a1d8f6986f44b746aad258"
+    },
+    {
+      "path": "data/strategy/archetypes.json",
+      "sha256": "702874917e51983aa5411c8a47c9323a199837865788bdb0f78e3c0a3c175c54"
+    },
+    {
+      "path": "data/strategy/review-plans.json",
+      "sha256": "92e3e4100e76bcdfe0319ec1b40fad42bd9a103d1613f2580018a126372f970a"
+    },
+    {
+      "path": "research/2026-10-04/events.json",
+      "sha256": "1fdea2272cad620bac81531f1bd15f3d360c4f2ff007841f6d370e4d93688423"
+    },
+    {
+      "path": "research/2026-10-04/decklists.json",
+      "sha256": "72ddb1a4dee547b525f5c3e893c77021b09a4e15ad1694863c53c2a6822c6403"
+    }
+  ],
+  "collection": {
+    "path": "/home/andre/lorcana-loremaster/data/collections/andys-lore-library-2026-09-15.csv",
+    "sha256": "e3cf22297eb3af461faba7da5d640bd6d7cc931cef789555bbef9237de5b8278",
+    "snapshot_date": "2026-09-15"
+  },
+  "validation": {
+    "format": "core",
+    "as_of": "2026-10-04",
+    "policy_checked_at": "2026-10-04",
+    "verdict": "passes_supported_checks",
+    "issues": [],
+    "review_required": [],
+    "card_count": 60,
+    "ink_colors": [
+      "AMBER",
+      "EMERALD"
+    ],
+    "inkable": 44,
+    "uninkable": 16,
+    "printed_cost_curve": {
+      "1": 18,
+      "2": 21,
+      "3": 5,
+      "4": 12,
+      "5": 4
+    },
+    "card_types": {
+      "character": 60
+    },
+    "limits": "Snapshot checks, not event certification; verify current sources, card text, and event terms."
+  },
+  "cards": [
+    {
+      "identity_id": "b2e4454088493f11ad6048c6b396d2c646a96a35",
+      "full_name": "Aurora - Holding Court",
+      "quantity": 4
+    },
+    {
+      "identity_id": "cb878152b6ffe069a87f49091e1ef762cd612744",
+      "full_name": "Bobby Zimuruski - Spray Cheese Kid",
+      "quantity": 4
+    },
+    {
+      "identity_id": "98a41ededf0b9cfe8fa7096aaf97b6290be8f370",
+      "full_name": "Pluto - Friendly Pooch",
+      "quantity": 4
+    },
+    {
+      "identity_id": "edc8d296f601e44b6311621379644a538907c472",
+      "full_name": "The Queen - Regal Monarch",
+      "quantity": 3
+    },
+    {
+      "identity_id": "176d4f9ef0f3934a4e2e165efe91f2668911a73b",
+      "full_name": "Thomas - Wide-Eyed Recruit",
+      "quantity": 3
+    },
+    {
+      "identity_id": "fe426a6642fdf84207e8082b4576aa424c939d4a",
+      "full_name": "David - Protective Snowboarder",
+      "quantity": 4
+    },
+    {
+      "identity_id": "62092be95228b2e9c3a084edd89921802d742013",
+      "full_name": "Grandmother Willow - Ancient Advisor",
+      "quantity": 4
+    },
+    {
+      "identity_id": "b52f0412172a907036023f0ba0143a7e3a43cca0",
+      "full_name": "Mike Wazowski - Heroic Climber",
+      "quantity": 4
+    },
+    {
+      "identity_id": "50b8acc5a7f2a8afabe9284202005b34f69e21e1",
+      "full_name": "Mowgli - Man Cub",
+      "quantity": 2
+    },
+    {
+      "identity_id": "bc89124dd0201cff9c7f741f524790400b1c49d3",
+      "full_name": "Pocahontas - Guiding the Tribe",
+      "quantity": 4
+    },
+    {
+      "identity_id": "2f0ee159014b24c95f95963bdfa4b8ec79329fac",
+      "full_name": "Ursula - Deceiver",
+      "quantity": 3
+    },
+    {
+      "identity_id": "1c83fd32d4a179f9672af28642b26fba727cb8a8",
+      "full_name": "Mushu - Stealthy Dragon",
+      "quantity": 1
+    },
+    {
+      "identity_id": "0ffddb242b1306d0c67490363616322fb5fe1356",
+      "full_name": "Nani - Stage Manager",
+      "quantity": 4
+    },
+    {
+      "identity_id": "658c40f7316edca54df15e4dd250912fc172584b",
+      "full_name": "Dale - Ready for His Shot",
+      "quantity": 4
+    },
+    {
+      "identity_id": "f8991ab7e9bf5831166232c5770b5d0f569a005f",
+      "full_name": "Elinor - Renowned Diplomat",
+      "quantity": 4
+    },
+    {
+      "identity_id": "88945d3273317af28c2c7c71dc04d35bba89c0ab",
+      "full_name": "Mickey Mouse - Expedition Leader",
+      "quantity": 2
+    },
+    {
+      "identity_id": "3b52a9168d6e9dac096984ef92ece7df337589c7",
+      "full_name": "The Queen - Devious Disguise",
+      "quantity": 2
+    },
+    {
+      "identity_id": "66140b66c2bc1f20ba729220ec7325594431879b",
+      "full_name": "Pocahontas - Peacekeeper",
+      "quantity": 4
+    }
+  ],
+  "metrics": {
+    "classification": "calculation",
+    "population": 60,
+    "target_counts": {
+      "one_cost_characters": 18,
+      "characters_cost_two_or_less": 39,
+      "characters": 60,
+      "uninkable": 16,
+      "cost_five_or_more": 4
+    },
+    "average_printed_cost": {
+      "exact_fraction": "143/60",
+      "value": 2.3833333333333333
+    },
+    "raw_access_at_least_one": {
+      "one_cost_characters": {
+        "7": {
+          "exact_fraction": "262594/282315",
+          "probability": 0.9301454049554576,
+          "percent": 93.01454049554576
+        },
+        "9": {
+          "exact_fraction": "5804555/5985078",
+          "probability": 0.9698378199916525,
+          "percent": 96.98378199916526
+        },
+        "10": {
+          "exact_fraction": "533479/544098",
+          "probability": 0.9804832952887164,
+          "percent": 98.04832952887163
+        }
+      },
+      "characters_cost_two_or_less": {
+        "7": {
+          "exact_fraction": "56446/56463",
+          "probability": 0.9996989178754229,
+          "percent": 99.96989178754228
+        },
+        "9": {
+          "exact_fraction": "5984959/5985078",
+          "probability": 0.9999801172181882,
+          "percent": 99.99801172181883
+        },
+        "10": {
+          "exact_fraction": "2992525/2992539",
+          "probability": 0.9999953216983972,
+          "percent": 99.99953216983972
+        }
+      },
+      "characters": {
+        "7": {
+          "exact_fraction": "1",
+          "probability": 1.0,
+          "percent": 100.0
+        },
+        "9": {
+          "exact_fraction": "1",
+          "probability": 1.0,
+          "percent": 100.0
+        },
+        "10": {
+          "exact_fraction": "1",
+          "probability": 1.0,
+          "percent": 100.0
+        }
+      },
+      "uninkable": {
+        "7": {
+          "exact_fraction": "208066/230985",
+          "probability": 0.9007771067385328,
+          "percent": 90.07771067385329
+        },
+        "9": {
+          "exact_fraction": "1295014/1360245",
+          "probability": 0.952044668423703,
+          "percent": 95.20446684237031
+        },
+        "10": {
+          "exact_fraction": "13417882/13874499",
+          "probability": 0.9670894783299923,
+          "percent": 96.70894783299923
+        }
+      },
+      "cost_five_or_more": {
+        "7": {
+          "exact_fraction": "38962/97527",
+          "probability": 0.3994996257446656,
+          "percent": 39.94996257446656
+        },
+        "9": {
+          "exact_fraction": "15849/32509",
+          "probability": 0.4875265311144606,
+          "percent": 48.75265311144606
+        },
+        "10": {
+          "exact_fraction": "51467/97527",
+          "probability": 0.5277205286741108,
+          "percent": 52.77205286741108
+        }
+      }
+    },
+    "opening_at_least_three_uninkable": {
+      "exact_fraction": "79258/292581",
+      "probability": 0.2708925049815265,
+      "percent": 27.08925049815265
+    },
+    "assumptions": "Uniform sampling without replacement. 7/9/10 are cards seen, not turn labels. No mulligan, draw effects, ink choices, deployment, survival or hidden information modeled.",
+    "nani_unconditioned_top_four": {
+      "exact_fraction": "1690/1711",
+      "probability": 0.9877264757451782,
+      "percent": 98.77264757451782,
+      "limits": "Reference from the full list. Actual play must subtract all known cards and use the remaining deck, including previous bottom placements."
+    }
+  },
+  "ownership": {
+    "required_copies": 60,
+    "covered_copies": 51,
+    "missing_copies": 9,
+    "missing_cards": [
+      {
+        "identity_id": "cb878152b6ffe069a87f49091e1ef762cd612744",
+        "full_name": "Bobby Zimuruski - Spray Cheese Kid",
+        "needed": 4,
+        "owned": 0,
+        "missing": 4
+      },
+      {
+        "identity_id": "658c40f7316edca54df15e4dd250912fc172584b",
+        "full_name": "Dale - Ready for His Shot",
+        "needed": 4,
+        "owned": 2,
+        "missing": 2
+      },
+      {
+        "identity_id": "66140b66c2bc1f20ba729220ec7325594431879b",
+        "full_name": "Pocahontas - Peacekeeper",
+        "needed": 4,
+        "owned": 1,
+        "missing": 3
+      }
+    ],
+    "all_cards": [
+      {
+        "identity_id": "0ffddb242b1306d0c67490363616322fb5fe1356",
+        "full_name": "Nani - Stage Manager",
+        "needed": 4,
+        "owned": 4,
+        "missing": 0
+      },
+      {
+        "identity_id": "176d4f9ef0f3934a4e2e165efe91f2668911a73b",
+        "full_name": "Thomas - Wide-Eyed Recruit",
+        "needed": 3,
+        "owned": 6,
+        "missing": 0
+      },
+      {
+        "identity_id": "1c83fd32d4a179f9672af28642b26fba727cb8a8",
+        "full_name": "Mushu - Stealthy Dragon",
+        "needed": 1,
+        "owned": 1,
+        "missing": 0
+      },
+      {
+        "identity_id": "2f0ee159014b24c95f95963bdfa4b8ec79329fac",
+        "full_name": "Ursula - Deceiver",
+        "needed": 3,
+        "owned": 4,
+        "missing": 0
+      },
+      {
+        "identity_id": "3b52a9168d6e9dac096984ef92ece7df337589c7",
+        "full_name": "The Queen - Devious Disguise",
+        "needed": 2,
+        "owned": 2,
+        "missing": 0
+      },
+      {
+        "identity_id": "50b8acc5a7f2a8afabe9284202005b34f69e21e1",
+        "full_name": "Mowgli - Man Cub",
+        "needed": 2,
+        "owned": 2,
+        "missing": 0
+      },
+      {
+        "identity_id": "62092be95228b2e9c3a084edd89921802d742013",
+        "full_name": "Grandmother Willow - Ancient Advisor",
+        "needed": 4,
+        "owned": 4,
+        "missing": 0
+      },
+      {
+        "identity_id": "658c40f7316edca54df15e4dd250912fc172584b",
+        "full_name": "Dale - Ready for His Shot",
+        "needed": 4,
+        "owned": 2,
+        "missing": 2
+      },
+      {
+        "identity_id": "66140b66c2bc1f20ba729220ec7325594431879b",
+        "full_name": "Pocahontas - Peacekeeper",
+        "needed": 4,
+        "owned": 1,
+        "missing": 3
+      },
+      {
+        "identity_id": "88945d3273317af28c2c7c71dc04d35bba89c0ab",
+        "full_name": "Mickey Mouse - Expedition Leader",
+        "needed": 2,
+        "owned": 4,
+        "missing": 0
+      },
+      {
+        "identity_id": "98a41ededf0b9cfe8fa7096aaf97b6290be8f370",
+        "full_name": "Pluto - Friendly Pooch",
+        "needed": 4,
+        "owned": 4,
+        "missing": 0
+      },
+      {
+        "identity_id": "b2e4454088493f11ad6048c6b396d2c646a96a35",
+        "full_name": "Aurora - Holding Court",
+        "needed": 4,
+        "owned": 4,
+        "missing": 0
+      },
+      {
+        "identity_id": "b52f0412172a907036023f0ba0143a7e3a43cca0",
+        "full_name": "Mike Wazowski - Heroic Climber",
+        "needed": 4,
+        "owned": 4,
+        "missing": 0
+      },
+      {
+        "identity_id": "bc89124dd0201cff9c7f741f524790400b1c49d3",
+        "full_name": "Pocahontas - Guiding the Tribe",
+        "needed": 4,
+        "owned": 4,
+        "missing": 0
+      },
+      {
+        "identity_id": "cb878152b6ffe069a87f49091e1ef762cd612744",
+        "full_name": "Bobby Zimuruski - Spray Cheese Kid",
+        "needed": 4,
+        "owned": 0,
+        "missing": 4
+      },
+      {
+        "identity_id": "edc8d296f601e44b6311621379644a538907c472",
+        "full_name": "The Queen - Regal Monarch",
+        "needed": 3,
+        "owned": 4,
+        "missing": 0
+      },
+      {
+        "identity_id": "f8991ab7e9bf5831166232c5770b5d0f569a005f",
+        "full_name": "Elinor - Renowned Diplomat",
+        "needed": 4,
+        "owned": 4,
+        "missing": 0
+      },
+      {
+        "identity_id": "fe426a6642fdf84207e8082b4576aa424c939d4a",
+        "full_name": "David - Protective Snowboarder",
+        "needed": 4,
+        "owned": 4,
+        "missing": 0
+      }
+    ],
+    "unresolved_collection_rows": [],
+    "limits": "Gameplay identities aggregate finishes/reprints. Inventory date appears in the report's collection metadata; no prices or purchase total inferred. Per-deck allocation unless explicitly combined."
+  },
+  "profile": {
+    "profile_id": "elinor",
+    "name": "Amber/Emerald Elinor",
+    "format": "core",
+    "checked_at": "2026-10-04",
+    "classification": "strategic_inference",
+    "sample_ids": [
+      "hunter-16598-166030",
+      "hunter-16854-168094"
+    ],
+    "main_plan": "Develop a broad character board, convert exerted bodies into Elinor value, and protect profitable quests with bodyguards, bounce and Shift.",
+    "packages": [
+      {
+        "role": "early development",
+        "cards": [
+          "Aurora - Holding Court",
+          "Bobby Zimuruski - Spray Cheese Kid",
+          "Thomas - Wide-Eyed Recruit",
+          "The Queen - Regal Monarch"
+        ],
+        "purpose": "Cheap bodies supply pressure and opportunities to build the three-exerted-character condition."
+      },
+      {
+        "role": "cost savings",
+        "cards": [
+          "Pluto - Friendly Pooch",
+          "Grandmother Willow - Ancient Advisor",
+          "Aurora - Holding Court"
+        ],
+        "purpose": "Discounts improve deployment but do not add permanent ink; protect enough inkable cards."
+      },
+      {
+        "role": "character access",
+        "cards": [
+          "Mike Wazowski - Heroic Climber",
+          "Nani - Stage Manager",
+          "Pocahontas - Guiding the Tribe"
+        ],
+        "purpose": "An all-character deck improves Mike reveals; Nani and Pocahontas reward cheap-character density."
+      },
+      {
+        "role": "engine and protection",
+        "cards": [
+          "Elinor - Renowned Diplomat",
+          "Dale - Ready for His Shot",
+          "David - Protective Snowboarder",
+          "Pocahontas - Peacekeeper"
+        ],
+        "purpose": "Elinor rewards exerting; Dale uses current willpower for challenge damage; shifted Peacekeeper conditionally prevents challenges."
+      },
+      {
+        "role": "interaction",
+        "cards": [
+          "Ursula - Deceiver",
+          "Rapunzel - Tower Defender"
+        ],
+        "purpose": "Disrupt songs or bounce a chosen character; discarding for Rapunzel has a resource cost."
+      }
+    ],
+    "flex_slots": [
+      "Observed Squeaks versus Mickey Amber Champion packages change evasion, bounce density and Dale challenge math.",
+      "Saved Moluk slots such as Mowgli and Mickey Expedition Leader remain defensible alternatives; current samples do not prove a strict upgrade."
+    ],
+    "vulnerabilities": [
+      "Broad removal can punish an exerted board.",
+      "Mike also provides access to opponents; bodyguards do not stop non-challenge interaction."
+    ],
+    "mulligan": "Prioritize an inkable one-cost character and a coherent two-cost follow-up. Keep discounts alongside actual deployment and ink; trim redundant expensive pieces. Keep Ursula more often against known song engines.",
+    "sequencing": "Resolve character discounts in the required order, develop cheap bodies before Nani/Elinor, and check Peacekeeper before any challenge. Consider unused Pluto exertion only when its cost and the Elinor threshold justify it.",
+    "evidence_limits": "Observed exact lists support inclusion and copy ranges; role assignments and coaching are strategic inference. Small purposeful sample; no matchup win rates or optimality claim.",
+    "sources": [
+      {
+        "list_id": "hunter-16598-166030",
+        "player": "Kezy",
+        "reported_rank": 1,
+        "event": "Setmeisterschaft Angriff der Ranke",
+        "event_date": "2026-09-27",
+        "official_event_url": "https://tcg.ravensburgerplay.com/events/832430",
+        "deck_url": "https://lorcanahunter.com/tournament/16598/spielhohle-regensburg-setmeisterschaft-angriff-der-ranke/player/166030/deck",
+        "snapshot_sha256": "1be77c993ef6c40d0a7eafaabde6990099944eb70ccdee90ef189f9b9791dd98",
+        "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+      },
+      {
+        "list_id": "hunter-16854-168094",
+        "player": "BZ",
+        "reported_rank": 17,
+        "event": "Game Grid Open - CCQ",
+        "event_date": "2026-10-03",
+        "official_event_url": "https://tcg.ravensburgerplay.com/events/1016280",
+        "deck_url": "https://lorcanahunter.com/tournament/16854/game-grid-lehi-game-grid-open-ccq/player/168094/deck?lf_set=overall&lf_sort=date_desc&lf_tournamentId=16854",
+        "snapshot_sha256": "dec479215fb0e0d6db1c0ec9e9fc4c50177dfd148ef9f04f2f212dabc6d11125",
+        "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+      }
+    ],
+    "observed_copy_ranges": [
+      {
+        "identity_id": "b2e4454088493f11ad6048c6b396d2c646a96a35",
+        "full_name": "Aurora - Holding Court",
+        "minimum": 4,
+        "maximum": 4
+      },
+      {
+        "identity_id": "cb878152b6ffe069a87f49091e1ef762cd612744",
+        "full_name": "Bobby Zimuruski - Spray Cheese Kid",
+        "minimum": 4,
+        "maximum": 4
+      },
+      {
+        "identity_id": "658c40f7316edca54df15e4dd250912fc172584b",
+        "full_name": "Dale - Ready for His Shot",
+        "minimum": 4,
+        "maximum": 4
+      },
+      {
+        "identity_id": "fe426a6642fdf84207e8082b4576aa424c939d4a",
+        "full_name": "David - Protective Snowboarder",
+        "minimum": 4,
+        "maximum": 4
+      },
+      {
+        "identity_id": "f8991ab7e9bf5831166232c5770b5d0f569a005f",
+        "full_name": "Elinor - Renowned Diplomat",
+        "minimum": 4,
+        "maximum": 4
+      },
+      {
+        "identity_id": "62092be95228b2e9c3a084edd89921802d742013",
+        "full_name": "Grandmother Willow - Ancient Advisor",
+        "minimum": 4,
+        "maximum": 4
+      },
+      {
+        "identity_id": "8b5bb1ddb1139b3e466d0eef356d18aa520cb49c",
+        "full_name": "Mickey Mouse - Amber Champion",
+        "minimum": 0,
+        "maximum": 3
+      },
+      {
+        "identity_id": "b52f0412172a907036023f0ba0143a7e3a43cca0",
+        "full_name": "Mike Wazowski - Heroic Climber",
+        "minimum": 4,
+        "maximum": 4
+      },
+      {
+        "identity_id": "0ffddb242b1306d0c67490363616322fb5fe1356",
+        "full_name": "Nani - Stage Manager",
+        "minimum": 4,
+        "maximum": 4
+      },
+      {
+        "identity_id": "98a41ededf0b9cfe8fa7096aaf97b6290be8f370",
+        "full_name": "Pluto - Friendly Pooch",
+        "minimum": 4,
+        "maximum": 4
+      },
+      {
+        "identity_id": "bc89124dd0201cff9c7f741f524790400b1c49d3",
+        "full_name": "Pocahontas - Guiding the Tribe",
+        "minimum": 4,
+        "maximum": 4
+      },
+      {
+        "identity_id": "66140b66c2bc1f20ba729220ec7325594431879b",
+        "full_name": "Pocahontas - Peacekeeper",
+        "minimum": 4,
+        "maximum": 4
+      },
+      {
+        "identity_id": "78c52c74f960109e345c66f5a0bdf03a6d44ec16",
+        "full_name": "Rapunzel - Tower Defender",
+        "minimum": 3,
+        "maximum": 4
+      },
+      {
+        "identity_id": "9f9ad2fd43b08b53c6f66fe9ad9b318b774415ae",
+        "full_name": "Squeaks - Cozy Caterpillar",
+        "minimum": 0,
+        "maximum": 2
+      },
+      {
+        "identity_id": "edc8d296f601e44b6311621379644a538907c472",
+        "full_name": "The Queen - Regal Monarch",
+        "minimum": 2,
+        "maximum": 2
+      },
+      {
+        "identity_id": "176d4f9ef0f3934a4e2e165efe91f2668911a73b",
+        "full_name": "Thomas - Wide-Eyed Recruit",
+        "minimum": 4,
+        "maximum": 4
+      },
+      {
+        "identity_id": "2f0ee159014b24c95f95963bdfa4b8ec79329fac",
+        "full_name": "Ursula - Deceiver",
+        "minimum": 4,
+        "maximum": 4
+      }
+    ],
+    "sample_count": 2,
+    "range_limits": "Only these selected lists; zero means absent from a selected list. A shared core is descriptive, never mandatory or proved optimal."
+  },
+  "profile_matching": {
+    "classification": "calculation",
+    "matches": [
+      {
+        "profile_id": "elinor",
+        "list_id": "hunter-16598-166030",
+        "shared_copies": 52,
+        "fraction_of_input": 0.8666666666666667
+      },
+      {
+        "profile_id": "elinor",
+        "list_id": "hunter-16854-168094",
+        "shared_copies": 52,
+        "fraction_of_input": 0.8666666666666667
+      },
+      {
+        "profile_id": "emerald-steel",
+        "list_id": "hunter-16854-168158",
+        "shared_copies": 8,
+        "fraction_of_input": 0.13333333333333333
+      },
+      {
+        "profile_id": "amber-amethyst",
+        "list_id": "hunter-12941-164930",
+        "shared_copies": 4,
+        "fraction_of_input": 0.06666666666666667
+      },
+      {
+        "profile_id": "songs",
+        "list_id": "hunter-16854-168128",
+        "shared_copies": 4,
+        "fraction_of_input": 0.06666666666666667
+      },
+      {
+        "profile_id": "amber-amethyst",
+        "list_id": "hunter-16854-168129",
+        "shared_copies": 4,
+        "fraction_of_input": 0.06666666666666667
+      },
+      {
+        "profile_id": "mickey-minnie",
+        "list_id": "hunter-16854-168088",
+        "shared_copies": 0,
+        "fraction_of_input": 0.0
+      },
+      {
+        "profile_id": "retro",
+        "list_id": "hunter-16854-168118",
+        "shared_copies": 0,
+        "fraction_of_input": 0.0
+      }
+    ],
+    "limits": "Copy overlap routes to curated advice; it does not establish archetype identity, power or matchup outcomes."
+  },
+  "role_counts": [
+    {
+      "role": "early development",
+      "copies": 14,
+      "purpose": "Cheap bodies supply pressure and opportunities to build the three-exerted-character condition."
+    },
+    {
+      "role": "cost savings",
+      "copies": 12,
+      "purpose": "Discounts improve deployment but do not add permanent ink; protect enough inkable cards."
+    },
+    {
+      "role": "character access",
+      "copies": 12,
+      "purpose": "An all-character deck improves Mike reveals; Nani and Pocahontas reward cheap-character density."
+    },
+    {
+      "role": "engine and protection",
+      "copies": 16,
+      "purpose": "Elinor rewards exerting; Dale uses current willpower for challenge damage; shifted Peacekeeper conditionally prevents challenges."
+    },
+    {
+      "role": "interaction",
+      "copies": 3,
+      "purpose": "Disrupt songs or bounce a chosen character; discarding for Rapunzel has a resource cost."
+    }
+  ],
+  "coaching": [
+    {
+      "against": "Amber/Emerald Elinor",
+      "mulligan": "Keep an inkable one-drop and a two-cost follow-up; retain Dale with a board-building hand. Return duplicate late payoffs and excessive uninkable discounts without ink support.",
+      "inking": "Protect one Elinor and the cheap development needed to reach three exerted characters. Ink surplus late cards only after comparing the opponent’s clock.",
+      "sequencing": "Dale and David change challenge trades. Compare trading into their engine with racing; time shifted Peacekeeper before any of your challenges and keep a route to repeat Elinor triggers.",
+      "profile_id": "elinor",
+      "sources": [
+        {
+          "list_id": "hunter-16598-166030",
+          "player": "Kezy",
+          "reported_rank": 1,
+          "event": "Setmeisterschaft Angriff der Ranke",
+          "event_date": "2026-09-27",
+          "official_event_url": "https://tcg.ravensburgerplay.com/events/832430",
+          "deck_url": "https://lorcanahunter.com/tournament/16598/spielhohle-regensburg-setmeisterschaft-angriff-der-ranke/player/166030/deck",
+          "snapshot_sha256": "1be77c993ef6c40d0a7eafaabde6990099944eb70ccdee90ef189f9b9791dd98",
+          "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+        },
+        {
+          "list_id": "hunter-16854-168094",
+          "player": "BZ",
+          "reported_rank": 17,
+          "event": "Game Grid Open - CCQ",
+          "event_date": "2026-10-03",
+          "official_event_url": "https://tcg.ravensburgerplay.com/events/1016280",
+          "deck_url": "https://lorcanahunter.com/tournament/16854/game-grid-lehi-game-grid-open-ccq/player/168094/deck?lf_set=overall&lf_sort=date_desc&lf_tournamentId=16854",
+          "snapshot_sha256": "dec479215fb0e0d6db1c0ec9e9fc4c50177dfd148ef9f04f2f212dabc6d11125",
+          "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+        }
+      ]
+    },
+    {
+      "against": "Emerald/Sapphire Mickey & Minnie",
+      "mulligan": "Prioritize a cheap curve; keep Ursula only when a relevant song is expected, rather than assuming every list is song-heavy.",
+      "inking": "Keep a coherent Elinor or Dale line; redundant fours can fund early deployment. Preserve cheap bodies rather than retaining every payoff.",
+      "sequencing": "Interrupt a known Shift base when a legal profitable challenge exists. Ward does not prevent challenges. A Duo banish replacement creates ink; evaluate the resulting board and next turn instead of calling banishment a clean removal.",
+      "profile_id": "mickey-minnie",
+      "sources": [
+        {
+          "list_id": "hunter-16854-168088",
+          "player": "Narfdre",
+          "reported_rank": 13,
+          "event": "Game Grid Open - CCQ",
+          "event_date": "2026-10-03",
+          "official_event_url": "https://tcg.ravensburgerplay.com/events/1016280",
+          "deck_url": "https://lorcanahunter.com/tournament/16854/game-grid-lehi-game-grid-open-ccq/player/168088/deck?lf_set=overall&lf_sort=date_desc&lf_tournamentId=16854",
+          "snapshot_sha256": "9ea241c0fcd7c15b42083c5c3c7e770b6038ee224382d88fcfc29afc37c1db2a",
+          "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+        }
+      ]
+    },
+    {
+      "against": "Amber/Steel Songs",
+      "mulligan": "Keep Ursula alongside early board and usable ink. Return slow hands that rely on exposed uninkable engines.",
+      "inking": "Preserve a timely Ursula and development; ink redundant high-cost cards before weakening the early plan.",
+      "sequencing": "Use Ursula information to remove an actual revealed song. Bodyguard and Peacekeeper protect against challenges, not direct song damage or removal; stagger commitment when broad removal is plausible.",
+      "profile_id": "songs",
+      "sources": [
+        {
+          "list_id": "hunter-16854-168128",
+          "player": "ItsNotSlowPlay",
+          "reported_rank": 2,
+          "event": "Game Grid Open - CCQ",
+          "event_date": "2026-10-03",
+          "official_event_url": "https://tcg.ravensburgerplay.com/events/1016280",
+          "deck_url": "https://lorcanahunter.com/tournament/16854/game-grid-lehi-game-grid-open-ccq/player/168128/deck?lf_set=overall&lf_sort=date_desc&lf_tournamentId=16854",
+          "snapshot_sha256": "9ea241c0fcd7c15b42083c5c3c7e770b6038ee224382d88fcfc29afc37c1db2a",
+          "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+        }
+      ]
+    },
+    {
+      "against": "Amethyst/Ruby Retro",
+      "mulligan": "Keep early pressure and an Elinor route rather than a hand overloaded with fours.",
+      "inking": "Preserve cheap deployment and a source of follow-up cards; do not keep all expensive bodies solely for theoretical value.",
+      "sequencing": "Track the actual Retro Evolution Device target and legal cost window. Pressure the lore clock while rebuilding after removal; Elinor value can matter more than an exposed attack that loses several characters.",
+      "profile_id": "retro",
+      "sources": [
+        {
+          "list_id": "hunter-16854-168118",
+          "player": "[Ink Pass] LegendGary",
+          "reported_rank": 1,
+          "event": "Game Grid Open - CCQ",
+          "event_date": "2026-10-03",
+          "official_event_url": "https://tcg.ravensburgerplay.com/events/1016280",
+          "deck_url": "https://lorcanahunter.com/tournament/16854/game-grid-lehi-game-grid-open-ccq/player/168118/deck",
+          "snapshot_sha256": "1be77c993ef6c40d0a7eafaabde6990099944eb70ccdee90ef189f9b9791dd98",
+          "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+        }
+      ]
+    },
+    {
+      "against": "Amber/Amethyst character value",
+      "mulligan": "Keep early development, with Dale when supported by bodies and ink. Return excessive late cards.",
+      "inking": "Keep enough early plays to avoid conceding initiative to efficient bodies; do not automatically ink the only follow-up source.",
+      "sequencing": "Count current strengths, willpowers and damage before trades. Choose immediate stabilization when their lore clock is lethal; Mike can give an opposing character deck extra cards.",
+      "profile_id": "amber-amethyst",
+      "sources": [
+        {
+          "list_id": "hunter-12941-164930",
+          "player": "[LF] Tidus",
+          "reported_rank": 1,
+          "event": "WildCards - Attack of the Vine! Set Championship",
+          "event_date": "2026-09-27",
+          "official_event_url": "https://tcg.ravensburgerplay.com/events/817144",
+          "deck_url": "https://lorcanahunter.com/tournament/12941/wildcards-wildcards-attack-of-the-vine-set-championship/player/164930/deck",
+          "snapshot_sha256": "1be77c993ef6c40d0a7eafaabde6990099944eb70ccdee90ef189f9b9791dd98",
+          "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+        },
+        {
+          "list_id": "hunter-16854-168129",
+          "player": "Taylor Swift",
+          "reported_rank": 5,
+          "event": "Game Grid Open - CCQ",
+          "event_date": "2026-10-03",
+          "official_event_url": "https://tcg.ravensburgerplay.com/events/1016280",
+          "deck_url": "https://lorcanahunter.com/tournament/16854/game-grid-lehi-game-grid-open-ccq/player/168129/deck?lf_set=overall&lf_sort=date_desc&lf_tournamentId=16854",
+          "snapshot_sha256": "dec479215fb0e0d6db1c0ec9e9fc4c50177dfd148ef9f04f2f212dabc6d11125",
+          "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+        }
+      ]
+    },
+    {
+      "against": "Emerald/Steel character tempo",
+      "mulligan": "Keep cheap characters and an inkable route into Dale/Elinor. Avoid a hand full of discount characters but no deployment plan.",
+      "inking": "Treat multiple uninkable engines as competing commitments. Preserve useful bodies and inkable follow-ups.",
+      "sequencing": "Account for scalable damage and their public character count. Avoid gratuitous exertion into a profitable challenge; Peacekeeper only stops challenges and does not stop direct damage.",
+      "profile_id": "emerald-steel",
+      "sources": [
+        {
+          "list_id": "hunter-16854-168158",
+          "player": "JourneyIntoLorcana",
+          "reported_rank": 27,
+          "event": "Game Grid Open - CCQ",
+          "event_date": "2026-10-03",
+          "official_event_url": "https://tcg.ravensburgerplay.com/events/1016280",
+          "deck_url": "https://lorcanahunter.com/tournament/16854/game-grid-lehi-game-grid-open-ccq/player/168158/deck?lf_set=overall&lf_sort=date_desc&lf_tournamentId=16854",
+          "snapshot_sha256": "38b44ac0417704c254bd8556e47c4114762fa53615a578aeae578b6d4eab032c",
+          "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "Keep the baseline as the reference list: it has a coherent cheap-character/discount/Elinor plan. Current small samples do not establish that replacing it improves win rate.",
+    "Every card is a character. Mike reveals therefore find your character whenever a card remains in your deck, but opponents receive the same reveal opportunity and may choose to take their character.",
+    "Thirty-nine characters cost two or less, supporting Nani. Actual top-four access must use the remaining deck after known hand, board, discard and ink information.",
+    "Discounts are temporary cost savings, not permanent ink. Four Elinor, four Mike, four Willow and four Pluto account for all sixteen uninkable cards; opening with several needs a coherent ink plan.",
+    "Dale uses current willpower, including modifiers, rather than undamaged health. Peacekeeper requires Shift and no challenges by any of your characters earlier that turn; check this before committing a challenge."
+  ],
+  "variants": [
+    {
+      "variant_id": "kezy-comparison",
+      "name": "Elinor — September 27 Kezy comparison",
+      "classification": "strategic_inference",
+      "changes": [
+        {
+          "identity_id": "88945d3273317af28c2c7c71dc04d35bba89c0ab",
+          "full_name": "Mickey Mouse - Expedition Leader",
+          "delta": -2
+        },
+        {
+          "identity_id": "50b8acc5a7f2a8afabe9284202005b34f69e21e1",
+          "full_name": "Mowgli - Man Cub",
+          "delta": -2
+        },
+        {
+          "identity_id": "1c83fd32d4a179f9672af28642b26fba727cb8a8",
+          "full_name": "Mushu - Stealthy Dragon",
+          "delta": -1
+        },
+        {
+          "identity_id": "3b52a9168d6e9dac096984ef92ece7df337589c7",
+          "full_name": "The Queen - Devious Disguise",
+          "delta": -2
+        },
+        {
+          "identity_id": "edc8d296f601e44b6311621379644a538907c472",
+          "full_name": "The Queen - Regal Monarch",
+          "delta": -1
+        },
+        {
+          "identity_id": "176d4f9ef0f3934a4e2e165efe91f2668911a73b",
+          "full_name": "Thomas - Wide-Eyed Recruit",
+          "delta": 1
+        },
+        {
+          "identity_id": "2f0ee159014b24c95f95963bdfa4b8ec79329fac",
+          "full_name": "Ursula - Deceiver",
+          "delta": 1
+        },
+        {
+          "identity_id": "9f9ad2fd43b08b53c6f66fe9ad9b318b774415ae",
+          "full_name": "Squeaks - Cozy Caterpillar",
+          "delta": 2
+        },
+        {
+          "identity_id": "78c52c74f960109e345c66f5a0bdf03a6d44ec16",
+          "full_name": "Rapunzel - Tower Defender",
+          "delta": 4
+        }
+      ],
+      "rationale": "Use an exact eight-for-eight comparison to the observed September 27 winner: increase targeted song disruption, immediate bounce and cheap evasion while retaining the full Elinor, Dale, Mike and discount engines. This is a sourced alternative for testing, not a proved upgrade.",
+      "tradeoffs": "Lose Mowgli non-character disruption, Mickey strength reduction, Mushu conditional draw and Queen lore/draw options. Rapunzel consumes a discarded card; Squeaks has zero strength and benefits from Dale in challenges. The character count and uninkable count remain unchanged.",
+      "test_plan": "Compare baseline and candidate against the same opposing list, alternating play/draw and logging mulligan, missed ink, stranded cards, reason for each loss and individual card impact. Use public information only; retain paired game records before claiming improvement. No games have been simulated or measured here.",
+      "sources": [
+        {
+          "list_id": "hunter-16598-166030",
+          "player": "Kezy",
+          "reported_rank": 1,
+          "event": "Setmeisterschaft Angriff der Ranke",
+          "event_date": "2026-09-27",
+          "official_event_url": "https://tcg.ravensburgerplay.com/events/832430",
+          "deck_url": "https://lorcanahunter.com/tournament/16598/spielhohle-regensburg-setmeisterschaft-angriff-der-ranke/player/166030/deck",
+          "snapshot_sha256": "1be77c993ef6c40d0a7eafaabde6990099944eb70ccdee90ef189f9b9791dd98",
+          "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+        }
+      ],
+      "validation": {
+        "format": "core",
+        "as_of": "2026-10-04",
+        "policy_checked_at": "2026-10-04",
+        "verdict": "passes_supported_checks",
+        "issues": [],
+        "review_required": [],
+        "card_count": 60,
+        "ink_colors": [
+          "AMBER",
+          "EMERALD"
+        ],
+        "inkable": 44,
+        "uninkable": 16,
+        "printed_cost_curve": {
+          "1": 18,
+          "2": 22,
+          "3": 4,
+          "4": 12,
+          "5": 4
+        },
+        "card_types": {
+          "character": 60
+        },
+        "limits": "Snapshot checks, not event certification; verify current sources, card text, and event terms."
+      },
+      "metrics": {
+        "classification": "calculation",
+        "population": 60,
+        "target_counts": {
+          "one_cost_characters": 18,
+          "characters_cost_two_or_less": 40,
+          "characters": 60,
+          "uninkable": 16,
+          "cost_five_or_more": 4
+        },
+        "average_printed_cost": {
+          "exact_fraction": "71/30",
+          "value": 2.3666666666666667
+        },
+        "raw_access_at_least_one": {
+          "one_cost_characters": {
+            "7": {
+              "exact_fraction": "262594/282315",
+              "probability": 0.9301454049554576,
+              "percent": 93.01454049554576
+            },
+            "9": {
+              "exact_fraction": "5804555/5985078",
+              "probability": 0.9698378199916525,
+              "percent": 96.98378199916526
+            },
+            "10": {
+              "exact_fraction": "533479/544098",
+              "probability": 0.9804832952887164,
+              "percent": 98.04832952887163
+            }
+          },
+          "characters_cost_two_or_less": {
+            "7": {
+              "exact_fraction": "169355/169389",
+              "probability": 0.9997992785836153,
+              "percent": 99.97992785836153
+            },
+            "9": {
+              "exact_fraction": "2992505/2992539",
+              "probability": 0.9999886384103933,
+              "percent": 99.99886384103934
+            },
+            "10": {
+              "exact_fraction": "816145/816147",
+              "probability": 0.9999975494610652,
+              "percent": 99.99975494610652
+            }
+          },
+          "characters": {
+            "7": {
+              "exact_fraction": "1",
+              "probability": 1.0,
+              "percent": 100.0
+            },
+            "9": {
+              "exact_fraction": "1",
+              "probability": 1.0,
+              "percent": 100.0
+            },
+            "10": {
+              "exact_fraction": "1",
+              "probability": 1.0,
+              "percent": 100.0
+            }
+          },
+          "uninkable": {
+            "7": {
+              "exact_fraction": "208066/230985",
+              "probability": 0.9007771067385328,
+              "percent": 90.07771067385329
+            },
+            "9": {
+              "exact_fraction": "1295014/1360245",
+              "probability": 0.952044668423703,
+              "percent": 95.20446684237031
+            },
+            "10": {
+              "exact_fraction": "13417882/13874499",
+              "probability": 0.9670894783299923,
+              "percent": 96.70894783299923
+            }
+          },
+          "cost_five_or_more": {
+            "7": {
+              "exact_fraction": "38962/97527",
+              "probability": 0.3994996257446656,
+              "percent": 39.94996257446656
+            },
+            "9": {
+              "exact_fraction": "15849/32509",
+              "probability": 0.4875265311144606,
+              "percent": 48.75265311144606
+            },
+            "10": {
+              "exact_fraction": "51467/97527",
+              "probability": 0.5277205286741108,
+              "percent": 52.77205286741108
+            }
+          }
+        },
+        "opening_at_least_three_uninkable": {
+          "exact_fraction": "79258/292581",
+          "probability": 0.2708925049815265,
+          "percent": 27.08925049815265
+        },
+        "assumptions": "Uniform sampling without replacement. 7/9/10 are cards seen, not turn labels. No mulligan, draw effects, ink choices, deployment, survival or hidden information modeled.",
+        "nani_unconditioned_top_four": {
+          "exact_fraction": "1694/1711",
+          "probability": 0.9900642898889538,
+          "percent": 99.00642898889538,
+          "limits": "Reference from the full list. Actual play must subtract all known cards and use the remaining deck, including previous bottom placements."
+        }
+      },
+      "ownership": {
+        "required_copies": 60,
+        "covered_copies": 51,
+        "missing_copies": 9,
+        "missing_cards": [
+          {
+            "identity_id": "cb878152b6ffe069a87f49091e1ef762cd612744",
+            "full_name": "Bobby Zimuruski - Spray Cheese Kid",
+            "needed": 4,
+            "owned": 0,
+            "missing": 4
+          },
+          {
+            "identity_id": "658c40f7316edca54df15e4dd250912fc172584b",
+            "full_name": "Dale - Ready for His Shot",
+            "needed": 4,
+            "owned": 2,
+            "missing": 2
+          },
+          {
+            "identity_id": "66140b66c2bc1f20ba729220ec7325594431879b",
+            "full_name": "Pocahontas - Peacekeeper",
+            "needed": 4,
+            "owned": 1,
+            "missing": 3
+          }
+        ],
+        "all_cards": [
+          {
+            "identity_id": "0ffddb242b1306d0c67490363616322fb5fe1356",
+            "full_name": "Nani - Stage Manager",
+            "needed": 4,
+            "owned": 4,
+            "missing": 0
+          },
+          {
+            "identity_id": "176d4f9ef0f3934a4e2e165efe91f2668911a73b",
+            "full_name": "Thomas - Wide-Eyed Recruit",
+            "needed": 4,
+            "owned": 6,
+            "missing": 0
+          },
+          {
+            "identity_id": "2f0ee159014b24c95f95963bdfa4b8ec79329fac",
+            "full_name": "Ursula - Deceiver",
+            "needed": 4,
+            "owned": 4,
+            "missing": 0
+          },
+          {
+            "identity_id": "62092be95228b2e9c3a084edd89921802d742013",
+            "full_name": "Grandmother Willow - Ancient Advisor",
+            "needed": 4,
+            "owned": 4,
+            "missing": 0
+          },
+          {
+            "identity_id": "658c40f7316edca54df15e4dd250912fc172584b",
+            "full_name": "Dale - Ready for His Shot",
+            "needed": 4,
+            "owned": 2,
+            "missing": 2
+          },
+          {
+            "identity_id": "66140b66c2bc1f20ba729220ec7325594431879b",
+            "full_name": "Pocahontas - Peacekeeper",
+            "needed": 4,
+            "owned": 1,
+            "missing": 3
+          },
+          {
+            "identity_id": "78c52c74f960109e345c66f5a0bdf03a6d44ec16",
+            "full_name": "Rapunzel - Tower Defender",
+            "needed": 4,
+            "owned": 5,
+            "missing": 0
+          },
+          {
+            "identity_id": "98a41ededf0b9cfe8fa7096aaf97b6290be8f370",
+            "full_name": "Pluto - Friendly Pooch",
+            "needed": 4,
+            "owned": 4,
+            "missing": 0
+          },
+          {
+            "identity_id": "9f9ad2fd43b08b53c6f66fe9ad9b318b774415ae",
+            "full_name": "Squeaks - Cozy Caterpillar",
+            "needed": 2,
+            "owned": 3,
+            "missing": 0
+          },
+          {
+            "identity_id": "b2e4454088493f11ad6048c6b396d2c646a96a35",
+            "full_name": "Aurora - Holding Court",
+            "needed": 4,
+            "owned": 4,
+            "missing": 0
+          },
+          {
+            "identity_id": "b52f0412172a907036023f0ba0143a7e3a43cca0",
+            "full_name": "Mike Wazowski - Heroic Climber",
+            "needed": 4,
+            "owned": 4,
+            "missing": 0
+          },
+          {
+            "identity_id": "bc89124dd0201cff9c7f741f524790400b1c49d3",
+            "full_name": "Pocahontas - Guiding the Tribe",
+            "needed": 4,
+            "owned": 4,
+            "missing": 0
+          },
+          {
+            "identity_id": "cb878152b6ffe069a87f49091e1ef762cd612744",
+            "full_name": "Bobby Zimuruski - Spray Cheese Kid",
+            "needed": 4,
+            "owned": 0,
+            "missing": 4
+          },
+          {
+            "identity_id": "edc8d296f601e44b6311621379644a538907c472",
+            "full_name": "The Queen - Regal Monarch",
+            "needed": 2,
+            "owned": 4,
+            "missing": 0
+          },
+          {
+            "identity_id": "f8991ab7e9bf5831166232c5770b5d0f569a005f",
+            "full_name": "Elinor - Renowned Diplomat",
+            "needed": 4,
+            "owned": 4,
+            "missing": 0
+          },
+          {
+            "identity_id": "fe426a6642fdf84207e8082b4576aa424c939d4a",
+            "full_name": "David - Protective Snowboarder",
+            "needed": 4,
+            "owned": 4,
+            "missing": 0
+          }
+        ],
+        "unresolved_collection_rows": [],
+        "limits": "Gameplay identities aggregate finishes/reprints. Inventory date appears in the report's collection metadata; no prices or purchase total inferred. Per-deck allocation unless explicitly combined."
+      },
+      "cards": [
+        {
+          "identity_id": "b2e4454088493f11ad6048c6b396d2c646a96a35",
+          "full_name": "Aurora - Holding Court",
+          "quantity": 4
+        },
+        {
+          "identity_id": "cb878152b6ffe069a87f49091e1ef762cd612744",
+          "full_name": "Bobby Zimuruski - Spray Cheese Kid",
+          "quantity": 4
+        },
+        {
+          "identity_id": "98a41ededf0b9cfe8fa7096aaf97b6290be8f370",
+          "full_name": "Pluto - Friendly Pooch",
+          "quantity": 4
+        },
+        {
+          "identity_id": "edc8d296f601e44b6311621379644a538907c472",
+          "full_name": "The Queen - Regal Monarch",
+          "quantity": 2
+        },
+        {
+          "identity_id": "176d4f9ef0f3934a4e2e165efe91f2668911a73b",
+          "full_name": "Thomas - Wide-Eyed Recruit",
+          "quantity": 4
+        },
+        {
+          "identity_id": "fe426a6642fdf84207e8082b4576aa424c939d4a",
+          "full_name": "David - Protective Snowboarder",
+          "quantity": 4
+        },
+        {
+          "identity_id": "62092be95228b2e9c3a084edd89921802d742013",
+          "full_name": "Grandmother Willow - Ancient Advisor",
+          "quantity": 4
+        },
+        {
+          "identity_id": "b52f0412172a907036023f0ba0143a7e3a43cca0",
+          "full_name": "Mike Wazowski - Heroic Climber",
+          "quantity": 4
+        },
+        {
+          "identity_id": "bc89124dd0201cff9c7f741f524790400b1c49d3",
+          "full_name": "Pocahontas - Guiding the Tribe",
+          "quantity": 4
+        },
+        {
+          "identity_id": "9f9ad2fd43b08b53c6f66fe9ad9b318b774415ae",
+          "full_name": "Squeaks - Cozy Caterpillar",
+          "quantity": 2
+        },
+        {
+          "identity_id": "2f0ee159014b24c95f95963bdfa4b8ec79329fac",
+          "full_name": "Ursula - Deceiver",
+          "quantity": 4
+        },
+        {
+          "identity_id": "0ffddb242b1306d0c67490363616322fb5fe1356",
+          "full_name": "Nani - Stage Manager",
+          "quantity": 4
+        },
+        {
+          "identity_id": "658c40f7316edca54df15e4dd250912fc172584b",
+          "full_name": "Dale - Ready for His Shot",
+          "quantity": 4
+        },
+        {
+          "identity_id": "f8991ab7e9bf5831166232c5770b5d0f569a005f",
+          "full_name": "Elinor - Renowned Diplomat",
+          "quantity": 4
+        },
+        {
+          "identity_id": "78c52c74f960109e345c66f5a0bdf03a6d44ec16",
+          "full_name": "Rapunzel - Tower Defender",
+          "quantity": 4
+        },
+        {
+          "identity_id": "66140b66c2bc1f20ba729220ec7325594431879b",
+          "full_name": "Pocahontas - Peacekeeper",
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "review_required": [],
+  "limits": "Legality and mathematics are deterministic within the source snapshot. Role assignments, mulligans and revisions are authored strategic inference. No gameplay engine, match record, measured win rate or independent expert validation is claimed."
+}

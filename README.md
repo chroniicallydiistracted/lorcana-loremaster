@@ -55,7 +55,7 @@ review. Passing these checks is not event certification.
 | `sources/` | Source registry and official document/page snapshots |
 | `research/` | Dated tournament/price evidence and original research code |
 | `loremaster/`, `tools/`, `tests/` | Validated review, retrieval, answer and regression tools |
-| `benchmarks/` | 100 curated answer, evidence, calculation and uncertainty cases |
+| `benchmarks/` | 109 FAQ/evidence cases plus 24 compound scenario contracts |
 | `reports/` | Audit findings, coverage and migration map |
 | `vendor/lorcanajson/` | Preserved upstream source, attribution and license |
 | `archive/` | Original backup, inventory and superseded knowledge/data |
@@ -93,13 +93,66 @@ uv run python tools/verify.py
 ```
 
 The evidence index returns actual PDF sections/pages and source hashes. There are
-80 reviewed answers. Exact known questions or topic IDs return their sourced answer;
+89 reviewed answers. Exact known questions or topic IDs return their sourced answer;
 unmatched questions retrieve evidence for Codex to interpret. Future dates or changed
-sources trigger review. The 100-case benchmark checks this finite evidence pipeline;
+sources trigger review. The 109-case benchmark checks this finite evidence pipeline;
 it does not certify unrestricted expert reasoning or deck strength.
 
 Read [the knowledge engine guide](knowledge/method/knowledge-engine.md) for review
 lifecycle, rebuilding, source monitoring and current limitations. Git is initialized
 locally; large snapshots, image bytes and derived databases remain outside Git.
-The [completed milestone report](reports/verified-knowledge-milestone-2026-10-04.md)
-records the build results and remaining source gaps.
+The [foundation milestone report](reports/verified-knowledge-milestone-2026-10-04.md)
+records the original build results. The research report below and coverage matrix
+reflect the subsequent source acquisitions and remaining gaps.
+
+## Sourced competitive deck reviews
+
+The [deck-review workflow](knowledge/strategy/deck-review-workflow.md) joins legality,
+curve, inkability, exact probabilities, collection gaps and balanced swaps.
+[Six concrete archetype profiles](knowledge/strategy/current-archetypes.md) use eight
+recent Core lists from three events. Official pages corroborate dates, format and
+roster size; lists/finishes remain secondary observations with publication gaps.
+They do not establish field shares or matchup win rates.
+
+```bash
+uv run python tools/research.py check
+uv run python tools/review.py --all --as-of 2026-10-04
+uv run python tools/lorcana.py review decks/mickey_minnie_baha.json --as-of 2026-10-04
+uv run python tools/lorcana.py mulligan --population 60 --successes 4 \
+  --opening-successes 2 --returned 3 --kept-successes 0
+uv run python tools/scenarios.py evaluate --output reports/expert-scenarios-2026-10-04.json
+```
+
+Read the [Elinor review](reports/deck-reviews/2026-10-04/elinor_moluk_champ.md) and
+[Mickey & Minnie review](reports/deck-reviews/2026-10-04/mickey_minnie_baha.md).
+Each has six matchup plans and a separate legal candidate. The September inventory
+is short nine and 27 copies respectively, or 37 for both simultaneously. Original
+user data is preserved. Revised lists are strategic tests without measured advantage.
+Changed inputs or sources require re-review.
+
+The [compound evaluation guide](knowledge/method/scenario-evaluation.md) explains
+24 new cases, answer-free prompt export and the response format. Reference-assisted
+fixtures pass their contracts; independent expert grading remains pending. This
+is separate from the 109-case finite FAQ benchmark.
+
+See [the implemented milestone](reports/deck-review-milestone-2026-10-04.md) for
+results, verification and the remaining expert/playtesting boundaries.
+
+## Research services and product guides
+
+The [provider guide](knowledge/method/providers.md) documents 18 card, collection,
+event, price, training and practice services with access and coverage limits. Public
+Lorcast/TCGCSV observations are cached separately from official evidence:
+
+```bash
+uv run python tools/providers.py list --category prices
+uv run python tools/providers.py snapshot lorcast hyperia-cards
+uv run python tools/providers.py coverage
+uv run python tools/knowledge.py answer --topic gateway-progression
+```
+
+The [Gateway guide](knowledge/guides/gateway.md) now has official booklet/page
+references for all four teaching gates. The [lore guide](knowledge/guides/story-and-lore.md)
+adds an attributed reading route through the early narrative. See the
+[research report](reports/web-research-2026-10-04.md) for acquisitions, provider
+payload findings and the next evidence queue.

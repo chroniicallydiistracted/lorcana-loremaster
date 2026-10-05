@@ -325,7 +325,7 @@ def analyze_deck(entries, fmt, as_of, policy, pool=None):
             'printed_cost_curve': dict(sorted(Counter({cost: sum(q for i, q in entries if i['ink_cost'] == cost)
                                                       for cost in {i['ink_cost'] for i, _ in entries}}).items())),
             'card_types': dict(Counter({t: sum(q for i, q in entries if i['card_type'] == t)
-                                       for t in {i['card_type'] for i, _ in entries}})),
+                                       for t in sorted({i['card_type'] for i, _ in entries})})),
             'limits': 'Snapshot checks, not event certification; verify current sources, card text, and event terms.'}
 
 
@@ -452,10 +452,19 @@ def main():
     s = sub.add_parser('collection'); s.add_argument('path')
     s = sub.add_parser('deck'); s.add_argument('path'); s.add_argument('--format', choices=['core', 'infinity', 'sealed', 'draft'], default='core')
     s.add_argument('--as-of', default=user_today()); s.add_argument('--pool')
+    s = sub.add_parser('review', help='Sourced deck review with probabilities, collection and balanced candidates')
+    s.add_argument('path'); s.add_argument('--as-of', default=user_today())
+    s.add_argument('--format', choices=['core', 'infinity', 'sealed', 'draft'], default='core')
+    s.add_argument('--pool'); s.add_argument('--profile'); s.add_argument('--output')
+    s.add_argument('--collection', default='data/collections/andys-lore-library-2026-09-15.csv')
     s = sub.add_parser('probability')
     for name in ['population', 'successes', 'draws']:
         s.add_argument('--' + name, type=int, required=True)
     s.add_argument('--at-least', type=int, default=1)
+    s = sub.add_parser('mulligan', help='Conditional target access for an actual observed opening hand')
+    for name in ['population', 'successes', 'opening-successes', 'returned', 'kept-successes']:
+        s.add_argument('--' + name, type=int, required=True)
+    s.add_argument('--opening-size', type=int, default=7)
     s = sub.add_parser('import-catalog'); s.add_argument('path')
     args = p.parse_args()
     exit_code = 0
@@ -517,6 +526,21 @@ def main():
                   'population': args.population, 'successes': args.successes, 'draws': args.draws,
                   'at_least': args.at_least, 'exact_fraction': str(value), 'probability': float(value),
                   'percent': 100 * float(value)}
+    elif args.command == 'review':
+        from loremaster.deck_review import ReviewContext, write_review
+        result = ReviewContext(ROOT, args.as_of, args.collection).review(
+            Path(args.path), args.format, args.profile, args.pool)
+        if args.output:
+            write_review(result, Path(args.output), Path(args.path).stem)
+        exit_code = 2 if result['validation']['verdict'] != 'passes_supported_checks' or result['review_required'] else 0
+    elif args.command == 'mulligan':
+        from loremaster.deck_review import conditional_mulligan, distribution
+        value = conditional_mulligan(args.population, args.successes, args.opening_size,
+                                    args.opening_successes, args.returned, args.kept_successes)
+        result = {**distribution(value), 'model': 'Conditional on an actual observed opening hand and chosen returns; replacement draws exclude the whole original hand. No subsequent draws or unconditional keep policy modeled.',
+                  'population': args.population, 'successes': args.successes,
+                  'opening_size': args.opening_size, 'opening_successes': args.opening_successes,
+                  'returned': args.returned, 'kept_successes': args.kept_successes}
     else:
         result = import_catalog(args.path)
     print(json.dumps(result, ensure_ascii=False, indent=2))

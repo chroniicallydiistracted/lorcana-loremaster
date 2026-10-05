@@ -1,12 +1,64 @@
 {
   "checked_at": "2026-10-04",
   "records": [
-    {"source_id": "deep-trouble-rulebook", "status": "not_discovered", "official_product_source": "deep-trouble", "needed_for": "Ursula setup, boss turn, difficulties and product overrides"},
-    {"source_id": "palace-heist-rulebook", "status": "not_discovered", "official_product_source": "palace-heist", "needed_for": "Jafar/crown procedures, boss turns and battleground restrictions"},
-    {"source_id": "great-hunny-rescue-rulebook", "status": "not_discovered", "official_product_source": "great-hunny-rescue", "needed_for": "Vine chambers, tendrils, encounter setup and difficulty"},
-    {"source_id": "gateway-progressive-booklet", "status": "not_discovered", "official_product_source": "gateway", "needed_for": "Exact teaching progression and unlock steps"},
-    {"source_id": "hyperia-release-notes", "status": "not_linked_at_check", "official_product_source": "resources", "needed_for": "New mechanic edge cases and card-specific official clarifications"},
-    {"source_id": "hyperia-matchup-data", "status": "no_verified_dataset", "needed_for": "Measured Set 14 matchup and metagame claims"}
+    {
+      "source_id": "deep-trouble-rulebook",
+      "status": "not_discovered",
+      "official_product_source": "deep-trouble",
+      "needed_for": "Ursula setup, boss turn, difficulties and product overrides",
+      "last_reviewed_at": "2026-10-04",
+      "research_result": "No controlling booklet acquired in expanded Resources/product/regional instruction searches. Community walkthrough/mirror leads remain discovery evidence only."
+    },
+    {
+      "source_id": "palace-heist-rulebook",
+      "status": "not_discovered",
+      "official_product_source": "palace-heist",
+      "needed_for": "Jafar/crown procedures, boss turns and battleground restrictions",
+      "last_reviewed_at": "2026-10-04",
+      "research_result": "No controlling booklet acquired in expanded Resources/product/regional instruction searches. Community walkthrough/mirror leads remain discovery evidence only."
+    },
+    {
+      "source_id": "great-hunny-rescue-rulebook",
+      "status": "not_discovered",
+      "official_product_source": "great-hunny-rescue",
+      "needed_for": "Vine chambers, tendrils, encounter setup and difficulty",
+      "last_reviewed_at": "2026-10-04",
+      "research_result": "No controlling booklet acquired in expanded Resources/product/regional instruction searches. Community walkthrough/mirror leads remain discovery evidence only."
+    },
+    {
+      "source_id": "gateway-progressive-booklet",
+      "status": "acquired_reviewed",
+      "official_product_source": "gateway",
+      "needed_for": "Exact teaching progression and unlock steps",
+      "last_reviewed_at": "2026-10-04",
+      "resolved_by": [
+        "gateway-rules",
+        "gateway-guidebook",
+        "gateway-deck-tips-elsa",
+        "gateway-deck-tips-stitch"
+      ],
+      "resolution": "Original English Gateway progression and reset booklets downloaded from official Ravensburger instruction hosts; inspected title, page text and rendered layout. Current CR differences documented."
+    },
+    {
+      "source_id": "hyperia-release-notes",
+      "status": "not_linked_at_check",
+      "official_product_source": "resources",
+      "needed_for": "New mechanic edge cases and card-specific official clarifications",
+      "last_reviewed_at": "2026-10-04"
+    },
+    {
+      "source_id": "hyperia-matchup-data",
+      "status": "no_verified_dataset",
+      "needed_for": "Measured Set 14 matchup and metagame claims",
+      "last_reviewed_at": "2026-10-04"
+    },
+    {
+      "source_id": "gateway-reward-pack-manifests",
+      "status": "not_acquired",
+      "official_product_source": "gateway",
+      "needed_for": "Exact reward-pack membership and reproducible product pool reconstruction",
+      "discovery": "Both acquired Deck Tips p. 6 link reward lists by QR; complete pack manifests not transcribed."
+    }
   ],
-  "search_scope": "Official Resources hub, English product pages, supplied API external-document links and web discovery queries. Not proof that no public copy exists elsewhere."
+  "search_scope": "Official Resources and English products, supplied API external-document links, web discovery, regional Ravensburger product/instruction servers and provider documentation. Absence from these searches is not proof no public copy exists."
 }

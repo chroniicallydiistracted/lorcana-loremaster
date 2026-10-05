@@ -11,8 +11,10 @@ tmp/
 data/raw/
 data/derived/
 sources/official/
+sources/providers/
 sources/images/*
 !sources/images/manifest.json
 archive/
 vendor/lorcanajson/
 research/2026-09-15/
+research/*/snapshots/

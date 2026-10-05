@@ -1,0 +1,1256 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-04",
+  "purpose": "Compound transfer/regression contracts separate from the FAQ. References derived from exact official sections/cards, dated artifacts and an independent category-counting oracle.",
+  "independent_expert_review": "pending",
+  "sources": {
+    "catalog": {
+      "path": "data/raw/ravensburger/catalog.en.json",
+      "sha256": "49266e492d7545c7c7c617d239c3eb3756794b56f485a4c0918e4e4fc1abe3c3",
+      "url": "https://api.lorcana.ravensburger.com/v3/catalog/en",
+      "selector": null,
+      "checked_at": "2026-10-04"
+    },
+    "card-reviews": {
+      "path": "data/policy/card-text-reviews.json",
+      "sha256": "36c6d06a65aff17a7d88da95ac0fae135030f4ec3edf2d560ffff283cbc17608",
+      "url": null,
+      "selector": "Dated reviewed overrides over the supplied official export",
+      "checked_at": "2026-10-04"
+    },
+    "legality": {
+      "path": "data/policy/legality.json",
+      "sha256": "90948c4d007a887ab3e138dc9e83aec076cf911982a1d8f6986f44b746aad258",
+      "url": "https://files.disneylorcana.com/Tournament-Rules-7.14.2026_Update_EN.pdf",
+      "selector": null,
+      "checked_at": "2026-10-04"
+    },
+    "review-plans": {
+      "path": "data/strategy/review-plans.json",
+      "sha256": "92e3e4100e76bcdfe0319ec1b40fad42bd9a103d1613f2580018a126372f970a",
+      "url": null,
+      "selector": null,
+      "checked_at": "2026-10-04"
+    },
+    "elinor-deck": {
+      "path": "decks/elinor_moluk_champ.json",
+      "sha256": "30bbfc6ec67ea658c47d384eae96c565686a6b753cf4de5b334acca3353cf053",
+      "url": null,
+      "selector": null,
+      "checked_at": "2026-10-04"
+    },
+    "baha-deck": {
+      "path": "decks/mickey_minnie_baha.json",
+      "sha256": "69f0d81aadeb421e7b3faeb18b53404963a7ec953d19d4128f160f9c50b0a52e",
+      "url": null,
+      "selector": null,
+      "checked_at": "2026-10-04"
+    },
+    "collection": {
+      "path": "data/collections/andys-lore-library-2026-09-15.csv",
+      "sha256": "e3cf22297eb3af461faba7da5d640bd6d7cc931cef789555bbef9237de5b8278",
+      "url": null,
+      "selector": null,
+      "checked_at": "2026-10-04"
+    },
+    "events": {
+      "path": "research/2026-10-04/events.json",
+      "sha256": "1fdea2272cad620bac81531f1bd15f3d360c4f2ff007841f6d370e4d93688423",
+      "url": null,
+      "selector": null,
+      "checked_at": "2026-10-04"
+    },
+    "profiles": {
+      "path": "data/strategy/archetypes.json",
+      "sha256": "702874917e51983aa5411c8a47c9323a199837865788bdb0f78e3c0a3c175c54",
+      "url": null,
+      "selector": null,
+      "checked_at": "2026-10-04"
+    },
+    "provider-coverage": {
+      "path": "reports/provider-coverage-2026-10-04.json",
+      "sha256": "bd2d376af810aace9b1c9626b93b7afc33f10c6e0957b61de8f948c943516503",
+      "url": null,
+      "selector": null,
+      "checked_at": "2026-10-04"
+    },
+    "source-gaps": {
+      "path": "sources/gaps.json",
+      "sha256": "9890179a8e7aea5f833e7f895ad2eaf9589b0521f1de245b149412a4a40926f3",
+      "url": null,
+      "selector": null,
+      "checked_at": "2026-10-04"
+    },
+    "cr-8.9.1": {
+      "source_id": "comprehensive-rules-2.2.0",
+      "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+      "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+      "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+      "page": 42,
+      "section": "8.9.1",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-09"
+    },
+    "cr-8.6.1": {
+      "source_id": "comprehensive-rules-2.2.0",
+      "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+      "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+      "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+      "page": 41,
+      "section": "8.6.1",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-09"
+    },
+    "cr-4.6.4.2": {
+      "source_id": "comprehensive-rules-2.2.0",
+      "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+      "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+      "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+      "page": 15,
+      "section": "4.6.4.2",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-09"
+    },
+    "cr-8.3.3": {
+      "source_id": "comprehensive-rules-2.2.0",
+      "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+      "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+      "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+      "page": 41,
+      "section": "8.3.3",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-09"
+    },
+    "cr-1.7.5": {
+      "source_id": "comprehensive-rules-2.2.0",
+      "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+      "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+      "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+      "page": 6,
+      "section": "1.7.5",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-09"
+    },
+    "cr-8.15.1": {
+      "source_id": "comprehensive-rules-2.2.0",
+      "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+      "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+      "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+      "page": 44,
+      "section": "8.15.1",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-09"
+    },
+    "cr-8.10.4.2": {
+      "source_id": "comprehensive-rules-2.2.0",
+      "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+      "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+      "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+      "page": 42,
+      "section": "8.10.4.2",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-09"
+    },
+    "cr-8.11.1": {
+      "source_id": "comprehensive-rules-2.2.0",
+      "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+      "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+      "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+      "page": 43,
+      "section": "8.11.1",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-09"
+    },
+    "cr-8.12.1": {
+      "source_id": "comprehensive-rules-2.2.0",
+      "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+      "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+      "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+      "page": 43,
+      "section": "8.12.1",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-09"
+    },
+    "cr-1.8.1.2": {
+      "source_id": "comprehensive-rules-2.2.0",
+      "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+      "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+      "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+      "page": 6,
+      "section": "1.8.1.2",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-09"
+    },
+    "cr-1.9.2.4": {
+      "source_id": "comprehensive-rules-2.2.0",
+      "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+      "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+      "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+      "page": 7,
+      "section": "1.9.2.4",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-09"
+    },
+    "cr-8.8.1": {
+      "source_id": "comprehensive-rules-2.2.0",
+      "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+      "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+      "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+      "page": 42,
+      "section": "8.8.1",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-09"
+    },
+    "cr-1.9.2.1": {
+      "source_id": "comprehensive-rules-2.2.0",
+      "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+      "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+      "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+      "page": 7,
+      "section": "1.9.2.1",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-09"
+    },
+    "cr-1.9.2.2": {
+      "source_id": "comprehensive-rules-2.2.0",
+      "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+      "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+      "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+      "page": 7,
+      "section": "1.9.2.2",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-09"
+    },
+    "cr-1.8.1.4": {
+      "source_id": "comprehensive-rules-2.2.0",
+      "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+      "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+      "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+      "page": 6,
+      "section": "1.8.1.4",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-09"
+    },
+    "cr-8.10.7": {
+      "source_id": "comprehensive-rules-2.2.0",
+      "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+      "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+      "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+      "page": 42,
+      "section": "8.10.7",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-09"
+    },
+    "cr-6.1.7": {
+      "source_id": "comprehensive-rules-2.2.0",
+      "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+      "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+      "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+      "page": 27,
+      "section": "6.1.7",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-09"
+    },
+    "hyperia-city": {
+      "path": "sources/official/2026-10-04/hyperia-city.html",
+      "sha256": "daf934ba7e54c2db3f0dc64bef9c145891f2806fd1074ad5c7b597d640bee42b",
+      "url": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+      "checked_at": "2026-10-04",
+      "effective_date": null
+    },
+    "tournament-rules-2026-07-14": {
+      "path": "sources/official/2026-10-04/tournament-rules-2026-07-14.pdf",
+      "sha256": "752f0b4994e99547805fd6023d4bbb106a458e234243c37b8885ccc292ddb6ee",
+      "url": "https://files.disneylorcana.com/Tournament-Rules-7.14.2026_Update_EN.pdf",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-14"
+    },
+    "cr-2.2.2.1": {
+      "source_id": "comprehensive-rules-2.2.0",
+      "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+      "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+      "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+      "page": 10,
+      "section": "2.2.2.1",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-09"
+    },
+    "cr-1.8.1.1": {
+      "source_id": "comprehensive-rules-2.2.0",
+      "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+      "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+      "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+      "page": 6,
+      "section": "1.8.1.1",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-09"
+    },
+    "cr-7.3.1": {
+      "source_id": "comprehensive-rules-2.2.0",
+      "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+      "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+      "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+      "page": 38,
+      "section": "7.3.1",
+      "checked_at": "2026-10-04",
+      "effective_date": "2026-07-09"
+    },
+    "story-belle": {
+      "path": "sources/official/2026-10-04/story-belle.html",
+      "sha256": "546dbbd010d0455e8c55d93f868cd113f840563cc1d4216214e25c83cb7e717e",
+      "url": "https://www.disneylorcana.com/en-US/story/belle",
+      "checked_at": "2026-10-04",
+      "effective_date": null
+    },
+    "story-first-chapter": {
+      "path": "sources/official/2026-10-04/story-first-chapter.html",
+      "sha256": "4c89a07b2f29bd748be150c1b2cc56cf47a8e80f16b20af1ea2a1a41ae85d7fc",
+      "url": "https://www.disneylorcana.com/en-US/story/magic",
+      "checked_at": "2026-10-04",
+      "effective_date": null
+    }
+  },
+  "cases": [
+    {
+      "scenario_id": "rush-evasive-bodyguard",
+      "domain": "rules",
+      "as_of": "2026-10-04",
+      "prompt": "I just played a ready character with Rush and Evasive. My opponent has a ready Bodyguard and an exerted Evasive character. May I challenge the Evasive character, challenge the Bodyguard, or quest now?",
+      "context": {
+        "no_other_restrictions": true
+      },
+      "reference_claims": [
+        {
+          "key": "challenge_exerted_evasive",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "cr-8.9.1",
+            "cr-8.6.1",
+            "cr-4.6.4.2",
+            "cr-8.3.3"
+          ]
+        },
+        {
+          "key": "challenge_ready_bodyguard",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "cr-4.6.4.2"
+          ]
+        },
+        {
+          "key": "quest_drying",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "cr-1.7.5"
+          ]
+        }
+      ],
+      "required_unknowns": [],
+      "calculations": []
+    },
+    {
+      "scenario_id": "ward-mass-bottom",
+      "domain": "rules",
+      "as_of": "2026-10-04",
+      "prompt": "My Under the Sea resolves against two opposing Ward characters: Scuttle Birdbrained has current strength two after a modifier; Hades Meticulous Schemer still has strength five. Which leaves play?",
+      "context": {},
+      "reference_claims": [
+        {
+          "key": "bottom_scuttle",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews",
+            "cr-8.15.1"
+          ]
+        },
+        {
+          "key": "bottom_hades",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews"
+          ]
+        }
+      ],
+      "required_unknowns": [],
+      "calculations": []
+    },
+    {
+      "scenario_id": "duo-inherited-state",
+      "domain": "rules",
+      "as_of": "2026-10-04",
+      "prompt": "I Duo Shift Adventuring Duo over a dry, ready Mickey and a drying, exerted Minnie. There is no readying effect or Rush. Can the Duo quest, challenge, or sing immediately?",
+      "context": {},
+      "reference_claims": [
+        {
+          "key": "duo_state",
+          "value": "drying_and_exerted",
+          "classification": "official_fact",
+          "sources": [
+            "cr-8.10.4.2"
+          ]
+        },
+        {
+          "key": "quest_challenge_sing_now",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "cr-1.7.5",
+            "cr-8.10.4.2"
+          ]
+        }
+      ],
+      "required_unknowns": [],
+      "calculations": []
+    },
+    {
+      "scenario_id": "singer-team-contribution",
+      "domain": "rules",
+      "as_of": "2026-10-04",
+      "prompt": "For Under the Sea, I have a dry ready Singer 3 and Singer 4, and a dry ready ordinary one-cost character. My opponent in free-for-all also has a five-cost character. Can the first two sing it, can all three, and can the opponent contribute?",
+      "context": {
+        "free_for_all": true,
+        "all_my_characters_ready_and_dry": true
+      },
+      "reference_claims": [
+        {
+          "key": "first_two_enough",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "cr-8.11.1",
+            "cr-8.12.1"
+          ]
+        },
+        {
+          "key": "my_three_enough",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "cr-8.11.1",
+            "cr-8.12.1"
+          ]
+        },
+        {
+          "key": "opponent_can_contribute",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "cr-8.12.1"
+          ]
+        }
+      ],
+      "required_unknowns": [],
+      "calculations": []
+    },
+    {
+      "scenario_id": "empty-deck-recovery-window",
+      "domain": "rules",
+      "as_of": "2026-10-04",
+      "prompt": "During my own main phase my deck becomes empty. I have a legal effect that can put a card back into it before ending my turn. Have I already lost?",
+      "context": {},
+      "reference_claims": [
+        {
+          "key": "immediate_loss",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "cr-1.8.1.2"
+          ]
+        },
+        {
+          "key": "own_turn_ends_empty_loses",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "cr-1.8.1.2"
+          ]
+        }
+      ],
+      "required_unknowns": [],
+      "calculations": []
+    },
+    {
+      "scenario_id": "move-damage-resist",
+      "domain": "rules",
+      "as_of": "2026-10-04",
+      "prompt": "An effect moves two damage from my character to an opposing character with Resist +1. No replacement prevents moving damage. Does it receive one or two, and is this dealing damage?",
+      "context": {},
+      "reference_claims": [
+        {
+          "key": "damage_received",
+          "value": 2,
+          "classification": "official_fact",
+          "sources": [
+            "cr-1.9.2.4",
+            "cr-8.8.1"
+          ]
+        },
+        {
+          "key": "counts_as_dealing_damage",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "cr-1.9.2.1",
+            "cr-1.9.2.2",
+            "cr-1.9.2.4"
+          ]
+        }
+      ],
+      "required_unknowns": [],
+      "calculations": []
+    },
+    {
+      "scenario_id": "dale-current-willpower",
+      "domain": "rules",
+      "as_of": "2026-10-04",
+      "prompt": "Dale is in play. My Thomas has printed willpower four, a +2 willpower modifier and two damage. It challenges an exerted opposing character with strength three and willpower five, with no other modifiers. How much does Thomas deal, and who survives?",
+      "context": {},
+      "reference_claims": [
+        {
+          "key": "thomas_damage_dealt",
+          "value": 6,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews"
+          ]
+        },
+        {
+          "key": "thomas_survives",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews",
+            "cr-1.8.1.4"
+          ]
+        },
+        {
+          "key": "opposing_character_banished",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews",
+            "cr-1.8.1.4"
+          ]
+        }
+      ],
+      "required_unknowns": [],
+      "calculations": []
+    },
+    {
+      "scenario_id": "elinor-unused-pluto-discount",
+      "domain": "gameplay",
+      "as_of": "2026-10-04",
+      "prompt": "I have Elinor, exactly two exerted characters, and a dry ready Pluto Friendly Pooch. I can legally end my turn after activating Pluto and will play no further character. Can that create the third exerted character for Elinor?",
+      "context": {
+        "opposing_character_available": true,
+        "no_other_effects": true
+      },
+      "reference_claims": [
+        {
+          "key": "pluto_activation_legal",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews",
+            "cr-1.7.5"
+          ]
+        },
+        {
+          "key": "elinor_threshold_reached",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews"
+          ]
+        },
+        {
+          "key": "line_requires_cost_comparison",
+          "value": true,
+          "classification": "strategic_inference",
+          "sources": [
+            "review-plans"
+          ]
+        }
+      ],
+      "required_unknowns": [],
+      "calculations": []
+    },
+    {
+      "scenario_id": "peacekeeper-after-challenge",
+      "domain": "rules",
+      "as_of": "2026-10-04",
+      "prompt": "I already challenged with one of my characters this turn. I now legally Shift Pocahontas Peacekeeper. Does her Calming Words stop further challenges, and does it stop quests?",
+      "context": {},
+      "reference_claims": [
+        {
+          "key": "challenge_lock_applies",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews"
+          ]
+        },
+        {
+          "key": "quests_prohibited",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews"
+          ]
+        }
+      ],
+      "required_unknowns": [],
+      "calculations": []
+    },
+    {
+      "scenario_id": "duo-banish-stack",
+      "domain": "rules",
+      "as_of": "2026-10-04",
+      "prompt": "My Adventuring Duo has exactly the two named base cards under it and no additional tucked cards. It would be banished. Where do the three cards go?",
+      "context": {},
+      "reference_claims": [
+        {
+          "key": "cards_into_inkwell",
+          "value": 3,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews",
+            "cr-8.10.7"
+          ]
+        },
+        {
+          "key": "ink_state",
+          "value": "facedown_and_exerted",
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews"
+          ]
+        },
+        {
+          "key": "cards_into_discard",
+          "value": 0,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews",
+            "cr-8.10.7"
+          ]
+        }
+      ],
+      "required_unknowns": [],
+      "calculations": []
+    },
+    {
+      "scenario_id": "free-evolution-drying",
+      "domain": "rules",
+      "as_of": "2026-10-04",
+      "prompt": "Retro Evolution Device banishes my dry three-cost character and lets me play a five-cost character for free. The new character has Shift but no Rush. Can I choose its Shift alternate cost or quest with it immediately?",
+      "context": {},
+      "reference_claims": [
+        {
+          "key": "may_use_shift_alternate",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "cr-6.1.7"
+          ]
+        },
+        {
+          "key": "new_character_drying",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews",
+            "cr-1.7.5"
+          ]
+        }
+      ],
+      "required_unknowns": [],
+      "calculations": []
+    },
+    {
+      "scenario_id": "hyperia-publication-legality",
+      "domain": "legality",
+      "as_of": "2026-10-04",
+      "prompt": "On October 4 I want to register new Hyperia identity Madam Mim Resourceful Trickster in Core. A friend says the API publication makes it legal and all old physical printings are rotated. Is either assertion right?",
+      "context": {},
+      "reference_claims": [
+        {
+          "key": "new_mim_core_legal_oct4",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "legality",
+            "hyperia-city"
+          ]
+        },
+        {
+          "key": "old_printing_legal_if_identity_reprinted",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "legality",
+            "tournament-rules-2026-07-14"
+          ]
+        }
+      ],
+      "required_unknowns": [
+        "future_policy_changes"
+      ],
+      "calculations": []
+    },
+    {
+      "scenario_id": "ban-list-versus-rotation",
+      "domain": "legality",
+      "as_of": "2026-10-04",
+      "prompt": "The October 4 Core banned list is empty. May I infer that Fortisphere is Core legal and that the Hiram Toymaker ban also applies to every format?",
+      "context": {},
+      "reference_claims": [
+        {
+          "key": "fortisphere_core_legal",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "legality",
+            "catalog"
+          ]
+        },
+        {
+          "key": "hiram_listed_ban_format",
+          "value": "infinity",
+          "classification": "official_fact",
+          "sources": [
+            "legality"
+          ]
+        },
+        {
+          "key": "empty_ban_list_overrides_rotation",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "legality"
+          ]
+        }
+      ],
+      "required_unknowns": [],
+      "calculations": []
+    },
+    {
+      "scenario_id": "conditional-observed-mulligan",
+      "domain": "probability",
+      "as_of": "2026-10-04",
+      "prompt": "A 60-card list has four target copies. My actual opening seven contains two targets. I return both targets plus one other card, keeping no target. What is the exact chance of finding a target among the three replacements?",
+      "context": {
+        "population": 60,
+        "successes": 4,
+        "opening_size": 7,
+        "opening_successes": 2,
+        "returned": 3,
+        "kept_successes": 0
+      },
+      "reference_claims": [
+        {
+          "key": "replacement_population",
+          "value": 53,
+          "classification": "calculation",
+          "sources": [
+            "cr-2.2.2.1"
+          ]
+        },
+        {
+          "key": "replacement_targets",
+          "value": 2,
+          "classification": "calculation",
+          "sources": [
+            "cr-2.2.2.1"
+          ]
+        },
+        {
+          "key": "exact_probability",
+          "value": "153/1378",
+          "classification": "calculation",
+          "sources": [
+            "cr-2.2.2.1"
+          ]
+        }
+      ],
+      "required_unknowns": [],
+      "calculations": [
+        {
+          "claim_key": "exact_probability",
+          "kind": "mulligan",
+          "arguments": [
+            60,
+            4,
+            7,
+            2,
+            3,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "scenario_id": "duo-access-versus-play",
+      "domain": "probability",
+      "as_of": "2026-10-04",
+      "prompt": "For the saved Baha list, calculate access to at least one Mickey base, one Minnie base and one Duo in a uniformly sampled seven. Does that measure an immediate playable or questing Duo?",
+      "context": {
+        "no_mulligan_or_card_effects": true
+      },
+      "reference_claims": [
+        {
+          "key": "group_counts",
+          "value": [
+            8,
+            12,
+            4
+          ],
+          "classification": "calculation",
+          "sources": [
+            "baha-deck",
+            "catalog"
+          ]
+        },
+        {
+          "key": "exact_probability",
+          "value": "8640176/48275865",
+          "classification": "calculation",
+          "sources": [
+            "baha-deck",
+            "catalog"
+          ]
+        },
+        {
+          "key": "measures_legal_quest_probability",
+          "value": false,
+          "classification": "calculation",
+          "sources": [
+            "baha-deck",
+            "cr-8.10.4.2"
+          ]
+        }
+      ],
+      "required_unknowns": [],
+      "calculations": [
+        {
+          "claim_key": "exact_probability",
+          "kind": "disjoint_joint",
+          "arguments": [
+            60,
+            [
+              8,
+              12,
+              4
+            ],
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "scenario_id": "nani-remaining-deck",
+      "domain": "probability",
+      "as_of": "2026-10-04",
+      "prompt": "The saved Elinor list has 39 characters costing two or less. Fifteen known cards have left my deck, eleven of them eligible Nani targets, leaving 45 cards. What is top-four target access? Mike also reveals my top card: is a character guaranteed if one remains?",
+      "context": {
+        "unknown_order_uniform_for_nani": true,
+        "remaining_deck_all_characters": true
+      },
+      "reference_claims": [
+        {
+          "key": "remaining_nani_targets",
+          "value": 28,
+          "classification": "calculation",
+          "sources": [
+            "elinor-deck",
+            "catalog"
+          ]
+        },
+        {
+          "key": "nani_exact_probability",
+          "value": "4189/4257",
+          "classification": "calculation",
+          "sources": [
+            "elinor-deck",
+            "catalog"
+          ]
+        },
+        {
+          "key": "mike_own_character_if_card_remains",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews",
+            "elinor-deck"
+          ]
+        },
+        {
+          "key": "mike_opponent_also_reveals",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews"
+          ]
+        }
+      ],
+      "required_unknowns": [],
+      "calculations": [
+        {
+          "claim_key": "nani_exact_probability",
+          "kind": "access",
+          "arguments": [
+            45,
+            28,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "scenario_id": "player-view-immediate-win",
+      "domain": "gameplay",
+      "as_of": "2026-10-04",
+      "prompt": "I have 18 lore, a dry ready character with two lore, and no pending triggers or relevant prohibitions. The opponent has two unknown cards in hand. Compare questing now with spending my turn disrupting a guessed card.",
+      "context": {
+        "no_effect_changes_lore_gain": true,
+        "ordinary_two_player_game": true
+      },
+      "reference_claims": [
+        {
+          "key": "quest_reaches_twenty",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "cr-1.8.1.1"
+          ]
+        },
+        {
+          "key": "unknown_hand_identity_is_known",
+          "value": false,
+          "classification": "strategic_inference",
+          "sources": [
+            "cr-7.3.1"
+          ]
+        },
+        {
+          "key": "recommended_line",
+          "value": "quest_now",
+          "classification": "strategic_inference",
+          "sources": [
+            "cr-1.8.1.1"
+          ]
+        }
+      ],
+      "required_unknowns": [
+        "opponent_hand_identities"
+      ],
+      "calculations": []
+    },
+    {
+      "scenario_id": "event-publication-denominator",
+      "domain": "evidence",
+      "as_of": "2026-10-04",
+      "prompt": "The selected Game Grid sample has six exact lists. Its official roster has 95 players while Hunter exposes 96 standings records. Can I estimate global metashare or a matchup win rate from the six list finishes?",
+      "context": {},
+      "reference_claims": [
+        {
+          "key": "official_registered_entrants",
+          "value": 95,
+          "classification": "empirical_observation",
+          "sources": [
+            "events"
+          ]
+        },
+        {
+          "key": "selected_game_grid_lists",
+          "value": 6,
+          "classification": "empirical_observation",
+          "sources": [
+            "events"
+          ]
+        },
+        {
+          "key": "global_metashare_supported",
+          "value": false,
+          "classification": "insufficient_evidence",
+          "sources": [
+            "events"
+          ]
+        },
+        {
+          "key": "matchup_win_rate_supported",
+          "value": false,
+          "classification": "insufficient_evidence",
+          "sources": [
+            "events"
+          ]
+        }
+      ],
+      "required_unknowns": [
+        "complete_same_format_field_lists",
+        "complete_paired_game_results",
+        "independent_final_standings"
+      ],
+      "calculations": []
+    },
+    {
+      "scenario_id": "balanced-owned-interaction-test",
+      "domain": "deckbuilding",
+      "as_of": "2026-10-04",
+      "prompt": "For the saved Mickey & Minnie list, implement a two-copy Chernabog test. Give cuts, revised size and uninkable count, ownership and the removal tradeoff.",
+      "context": {},
+      "reference_claims": [
+        {
+          "key": "changes",
+          "value": {
+            "Dr. Bushroot - Evil Botanist": -2,
+            "Chernabog - Unnatural Force": 2
+          },
+          "classification": "strategic_inference",
+          "sources": [
+            "review-plans",
+            "baha-deck",
+            "profiles"
+          ]
+        },
+        {
+          "key": "revised_size",
+          "value": 60,
+          "classification": "calculation",
+          "sources": [
+            "review-plans",
+            "baha-deck",
+            "catalog"
+          ]
+        },
+        {
+          "key": "revised_uninkable",
+          "value": 10,
+          "classification": "calculation",
+          "sources": [
+            "review-plans",
+            "baha-deck",
+            "catalog"
+          ]
+        },
+        {
+          "key": "owned_chernabog_copies",
+          "value": 3,
+          "classification": "empirical_observation",
+          "sources": [
+            "collection",
+            "catalog"
+          ]
+        },
+        {
+          "key": "opponent_may_play_discard_character_free",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "catalog",
+            "card-reviews"
+          ]
+        }
+      ],
+      "required_unknowns": [
+        "measured_candidate_matchup_advantage"
+      ],
+      "calculations": []
+    },
+    {
+      "scenario_id": "simultaneous-collection-allocation",
+      "domain": "collection",
+      "as_of": "2026-10-04",
+      "prompt": "Both saved baseline decks need Mushu. Can I assemble them simultaneously from the September export by adding their separate missing counts, nine and 27?",
+      "context": {},
+      "reference_claims": [
+        {
+          "key": "combined_missing_copies",
+          "value": 37,
+          "classification": "calculation",
+          "sources": [
+            "elinor-deck",
+            "baha-deck",
+            "collection",
+            "catalog"
+          ]
+        },
+        {
+          "key": "independent_missing_sum_sufficient",
+          "value": false,
+          "classification": "calculation",
+          "sources": [
+            "elinor-deck",
+            "baha-deck",
+            "collection",
+            "catalog"
+          ]
+        }
+      ],
+      "required_unknowns": [
+        "inventory_changes_since_september15"
+      ],
+      "calculations": []
+    },
+    {
+      "scenario_id": "foil-fifth-copy",
+      "domain": "deckbuilding",
+      "as_of": "2026-10-04",
+      "prompt": "I add a fifth Bobby Spray Cheese Kid, using a foil instead of a regular finish, to the saved 60-card Elinor list and remove nothing. Is this allowed?",
+      "context": {},
+      "reference_claims": [
+        {
+          "key": "new_deck_size",
+          "value": 61,
+          "classification": "calculation",
+          "sources": [
+            "elinor-deck"
+          ]
+        },
+        {
+          "key": "full_name_copy_count",
+          "value": 5,
+          "classification": "calculation",
+          "sources": [
+            "elinor-deck",
+            "catalog"
+          ]
+        },
+        {
+          "key": "foil_bypasses_copy_limit",
+          "value": false,
+          "classification": "official_fact",
+          "sources": [
+            "tournament-rules-2026-07-14",
+            "catalog"
+          ]
+        },
+        {
+          "key": "passes_supported_checks",
+          "value": false,
+          "classification": "calculation",
+          "sources": [
+            "elinor-deck",
+            "catalog"
+          ]
+        }
+      ],
+      "required_unknowns": [],
+      "calculations": []
+    },
+    {
+      "scenario_id": "belle-lorcana-continuity",
+      "domain": "lore",
+      "as_of": "2026-10-04",
+      "prompt": "In When Hope Rose Transformed, does the Belle glimmer obtaining a rose lantern prove the Disney film canon changed? State the Lorcana event and the continuity boundary.",
+      "context": {},
+      "reference_claims": [
+        {
+          "key": "lorcana_rose_becomes_lantern",
+          "value": true,
+          "classification": "official_fact",
+          "sources": [
+            "story-belle"
+          ]
+        },
+        {
+          "key": "film_continuity_change_proved",
+          "value": false,
+          "classification": "insufficient_evidence",
+          "sources": [
+            "story-belle",
+            "story-first-chapter"
+          ]
+        }
+      ],
+      "required_unknowns": [
+        "any_unprovided_primary_film_continuity_evidence"
+      ],
+      "calculations": []
+    },
+    {
+      "scenario_id": "absent-hyperia-price",
+      "domain": "providers",
+      "as_of": "2026-10-04",
+      "prompt": "The Hyperia price lookup has no matching quote for my desired physical variant. Does that mean the card is free? Can the September inventory export establish today’s purchase total?",
+      "context": {},
+      "reference_claims": [
+        {
+          "key": "missing_quote_means_zero",
+          "value": false,
+          "classification": "insufficient_evidence",
+          "sources": [
+            "provider-coverage"
+          ]
+        },
+        {
+          "key": "inventory_proves_current_price",
+          "value": false,
+          "classification": "insufficient_evidence",
+          "sources": [
+            "provider-coverage",
+            "collection"
+          ]
+        }
+      ],
+      "required_unknowns": [
+        "matching_current_variant_quote",
+        "current_stock_and_shipping"
+      ],
+      "calculations": []
+    },
+    {
+      "scenario_id": "quest-booklet-boundary",
+      "domain": "cooperative",
+      "as_of": "2026-10-04",
+      "prompt": "I am playing an Illumineer’s Quest boss encounter and only supplied a picture of a boss card. Can you determine its entire boss turn and difficulty-specific victory condition from ordinary Core rules?",
+      "context": {
+        "product_and_difficulty_unconfirmed": true
+      },
+      "reference_claims": [
+        {
+          "key": "core_rules_alone_sufficient",
+          "value": false,
+          "classification": "insufficient_evidence",
+          "sources": [
+            "source-gaps"
+          ]
+        },
+        {
+          "key": "needs_exact_product_booklet",
+          "value": true,
+          "classification": "insufficient_evidence",
+          "sources": [
+            "source-gaps"
+          ]
+        }
+      ],
+      "required_unknowns": [
+        "exact_product",
+        "difficulty",
+        "official_scenario_booklet"
+      ],
+      "calculations": []
+    }
+  ]
+}

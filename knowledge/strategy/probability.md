@@ -35,7 +35,9 @@ deck with kept and replacement cards excluded. (CR 2.2.2.)
 
 An unconditional mulligan rate requires enumerating opening-hand category counts,
 applying a stated keep policy, calculating replacement outcomes, and then combining
-their weighted probabilities. The simple CLI does not implement that full model.
+their weighted probabilities. The CLI does not implement that unconditional model.
+Its separate `mulligan` command computes conditional target access for a specified
+observed hand; see [the deck-review workflow](deck-review-workflow.md) for examples.
 Never describe drawing fourteen cards as the Lorcana mulligan model.
 
 ## Multiple packages and resources

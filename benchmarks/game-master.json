@@ -1143,18 +1143,19 @@
       ]
     },
     {
-      "case_id": "boundary-gateway-progression",
+      "case_id": "gateway-progression",
       "kind": "answer",
       "domain": "learning",
       "topic": "gateway-progression",
-      "expected_status": "insufficient_evidence",
+      "expected_status": "supported",
       "required_claims": [
-        "booklet is missing"
+        "songs",
+        "66-card"
       ],
-      "reference_answer": "booklet is missing",
+      "reference_answer": "Four sourced teaching gates; finish game before reward pack",
       "expected_sources": [
         [
-          "project-knowledge-guides-learning.md",
+          "gateway-guidebook",
           null
         ]
       ]
@@ -1266,14 +1267,14 @@
       "kind": "answer",
       "domain": "lore",
       "topic": "story-canon",
-      "expected_status": "insufficient_evidence",
+      "expected_status": "supported",
       "required_claims": [
         "distinguished"
       ],
       "reference_answer": "distinguished",
       "expected_sources": [
         [
-          "project-knowledge-guides-story-and-lore.md",
+          "story-first-chapter",
           null
         ]
       ]
@@ -1618,6 +1619,160 @@
         "No."
       ],
       "reference_answer": "Reviewed literal question lookup"
+    },
+    {
+      "case_id": "gateway-first-game",
+      "kind": "answer",
+      "domain": "learning",
+      "topic": "gateway-first-game",
+      "expected_status": "supported",
+      "required_claims": [
+        "30-card"
+      ],
+      "reference_answer": "Use the supplied 30-card decks without shuffling before the first game; draw the illustrated seven-card hands. After that game, shuffle and follow the Guidebook.",
+      "expected_sources": [
+        [
+          "gateway-rules",
+          null
+        ]
+      ]
+    },
+    {
+      "case_id": "gateway-current-rules",
+      "kind": "answer",
+      "domain": "learning",
+      "topic": "gateway-current-rules",
+      "expected_status": "supported",
+      "required_claims": [
+        "end of"
+      ],
+      "reference_answer": "The older Gateway sheet loses on a required draw. Current CR 1.8.1.2 instead checks an empty deck at the end of its owner’s turn. Use current comprehensive rules for ordinary constructed play.",
+      "expected_sources": [
+        [
+          "gateway-rules",
+          null
+        ]
+      ]
+    },
+    {
+      "case_id": "lore-glimmers",
+      "kind": "answer",
+      "domain": "lore",
+      "topic": "lore-glimmers",
+      "expected_status": "supported",
+      "required_claims": [
+        "inkcaster"
+      ],
+      "reference_answer": "A glimmer is a Lorcana version of a Disney character or item, summoned using an inkcaster, magical ink and story-star light through a lorebook.",
+      "expected_sources": [
+        [
+          "story-first-chapter",
+          null
+        ]
+      ]
+    },
+    {
+      "case_id": "lore-floodborn",
+      "kind": "answer",
+      "domain": "lore",
+      "topic": "lore-floodborn",
+      "expected_status": "supported",
+      "required_claims": [
+        "mixed-ink"
+      ],
+      "reference_answer": "A volatile mixed-ink flood through the Great Illuminary transformed storyborn and dreamborn glimmers into floodborn with unpredictable new forms and power. This narrative does not establish that every Floodborn card has Shift.",
+      "expected_sources": [
+        [
+          "story-floodborn",
+          null
+        ]
+      ]
+    },
+    {
+      "case_id": "lore-belle",
+      "kind": "answer",
+      "domain": "lore",
+      "topic": "lore-belle",
+      "expected_status": "supported",
+      "required_claims": [
+        "rose lantern"
+      ],
+      "reference_answer": "Trying to help Beast, Belle retrieves the rose from mixed ink and emerges with a blue cloak and rose lantern. The story gives her a new means to heal Beast; it is a Lorcana narrative.",
+      "expected_sources": [
+        [
+          "story-belle",
+          null
+        ]
+      ]
+    },
+    {
+      "case_id": "lore-ursula-investigation",
+      "kind": "answer",
+      "domain": "lore",
+      "topic": "lore-ursula-investigation",
+      "expected_status": "supported",
+      "required_claims": [
+        "Shanzay"
+      ],
+      "reference_answer": "Shanzay, Martin and Venturo investigate Ursula’s control of entangled glimmers, including Minnie. Reaching a glimmer’s sense of self provides a temporary opening against that control. This is narrative evidence, not a gameplay rule.",
+      "expected_sources": [
+        [
+          "story-storm",
+          null
+        ]
+      ]
+    },
+    {
+      "case_id": "lore-crown-fragment",
+      "kind": "answer",
+      "domain": "lore",
+      "topic": "lore-crown-fragment",
+      "expected_status": "supported",
+      "required_claims": [
+        "Hexwell Crown"
+      ],
+      "reference_answer": "The group retrieves a fractured Hexwell Crown from Ursula’s abandoned lair and returns it to the Hall of Lorcana. Venturo reinforces its protection, with Sleepy and Kronk assigned to guard it. This answer contains Ursula-arc outcome spoilers.",
+      "expected_sources": [
+        [
+          "story-epilogue",
+          null
+        ]
+      ]
+    },
+    {
+      "case_id": "provider-data-boundary",
+      "kind": "answer",
+      "domain": "research",
+      "topic": "provider-data-boundary",
+      "expected_status": "supported",
+      "required_claims": [
+        "separate"
+      ],
+      "reference_answer": "Supplemental provider data stays separate from official authority. Reconcile printing identifiers, fields and dates; review discrepancies. Missing price fields remain unknown, and provider legality flags do not update our policy.",
+      "expected_sources": [
+        [
+          "project-knowledge-method-providers.md",
+          null
+        ]
+      ]
+    },
+    {
+      "case_id": "collection-quest",
+      "kind": "answer",
+      "domain": "collection",
+      "topic": "collection-quest",
+      "expected_status": "supported",
+      "required_claims": [
+        "three boosters",
+        "distinct"
+      ],
+      "reference_answer": "A Collection Quest is a collaborative collecting and trading activity. The organizer provides a Quest Card, three boosters matching its set, and a promo or reward. Exact collection goals come from the Quest Card; it is distinct from an Illumineer’s Quest boss encounter.",
+      "expected_sources": [
+        [
+          "collection-quest-organizer",
+          null
+        ]
+      ]
     }
   ]
 }

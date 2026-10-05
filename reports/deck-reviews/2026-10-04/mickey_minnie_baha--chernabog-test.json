@@ -1,0 +1,94 @@
+{
+  "name": "Mickey & Minnie — two-copy Chernabog test",
+  "as_of": "2026-10-04",
+  "format": "core",
+  "classification": "strategic_inference",
+  "parent_sha256": "69f0d81aadeb421e7b3faeb18b53404963a7ec953d19d4128f160f9c50b0a52e",
+  "cards": [
+    {
+      "identity_id": "3b0e8334ac0212cfffe798056686d118756c12f3",
+      "full_name": "Minnie Mouse - Curious Adventurer",
+      "quantity": 4
+    },
+    {
+      "identity_id": "164a897757ef09cdbcfbd9297c439bef7067dd54",
+      "full_name": "Minnie Mouse - Practical Traveler",
+      "quantity": 4
+    },
+    {
+      "identity_id": "132fe371ee1996c1db47f7b3f11e121247269425",
+      "full_name": "Mickey Mouse - Bob Cratchit",
+      "quantity": 4
+    },
+    {
+      "identity_id": "6725c8eed5b1da959eb350f6c3be592e925ce635",
+      "full_name": "Minnie Mouse - Spinning Skater",
+      "quantity": 4
+    },
+    {
+      "identity_id": "e41d63dec20f63664cf1d0fa42b721e0f7d72447",
+      "full_name": "Strike A Good Match",
+      "quantity": 4
+    },
+    {
+      "identity_id": "f6d5d539a411651374ae418f08e3d379fcb13ff5",
+      "full_name": "Mickey Mouse - Detective",
+      "quantity": 4
+    },
+    {
+      "identity_id": "1c83fd32d4a179f9672af28642b26fba727cb8a8",
+      "full_name": "Mushu - Stealthy Dragon",
+      "quantity": 4
+    },
+    {
+      "identity_id": "d4b995ae6e9058a22b8f025d86e5606e0f4b410c",
+      "full_name": "Tod - Clever Fox",
+      "quantity": 4
+    },
+    {
+      "identity_id": "754975b423fd73f951d33d2a0b695136a1c5e3b8",
+      "full_name": "Donald Duck - Perfect Gentleman",
+      "quantity": 4
+    },
+    {
+      "identity_id": "fd724083e2069df469f091f2de49668e332dad3f",
+      "full_name": "Chernabog - Unnatural Force",
+      "quantity": 2
+    },
+    {
+      "identity_id": "5fceee195609a118cf899d396da71d7bef49b8b1",
+      "full_name": "Dr. Bushroot - Evil Botanist",
+      "quantity": 2
+    },
+    {
+      "identity_id": "8ded4e32f6390106d15d72e5aab8aa2ebd2b2963",
+      "full_name": "Scuttle - Birdbrained",
+      "quantity": 4
+    },
+    {
+      "identity_id": "83ae92739e6a362a7d610972a8e1d9ba8a64006a",
+      "full_name": "Hades - Meticulous Schemer",
+      "quantity": 4
+    },
+    {
+      "identity_id": "89f9ee7889da4ebacb49419bd4b8dae4220a5c7c",
+      "full_name": "Hades - Infernal Schemer",
+      "quantity": 2
+    },
+    {
+      "identity_id": "18946699cef53f88e95079513efd6645e23daf3c",
+      "full_name": "Mickey Mouse & Minnie Mouse - Adventuring Duo",
+      "quantity": 4
+    },
+    {
+      "identity_id": "9fa7b16fb37ecae141b2538615e97ce845b0026e",
+      "full_name": "Milo Thatch - Getting His Hands Dirty",
+      "quantity": 4
+    },
+    {
+      "identity_id": "e81fec386fd1647801df51920cfaf2d60ad090b5",
+      "full_name": "Under the Sea",
+      "quantity": 2
+    }
+  ]
+}

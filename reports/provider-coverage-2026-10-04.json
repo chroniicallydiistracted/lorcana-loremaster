@@ -1,0 +1,427 @@
+{
+  "snapshot_date": "2026-10-04",
+  "report_timezone": "America/Phoenix",
+  "scope": "Observed payloads; not a text adjudication, purchase quote or provider-wide completeness claim.",
+  "citations": [
+    {
+      "provider_id": "lorcast",
+      "endpoint_id": "hyperia-cards",
+      "url": "https://api.lorcast.com/v0/sets/14/cards",
+      "resolved_url": "https://api.lorcast.com/v0/sets/14/cards",
+      "retrieved_at": "2026-10-05T02:06:52.367310+00:00",
+      "authority": "supplemental_provider_data",
+      "sha256": "f49d554d3d4450cad27e4c3f4d99ef3487ce15b953a8aae22e66e0851914deba",
+      "path": "sources/providers/lorcast/f49d554d3d4450cad27e4c3f4d99ef3487ce15b953a8aae22e66e0851914deba.json",
+      "rows": 206,
+      "upstream_update_time": null,
+      "status": "downloaded"
+    },
+    {
+      "provider_id": "tcgcsv",
+      "endpoint_id": "hyperia-products",
+      "url": "https://tcgcsv.com/tcgplayer/71/24740/products",
+      "resolved_url": "https://tcgcsv.com/tcgplayer/71/24740/products",
+      "retrieved_at": "2026-10-05T02:11:29.041290+00:00",
+      "authority": "supplemental_provider_data",
+      "sha256": "7bd21020bbef1a62af3615e8a15f477d20941080e33f4ea957986346ecc7ed59",
+      "path": "sources/providers/tcgcsv/7bd21020bbef1a62af3615e8a15f477d20941080e33f4ea957986346ecc7ed59.json",
+      "rows": 9,
+      "upstream_update_time": null,
+      "status": "downloaded"
+    },
+    {
+      "provider_id": "tcgcsv",
+      "endpoint_id": "hyperia-prices",
+      "url": "https://tcgcsv.com/tcgplayer/71/24740/prices",
+      "resolved_url": "https://tcgcsv.com/tcgplayer/71/24740/prices",
+      "retrieved_at": "2026-10-05T02:11:29.236993+00:00",
+      "authority": "supplemental_provider_data",
+      "sha256": "4dddaae4498ff72213c2903e52cbd734bf467b7c0e9464f31f4b770dd4bf9a4f",
+      "path": "sources/providers/tcgcsv/4dddaae4498ff72213c2903e52cbd734bf467b7c0e9464f31f4b770dd4bf9a4f.json",
+      "rows": 8,
+      "upstream_update_time": null,
+      "status": "downloaded"
+    }
+  ],
+  "lorcast": {
+    "printing_rows": 206,
+    "local_printed_set_14_rows": 216,
+    "base_numbers_present": 204,
+    "base_numbers_missing": [],
+    "matched_printings": 206,
+    "unmatched_numbers": [],
+    "local_numbers_absent_from_provider": [
+      "205",
+      "208",
+      "211",
+      "214",
+      "216",
+      "219",
+      "222",
+      "228",
+      "229",
+      "240"
+    ],
+    "name_stat_ink_differences": [
+      {
+        "collector_number": "20",
+        "field": "name",
+        "provider_value": "Russel",
+        "local_value": "Russell"
+      },
+      {
+        "collector_number": "42",
+        "field": "name",
+        "provider_value": "Tia Victoria",
+        "local_value": "Tía Victoria"
+      },
+      {
+        "collector_number": "51",
+        "field": "name",
+        "provider_value": "Mama Imelda",
+        "local_value": "Mamá Imelda"
+      },
+      {
+        "collector_number": "68",
+        "field": "subtitle",
+        "provider_value": "Magical Markey",
+        "local_value": "Magical Market"
+      },
+      {
+        "collector_number": "68",
+        "field": "lore",
+        "provider_value": null,
+        "local_value": 0
+      }
+    ],
+    "null_empty_subtitle_representation_differences": [
+      {
+        "collector_number": "27",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "28",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "29",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "30",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "31",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "32",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "33",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "60",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "61",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "62",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "63",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "64",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "65",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "66",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "67",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "94",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "95",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "96",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "97",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "98",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "99",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "100",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "101",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "128",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "129",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "130",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "131",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "132",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "133",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "134",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "162",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "163",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "164",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "165",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "166",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "167",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "168",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "169",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "197",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "198",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "199",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "200",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "201",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      },
+      {
+        "collector_number": "202",
+        "field": "subtitle",
+        "provider_value": null,
+        "local_value": ""
+      }
+    ],
+    "rows_with_price_values": 0,
+    "text_review": "Not compared semantically; differing symbol/reminder/story-name encoding needs review."
+  },
+  "tcgcsv": {
+    "category_id": 71,
+    "group_id": 24740,
+    "product_rows": 9,
+    "price_rows": 8,
+    "single_card_number_metadata_rows": 0,
+    "products": [
+      {
+        "product_id": 706239,
+        "name": "Disney Lorcana: Hyperia City Booster Box",
+        "presale": true
+      },
+      {
+        "product_id": 706240,
+        "name": "Disney Lorcana: Hyperia City Booster Box Case",
+        "presale": true
+      },
+      {
+        "product_id": 706241,
+        "name": "Disney Lorcana: Hyperia City Booster Pack",
+        "presale": true
+      },
+      {
+        "product_id": 706242,
+        "name": "Disney Lorcana: Hyperia City Sleeved Booster Pack",
+        "presale": true
+      },
+      {
+        "product_id": 706243,
+        "name": "Disney Lorcana: Hyperia City Illumineer's Trove",
+        "presale": true
+      },
+      {
+        "product_id": 706244,
+        "name": "Disney Lorcana: Hyperia City Illumineer's Trove Case",
+        "presale": true
+      },
+      {
+        "product_id": 717854,
+        "name": "Disney Lorcana: Hyperia City 2-Player Starter Set",
+        "presale": true
+      },
+      {
+        "product_id": 717855,
+        "name": "Disney Lorcana: Hyperia City 2-Player Starter Set Case",
+        "presale": true
+      },
+      {
+        "product_id": 719729,
+        "name": "Disney Lorcana: Hyperia City Gift Box - Beast",
+        "presale": true
+      }
+    ],
+    "orphan_price_product_ids": [],
+    "products_without_price_rows": [
+      706242
+    ],
+    "individual_card_prices_available": false,
+    "upstream_price_update_time": null,
+    "condition_language_sku_data": false
+  }
+}

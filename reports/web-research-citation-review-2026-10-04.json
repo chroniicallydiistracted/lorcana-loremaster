@@ -1,0 +1,59 @@
+{
+  "checked_at": "2026-10-04",
+  "new_fact_ids": [
+    "gateway-first-game",
+    "gateway-current-rules",
+    "lore-glimmers",
+    "lore-floodborn",
+    "lore-belle",
+    "lore-ursula-investigation",
+    "lore-crown-fragment",
+    "provider-data-boundary",
+    "collection-quest"
+  ],
+  "changed_claims": [
+    "gateway-progression",
+    "story-canon"
+  ],
+  "unchanged_claims_revalidated": [
+    {
+      "fact_id": "hyperia-meta",
+      "path": "knowledge/method/research.md",
+      "review": "Existing boundary/method claim rechecked after additive guide enrichment; claim remains supported."
+    },
+    {
+      "fact_id": "current-price",
+      "path": "knowledge/guides/collection-and-products.md",
+      "review": "Existing boundary/method claim rechecked after additive guide enrichment; claim remains supported."
+    },
+    {
+      "fact_id": "pack-odds",
+      "path": "knowledge/guides/collection-and-products.md",
+      "review": "Existing boundary/method claim rechecked after additive guide enrichment; claim remains supported."
+    },
+    {
+      "fact_id": "collection-variants",
+      "path": "knowledge/guides/collection-and-products.md",
+      "review": "Existing boundary/method claim rechecked after additive guide enrichment; claim remains supported."
+    },
+    {
+      "fact_id": "matchup-evidence",
+      "path": "knowledge/method/research.md",
+      "review": "Existing boundary/method claim rechecked after additive guide enrichment; claim remains supported."
+    },
+    {
+      "fact_id": "localized-corpus",
+      "path": "knowledge/COVERAGE.md",
+      "review": "Re-read English/localized identity and international coverage boundaries after source-count and Collection Quest additions. Localized names, regional releases and event terms still require their own verification.",
+      "previous_sha256": "9848027b277a933f8834bf463d7c28e1d2469366322ad1d3c53e27fd40fa7bdc",
+      "reviewed_sha256": "09a1da245636339377e7070532f96db32b72ac3bdafa469d9245170bc8a57efc"
+    },
+    {
+      "fact_id": "provider-data-boundary",
+      "path": "knowledge/method/providers.md",
+      "review": "Provider coverage boundary remains supported after adding cache-miss recovery instructions: exact printing/finish and dated observations still require reconciliation; no provider observation overrides official rules/text/policy.",
+      "previous_sha256": "1db33ee0dd2dbdfc9a9c8147b145bbe8457047f1f5a612981d3f046a617de3df",
+      "reviewed_sha256": "d695a4022c4e7a9b731e1788077096efdf54167c917ca89bb3073431129f75da"
+    }
+  ]
+}

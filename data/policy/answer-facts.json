@@ -1530,19 +1530,51 @@
       "questions": [
         "Can you give the exact Gateway unlock sequence?"
       ],
-      "answer": "The Gateway product page is available, but its complete progressive instruction booklet is missing. Retrieve it before asserting the unlock sequence.",
-      "classification": "insufficient_evidence",
+      "answer": "Gateway progression unlocks songs, then items and ability costs, then Floodborn/Shift, then complete 66-card decks. Complete each gate’s printed goals and finish the current game before opening its reward pack.",
+      "classification": "official_fact",
       "effective_from": "2026-10-04",
       "checked_at": "2026-10-04",
-      "region": "rules apply globally; source language English",
+      "region": "Original English Gateway edition, copyright 2024",
       "citations": [
         {
-          "source_id": "project-knowledge-guides-learning.md",
-          "sha256": "0d2af2a6ab12a0bdc2a0d07503ff79bcb34926cea5bfdbb706397b82e3207e3a",
-          "page": null,
-          "section": null,
-          "url": "knowledge/guides/learning.md",
-          "path": "knowledge/guides/learning.md"
+          "source_id": "gateway-guidebook",
+          "sha256": "4048fc37400ab35b3730e9651c9a5cf2f65b2c41a351a96c1cc35d0b0b4ba70c",
+          "url": "https://www.ravensburger.org/spielanleitungen/ecm/Spielanleitungen/241531_11098399_X_web.pdf",
+          "path": "sources/official/2026-10-04/gateway-guidebook-241531.pdf",
+          "page": 2,
+          "section": null
+        },
+        {
+          "source_id": "gateway-guidebook",
+          "sha256": "4048fc37400ab35b3730e9651c9a5cf2f65b2c41a351a96c1cc35d0b0b4ba70c",
+          "url": "https://www.ravensburger.org/spielanleitungen/ecm/Spielanleitungen/241531_11098399_X_web.pdf",
+          "path": "sources/official/2026-10-04/gateway-guidebook-241531.pdf",
+          "page": 4,
+          "section": null
+        },
+        {
+          "source_id": "gateway-guidebook",
+          "sha256": "4048fc37400ab35b3730e9651c9a5cf2f65b2c41a351a96c1cc35d0b0b4ba70c",
+          "url": "https://www.ravensburger.org/spielanleitungen/ecm/Spielanleitungen/241531_11098399_X_web.pdf",
+          "path": "sources/official/2026-10-04/gateway-guidebook-241531.pdf",
+          "page": 6,
+          "section": null
+        },
+        {
+          "source_id": "gateway-guidebook",
+          "sha256": "4048fc37400ab35b3730e9651c9a5cf2f65b2c41a351a96c1cc35d0b0b4ba70c",
+          "url": "https://www.ravensburger.org/spielanleitungen/ecm/Spielanleitungen/241531_11098399_X_web.pdf",
+          "path": "sources/official/2026-10-04/gateway-guidebook-241531.pdf",
+          "page": 8,
+          "section": null
+        },
+        {
+          "source_id": "gateway-guidebook",
+          "sha256": "4048fc37400ab35b3730e9651c9a5cf2f65b2c41a351a96c1cc35d0b0b4ba70c",
+          "url": "https://www.ravensburger.org/spielanleitungen/ecm/Spielanleitungen/241531_11098399_X_web.pdf",
+          "path": "sources/official/2026-10-04/gateway-guidebook-241531.pdf",
+          "page": 10,
+          "section": null
         }
       ]
     },
@@ -1552,7 +1584,7 @@
       "questions": [
         "Which Hyperia deck has the highest measured win rate?"
       ],
-      "answer": "There is no verified Set 14 matchup or field dataset here. September Set 13 observations cannot establish Hyperia win rates; evaluate proposed lists as strategic inference.",
+      "answer": "There is no verified Set 14 matchup or field dataset here. September and October 4 Set 13 observations cannot establish Hyperia win rates; evaluate proposed lists as strategic inference.",
       "classification": "insufficient_evidence",
       "effective_from": "2026-10-04",
       "checked_at": "2026-10-04",
@@ -1560,7 +1592,7 @@
       "citations": [
         {
           "source_id": "project-knowledge-method-research.md",
-          "sha256": "96ae222e0f66dc2d7edd2b537dd4987fa039e9195da9029f8ec52c533f7354b9",
+          "sha256": "dbbe3c3f2ccd6af505e65af835aa959d3369fbf5487d1767a71ba9242485c7c0",
           "page": null,
           "section": null,
           "url": "knowledge/method/research.md",
@@ -1582,7 +1614,7 @@
       "citations": [
         {
           "source_id": "project-knowledge-guides-collection-and-products.md",
-          "sha256": "04f5fc9a5af15c8e417e21d1ecf692c142d6d802e017f786b4ceb3f2a094f43a",
+          "sha256": "e8ac3ea2140ffe7d48e6f018fdb4b6d57737348de1dab0d8e113af06a6e8f2a5",
           "page": null,
           "section": null,
           "url": "knowledge/guides/collection-and-products.md",
@@ -1604,7 +1636,7 @@
       "citations": [
         {
           "source_id": "project-knowledge-guides-collection-and-products.md",
-          "sha256": "04f5fc9a5af15c8e417e21d1ecf692c142d6d802e017f786b4ceb3f2a094f43a",
+          "sha256": "e8ac3ea2140ffe7d48e6f018fdb4b6d57737348de1dab0d8e113af06a6e8f2a5",
           "page": null,
           "section": null,
           "url": "knowledge/guides/collection-and-products.md",
@@ -1670,7 +1702,7 @@
       "citations": [
         {
           "source_id": "project-knowledge-COVERAGE.md",
-          "sha256": "284ba2cffe6f79931b1cd191f752cc01bfc1cda760095c070d0649913fe2c418",
+          "sha256": "59907547a761010ae4435c20b5bd59dfa50f43ab84b83eed580425dcac433998",
           "page": null,
           "section": null,
           "url": "knowledge/COVERAGE.md",
@@ -1684,19 +1716,19 @@
       "questions": [
         "Is every Lorcana glimmer story identical to its Disney film?"
       ],
-      "answer": "Lorcana continuity must be distinguished from Disney film continuity. Attribute published narrative and flavor text; label connections and interpretations as inference.",
-      "classification": "insufficient_evidence",
+      "answer": "Lorcana continuity must be distinguished from Disney film continuity. A glimmer is a new version that exists in Lorcana, not an unchanged film character. Attribute published narrative and separate interpretations.",
+      "classification": "official_fact",
       "effective_from": "2026-10-04",
       "checked_at": "2026-10-04",
       "region": "rules apply globally; source language English",
       "citations": [
         {
-          "source_id": "project-knowledge-guides-story-and-lore.md",
-          "sha256": "7ee84fd084868f9274ead304b0891911e913f9a95baf0c9b438b3867a435e824",
+          "source_id": "story-first-chapter",
+          "sha256": "4c89a07b2f29bd748be150c1b2cc56cf47a8e80f16b20af1ea2a1a41ae85d7fc",
+          "url": "https://www.disneylorcana.com/en-US/story/magic",
+          "path": "sources/official/2026-10-04/story-first-chapter.html",
           "page": null,
-          "section": null,
-          "url": "knowledge/guides/story-and-lore.md",
-          "path": "knowledge/guides/story-and-lore.md"
+          "section": null
         }
       ]
     },
@@ -1714,7 +1746,7 @@
       "citations": [
         {
           "source_id": "project-knowledge-guides-collection-and-products.md",
-          "sha256": "04f5fc9a5af15c8e417e21d1ecf692c142d6d802e017f786b4ceb3f2a094f43a",
+          "sha256": "e8ac3ea2140ffe7d48e6f018fdb4b6d57737348de1dab0d8e113af06a6e8f2a5",
           "page": null,
           "section": null,
           "url": "knowledge/guides/collection-and-products.md",
@@ -1772,7 +1804,7 @@
       "questions": [
         "Does the draw calculator model mulligans?"
       ],
-      "answer": "No. Its exact hypergeometric model assumes uniform draws without replacement and no selection. Mulligans and search need their own conditional model.",
+      "answer": "No. The probability command assumes uniform draws without replacement and no selection. A separate mulligan command calculates conditional access for an actual observed hand and specified returns; it does not model an unconditional keep policy or full gameplay.",
       "classification": "project_method",
       "effective_from": "2026-10-04",
       "checked_at": "2026-10-04",
@@ -1780,7 +1812,7 @@
       "citations": [
         {
           "source_id": "project-knowledge-strategy-probability.md",
-          "sha256": "8a5b9b167be761cac3a3dd603797bcb38d863073e91970e181f5798beee197ff",
+          "sha256": "2b5db7f5d5617ebf25cd6d1ee2b585d11766169f936943c6ba00ea59064f4e22",
           "page": null,
           "section": null,
           "url": "knowledge/strategy/probability.md",
@@ -1802,11 +1834,233 @@
       "citations": [
         {
           "source_id": "project-knowledge-method-research.md",
-          "sha256": "96ae222e0f66dc2d7edd2b537dd4987fa039e9195da9029f8ec52c533f7354b9",
+          "sha256": "dbbe3c3f2ccd6af505e65af835aa959d3369fbf5487d1767a71ba9242485c7c0",
           "page": null,
           "section": null,
           "url": "knowledge/method/research.md",
           "path": "knowledge/method/research.md"
+        }
+      ]
+    },
+    {
+      "fact_id": "gateway-first-game",
+      "domain": "learning",
+      "questions": [
+        "How do I set up my first Gateway game?"
+      ],
+      "answer": "Use the supplied 30-card decks without shuffling before the first game; draw the illustrated seven-card hands. After that game, shuffle and follow the Guidebook.",
+      "classification": "official_fact",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "English sources; product-specific teaching or attributed Lorcana narrative",
+      "citations": [
+        {
+          "source_id": "gateway-rules",
+          "sha256": "36a180fef7a0e8ccc73dba880383998e7c6ba0f657ea9c7f8ddb3ab15e663bf0",
+          "url": "https://www.ravensburger.org/spielanleitungen/ecm/Spielanleitungen/241530_11098399_X_web.pdf",
+          "path": "sources/official/2026-10-04/gateway-rules.pdf",
+          "page": 2,
+          "section": null
+        },
+        {
+          "source_id": "gateway-rules",
+          "sha256": "36a180fef7a0e8ccc73dba880383998e7c6ba0f657ea9c7f8ddb3ab15e663bf0",
+          "url": "https://www.ravensburger.org/spielanleitungen/ecm/Spielanleitungen/241530_11098399_X_web.pdf",
+          "path": "sources/official/2026-10-04/gateway-rules.pdf",
+          "page": 3,
+          "section": null
+        },
+        {
+          "source_id": "gateway-rules",
+          "sha256": "36a180fef7a0e8ccc73dba880383998e7c6ba0f657ea9c7f8ddb3ab15e663bf0",
+          "url": "https://www.ravensburger.org/spielanleitungen/ecm/Spielanleitungen/241530_11098399_X_web.pdf",
+          "path": "sources/official/2026-10-04/gateway-rules.pdf",
+          "page": 11,
+          "section": null
+        }
+      ]
+    },
+    {
+      "fact_id": "gateway-current-rules",
+      "domain": "learning",
+      "questions": [
+        "Does Gateway’s old deck-exhaustion rule control current constructed play?"
+      ],
+      "answer": "The older Gateway sheet loses on a required draw. Current CR 1.8.1.2 instead checks an empty deck at the end of its owner’s turn. Use current comprehensive rules for ordinary constructed play.",
+      "classification": "official_fact",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "English sources; product-specific teaching or attributed Lorcana narrative",
+      "citations": [
+        {
+          "source_id": "gateway-rules",
+          "sha256": "36a180fef7a0e8ccc73dba880383998e7c6ba0f657ea9c7f8ddb3ab15e663bf0",
+          "url": "https://www.ravensburger.org/spielanleitungen/ecm/Spielanleitungen/241530_11098399_X_web.pdf",
+          "path": "sources/official/2026-10-04/gateway-rules.pdf",
+          "page": 11,
+          "section": null
+        },
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf",
+          "page": 6,
+          "section": "1.8.1.2"
+        }
+      ]
+    },
+    {
+      "fact_id": "lore-glimmers",
+      "domain": "lore",
+      "questions": [
+        "What is a glimmer in Lorcana?"
+      ],
+      "answer": "A glimmer is a Lorcana version of a Disney character or item, summoned using an inkcaster, magical ink and story-star light through a lorebook.",
+      "classification": "official_fact",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "English sources; product-specific teaching or attributed Lorcana narrative",
+      "citations": [
+        {
+          "source_id": "story-first-chapter",
+          "sha256": "4c89a07b2f29bd748be150c1b2cc56cf47a8e80f16b20af1ea2a1a41ae85d7fc",
+          "url": "https://www.disneylorcana.com/en-US/story/magic",
+          "path": "sources/official/2026-10-04/story-first-chapter.html",
+          "page": null,
+          "section": null
+        }
+      ]
+    },
+    {
+      "fact_id": "lore-floodborn",
+      "domain": "lore",
+      "questions": [
+        "How did the flood create Floodborn glimmers?"
+      ],
+      "answer": "A volatile mixed-ink flood through the Great Illuminary transformed storyborn and dreamborn glimmers into floodborn with unpredictable new forms and power. This narrative does not establish that every Floodborn card has Shift.",
+      "classification": "official_fact",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "English sources; product-specific teaching or attributed Lorcana narrative",
+      "citations": [
+        {
+          "source_id": "story-floodborn",
+          "sha256": "4d096abec134d14b2d548a11c244abf562cbf4447fb984387bc02a02f7bb3692",
+          "url": "https://www.disneylorcana.com/en-US/story/roar",
+          "path": "sources/official/2026-10-04/story-floodborn.html",
+          "page": null,
+          "section": null
+        }
+      ]
+    },
+    {
+      "fact_id": "lore-belle",
+      "domain": "lore",
+      "questions": [
+        "How does Belle transform in When Hope Rose Transformed?"
+      ],
+      "answer": "Trying to help Beast, Belle retrieves the rose from mixed ink and emerges with a blue cloak and rose lantern. The story gives her a new means to heal Beast; it is a Lorcana narrative.",
+      "classification": "official_fact",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "English sources; product-specific teaching or attributed Lorcana narrative",
+      "citations": [
+        {
+          "source_id": "story-belle",
+          "sha256": "546dbbd010d0455e8c55d93f868cd113f840563cc1d4216214e25c83cb7e717e",
+          "url": "https://www.disneylorcana.com/en-US/story/belle",
+          "path": "sources/official/2026-10-04/story-belle.html",
+          "page": null,
+          "section": null
+        }
+      ]
+    },
+    {
+      "fact_id": "lore-ursula-investigation",
+      "domain": "lore",
+      "questions": [
+        "Who investigates Ursula’s entangled glimmers in The Eye of the Storm?"
+      ],
+      "answer": "Shanzay, Martin and Venturo investigate Ursula’s control of entangled glimmers, including Minnie. Reaching a glimmer’s sense of self provides a temporary opening against that control. This is narrative evidence, not a gameplay rule.",
+      "classification": "official_fact",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "English sources; product-specific teaching or attributed Lorcana narrative",
+      "citations": [
+        {
+          "source_id": "story-storm",
+          "sha256": "e42fcc52ee97d79c22462573b9fddee28ef10bbfeeb1e35641dd38af3e24515e",
+          "url": "https://www.disneylorcana.com/en-US/story/storm",
+          "path": "sources/official/2026-10-04/story-storm.html",
+          "page": null,
+          "section": null
+        }
+      ]
+    },
+    {
+      "fact_id": "lore-crown-fragment",
+      "domain": "lore",
+      "questions": [
+        "What happens to the crown fragment in The Missing Piece epilogue?"
+      ],
+      "answer": "The group retrieves a fractured Hexwell Crown from Ursula’s abandoned lair and returns it to the Hall of Lorcana. Venturo reinforces its protection, with Sleepy and Kronk assigned to guard it. This answer contains Ursula-arc outcome spoilers.",
+      "classification": "official_fact",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "English sources; product-specific teaching or attributed Lorcana narrative",
+      "citations": [
+        {
+          "source_id": "story-epilogue",
+          "sha256": "8841a7e902ef47e7f3c90f4d850d1cce83eecea475caa8022a05642bcdd60caf",
+          "url": "https://www.disneylorcana.com/en-US/story/missing-piece-an-epilogue",
+          "path": "sources/official/2026-10-04/story-epilogue.html",
+          "page": null,
+          "section": null
+        }
+      ]
+    },
+    {
+      "fact_id": "provider-data-boundary",
+      "domain": "research",
+      "questions": [
+        "Can a provider API replace the official card and legality sources?"
+      ],
+      "answer": "Supplemental provider data stays separate from official authority. Reconcile printing identifiers, fields and dates; review discrepancies. Missing price fields remain unknown, and provider legality flags do not update our policy.",
+      "classification": "project_method",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "Provider observations; verify market and event region",
+      "citations": [
+        {
+          "source_id": "project-knowledge-method-providers.md",
+          "sha256": "d695a4022c4e7a9b731e1788077096efdf54167c917ca89bb3073431129f75da",
+          "page": null,
+          "section": null,
+          "url": "knowledge/method/providers.md",
+          "path": "knowledge/method/providers.md"
+        }
+      ]
+    },
+    {
+      "fact_id": "collection-quest",
+      "domain": "collection",
+      "questions": [
+        "What is a Collection Quest and what does it need?"
+      ],
+      "answer": "A Collection Quest is a collaborative collecting and trading activity. The organizer provides a Quest Card, three boosters matching its set, and a promo or reward. Exact collection goals come from the Quest Card; it is distinct from an Illumineer’s Quest boss encounter.",
+      "classification": "official_fact",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "General English organizer instructions; exact Quest Card and regional event terms apply",
+      "citations": [
+        {
+          "source_id": "collection-quest-organizer",
+          "sha256": "0780bacef9c6c1d16d75eec64774e02d2aa2bbb83d7c6c2530cf8af671b2474c",
+          "url": "https://files.disneylorcana.com/Evergreen%20Collection%20Quest%20Organizer%20Instructions.pdf",
+          "path": "sources/official/2026-10-04/collection-quest-organizer.pdf",
+          "page": 1,
+          "section": null
         }
       ]
     }

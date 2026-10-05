@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "provider_id": "lorcast",
+      "endpoint_id": "sets",
+      "url": "https://api.lorcast.com/v0/sets",
+      "resolved_url": "https://api.lorcast.com/v0/sets",
+      "retrieved_at": "2026-10-05T02:06:52.040087+00:00",
+      "authority": "supplemental_provider_data",
+      "sha256": "db7577fedad24f1f24a01dbf73b4fc5ee54187b4e44b25303754a4e0ff62879a",
+      "path": "sources/providers/lorcast/db7577fedad24f1f24a01dbf73b4fc5ee54187b4e44b25303754a4e0ff62879a.json",
+      "rows": 26,
+      "upstream_update_time": null,
+      "status": "downloaded"
+    },
+    {
+      "provider_id": "lorcast",
+      "endpoint_id": "hyperia-cards",
+      "url": "https://api.lorcast.com/v0/sets/14/cards",
+      "resolved_url": "https://api.lorcast.com/v0/sets/14/cards",
+      "retrieved_at": "2026-10-05T02:06:52.367310+00:00",
+      "authority": "supplemental_provider_data",
+      "sha256": "f49d554d3d4450cad27e4c3f4d99ef3487ce15b953a8aae22e66e0851914deba",
+      "path": "sources/providers/lorcast/f49d554d3d4450cad27e4c3f4d99ef3487ce15b953a8aae22e66e0851914deba.json",
+      "rows": 206,
+      "upstream_update_time": null,
+      "status": "downloaded"
+    },
+    {
+      "provider_id": "tcgcsv",
+      "endpoint_id": "categories",
+      "url": "https://tcgcsv.com/tcgplayer/categories",
+      "resolved_url": "https://tcgcsv.com/tcgplayer/categories",
+      "retrieved_at": "2026-10-05T02:06:52.939605+00:00",
+      "authority": "supplemental_provider_data",
+      "sha256": "317b5f28455f1af14f95507108e0f208dc33a1d0186bfbdcb2ad4234a063e181",
+      "path": "sources/providers/tcgcsv/317b5f28455f1af14f95507108e0f208dc33a1d0186bfbdcb2ad4234a063e181.json",
+      "rows": 94,
+      "upstream_update_time": null,
+      "status": "downloaded"
+    },
+    {
+      "provider_id": "tcgcsv",
+      "endpoint_id": "lorcana-groups",
+      "url": "https://tcgcsv.com/tcgplayer/71/groups",
+      "resolved_url": "https://tcgcsv.com/tcgplayer/71/groups",
+      "retrieved_at": "2026-10-05T02:06:53.146841+00:00",
+      "authority": "supplemental_provider_data",
+      "sha256": "64364bcddb9a00cb811f079916931abe2c6960f5d25b1cb12b294138dfeacd08",
+      "path": "sources/providers/tcgcsv/64364bcddb9a00cb811f079916931abe2c6960f5d25b1cb12b294138dfeacd08.json",
+      "rows": 21,
+      "upstream_update_time": null,
+      "status": "downloaded"
+    },
+    {
+      "provider_id": "tcgcsv",
+      "endpoint_id": "hyperia-products",
+      "url": "https://tcgcsv.com/tcgplayer/71/24740/products",
+      "resolved_url": "https://tcgcsv.com/tcgplayer/71/24740/products",
+      "retrieved_at": "2026-10-05T02:11:29.041290+00:00",
+      "authority": "supplemental_provider_data",
+      "sha256": "7bd21020bbef1a62af3615e8a15f477d20941080e33f4ea957986346ecc7ed59",
+      "path": "sources/providers/tcgcsv/7bd21020bbef1a62af3615e8a15f477d20941080e33f4ea957986346ecc7ed59.json",
+      "rows": 9,
+      "upstream_update_time": null,
+      "status": "downloaded"
+    },
+    {
+      "provider_id": "tcgcsv",
+      "endpoint_id": "hyperia-prices",
+      "url": "https://tcgcsv.com/tcgplayer/71/24740/prices",
+      "resolved_url": "https://tcgcsv.com/tcgplayer/71/24740/prices",
+      "retrieved_at": "2026-10-05T02:11:29.236993+00:00",
+      "authority": "supplemental_provider_data",
+      "sha256": "4dddaae4498ff72213c2903e52cbd734bf467b7c0e9464f31f4b770dd4bf9a4f",
+      "path": "sources/providers/tcgcsv/4dddaae4498ff72213c2903e52cbd734bf467b7c0e9464f31f4b770dd4bf9a4f.json",
+      "rows": 8,
+      "upstream_update_time": null,
+      "status": "downloaded"
+    }
+  ]
+}

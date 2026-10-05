@@ -48,7 +48,7 @@ claims, not merely replacing their hashes. Download new printing images with
 `uv run python tools/download_images.py` before reviewing new conflicts.
 
 After new reviews, rebuild cards and run `uv run python tools/verify.py`. It rebuilds
-both indexes, verifies source/image hashes, runs the 100-case benchmark, pytest and
+both indexes, verifies source/image hashes and provider coverage, runs the 109-case benchmark, pytest and
 Ruff. See `knowledge-engine.md` for lifecycle and scope.
 
 For a rules update, inspect the update summary and implicated sections, then review

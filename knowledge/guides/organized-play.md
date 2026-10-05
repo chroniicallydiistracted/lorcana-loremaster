@@ -38,3 +38,23 @@ Sources: [Resources](https://www.disneylorcana.com/en-US/resources),
 [Tournament Rules](https://files.disneylorcana.com/Tournament-Rules-7.14.2026_Update_EN.pdf),
 [Hyperia City Set Championship](https://files.disneylorcana.com/Hyperia_SetChamps_EN.pdf),
 [Play Correction Guidelines](https://files.disneylorcana.com/Disney_Lorcana_Play_Correction_Guidelines_052124update.pdf).
+
+## Find and verify an event
+
+The [Ravensburger Play Hub](https://www.ravensburgerplay.com/) links to Lorcana event
+discovery and Carde.io organizer accounts. Carde.io's
+[event workflow](https://support.carde.io/en/articles/14466191-running-an-event-on-carde-io)
+describes player result submission and organizers publishing standings. Visibility
+depends on what an organizer actually publishes. Registration, listing, pairings,
+Swiss standings and the completed elimination bracket are distinct records.
+
+Open the exact listing and record its native event ID, timezone and format. Check
+whether a displayed placement is Swiss rank or final finish, whether drops/byes
+affect the field count, and whether a list was submitted before play or transcribed
+afterwards. Reconcile discovery sites against the upstream event. An event called a
+"Championship" still needs its own date, level and terms verified.
+
+Independent Lore Guide training can support study. The
+[Lore Guide Institute](https://institute.lorcanajudges.com/) describes its classes as
+free community education; its badges are not official certifications. For an event
+staffing requirement, use the organizer's terms and official qualification evidence.

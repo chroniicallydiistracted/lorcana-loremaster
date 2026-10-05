@@ -21,3 +21,10 @@ Avoid describing a tool as active, comprehensive or supported based on an old bo
 Online clients, pricing caches and tournament databases can change or omit cards.
 Observe access restrictions; unavailable sources remain unavailable. Cross-check
 important claims with independent primary evidence when possible.
+
+The [provider audit](providers.md) now adds 18 researched services with primary
+documentation, access paths and qualifications. `sources/providers.json` is its
+machine-readable catalog. The first Lorcast/TCGCSV payloads are independently hashed
+in `sources/provider-snapshots.json`; they are supplemental observations, separate
+from official card and rules authority. Gateway's previously missing progression
+is available in [the product guide](../guides/gateway.md).

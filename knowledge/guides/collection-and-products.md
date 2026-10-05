@@ -46,3 +46,32 @@ user's play/collection goals and actual current prices rather than an investment
 
 Sources: official regional product/app pages, printing records and current regional
 marketplace product listings. Source attribution must include the exact product.
+
+## Available data services
+
+Use [the provider guide](../method/providers.md) to choose a current access path.
+TCGCSV supplies daily product-level price aggregates, Lorcast exposes supplemental
+USD fields, and Cardmarket documents public price/catalog downloads. These are
+research observations; a purchase quote still needs the actual listing, condition,
+language, finish, stock, shipping and fees. Native marketplace product IDs identify
+market objects, while the local deck-building ID identifies gameplay equivalence.
+
+Keep regular/foil price rows separate and retain null prices as unknown. Never turn
+a missing price into zero, substitute a foil price for a regular copy, or call a
+prerelease asking price a completed sale. Quote when the provider updated its data
+as well as when we retrieved it. Reconcile the selected product with the card image
+before costing a deck's missing copies.
+
+Dreamborn.ink's [current site](https://dreamborn.ink/) advertises deck tools and a
+collection-scanning companion app. Our existing CSV is already usable locally;
+no additional account or cloud upload is needed to analyze that preserved inventory.
+
+## Collection Quests
+
+A Collection Quest is a collaborative collecting/trading activity. The official
+organizer sheet specifies one Quest Card, three boosters matching its set, and a
+promo/reward per participant. Players open and trade to complete the collection;
+organizers can generously reward participants who do not finish. Exact card goals
+come from the matching Quest Card. This activity has its own instructions, separate
+from a constructed match or an Illumineer's Quest boss encounter.
+[Collection Quest organizer instructions](https://files.disneylorcana.com/Evergreen%20Collection%20Quest%20Organizer%20Instructions.pdf).

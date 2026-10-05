@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-04",
+  "classification": "strategic_inference",
+  "limits": "Authored hypotheses, not measured matchup win rates. Exact SHA bindings prevent applying saved-deck plans to altered lists.",
+  "decks": [
+    {
+      "deck_path": "decks/elinor_moluk_champ.json",
+      "deck_sha256": "30bbfc6ec67ea658c47d384eae96c565686a6b753cf4de5b334acca3353cf053",
+      "profile_id": "elinor",
+      "findings": [
+        "Keep the baseline as the reference list: it has a coherent cheap-character/discount/Elinor plan. Current small samples do not establish that replacing it improves win rate.",
+        "Every card is a character. Mike reveals therefore find your character whenever a card remains in your deck, but opponents receive the same reveal opportunity and may choose to take their character.",
+        "Thirty-nine characters cost two or less, supporting Nani. Actual top-four access must use the remaining deck after known hand, board, discard and ink information.",
+        "Discounts are temporary cost savings, not permanent ink. Four Elinor, four Mike, four Willow and four Pluto account for all sixteen uninkable cards; opening with several needs a coherent ink plan.",
+        "Dale uses current willpower, including modifiers, rather than undamaged health. Peacekeeper requires Shift and no challenges by any of your characters earlier that turn; check this before committing a challenge."
+      ],
+      "variants": [
+        {
+          "variant_id": "kezy-comparison",
+          "name": "Elinor — September 27 Kezy comparison",
+          "changes": [
+            {
+              "identity_id": "88945d3273317af28c2c7c71dc04d35bba89c0ab",
+              "full_name": "Mickey Mouse - Expedition Leader",
+              "delta": -2
+            },
+            {
+              "identity_id": "50b8acc5a7f2a8afabe9284202005b34f69e21e1",
+              "full_name": "Mowgli - Man Cub",
+              "delta": -2
+            },
+            {
+              "identity_id": "1c83fd32d4a179f9672af28642b26fba727cb8a8",
+              "full_name": "Mushu - Stealthy Dragon",
+              "delta": -1
+            },
+            {
+              "identity_id": "3b52a9168d6e9dac096984ef92ece7df337589c7",
+              "full_name": "The Queen - Devious Disguise",
+              "delta": -2
+            },
+            {
+              "identity_id": "edc8d296f601e44b6311621379644a538907c472",
+              "full_name": "The Queen - Regal Monarch",
+              "delta": -1
+            },
+            {
+              "identity_id": "176d4f9ef0f3934a4e2e165efe91f2668911a73b",
+              "full_name": "Thomas - Wide-Eyed Recruit",
+              "delta": 1
+            },
+            {
+              "identity_id": "2f0ee159014b24c95f95963bdfa4b8ec79329fac",
+              "full_name": "Ursula - Deceiver",
+              "delta": 1
+            },
+            {
+              "identity_id": "9f9ad2fd43b08b53c6f66fe9ad9b318b774415ae",
+              "full_name": "Squeaks - Cozy Caterpillar",
+              "delta": 2
+            },
+            {
+              "identity_id": "78c52c74f960109e345c66f5a0bdf03a6d44ec16",
+              "full_name": "Rapunzel - Tower Defender",
+              "delta": 4
+            }
+          ],
+          "rationale": "Use an exact eight-for-eight comparison to the observed September 27 winner: increase targeted song disruption, immediate bounce and cheap evasion while retaining the full Elinor, Dale, Mike and discount engines. This is a sourced alternative for testing, not a proved upgrade.",
+          "tradeoffs": "Lose Mowgli non-character disruption, Mickey strength reduction, Mushu conditional draw and Queen lore/draw options. Rapunzel consumes a discarded card; Squeaks has zero strength and benefits from Dale in challenges. The character count and uninkable count remain unchanged.",
+          "sample_ids": [
+            "hunter-16598-166030"
+          ],
+          "expected_exact_list": "hunter-16598-166030",
+          "test_plan": "Compare baseline and candidate against the same opposing list, alternating play/draw and logging mulligan, missed ink, stranded cards, reason for each loss and individual card impact. Use public information only; retain paired game records before claiming improvement. No games have been simulated or measured here."
+        }
+      ],
+      "coaching": [
+        {
+          "against": "Amber/Emerald Elinor",
+          "mulligan": "Keep an inkable one-drop and a two-cost follow-up; retain Dale with a board-building hand. Return duplicate late payoffs and excessive uninkable discounts without ink support.",
+          "inking": "Protect one Elinor and the cheap development needed to reach three exerted characters. Ink surplus late cards only after comparing the opponent’s clock.",
+          "sequencing": "Dale and David change challenge trades. Compare trading into their engine with racing; time shifted Peacekeeper before any of your challenges and keep a route to repeat Elinor triggers.",
+          "profile_id": "elinor"
+        },
+        {
+          "against": "Emerald/Sapphire Mickey & Minnie",
+          "mulligan": "Prioritize a cheap curve; keep Ursula only when a relevant song is expected, rather than assuming every list is song-heavy.",
+          "inking": "Keep a coherent Elinor or Dale line; redundant fours can fund early deployment. Preserve cheap bodies rather than retaining every payoff.",
+          "sequencing": "Interrupt a known Shift base when a legal profitable challenge exists. Ward does not prevent challenges. A Duo banish replacement creates ink; evaluate the resulting board and next turn instead of calling banishment a clean removal.",
+          "profile_id": "mickey-minnie"
+        },
+        {
+          "against": "Amber/Steel Songs",
+          "mulligan": "Keep Ursula alongside early board and usable ink. Return slow hands that rely on exposed uninkable engines.",
+          "inking": "Preserve a timely Ursula and development; ink redundant high-cost cards before weakening the early plan.",
+          "sequencing": "Use Ursula information to remove an actual revealed song. Bodyguard and Peacekeeper protect against challenges, not direct song damage or removal; stagger commitment when broad removal is plausible.",
+          "profile_id": "songs"
+        },
+        {
+          "against": "Amethyst/Ruby Retro",
+          "mulligan": "Keep early pressure and an Elinor route rather than a hand overloaded with fours.",
+          "inking": "Preserve cheap deployment and a source of follow-up cards; do not keep all expensive bodies solely for theoretical value.",
+          "sequencing": "Track the actual Retro Evolution Device target and legal cost window. Pressure the lore clock while rebuilding after removal; Elinor value can matter more than an exposed attack that loses several characters.",
+          "profile_id": "retro"
+        },
+        {
+          "against": "Amber/Amethyst character value",
+          "mulligan": "Keep early development, with Dale when supported by bodies and ink. Return excessive late cards.",
+          "inking": "Keep enough early plays to avoid conceding initiative to efficient bodies; do not automatically ink the only follow-up source.",
+          "sequencing": "Count current strengths, willpowers and damage before trades. Choose immediate stabilization when their lore clock is lethal; Mike can give an opposing character deck extra cards.",
+          "profile_id": "amber-amethyst"
+        },
+        {
+          "against": "Emerald/Steel character tempo",
+          "mulligan": "Keep cheap characters and an inkable route into Dale/Elinor. Avoid a hand full of discount characters but no deployment plan.",
+          "inking": "Treat multiple uninkable engines as competing commitments. Preserve useful bodies and inkable follow-ups.",
+          "sequencing": "Account for scalable damage and their public character count. Avoid gratuitous exertion into a profitable challenge; Peacekeeper only stops challenges and does not stop direct damage.",
+          "profile_id": "emerald-steel"
+        }
+      ]
+    },
+    {
+      "deck_path": "decks/mickey_minnie_baha.json",
+      "deck_sha256": "69f0d81aadeb421e7b3faeb18b53404963a7ec953d19d4128f160f9c50b0a52e",
+      "profile_id": "mickey-minnie",
+      "findings": [
+        "The main plan has eight named Mickey bases, twelve named Minnie bases and four Duo payoffs. Joint raw access must include all three groups; simply multiplying their marginal probabilities is incorrect.",
+        "Twenty-four cards have printed cost five or more. Duo Shift, Detective ramp and singing change actual payment, but printed curve alone does not prove a turn-by-turn deployment plan.",
+        "Four Donald Perfect Gentleman have no Donald base in this list, so Shift three is unavailable from these cards alone. Its draw ability is optional for each player and also offers the opponent cards.",
+        "Dr. Bushroot pressures lore and punishes being challenged; its discard ability does not provide immediate on-play removal. Chernabog is an owned option for testing immediate intervention at the same printed cost.",
+        "Ward does not stop challenges or Under the Sea, which does not choose characters. Under the Sea only bottoms opposing characters whose current strength is two or less; verify modifiers before relying on it.",
+        "The list uses character filtering and conditional draw. Protect the distinct bases and usable ink rather than keeping a hand of expensive Ward bodies without an early plan."
+      ],
+      "variants": [
+        {
+          "variant_id": "chernabog-test",
+          "name": "Mickey & Minnie — two-copy Chernabog test",
+          "changes": [
+            {
+              "identity_id": "5fceee195609a118cf899d396da71d7bef49b8b1",
+              "full_name": "Dr. Bushroot - Evil Botanist",
+              "delta": -2
+            },
+            {
+              "identity_id": "fd724083e2069df469f091f2de49668e332dad3f",
+              "full_name": "Chernabog - Unnatural Force",
+              "delta": 2
+            }
+          ],
+          "rationale": "Test two immediate on-play removal slots at printed cost five while preserving all eight Mickey bases, twelve Minnie bases, four Duo payoffs and the remainder of the list. The current comparison list uses Chernabog; check the candidate ownership table against the selected inventory before assuming this variant is buildable.",
+          "tradeoffs": "Uninkable count rises from eight to ten and you lose two three-lore Ward bodies. Chernabog chooses an opposing character, so Ward blocks that choice, and its opponent may play a character from their discard for free after a shuffle. It can improve immediate board intervention but may give away too much value.",
+          "sample_ids": [
+            "hunter-16854-168088"
+          ],
+          "test_plan": "Compare baseline and candidate against the same opposing list, alternating play/draw and logging mulligan, missed ink, stranded cards, reason for each loss and individual card impact. Use public information only; retain paired game records before claiming improvement. No games have been simulated or measured here. Record specifically whether Chernabog was stranded as uninkable or allowed a strong opposing discard play."
+        }
+      ],
+      "coaching": [
+        {
+          "against": "Amber/Emerald Elinor",
+          "mulligan": "Keep distinct bases and a usable early curve. Keep Duo with a credible route through both bases, rather than duplicate expensive threats.",
+          "inking": "Preserve at least one base of each name and a route to needed ink. A spare vanilla Ward body is a reasonable ink candidate when the immediate Duo line is stronger.",
+          "sequencing": "Inspect strength modifiers before Under the Sea. Disrupt their three-exerted-character engine when profitable; Chernabog can remove a key unwarded engine but the free discard play matters. Peacekeeper can temporarily close challenges without preventing your quests.",
+          "profile_id": "elinor"
+        },
+        {
+          "against": "Emerald/Sapphire Mickey & Minnie",
+          "mulligan": "Keep distinct bases, usable ink and relevant interaction. Do not automatically keep two Duo payoffs without bases.",
+          "inking": "Protect the earliest actual assembly route; ink redundant late bodies before the last required base.",
+          "sequencing": "Compare racing a five-lore Duo with disrupting a base. Chosen removal cannot target Ward, while challenges can; banishing Duo creates permanent ink and changes the next-turn resource plan.",
+          "profile_id": "mickey-minnie"
+        },
+        {
+          "against": "Amber/Steel Songs",
+          "mulligan": "Keep early bases and usable ink; keep a card-flow option when it fits development. Return slow all-payoff hands.",
+          "inking": "Preserve enough resources to rebuild after mass interaction. Ward bodies are not universally protected from songs.",
+          "sequencing": "Singer development signals a possible removal window. Keep separate plans for chosen effects and non-choosing broad effects; use Under the Sea only when current opposing strength meets its condition.",
+          "profile_id": "songs"
+        },
+        {
+          "against": "Amethyst/Ruby Retro",
+          "mulligan": "Keep a coherent early Duo plan and avoid too many high-cost threats.",
+          "inking": "Preserve recovery access where possible; pay attention to the difference between filtering and net cards.",
+          "sequencing": "Pressure before their evolution chain creates efficient threats. A fresh normally played evolved character still has drying restrictions unless another rule or ability changes them. Bounce costs can interrupt your base setup.",
+          "profile_id": "retro"
+        },
+        {
+          "against": "Amber/Amethyst character value",
+          "mulligan": "Keep early deployment and real resource support for the late game. Return redundant sixes and sevens.",
+          "inking": "Preserve the path to a threatening board rather than every large body; consider Detective when its ramp matters.",
+          "sequencing": "Compare the immediate lore race with removing their value engine. Donald may supply them the missing resource; do not treat symmetric optional draw as a one-sided advantage.",
+          "profile_id": "amber-amethyst"
+        },
+        {
+          "against": "Emerald/Steel character tempo",
+          "mulligan": "Keep bases and an early play sequence that survives known damage thresholds. Avoid keeping all expensive Ward threats.",
+          "inking": "Retain flexible ink and replacement bases when visible interaction threatens the first pair.",
+          "sequencing": "Track damage scaling from their public board. Ward constrains choosing, not all damage; protect the base whose loss would prevent your Duo line and compare shifting now with developing a replacement.",
+          "profile_id": "emerald-steel"
+        }
+      ]
+    }
+  ],
+  "source_bindings": [
+    {
+      "path": "data/raw/ravensburger/catalog.en.json",
+      "sha256": "49266e492d7545c7c7c617d239c3eb3756794b56f485a4c0918e4e4fc1abe3c3"
+    },
+    {
+      "path": "data/policy/card-text-reviews.json",
+      "sha256": "36c6d06a65aff17a7d88da95ac0fae135030f4ec3edf2d560ffff283cbc17608"
+    },
+    {
+      "path": "data/policy/legality.json",
+      "sha256": "90948c4d007a887ab3e138dc9e83aec076cf911982a1d8f6986f44b746aad258"
+    },
+    {
+      "path": "research/2026-10-04/events.json",
+      "sha256": "1fdea2272cad620bac81531f1bd15f3d360c4f2ff007841f6d370e4d93688423"
+    },
+    {
+      "path": "research/2026-10-04/decklists.json",
+      "sha256": "72ddb1a4dee547b525f5c3e893c77021b09a4e15ad1694863c53c2a6822c6403"
+    }
+  ]
+}

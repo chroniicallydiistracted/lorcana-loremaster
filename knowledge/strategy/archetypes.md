@@ -2,6 +2,10 @@
 
 **Scope:** Reusable method; select the actual format, date, rules and card pool. Strategic guidance is not a measured current metagame.
 
+For current Core packages and copy ranges, use the [October 4 profiles](current-archetypes.md)
+and [deck-review workflow](deck-review-workflow.md). These categories are general
+analysis templates, not a current tier list.
+
 ## Aggro
 
 **Goal:** Reach 20 lore before the opponent stabilizes.
@@ -60,7 +64,7 @@
 
 ## Songs
 
-**Goal:** Convert character development into mana advantage by singing impactful actions.
+**Goal:** Convert character development into ink savings by singing impactful actions.
 
 **Needs:** Appropriate singer curve, useful songs at every stage, enough characters, protection from losing singers before use.
 

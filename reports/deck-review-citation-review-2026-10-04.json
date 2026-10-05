@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-10-04",
+  "reviewed_by": "Codex source/claim review; not independent expert grading",
+  "records": [
+    {
+      "fact_id": "hyperia-meta",
+      "path": "knowledge/method/research.md",
+      "previous_sha256": "70bb5194dffd5f0e1d1e93ca3822262f33a069311eecd9c204f193db9c0b1f60",
+      "reviewed_sha256": "dbbe3c3f2ccd6af505e65af835aa959d3369fbf5487d1767a71ba9242485c7c0",
+      "checked_at": "2026-10-04",
+      "rationale": "Reviewed added exact-list/deck-review/conditional-mulligan scope against the finite answer. No unsupported field shares, Set 14 rates, localized oracle or unconditional mulligan capability introduced."
+    },
+    {
+      "fact_id": "localized-corpus",
+      "path": "knowledge/COVERAGE.md",
+      "previous_sha256": "09a1da245636339377e7070532f96db32b72ac3bdafa469d9245170bc8a57efc",
+      "reviewed_sha256": "59907547a761010ae4435c20b5bd59dfa50f43ab84b83eed580425dcac433998",
+      "checked_at": "2026-10-04",
+      "rationale": "Reviewed added exact-list/deck-review/conditional-mulligan scope against the finite answer. No unsupported field shares, Set 14 rates, localized oracle or unconditional mulligan capability introduced."
+    },
+    {
+      "fact_id": "probability-model",
+      "path": "knowledge/strategy/probability.md",
+      "previous_sha256": "8a5b9b167be761cac3a3dd603797bcb38d863073e91970e181f5798beee197ff",
+      "reviewed_sha256": "2b5db7f5d5617ebf25cd6d1ee2b585d11766169f936943c6ba00ea59064f4e22",
+      "checked_at": "2026-10-04",
+      "rationale": "Reviewed added exact-list/deck-review/conditional-mulligan scope against the finite answer. No unsupported field shares, Set 14 rates, localized oracle or unconditional mulligan capability introduced."
+    },
+    {
+      "fact_id": "matchup-evidence",
+      "path": "knowledge/method/research.md",
+      "previous_sha256": "70bb5194dffd5f0e1d1e93ca3822262f33a069311eecd9c204f193db9c0b1f60",
+      "reviewed_sha256": "dbbe3c3f2ccd6af505e65af835aa959d3369fbf5487d1767a71ba9242485c7c0",
+      "checked_at": "2026-10-04",
+      "rationale": "Reviewed added exact-list/deck-review/conditional-mulligan scope against the finite answer. No unsupported field shares, Set 14 rates, localized oracle or unconditional mulligan capability introduced."
+    },
+    {
+      "path": "data/strategy/review-plans.json",
+      "previous_sha256": "ceb71bcba00a563306f6dfc27abe93ea7a565510afc276c25d0fcb36f1bbbf41",
+      "reviewed_sha256": "92e3e4100e76bcdfe0319ec1b40fad42bd9a103d1613f2580018a126372f970a",
+      "checked_at": "2026-10-04",
+      "scenario_id": "balanced-owned-interaction-test",
+      "rationale": "Added explicit opponent-profile bindings and removed original-inventory assertions from reusable strategy prose. Balanced swap, size, uninkability and supplied September inventory facts in the scenario remain unchanged; ownership is calculated from the selected export."
+    }
+  ]
+}

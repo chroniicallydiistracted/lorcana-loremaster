@@ -1,0 +1,179 @@
+{
+  "as_of": "2026-10-04",
+  "passed": true,
+  "passed_contracts": 24,
+  "total": 24,
+  "cases": [
+    {
+      "scenario_id": "rush-evasive-bodyguard",
+      "domain": "rules",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "ward-mass-bottom",
+      "domain": "rules",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "duo-inherited-state",
+      "domain": "rules",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "singer-team-contribution",
+      "domain": "rules",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "empty-deck-recovery-window",
+      "domain": "rules",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "move-damage-resist",
+      "domain": "rules",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "dale-current-willpower",
+      "domain": "rules",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "elinor-unused-pluto-discount",
+      "domain": "gameplay",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "peacekeeper-after-challenge",
+      "domain": "rules",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "duo-banish-stack",
+      "domain": "rules",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "free-evolution-drying",
+      "domain": "rules",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "hyperia-publication-legality",
+      "domain": "legality",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "ban-list-versus-rotation",
+      "domain": "legality",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "conditional-observed-mulligan",
+      "domain": "probability",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "duo-access-versus-play",
+      "domain": "probability",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "nani-remaining-deck",
+      "domain": "probability",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "player-view-immediate-win",
+      "domain": "gameplay",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "event-publication-denominator",
+      "domain": "evidence",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "balanced-owned-interaction-test",
+      "domain": "deckbuilding",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "simultaneous-collection-allocation",
+      "domain": "collection",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "foil-fifth-copy",
+      "domain": "deckbuilding",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "belle-lorcana-continuity",
+      "domain": "lore",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "absent-hyperia-price",
+      "domain": "providers",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    },
+    {
+      "scenario_id": "quest-booklet-boundary",
+      "domain": "cooperative",
+      "contract_passed": true,
+      "errors": [],
+      "independent_expert_review": "pending"
+    }
+  ],
+  "response_provenance": "Codex-authored reference-assisted fixtures. No blinded generation, external model run, independent expert grade or measured game outcome is claimed.",
+  "independent_expert_review": "pending; no independent human/model grade performed",
+  "limits": "Finite authored compound cases, outside FAQ question matching. Source hashes, structured claims, classifications and exact numbers are checked; free-text correctness, generalization and competitive strength require independent review. Reference-assisted responses are regression fixtures, not blinded expert evaluation."
+}

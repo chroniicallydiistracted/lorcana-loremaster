@@ -1,0 +1,1429 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-04",
+  "name": "Mickey & Minnie — Baha",
+  "input": {
+    "path": "/home/andre/lorcana-loremaster/decks/mickey_minnie_baha.json",
+    "sha256": "69f0d81aadeb421e7b3faeb18b53404963a7ec953d19d4128f160f9c50b0a52e"
+  },
+  "pool": null,
+  "source_bindings": [
+    {
+      "path": "data/raw/ravensburger/catalog.en.json",
+      "sha256": "49266e492d7545c7c7c617d239c3eb3756794b56f485a4c0918e4e4fc1abe3c3"
+    },
+    {
+      "path": "data/policy/card-text-reviews.json",
+      "sha256": "36c6d06a65aff17a7d88da95ac0fae135030f4ec3edf2d560ffff283cbc17608"
+    },
+    {
+      "path": "data/policy/legality.json",
+      "sha256": "90948c4d007a887ab3e138dc9e83aec076cf911982a1d8f6986f44b746aad258"
+    },
+    {
+      "path": "data/strategy/archetypes.json",
+      "sha256": "702874917e51983aa5411c8a47c9323a199837865788bdb0f78e3c0a3c175c54"
+    },
+    {
+      "path": "data/strategy/review-plans.json",
+      "sha256": "92e3e4100e76bcdfe0319ec1b40fad42bd9a103d1613f2580018a126372f970a"
+    },
+    {
+      "path": "research/2026-10-04/events.json",
+      "sha256": "1fdea2272cad620bac81531f1bd15f3d360c4f2ff007841f6d370e4d93688423"
+    },
+    {
+      "path": "research/2026-10-04/decklists.json",
+      "sha256": "72ddb1a4dee547b525f5c3e893c77021b09a4e15ad1694863c53c2a6822c6403"
+    }
+  ],
+  "collection": {
+    "path": "/home/andre/lorcana-loremaster/data/collections/andys-lore-library-2026-09-15.csv",
+    "sha256": "e3cf22297eb3af461faba7da5d640bd6d7cc931cef789555bbef9237de5b8278",
+    "snapshot_date": "2026-09-15"
+  },
+  "validation": {
+    "format": "core",
+    "as_of": "2026-10-04",
+    "policy_checked_at": "2026-10-04",
+    "verdict": "passes_supported_checks",
+    "issues": [],
+    "review_required": [],
+    "card_count": 60,
+    "ink_colors": [
+      "EMERALD",
+      "SAPPHIRE"
+    ],
+    "inkable": 52,
+    "uninkable": 8,
+    "printed_cost_curve": {
+      "1": 8,
+      "2": 12,
+      "3": 12,
+      "4": 4,
+      "5": 8,
+      "6": 4,
+      "7": 10,
+      "8": 2
+    },
+    "card_types": {
+      "action": 6,
+      "character": 54
+    },
+    "limits": "Snapshot checks, not event certification; verify current sources, card text, and event terms."
+  },
+  "cards": [
+    {
+      "identity_id": "3b0e8334ac0212cfffe798056686d118756c12f3",
+      "full_name": "Minnie Mouse - Curious Adventurer",
+      "quantity": 4
+    },
+    {
+      "identity_id": "164a897757ef09cdbcfbd9297c439bef7067dd54",
+      "full_name": "Minnie Mouse - Practical Traveler",
+      "quantity": 4
+    },
+    {
+      "identity_id": "132fe371ee1996c1db47f7b3f11e121247269425",
+      "full_name": "Mickey Mouse - Bob Cratchit",
+      "quantity": 4
+    },
+    {
+      "identity_id": "6725c8eed5b1da959eb350f6c3be592e925ce635",
+      "full_name": "Minnie Mouse - Spinning Skater",
+      "quantity": 4
+    },
+    {
+      "identity_id": "e41d63dec20f63664cf1d0fa42b721e0f7d72447",
+      "full_name": "Strike A Good Match",
+      "quantity": 4
+    },
+    {
+      "identity_id": "f6d5d539a411651374ae418f08e3d379fcb13ff5",
+      "full_name": "Mickey Mouse - Detective",
+      "quantity": 4
+    },
+    {
+      "identity_id": "1c83fd32d4a179f9672af28642b26fba727cb8a8",
+      "full_name": "Mushu - Stealthy Dragon",
+      "quantity": 4
+    },
+    {
+      "identity_id": "d4b995ae6e9058a22b8f025d86e5606e0f4b410c",
+      "full_name": "Tod - Clever Fox",
+      "quantity": 4
+    },
+    {
+      "identity_id": "754975b423fd73f951d33d2a0b695136a1c5e3b8",
+      "full_name": "Donald Duck - Perfect Gentleman",
+      "quantity": 4
+    },
+    {
+      "identity_id": "5fceee195609a118cf899d396da71d7bef49b8b1",
+      "full_name": "Dr. Bushroot - Evil Botanist",
+      "quantity": 4
+    },
+    {
+      "identity_id": "8ded4e32f6390106d15d72e5aab8aa2ebd2b2963",
+      "full_name": "Scuttle - Birdbrained",
+      "quantity": 4
+    },
+    {
+      "identity_id": "83ae92739e6a362a7d610972a8e1d9ba8a64006a",
+      "full_name": "Hades - Meticulous Schemer",
+      "quantity": 4
+    },
+    {
+      "identity_id": "89f9ee7889da4ebacb49419bd4b8dae4220a5c7c",
+      "full_name": "Hades - Infernal Schemer",
+      "quantity": 2
+    },
+    {
+      "identity_id": "18946699cef53f88e95079513efd6645e23daf3c",
+      "full_name": "Mickey Mouse & Minnie Mouse - Adventuring Duo",
+      "quantity": 4
+    },
+    {
+      "identity_id": "9fa7b16fb37ecae141b2538615e97ce845b0026e",
+      "full_name": "Milo Thatch - Getting His Hands Dirty",
+      "quantity": 4
+    },
+    {
+      "identity_id": "e81fec386fd1647801df51920cfaf2d60ad090b5",
+      "full_name": "Under the Sea",
+      "quantity": 2
+    }
+  ],
+  "metrics": {
+    "classification": "calculation",
+    "population": 60,
+    "target_counts": {
+      "one_cost_characters": 8,
+      "characters_cost_two_or_less": 16,
+      "characters": 54,
+      "uninkable": 8,
+      "cost_five_or_more": 24
+    },
+    "average_printed_cost": {
+      "exact_fraction": "39/10",
+      "value": 3.9
+    },
+    "raw_access_at_least_one": {
+      "one_cost_characters": {
+        "7": {
+          "exact_fraction": "6310559/9655173",
+          "probability": 0.6535935710318189,
+          "percent": 65.35935710318189
+        },
+        "9": {
+          "exact_fraction": "3882541/5168931",
+          "probability": 0.7511303594495651,
+          "percent": 75.11303594495651
+        },
+        "10": {
+          "exact_fraction": "12252983/15506793",
+          "probability": 0.7901687344378686,
+          "percent": 79.01687344378686
+        }
+      },
+      "characters_cost_two_or_less": {
+        "7": {
+          "exact_fraction": "208066/230985",
+          "probability": 0.9007771067385328,
+          "percent": 90.07771067385329
+        },
+        "9": {
+          "exact_fraction": "1295014/1360245",
+          "probability": 0.952044668423703,
+          "percent": 95.20446684237031
+        },
+        "10": {
+          "exact_fraction": "13417882/13874499",
+          "probability": 0.9670894783299923,
+          "percent": 96.70894783299923
+        }
+      },
+      "characters": {
+        "7": {
+          "exact_fraction": "1",
+          "probability": 1.0,
+          "percent": 100.0
+        },
+        "9": {
+          "exact_fraction": "1",
+          "probability": 1.0,
+          "percent": 100.0
+        },
+        "10": {
+          "exact_fraction": "1",
+          "probability": 1.0,
+          "percent": 100.0
+        }
+      },
+      "uninkable": {
+        "7": {
+          "exact_fraction": "6310559/9655173",
+          "probability": 0.6535935710318189,
+          "percent": 65.35935710318189
+        },
+        "9": {
+          "exact_fraction": "3882541/5168931",
+          "probability": 0.7511303594495651,
+          "percent": 75.11303594495651
+        },
+        "10": {
+          "exact_fraction": "12252983/15506793",
+          "probability": 0.7901687344378686,
+          "percent": 79.01687344378686
+        }
+      },
+      "cost_five_or_more": {
+        "7": {
+          "exact_fraction": "95419/97527",
+          "probability": 0.9783854727408821,
+          "percent": 97.8385472740882
+        },
+        "9": {
+          "exact_fraction": "2302351/2317107",
+          "probability": 0.9936317140296067,
+          "percent": 99.36317140296067
+        },
+        "10": {
+          "exact_fraction": "769765/772369",
+          "probability": 0.9966285544862624,
+          "percent": 99.66285544862625
+        }
+      }
+    },
+    "opening_at_least_three_uninkable": {
+      "exact_fraction": "139861/3218391",
+      "probability": 0.043456808075836656,
+      "percent": 4.3456808075836655
+    },
+    "assumptions": "Uniform sampling without replacement. 7/9/10 are cards seen, not turn labels. No mulligan, draw effects, ink choices, deployment, survival or hidden information modeled.",
+    "duo_three_part_access": {
+      "base_and_payoff_counts": [
+        8,
+        12,
+        4
+      ],
+      "draws": {
+        "7": {
+          "exact_fraction": "8640176/48275865",
+          "probability": 0.17897506341937114,
+          "percent": 17.897506341937113
+        },
+        "9": {
+          "exact_fraction": "100371022/335980515",
+          "probability": 0.29874060404961283,
+          "percent": 29.874060404961284
+        },
+        "10": {
+          "exact_fraction": "42385082/118172457",
+          "probability": 0.3586714119009982,
+          "percent": 35.86714119009982
+        }
+      },
+      "limits": "Joint raw access to both named bases and payoff; no independence assumption. Not the probability of a legal Shift or a quest on a particular turn."
+    }
+  },
+  "ownership": {
+    "required_copies": 60,
+    "covered_copies": 33,
+    "missing_copies": 27,
+    "missing_cards": [
+      {
+        "identity_id": "754975b423fd73f951d33d2a0b695136a1c5e3b8",
+        "full_name": "Donald Duck - Perfect Gentleman",
+        "needed": 4,
+        "owned": 0,
+        "missing": 4
+      },
+      {
+        "identity_id": "5fceee195609a118cf899d396da71d7bef49b8b1",
+        "full_name": "Dr. Bushroot - Evil Botanist",
+        "needed": 4,
+        "owned": 2,
+        "missing": 2
+      },
+      {
+        "identity_id": "89f9ee7889da4ebacb49419bd4b8dae4220a5c7c",
+        "full_name": "Hades - Infernal Schemer",
+        "needed": 2,
+        "owned": 0,
+        "missing": 2
+      },
+      {
+        "identity_id": "18946699cef53f88e95079513efd6645e23daf3c",
+        "full_name": "Mickey Mouse & Minnie Mouse - Adventuring Duo",
+        "needed": 4,
+        "owned": 2,
+        "missing": 2
+      },
+      {
+        "identity_id": "132fe371ee1996c1db47f7b3f11e121247269425",
+        "full_name": "Mickey Mouse - Bob Cratchit",
+        "needed": 4,
+        "owned": 0,
+        "missing": 4
+      },
+      {
+        "identity_id": "f6d5d539a411651374ae418f08e3d379fcb13ff5",
+        "full_name": "Mickey Mouse - Detective",
+        "needed": 4,
+        "owned": 2,
+        "missing": 2
+      },
+      {
+        "identity_id": "6725c8eed5b1da959eb350f6c3be592e925ce635",
+        "full_name": "Minnie Mouse - Spinning Skater",
+        "needed": 4,
+        "owned": 1,
+        "missing": 3
+      },
+      {
+        "identity_id": "1c83fd32d4a179f9672af28642b26fba727cb8a8",
+        "full_name": "Mushu - Stealthy Dragon",
+        "needed": 4,
+        "owned": 1,
+        "missing": 3
+      },
+      {
+        "identity_id": "8ded4e32f6390106d15d72e5aab8aa2ebd2b2963",
+        "full_name": "Scuttle - Birdbrained",
+        "needed": 4,
+        "owned": 3,
+        "missing": 1
+      },
+      {
+        "identity_id": "e41d63dec20f63664cf1d0fa42b721e0f7d72447",
+        "full_name": "Strike A Good Match",
+        "needed": 4,
+        "owned": 1,
+        "missing": 3
+      },
+      {
+        "identity_id": "e81fec386fd1647801df51920cfaf2d60ad090b5",
+        "full_name": "Under the Sea",
+        "needed": 2,
+        "owned": 1,
+        "missing": 1
+      }
+    ],
+    "all_cards": [
+      {
+        "identity_id": "132fe371ee1996c1db47f7b3f11e121247269425",
+        "full_name": "Mickey Mouse - Bob Cratchit",
+        "needed": 4,
+        "owned": 0,
+        "missing": 4
+      },
+      {
+        "identity_id": "164a897757ef09cdbcfbd9297c439bef7067dd54",
+        "full_name": "Minnie Mouse - Practical Traveler",
+        "needed": 4,
+        "owned": 8,
+        "missing": 0
+      },
+      {
+        "identity_id": "18946699cef53f88e95079513efd6645e23daf3c",
+        "full_name": "Mickey Mouse & Minnie Mouse - Adventuring Duo",
+        "needed": 4,
+        "owned": 2,
+        "missing": 2
+      },
+      {
+        "identity_id": "1c83fd32d4a179f9672af28642b26fba727cb8a8",
+        "full_name": "Mushu - Stealthy Dragon",
+        "needed": 4,
+        "owned": 1,
+        "missing": 3
+      },
+      {
+        "identity_id": "3b0e8334ac0212cfffe798056686d118756c12f3",
+        "full_name": "Minnie Mouse - Curious Adventurer",
+        "needed": 4,
+        "owned": 8,
+        "missing": 0
+      },
+      {
+        "identity_id": "5fceee195609a118cf899d396da71d7bef49b8b1",
+        "full_name": "Dr. Bushroot - Evil Botanist",
+        "needed": 4,
+        "owned": 2,
+        "missing": 2
+      },
+      {
+        "identity_id": "6725c8eed5b1da959eb350f6c3be592e925ce635",
+        "full_name": "Minnie Mouse - Spinning Skater",
+        "needed": 4,
+        "owned": 1,
+        "missing": 3
+      },
+      {
+        "identity_id": "754975b423fd73f951d33d2a0b695136a1c5e3b8",
+        "full_name": "Donald Duck - Perfect Gentleman",
+        "needed": 4,
+        "owned": 0,
+        "missing": 4
+      },
+      {
+        "identity_id": "83ae92739e6a362a7d610972a8e1d9ba8a64006a",
+        "full_name": "Hades - Meticulous Schemer",
+        "needed": 4,
+        "owned": 7,
+        "missing": 0
+      },
+      {
+        "identity_id": "89f9ee7889da4ebacb49419bd4b8dae4220a5c7c",
+        "full_name": "Hades - Infernal Schemer",
+        "needed": 2,
+        "owned": 0,
+        "missing": 2
+      },
+      {
+        "identity_id": "8ded4e32f6390106d15d72e5aab8aa2ebd2b2963",
+        "full_name": "Scuttle - Birdbrained",
+        "needed": 4,
+        "owned": 3,
+        "missing": 1
+      },
+      {
+        "identity_id": "9fa7b16fb37ecae141b2538615e97ce845b0026e",
+        "full_name": "Milo Thatch - Getting His Hands Dirty",
+        "needed": 4,
+        "owned": 6,
+        "missing": 0
+      },
+      {
+        "identity_id": "d4b995ae6e9058a22b8f025d86e5606e0f4b410c",
+        "full_name": "Tod - Clever Fox",
+        "needed": 4,
+        "owned": 6,
+        "missing": 0
+      },
+      {
+        "identity_id": "e41d63dec20f63664cf1d0fa42b721e0f7d72447",
+        "full_name": "Strike A Good Match",
+        "needed": 4,
+        "owned": 1,
+        "missing": 3
+      },
+      {
+        "identity_id": "e81fec386fd1647801df51920cfaf2d60ad090b5",
+        "full_name": "Under the Sea",
+        "needed": 2,
+        "owned": 1,
+        "missing": 1
+      },
+      {
+        "identity_id": "f6d5d539a411651374ae418f08e3d379fcb13ff5",
+        "full_name": "Mickey Mouse - Detective",
+        "needed": 4,
+        "owned": 2,
+        "missing": 2
+      }
+    ],
+    "unresolved_collection_rows": [],
+    "limits": "Gameplay identities aggregate finishes/reprints. Inventory date appears in the report's collection metadata; no prices or purchase total inferred. Per-deck allocation unless explicitly combined."
+  },
+  "profile": {
+    "profile_id": "mickey-minnie",
+    "name": "Emerald/Sapphire Mickey & Minnie",
+    "format": "core",
+    "checked_at": "2026-10-04",
+    "classification": "strategic_inference",
+    "sample_ids": [
+      "hunter-16854-168088"
+    ],
+    "main_plan": "Assemble both named bases for a free Duo Shift, convert character value into resilient pressure, and use interaction to preserve a questing window.",
+    "packages": [
+      {
+        "role": "Mickey bases",
+        "cards": [
+          "Mickey Mouse - Bob Cratchit",
+          "Mickey Mouse - Detective"
+        ],
+        "purpose": "Mickey access is a separate requirement from Minnie access; Detective provides permanent ink."
+      },
+      {
+        "role": "Minnie bases",
+        "cards": [
+          "Minnie Mouse - Curious Adventurer",
+          "Minnie Mouse - Practical Traveler",
+          "Minnie Mouse - Spinning Skater"
+        ],
+        "purpose": "Cheap Minnie versions provide pressure and the second distinct Duo Shift base."
+      },
+      {
+        "role": "Duo payoff",
+        "cards": [
+          "Mickey Mouse & Minnie Mouse - Adventuring Duo"
+        ],
+        "purpose": "The zero Shift payment still requires both bases and carries their relevant state; printed cost is not the play curve."
+      },
+      {
+        "role": "card flow",
+        "cards": [
+          "Tod - Clever Fox",
+          "Strike A Good Match",
+          "Donald Duck - Perfect Gentleman",
+          "Milo Thatch - Getting His Hands Dirty"
+        ],
+        "purpose": "Separate filtering and conditional draw from net resources; Donald also offers opponents cards."
+      },
+      {
+        "role": "interaction",
+        "cards": [
+          "Chernabog - Unnatural Force",
+          "Milo Thatch - Getting His Hands Dirty",
+          "Hades - Infernal Schemer",
+          "Under the Sea"
+        ],
+        "purpose": "Compare chosen removal with mass bottom-decking. Chernabog and Hades may give opponents resources."
+      },
+      {
+        "role": "resilient pressure",
+        "cards": [
+          "Hades - Meticulous Schemer",
+          "Winifred - Exasperated Elephant",
+          "Scuttle - Birdbrained"
+        ],
+        "purpose": "Ward constrains choosing, not challenges or non-choosing mass effects."
+      }
+    ],
+    "flex_slots": [
+      "The current sample uses fewer vanilla Ward bodies and a broader removal suite than the saved Baha list.",
+      "Prince Phillip at nine printed ink lacks a base in this sample; do not treat its Shift as generally available."
+    ],
+    "vulnerabilities": [
+      "Removing either base interrupts the early Duo line.",
+      "Large printed costs and conditional draw can produce slow hands despite high inkability."
+    ],
+    "mulligan": "Keep distinct Mickey and Minnie bases plus usable ink. Keep the Duo when both bases and sequencing are credible; return duplicate expensive threats. Detective matters when the hand needs a route to the late game.",
+    "sequencing": "Choose which versions to expose, track whether both bases are dry and their damage, and calculate the cost of converting two bodies into one. Do not assume Ward prevents Under the Sea.",
+    "evidence_limits": "Observed exact lists support inclusion and copy ranges; role assignments and coaching are strategic inference. Small purposeful sample; no matchup win rates or optimality claim.",
+    "sources": [
+      {
+        "list_id": "hunter-16854-168088",
+        "player": "Narfdre",
+        "reported_rank": 13,
+        "event": "Game Grid Open - CCQ",
+        "event_date": "2026-10-03",
+        "official_event_url": "https://tcg.ravensburgerplay.com/events/1016280",
+        "deck_url": "https://lorcanahunter.com/tournament/16854/game-grid-lehi-game-grid-open-ccq/player/168088/deck?lf_set=overall&lf_sort=date_desc&lf_tournamentId=16854",
+        "snapshot_sha256": "9ea241c0fcd7c15b42083c5c3c7e770b6038ee224382d88fcfc29afc37c1db2a",
+        "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+      }
+    ],
+    "observed_copy_ranges": [
+      {
+        "identity_id": "42d28673c7cc3a36053276edd16cc2814ee60ebc",
+        "full_name": "Alice - Accidentally Adrift",
+        "minimum": 2,
+        "maximum": 2
+      },
+      {
+        "identity_id": "fd724083e2069df469f091f2de49668e332dad3f",
+        "full_name": "Chernabog - Unnatural Force",
+        "minimum": 2,
+        "maximum": 2
+      },
+      {
+        "identity_id": "754975b423fd73f951d33d2a0b695136a1c5e3b8",
+        "full_name": "Donald Duck - Perfect Gentleman",
+        "minimum": 4,
+        "maximum": 4
+      },
+      {
+        "identity_id": "89f9ee7889da4ebacb49419bd4b8dae4220a5c7c",
+        "full_name": "Hades - Infernal Schemer",
+        "minimum": 2,
+        "maximum": 2
+      },
+      {
+        "identity_id": "83ae92739e6a362a7d610972a8e1d9ba8a64006a",
+        "full_name": "Hades - Meticulous Schemer",
+        "minimum": 3,
+        "maximum": 3
+      },
+      {
+        "identity_id": "2b0362a22d7027775ae69d67c87d57d5b1b64be3",
+        "full_name": "Malicious, Mean, and Scary",
+        "minimum": 3,
+        "maximum": 3
+      },
+      {
+        "identity_id": "18946699cef53f88e95079513efd6645e23daf3c",
+        "full_name": "Mickey Mouse & Minnie Mouse - Adventuring Duo",
+        "minimum": 4,
+        "maximum": 4
+      },
+      {
+        "identity_id": "132fe371ee1996c1db47f7b3f11e121247269425",
+        "full_name": "Mickey Mouse - Bob Cratchit",
+        "minimum": 4,
+        "maximum": 4
+      },
+      {
+        "identity_id": "f6d5d539a411651374ae418f08e3d379fcb13ff5",
+        "full_name": "Mickey Mouse - Detective",
+        "minimum": 4,
+        "maximum": 4
+      },
+      {
+        "identity_id": "9fa7b16fb37ecae141b2538615e97ce845b0026e",
+        "full_name": "Milo Thatch - Getting His Hands Dirty",
+        "minimum": 4,
+        "maximum": 4
+      },
+      {
+        "identity_id": "3b0e8334ac0212cfffe798056686d118756c12f3",
+        "full_name": "Minnie Mouse - Curious Adventurer",
+        "minimum": 4,
+        "maximum": 4
+      },
+      {
+        "identity_id": "164a897757ef09cdbcfbd9297c439bef7067dd54",
+        "full_name": "Minnie Mouse - Practical Traveler",
+        "minimum": 2,
+        "maximum": 2
+      },
+      {
+        "identity_id": "6725c8eed5b1da959eb350f6c3be592e925ce635",
+        "full_name": "Minnie Mouse - Spinning Skater",
+        "minimum": 4,
+        "maximum": 4
+      },
+      {
+        "identity_id": "b1cbda0ae6f55030e3e718582adc878a6ebba693",
+        "full_name": "Prince Phillip - Vanquisher of Foes",
+        "minimum": 3,
+        "maximum": 3
+      },
+      {
+        "identity_id": "70178c995e77dc152c2c3be988201b087ac1a747",
+        "full_name": "Robin Hood - Unrivaled Archer",
+        "minimum": 2,
+        "maximum": 2
+      },
+      {
+        "identity_id": "8ded4e32f6390106d15d72e5aab8aa2ebd2b2963",
+        "full_name": "Scuttle - Birdbrained",
+        "minimum": 2,
+        "maximum": 2
+      },
+      {
+        "identity_id": "e41d63dec20f63664cf1d0fa42b721e0f7d72447",
+        "full_name": "Strike A Good Match",
+        "minimum": 3,
+        "maximum": 3
+      },
+      {
+        "identity_id": "d4b995ae6e9058a22b8f025d86e5606e0f4b410c",
+        "full_name": "Tod - Clever Fox",
+        "minimum": 3,
+        "maximum": 3
+      },
+      {
+        "identity_id": "e81fec386fd1647801df51920cfaf2d60ad090b5",
+        "full_name": "Under the Sea",
+        "minimum": 2,
+        "maximum": 2
+      },
+      {
+        "identity_id": "50157ccec4ac39cc43e41aaffab58a36b582cca3",
+        "full_name": "Winifred - Exasperated Elephant",
+        "minimum": 3,
+        "maximum": 3
+      }
+    ],
+    "sample_count": 1,
+    "range_limits": "Only these selected lists; zero means absent from a selected list. A shared core is descriptive, never mandatory or proved optimal."
+  },
+  "profile_matching": {
+    "classification": "calculation",
+    "matches": [
+      {
+        "profile_id": "mickey-minnie",
+        "list_id": "hunter-16854-168088",
+        "shared_copies": 45,
+        "fraction_of_input": 0.75
+      },
+      {
+        "profile_id": "songs",
+        "list_id": "hunter-16854-168128",
+        "shared_copies": 14,
+        "fraction_of_input": 0.23333333333333334
+      },
+      {
+        "profile_id": "retro",
+        "list_id": "hunter-16854-168118",
+        "shared_copies": 10,
+        "fraction_of_input": 0.16666666666666666
+      },
+      {
+        "profile_id": "emerald-steel",
+        "list_id": "hunter-16854-168158",
+        "shared_copies": 4,
+        "fraction_of_input": 0.06666666666666667
+      },
+      {
+        "profile_id": "amber-amethyst",
+        "list_id": "hunter-12941-164930",
+        "shared_copies": 0,
+        "fraction_of_input": 0.0
+      },
+      {
+        "profile_id": "elinor",
+        "list_id": "hunter-16598-166030",
+        "shared_copies": 0,
+        "fraction_of_input": 0.0
+      },
+      {
+        "profile_id": "elinor",
+        "list_id": "hunter-16854-168094",
+        "shared_copies": 0,
+        "fraction_of_input": 0.0
+      },
+      {
+        "profile_id": "amber-amethyst",
+        "list_id": "hunter-16854-168129",
+        "shared_copies": 0,
+        "fraction_of_input": 0.0
+      }
+    ],
+    "limits": "Copy overlap routes to curated advice; it does not establish archetype identity, power or matchup outcomes."
+  },
+  "role_counts": [
+    {
+      "role": "Mickey bases",
+      "copies": 8,
+      "purpose": "Mickey access is a separate requirement from Minnie access; Detective provides permanent ink."
+    },
+    {
+      "role": "Minnie bases",
+      "copies": 12,
+      "purpose": "Cheap Minnie versions provide pressure and the second distinct Duo Shift base."
+    },
+    {
+      "role": "Duo payoff",
+      "copies": 4,
+      "purpose": "The zero Shift payment still requires both bases and carries their relevant state; printed cost is not the play curve."
+    },
+    {
+      "role": "card flow",
+      "copies": 16,
+      "purpose": "Separate filtering and conditional draw from net resources; Donald also offers opponents cards."
+    },
+    {
+      "role": "interaction",
+      "copies": 8,
+      "purpose": "Compare chosen removal with mass bottom-decking. Chernabog and Hades may give opponents resources."
+    },
+    {
+      "role": "resilient pressure",
+      "copies": 8,
+      "purpose": "Ward constrains choosing, not challenges or non-choosing mass effects."
+    }
+  ],
+  "coaching": [
+    {
+      "against": "Amber/Emerald Elinor",
+      "mulligan": "Keep distinct bases and a usable early curve. Keep Duo with a credible route through both bases, rather than duplicate expensive threats.",
+      "inking": "Preserve at least one base of each name and a route to needed ink. A spare vanilla Ward body is a reasonable ink candidate when the immediate Duo line is stronger.",
+      "sequencing": "Inspect strength modifiers before Under the Sea. Disrupt their three-exerted-character engine when profitable; Chernabog can remove a key unwarded engine but the free discard play matters. Peacekeeper can temporarily close challenges without preventing your quests.",
+      "profile_id": "elinor",
+      "sources": [
+        {
+          "list_id": "hunter-16598-166030",
+          "player": "Kezy",
+          "reported_rank": 1,
+          "event": "Setmeisterschaft Angriff der Ranke",
+          "event_date": "2026-09-27",
+          "official_event_url": "https://tcg.ravensburgerplay.com/events/832430",
+          "deck_url": "https://lorcanahunter.com/tournament/16598/spielhohle-regensburg-setmeisterschaft-angriff-der-ranke/player/166030/deck",
+          "snapshot_sha256": "1be77c993ef6c40d0a7eafaabde6990099944eb70ccdee90ef189f9b9791dd98",
+          "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+        },
+        {
+          "list_id": "hunter-16854-168094",
+          "player": "BZ",
+          "reported_rank": 17,
+          "event": "Game Grid Open - CCQ",
+          "event_date": "2026-10-03",
+          "official_event_url": "https://tcg.ravensburgerplay.com/events/1016280",
+          "deck_url": "https://lorcanahunter.com/tournament/16854/game-grid-lehi-game-grid-open-ccq/player/168094/deck?lf_set=overall&lf_sort=date_desc&lf_tournamentId=16854",
+          "snapshot_sha256": "dec479215fb0e0d6db1c0ec9e9fc4c50177dfd148ef9f04f2f212dabc6d11125",
+          "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+        }
+      ]
+    },
+    {
+      "against": "Emerald/Sapphire Mickey & Minnie",
+      "mulligan": "Keep distinct bases, usable ink and relevant interaction. Do not automatically keep two Duo payoffs without bases.",
+      "inking": "Protect the earliest actual assembly route; ink redundant late bodies before the last required base.",
+      "sequencing": "Compare racing a five-lore Duo with disrupting a base. Chosen removal cannot target Ward, while challenges can; banishing Duo creates permanent ink and changes the next-turn resource plan.",
+      "profile_id": "mickey-minnie",
+      "sources": [
+        {
+          "list_id": "hunter-16854-168088",
+          "player": "Narfdre",
+          "reported_rank": 13,
+          "event": "Game Grid Open - CCQ",
+          "event_date": "2026-10-03",
+          "official_event_url": "https://tcg.ravensburgerplay.com/events/1016280",
+          "deck_url": "https://lorcanahunter.com/tournament/16854/game-grid-lehi-game-grid-open-ccq/player/168088/deck?lf_set=overall&lf_sort=date_desc&lf_tournamentId=16854",
+          "snapshot_sha256": "9ea241c0fcd7c15b42083c5c3c7e770b6038ee224382d88fcfc29afc37c1db2a",
+          "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+        }
+      ]
+    },
+    {
+      "against": "Amber/Steel Songs",
+      "mulligan": "Keep early bases and usable ink; keep a card-flow option when it fits development. Return slow all-payoff hands.",
+      "inking": "Preserve enough resources to rebuild after mass interaction. Ward bodies are not universally protected from songs.",
+      "sequencing": "Singer development signals a possible removal window. Keep separate plans for chosen effects and non-choosing broad effects; use Under the Sea only when current opposing strength meets its condition.",
+      "profile_id": "songs",
+      "sources": [
+        {
+          "list_id": "hunter-16854-168128",
+          "player": "ItsNotSlowPlay",
+          "reported_rank": 2,
+          "event": "Game Grid Open - CCQ",
+          "event_date": "2026-10-03",
+          "official_event_url": "https://tcg.ravensburgerplay.com/events/1016280",
+          "deck_url": "https://lorcanahunter.com/tournament/16854/game-grid-lehi-game-grid-open-ccq/player/168128/deck?lf_set=overall&lf_sort=date_desc&lf_tournamentId=16854",
+          "snapshot_sha256": "9ea241c0fcd7c15b42083c5c3c7e770b6038ee224382d88fcfc29afc37c1db2a",
+          "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+        }
+      ]
+    },
+    {
+      "against": "Amethyst/Ruby Retro",
+      "mulligan": "Keep a coherent early Duo plan and avoid too many high-cost threats.",
+      "inking": "Preserve recovery access where possible; pay attention to the difference between filtering and net cards.",
+      "sequencing": "Pressure before their evolution chain creates efficient threats. A fresh normally played evolved character still has drying restrictions unless another rule or ability changes them. Bounce costs can interrupt your base setup.",
+      "profile_id": "retro",
+      "sources": [
+        {
+          "list_id": "hunter-16854-168118",
+          "player": "[Ink Pass] LegendGary",
+          "reported_rank": 1,
+          "event": "Game Grid Open - CCQ",
+          "event_date": "2026-10-03",
+          "official_event_url": "https://tcg.ravensburgerplay.com/events/1016280",
+          "deck_url": "https://lorcanahunter.com/tournament/16854/game-grid-lehi-game-grid-open-ccq/player/168118/deck",
+          "snapshot_sha256": "1be77c993ef6c40d0a7eafaabde6990099944eb70ccdee90ef189f9b9791dd98",
+          "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+        }
+      ]
+    },
+    {
+      "against": "Amber/Amethyst character value",
+      "mulligan": "Keep early deployment and real resource support for the late game. Return redundant sixes and sevens.",
+      "inking": "Preserve the path to a threatening board rather than every large body; consider Detective when its ramp matters.",
+      "sequencing": "Compare the immediate lore race with removing their value engine. Donald may supply them the missing resource; do not treat symmetric optional draw as a one-sided advantage.",
+      "profile_id": "amber-amethyst",
+      "sources": [
+        {
+          "list_id": "hunter-12941-164930",
+          "player": "[LF] Tidus",
+          "reported_rank": 1,
+          "event": "WildCards - Attack of the Vine! Set Championship",
+          "event_date": "2026-09-27",
+          "official_event_url": "https://tcg.ravensburgerplay.com/events/817144",
+          "deck_url": "https://lorcanahunter.com/tournament/12941/wildcards-wildcards-attack-of-the-vine-set-championship/player/164930/deck",
+          "snapshot_sha256": "1be77c993ef6c40d0a7eafaabde6990099944eb70ccdee90ef189f9b9791dd98",
+          "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+        },
+        {
+          "list_id": "hunter-16854-168129",
+          "player": "Taylor Swift",
+          "reported_rank": 5,
+          "event": "Game Grid Open - CCQ",
+          "event_date": "2026-10-03",
+          "official_event_url": "https://tcg.ravensburgerplay.com/events/1016280",
+          "deck_url": "https://lorcanahunter.com/tournament/16854/game-grid-lehi-game-grid-open-ccq/player/168129/deck?lf_set=overall&lf_sort=date_desc&lf_tournamentId=16854",
+          "snapshot_sha256": "dec479215fb0e0d6db1c0ec9e9fc4c50177dfd148ef9f04f2f212dabc6d11125",
+          "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+        }
+      ]
+    },
+    {
+      "against": "Emerald/Steel character tempo",
+      "mulligan": "Keep bases and an early play sequence that survives known damage thresholds. Avoid keeping all expensive Ward threats.",
+      "inking": "Retain flexible ink and replacement bases when visible interaction threatens the first pair.",
+      "sequencing": "Track damage scaling from their public board. Ward constrains choosing, not all damage; protect the base whose loss would prevent your Duo line and compare shifting now with developing a replacement.",
+      "profile_id": "emerald-steel",
+      "sources": [
+        {
+          "list_id": "hunter-16854-168158",
+          "player": "JourneyIntoLorcana",
+          "reported_rank": 27,
+          "event": "Game Grid Open - CCQ",
+          "event_date": "2026-10-03",
+          "official_event_url": "https://tcg.ravensburgerplay.com/events/1016280",
+          "deck_url": "https://lorcanahunter.com/tournament/16854/game-grid-lehi-game-grid-open-ccq/player/168158/deck?lf_set=overall&lf_sort=date_desc&lf_tournamentId=16854",
+          "snapshot_sha256": "38b44ac0417704c254bd8556e47c4114762fa53615a578aeae578b6d4eab032c",
+          "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "The main plan has eight named Mickey bases, twelve named Minnie bases and four Duo payoffs. Joint raw access must include all three groups; simply multiplying their marginal probabilities is incorrect.",
+    "Twenty-four cards have printed cost five or more. Duo Shift, Detective ramp and singing change actual payment, but printed curve alone does not prove a turn-by-turn deployment plan.",
+    "Four Donald Perfect Gentleman have no Donald base in this list, so Shift three is unavailable from these cards alone. Its draw ability is optional for each player and also offers the opponent cards.",
+    "Dr. Bushroot pressures lore and punishes being challenged; its discard ability does not provide immediate on-play removal. Chernabog is an owned option for testing immediate intervention at the same printed cost.",
+    "Ward does not stop challenges or Under the Sea, which does not choose characters. Under the Sea only bottoms opposing characters whose current strength is two or less; verify modifiers before relying on it.",
+    "The list uses character filtering and conditional draw. Protect the distinct bases and usable ink rather than keeping a hand of expensive Ward bodies without an early plan."
+  ],
+  "variants": [
+    {
+      "variant_id": "chernabog-test",
+      "name": "Mickey & Minnie — two-copy Chernabog test",
+      "classification": "strategic_inference",
+      "changes": [
+        {
+          "identity_id": "5fceee195609a118cf899d396da71d7bef49b8b1",
+          "full_name": "Dr. Bushroot - Evil Botanist",
+          "delta": -2
+        },
+        {
+          "identity_id": "fd724083e2069df469f091f2de49668e332dad3f",
+          "full_name": "Chernabog - Unnatural Force",
+          "delta": 2
+        }
+      ],
+      "rationale": "Test two immediate on-play removal slots at printed cost five while preserving all eight Mickey bases, twelve Minnie bases, four Duo payoffs and the remainder of the list. The current comparison list uses Chernabog; check the candidate ownership table against the selected inventory before assuming this variant is buildable.",
+      "tradeoffs": "Uninkable count rises from eight to ten and you lose two three-lore Ward bodies. Chernabog chooses an opposing character, so Ward blocks that choice, and its opponent may play a character from their discard for free after a shuffle. It can improve immediate board intervention but may give away too much value.",
+      "test_plan": "Compare baseline and candidate against the same opposing list, alternating play/draw and logging mulligan, missed ink, stranded cards, reason for each loss and individual card impact. Use public information only; retain paired game records before claiming improvement. No games have been simulated or measured here. Record specifically whether Chernabog was stranded as uninkable or allowed a strong opposing discard play.",
+      "sources": [
+        {
+          "list_id": "hunter-16854-168088",
+          "player": "Narfdre",
+          "reported_rank": 13,
+          "event": "Game Grid Open - CCQ",
+          "event_date": "2026-10-03",
+          "official_event_url": "https://tcg.ravensburgerplay.com/events/1016280",
+          "deck_url": "https://lorcanahunter.com/tournament/16854/game-grid-lehi-game-grid-open-ccq/player/168088/deck?lf_set=overall&lf_sort=date_desc&lf_tournamentId=16854",
+          "snapshot_sha256": "9ea241c0fcd7c15b42083c5c3c7e770b6038ee224382d88fcfc29afc37c1db2a",
+          "limits": "Event date/format corroborated officially; list and finish reported by LorcanaHunter. Exact registration timing and independent official final standing not established."
+        }
+      ],
+      "validation": {
+        "format": "core",
+        "as_of": "2026-10-04",
+        "policy_checked_at": "2026-10-04",
+        "verdict": "passes_supported_checks",
+        "issues": [],
+        "review_required": [],
+        "card_count": 60,
+        "ink_colors": [
+          "EMERALD",
+          "SAPPHIRE"
+        ],
+        "inkable": 50,
+        "uninkable": 10,
+        "printed_cost_curve": {
+          "1": 8,
+          "2": 12,
+          "3": 12,
+          "4": 4,
+          "5": 8,
+          "6": 4,
+          "7": 10,
+          "8": 2
+        },
+        "card_types": {
+          "action": 6,
+          "character": 54
+        },
+        "limits": "Snapshot checks, not event certification; verify current sources, card text, and event terms."
+      },
+      "metrics": {
+        "classification": "calculation",
+        "population": 60,
+        "target_counts": {
+          "one_cost_characters": 8,
+          "characters_cost_two_or_less": 16,
+          "characters": 54,
+          "uninkable": 10,
+          "cost_five_or_more": 24
+        },
+        "average_printed_cost": {
+          "exact_fraction": "39/10",
+          "value": 3.9
+        },
+        "raw_access_at_least_one": {
+          "one_cost_characters": {
+            "7": {
+              "exact_fraction": "6310559/9655173",
+              "probability": 0.6535935710318189,
+              "percent": 65.35935710318189
+            },
+            "9": {
+              "exact_fraction": "3882541/5168931",
+              "probability": 0.7511303594495651,
+              "percent": 75.11303594495651
+            },
+            "10": {
+              "exact_fraction": "12252983/15506793",
+              "probability": 0.7901687344378686,
+              "percent": 79.01687344378686
+            }
+          },
+          "characters_cost_two_or_less": {
+            "7": {
+              "exact_fraction": "208066/230985",
+              "probability": 0.9007771067385328,
+              "percent": 90.07771067385329
+            },
+            "9": {
+              "exact_fraction": "1295014/1360245",
+              "probability": 0.952044668423703,
+              "percent": 95.20446684237031
+            },
+            "10": {
+              "exact_fraction": "13417882/13874499",
+              "probability": 0.9670894783299923,
+              "percent": 96.70894783299923
+            }
+          },
+          "characters": {
+            "7": {
+              "exact_fraction": "1",
+              "probability": 1.0,
+              "percent": 100.0
+            },
+            "9": {
+              "exact_fraction": "1",
+              "probability": 1.0,
+              "percent": 100.0
+            },
+            "10": {
+              "exact_fraction": "1",
+              "probability": 1.0,
+              "percent": 100.0
+            }
+          },
+          "uninkable": {
+            "7": {
+              "exact_fraction": "216911/292581",
+              "probability": 0.7413707657024893,
+              "percent": 74.13707657024892
+            },
+            "9": {
+              "exact_fraction": "55807768/67196103",
+              "probability": 0.8305209008921246,
+              "percent": 83.05209008921246
+            },
+            "10": {
+              "exact_fraction": "2960079518/3427001253",
+              "probability": 0.8637520967956296,
+              "percent": 86.37520967956296
+            }
+          },
+          "cost_five_or_more": {
+            "7": {
+              "exact_fraction": "95419/97527",
+              "probability": 0.9783854727408821,
+              "percent": 97.8385472740882
+            },
+            "9": {
+              "exact_fraction": "2302351/2317107",
+              "probability": 0.9936317140296067,
+              "percent": 99.36317140296067
+            },
+            "10": {
+              "exact_fraction": "769765/772369",
+              "probability": 0.9966285544862624,
+              "percent": 99.66285544862625
+            }
+          }
+        },
+        "opening_at_least_three_uninkable": {
+          "exact_fraction": "89087/1072797",
+          "probability": 0.0830418056724618,
+          "percent": 8.304180567246181
+        },
+        "assumptions": "Uniform sampling without replacement. 7/9/10 are cards seen, not turn labels. No mulligan, draw effects, ink choices, deployment, survival or hidden information modeled.",
+        "duo_three_part_access": {
+          "base_and_payoff_counts": [
+            8,
+            12,
+            4
+          ],
+          "draws": {
+            "7": {
+              "exact_fraction": "8640176/48275865",
+              "probability": 0.17897506341937114,
+              "percent": 17.897506341937113
+            },
+            "9": {
+              "exact_fraction": "100371022/335980515",
+              "probability": 0.29874060404961283,
+              "percent": 29.874060404961284
+            },
+            "10": {
+              "exact_fraction": "42385082/118172457",
+              "probability": 0.3586714119009982,
+              "percent": 35.86714119009982
+            }
+          },
+          "limits": "Joint raw access to both named bases and payoff; no independence assumption. Not the probability of a legal Shift or a quest on a particular turn."
+        }
+      },
+      "ownership": {
+        "required_copies": 60,
+        "covered_copies": 35,
+        "missing_copies": 25,
+        "missing_cards": [
+          {
+            "identity_id": "754975b423fd73f951d33d2a0b695136a1c5e3b8",
+            "full_name": "Donald Duck - Perfect Gentleman",
+            "needed": 4,
+            "owned": 0,
+            "missing": 4
+          },
+          {
+            "identity_id": "89f9ee7889da4ebacb49419bd4b8dae4220a5c7c",
+            "full_name": "Hades - Infernal Schemer",
+            "needed": 2,
+            "owned": 0,
+            "missing": 2
+          },
+          {
+            "identity_id": "18946699cef53f88e95079513efd6645e23daf3c",
+            "full_name": "Mickey Mouse & Minnie Mouse - Adventuring Duo",
+            "needed": 4,
+            "owned": 2,
+            "missing": 2
+          },
+          {
+            "identity_id": "132fe371ee1996c1db47f7b3f11e121247269425",
+            "full_name": "Mickey Mouse - Bob Cratchit",
+            "needed": 4,
+            "owned": 0,
+            "missing": 4
+          },
+          {
+            "identity_id": "f6d5d539a411651374ae418f08e3d379fcb13ff5",
+            "full_name": "Mickey Mouse - Detective",
+            "needed": 4,
+            "owned": 2,
+            "missing": 2
+          },
+          {
+            "identity_id": "6725c8eed5b1da959eb350f6c3be592e925ce635",
+            "full_name": "Minnie Mouse - Spinning Skater",
+            "needed": 4,
+            "owned": 1,
+            "missing": 3
+          },
+          {
+            "identity_id": "1c83fd32d4a179f9672af28642b26fba727cb8a8",
+            "full_name": "Mushu - Stealthy Dragon",
+            "needed": 4,
+            "owned": 1,
+            "missing": 3
+          },
+          {
+            "identity_id": "8ded4e32f6390106d15d72e5aab8aa2ebd2b2963",
+            "full_name": "Scuttle - Birdbrained",
+            "needed": 4,
+            "owned": 3,
+            "missing": 1
+          },
+          {
+            "identity_id": "e41d63dec20f63664cf1d0fa42b721e0f7d72447",
+            "full_name": "Strike A Good Match",
+            "needed": 4,
+            "owned": 1,
+            "missing": 3
+          },
+          {
+            "identity_id": "e81fec386fd1647801df51920cfaf2d60ad090b5",
+            "full_name": "Under the Sea",
+            "needed": 2,
+            "owned": 1,
+            "missing": 1
+          }
+        ],
+        "all_cards": [
+          {
+            "identity_id": "132fe371ee1996c1db47f7b3f11e121247269425",
+            "full_name": "Mickey Mouse - Bob Cratchit",
+            "needed": 4,
+            "owned": 0,
+            "missing": 4
+          },
+          {
+            "identity_id": "164a897757ef09cdbcfbd9297c439bef7067dd54",
+            "full_name": "Minnie Mouse - Practical Traveler",
+            "needed": 4,
+            "owned": 8,
+            "missing": 0
+          },
+          {
+            "identity_id": "18946699cef53f88e95079513efd6645e23daf3c",
+            "full_name": "Mickey Mouse & Minnie Mouse - Adventuring Duo",
+            "needed": 4,
+            "owned": 2,
+            "missing": 2
+          },
+          {
+            "identity_id": "1c83fd32d4a179f9672af28642b26fba727cb8a8",
+            "full_name": "Mushu - Stealthy Dragon",
+            "needed": 4,
+            "owned": 1,
+            "missing": 3
+          },
+          {
+            "identity_id": "3b0e8334ac0212cfffe798056686d118756c12f3",
+            "full_name": "Minnie Mouse - Curious Adventurer",
+            "needed": 4,
+            "owned": 8,
+            "missing": 0
+          },
+          {
+            "identity_id": "5fceee195609a118cf899d396da71d7bef49b8b1",
+            "full_name": "Dr. Bushroot - Evil Botanist",
+            "needed": 2,
+            "owned": 2,
+            "missing": 0
+          },
+          {
+            "identity_id": "6725c8eed5b1da959eb350f6c3be592e925ce635",
+            "full_name": "Minnie Mouse - Spinning Skater",
+            "needed": 4,
+            "owned": 1,
+            "missing": 3
+          },
+          {
+            "identity_id": "754975b423fd73f951d33d2a0b695136a1c5e3b8",
+            "full_name": "Donald Duck - Perfect Gentleman",
+            "needed": 4,
+            "owned": 0,
+            "missing": 4
+          },
+          {
+            "identity_id": "83ae92739e6a362a7d610972a8e1d9ba8a64006a",
+            "full_name": "Hades - Meticulous Schemer",
+            "needed": 4,
+            "owned": 7,
+            "missing": 0
+          },
+          {
+            "identity_id": "89f9ee7889da4ebacb49419bd4b8dae4220a5c7c",
+            "full_name": "Hades - Infernal Schemer",
+            "needed": 2,
+            "owned": 0,
+            "missing": 2
+          },
+          {
+            "identity_id": "8ded4e32f6390106d15d72e5aab8aa2ebd2b2963",
+            "full_name": "Scuttle - Birdbrained",
+            "needed": 4,
+            "owned": 3,
+            "missing": 1
+          },
+          {
+            "identity_id": "9fa7b16fb37ecae141b2538615e97ce845b0026e",
+            "full_name": "Milo Thatch - Getting His Hands Dirty",
+            "needed": 4,
+            "owned": 6,
+            "missing": 0
+          },
+          {
+            "identity_id": "d4b995ae6e9058a22b8f025d86e5606e0f4b410c",
+            "full_name": "Tod - Clever Fox",
+            "needed": 4,
+            "owned": 6,
+            "missing": 0
+          },
+          {
+            "identity_id": "e41d63dec20f63664cf1d0fa42b721e0f7d72447",
+            "full_name": "Strike A Good Match",
+            "needed": 4,
+            "owned": 1,
+            "missing": 3
+          },
+          {
+            "identity_id": "e81fec386fd1647801df51920cfaf2d60ad090b5",
+            "full_name": "Under the Sea",
+            "needed": 2,
+            "owned": 1,
+            "missing": 1
+          },
+          {
+            "identity_id": "f6d5d539a411651374ae418f08e3d379fcb13ff5",
+            "full_name": "Mickey Mouse - Detective",
+            "needed": 4,
+            "owned": 2,
+            "missing": 2
+          },
+          {
+            "identity_id": "fd724083e2069df469f091f2de49668e332dad3f",
+            "full_name": "Chernabog - Unnatural Force",
+            "needed": 2,
+            "owned": 3,
+            "missing": 0
+          }
+        ],
+        "unresolved_collection_rows": [],
+        "limits": "Gameplay identities aggregate finishes/reprints. Inventory date appears in the report's collection metadata; no prices or purchase total inferred. Per-deck allocation unless explicitly combined."
+      },
+      "cards": [
+        {
+          "identity_id": "3b0e8334ac0212cfffe798056686d118756c12f3",
+          "full_name": "Minnie Mouse - Curious Adventurer",
+          "quantity": 4
+        },
+        {
+          "identity_id": "164a897757ef09cdbcfbd9297c439bef7067dd54",
+          "full_name": "Minnie Mouse - Practical Traveler",
+          "quantity": 4
+        },
+        {
+          "identity_id": "132fe371ee1996c1db47f7b3f11e121247269425",
+          "full_name": "Mickey Mouse - Bob Cratchit",
+          "quantity": 4
+        },
+        {
+          "identity_id": "6725c8eed5b1da959eb350f6c3be592e925ce635",
+          "full_name": "Minnie Mouse - Spinning Skater",
+          "quantity": 4
+        },
+        {
+          "identity_id": "e41d63dec20f63664cf1d0fa42b721e0f7d72447",
+          "full_name": "Strike A Good Match",
+          "quantity": 4
+        },
+        {
+          "identity_id": "f6d5d539a411651374ae418f08e3d379fcb13ff5",
+          "full_name": "Mickey Mouse - Detective",
+          "quantity": 4
+        },
+        {
+          "identity_id": "1c83fd32d4a179f9672af28642b26fba727cb8a8",
+          "full_name": "Mushu - Stealthy Dragon",
+          "quantity": 4
+        },
+        {
+          "identity_id": "d4b995ae6e9058a22b8f025d86e5606e0f4b410c",
+          "full_name": "Tod - Clever Fox",
+          "quantity": 4
+        },
+        {
+          "identity_id": "754975b423fd73f951d33d2a0b695136a1c5e3b8",
+          "full_name": "Donald Duck - Perfect Gentleman",
+          "quantity": 4
+        },
+        {
+          "identity_id": "fd724083e2069df469f091f2de49668e332dad3f",
+          "full_name": "Chernabog - Unnatural Force",
+          "quantity": 2
+        },
+        {
+          "identity_id": "5fceee195609a118cf899d396da71d7bef49b8b1",
+          "full_name": "Dr. Bushroot - Evil Botanist",
+          "quantity": 2
+        },
+        {
+          "identity_id": "8ded4e32f6390106d15d72e5aab8aa2ebd2b2963",
+          "full_name": "Scuttle - Birdbrained",
+          "quantity": 4
+        },
+        {
+          "identity_id": "83ae92739e6a362a7d610972a8e1d9ba8a64006a",
+          "full_name": "Hades - Meticulous Schemer",
+          "quantity": 4
+        },
+        {
+          "identity_id": "89f9ee7889da4ebacb49419bd4b8dae4220a5c7c",
+          "full_name": "Hades - Infernal Schemer",
+          "quantity": 2
+        },
+        {
+          "identity_id": "18946699cef53f88e95079513efd6645e23daf3c",
+          "full_name": "Mickey Mouse & Minnie Mouse - Adventuring Duo",
+          "quantity": 4
+        },
+        {
+          "identity_id": "9fa7b16fb37ecae141b2538615e97ce845b0026e",
+          "full_name": "Milo Thatch - Getting His Hands Dirty",
+          "quantity": 4
+        },
+        {
+          "identity_id": "e81fec386fd1647801df51920cfaf2d60ad090b5",
+          "full_name": "Under the Sea",
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "review_required": [],
+  "limits": "Legality and mathematics are deterministic within the source snapshot. Role assignments, mulligans and revisions are authored strategic inference. No gameplay engine, match record, measured win rate or independent expert validation is claimed."
+}

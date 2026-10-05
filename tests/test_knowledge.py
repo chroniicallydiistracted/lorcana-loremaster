@@ -174,7 +174,7 @@ def test_snapshot_review_count_and_independent_benchmark():
     ledger = ReviewLedger.model_validate(read_json(ROOT / "data/policy/card-text-reviews.json"))
     assert len(ledger.records) == 137
     result = evaluate(ROOT)
-    assert result["cases"] == 100
+    assert result["cases"] == 109
     assert result["failed"] == 0, [r for r in result["results"] if not r["passed"]]
 
 

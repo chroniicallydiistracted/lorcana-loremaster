@@ -13,8 +13,18 @@ def main():
     commands = [
         [sys.executable, "tools/lorcana.py", "build"],
         [sys.executable, "tools/knowledge.py", "build"],
+        [sys.executable, "tools/providers.py", "coverage"],
         [sys.executable, "tools/lorcana.py", "check"],
+        [sys.executable, "tools/research.py", "check"],
+        [sys.executable, "tools/review.py", "--all", "--as-of", "2026-10-04"],
         [sys.executable, "tools/knowledge.py", "benchmark"],
+        [
+            sys.executable,
+            "tools/scenarios.py",
+            "evaluate",
+            "--output",
+            "reports/expert-scenarios-2026-10-04.json",
+        ],
         [sys.executable, "-m", "pytest", "-q"],
         [sys.executable, "-m", "ruff", "check"],
         [sys.executable, "-m", "ruff", "format", "--check"],

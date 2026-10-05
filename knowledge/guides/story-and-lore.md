@@ -37,3 +37,44 @@ exact cuts alongside additions. Never present invented plot or mechanics as offi
 Sources: [Official news](https://www.disneylorcana.com/en-US/news),
 [Disney Lorcana books](https://www.disneylorcana.com/en-US/product/books),
 [Hyperia City](https://www.disneylorcana.com/en-US/product/hyperia-city), exact official card art/flavor text.
+
+## A sourced introduction
+
+The Great Illuminary is the center of Lorcana. Story stars carry fragments of Disney
+stories; an Illumineer uses an inkcaster, magical ink and a lorebook to summon a
+glimmer. A glimmer is a version that exists in Lorcana rather than the film character
+being transported unchanged. The official introduction also says no ink is inherently
+good or evil: heroes and villains appear in all six.
+[The First Chapter: The Story Begins](https://www.disneylorcana.com/en-US/story/magic).
+
+The mixed-ink flood changes both storyborn and dreamborn glimmers into floodborn,
+giving them unpredictable new forms and power. That published event explains a
+narrative category; it does not assign every Floodborn card a particular ability.
+[The Roar of Rushing Ink](https://www.disneylorcana.com/en-US/story/roar).
+
+## Reading route and spoiler boundary
+
+The following is a reading sequence, not a complete chronology. Dates are displayed
+publication dates on the acquired pages. Several early-set stories were posted on
+the same date, so those timestamps cannot order the events in-world.
+
+| Reading | Displayed date | Supported narrative / spoilers | Local source ID |
+|---|---|---|---|
+| [The Story Begins](https://www.disneylorcana.com/en-US/story/magic) | 2024-09-03 | Setting, Illumineers, inkcasting and glimmers; introductory | `story-first-chapter` |
+| [The Roar of Rushing Ink](https://www.disneylorcana.com/en-US/story/roar) | 2024-09-03 | Venturo and Basil encounter the flood; Rise of the Floodborn | `story-floodborn` |
+| [When Hope Rose Transformed](https://www.disneylorcana.com/en-US/story/belle) | 2024-09-03 | Belle risks mixed ink to obtain the rose and help Beast; Ursula arc | `story-belle` |
+| [The Eye of the Storm](https://www.disneylorcana.com/en-US/story/storm) | 2024-09-03 | Shanzay, Martin and Venturo investigate Ursula's entangled glimmers; four-part Ursula story | `story-storm` |
+| [The Missing Piece — An Epilogue](https://www.disneylorcana.com/en-US/story/missing-piece-an-epilogue) | 2024-09-03 | Aftermath at Ursula's abandoned lair, recovery and guarded storage of a Hexwell Crown fragment; outcome spoilers | `story-epilogue` |
+| [Azurite Sea](https://www.disneylorcana.com/en-US/story/azurite) | 2024-10-11 | Smee and Alice story previews; retrieve the linked full stories before describing their endings | `story-azurite` |
+
+The [Palace Heist product introduction](https://www.disneylorcana.com/en-US/product/palace-heist)
+establishes a later Jafar glimmer reforging the crown and becoming Supreme Sorcerer.
+The [Hyperia City introduction](https://www.disneylorcana.com/en-US/product/hyperia-city)
+is a separate source for the newest setting. Full connecting narrative, later-set
+stories and published books still need individual acquisition and review.
+
+Search the official story snapshots using `tools/knowledge.py search --source
+story-storm "Shanzay"`, and search card flavor using `tools/lorcana.py search
+"Hexwell" --field flavor`. Resolve art/flavor to a printing before relating it to
+these events. A visual parallel can be a supported artistic observation without
+proving a new canonical event.

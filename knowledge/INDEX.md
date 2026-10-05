@@ -12,18 +12,21 @@ The previous numbered source bundle is preserved in `archive/knowledge-2026-07/`
 | How to play, beginner instruction | `guides/learning.md` | Official quick-start and `rules/comprehensive.md` |
 | Rules interaction or keyword | `rules/comprehensive.md`, `rules/keywords.md`, `rules/rulings.md` | Current official CR, card text/images, release notes |
 | Current or future deck legality | `formats/legality.md` | `data/policy/legality.json`, current TR, event terms; CLI `deck` |
-| Core or Infinity deck construction | `strategy/deckbuilding.md`, `strategy/archetypes.md` | Card corpus, applicable format evidence |
+| Core or Infinity deck construction | `strategy/deckbuilding.md`, `strategy/deck-review-workflow.md` | CLI `review`, card corpus, applicable format evidence |
 | Sealed or Draft | `formats/limited.md` | Exact personal pool and TR 1.3.2 |
 | Preconstructed or Pack Rush | `formats/other-formats.md` | Product/event pool; Pack Rush official PDF |
 | Multiplayer or Coconut beta | `guides/multiplayer-and-cooperative.md` | CR 9, Coconut rules and app support-card image |
-| Illumineer's Quest or Gateway | `guides/multiplayer-and-cooperative.md`, `guides/learning.md` | Exact product and scenario rulebook |
+| Illumineer's Quest | `guides/multiplayer-and-cooperative.md` | Exact scenario rulebook; acquisition gaps remain |
+| Gateway progression | `guides/gateway.md`, `guides/learning.md` | Original English Rules, Guidebook and Deck Tips |
 | Mulligan, inking, sequencing | `strategy/mulligan.md`, `strategy/probability.md` | Exact deck, known information and explicit model |
 | A particular turn or board state | `strategy/gameplay.md` | Current rules, exact state, player information boundary |
-| Matchups, tech, metagame | `strategy/matchups.md`, `method/research.md` | Dated same-format lists and actual game/event observations |
+| Matchups, tech, metagame | `strategy/current-archetypes.md`, `strategy/matchups.md`, `method/research.md` | October 4 exact lists; paired observations required for rates |
 | Collecting, card variants, purchases | `guides/collection-and-products.md` | Printing records, owned export, fresh regional prices |
 | Tournaments and Lore Guide procedure | `rules/tournament.md`, `guides/organized-play.md` | Current TR, correction guidelines, official event terms |
 | Story, characters, film connections | `guides/story-and-lore.md` | Official narrative, attributed flavor text, book/page references |
 | Data refresh or source conflict | `method/maintenance.md`, `method/expert-system.md` | Raw source hash, manifest, conflict record |
+| Provider, API, export or practice service | `method/providers.md` | Provider documentation, dated payloads and explicit access/coverage limits |
+| Compound response evaluation | `method/scenario-evaluation.md` | Separate 24-case claim/source/math contracts; expert prose grading pending |
 
 All table paths are relative to `knowledge/`. Data/tools paths in prose are relative
 to the workspace root. Read only the relevant guides; do not load the entire card
@@ -48,10 +51,18 @@ export into context for a simple lookup.
 - `data/policy/rulings.json`: curated official policy/mechanics records, not exhaustive.
 - `data/derived/evidence.sqlite`: official source sections/pages, font-aware PDF text
   and SQLite FTS5 search; retrieve with `uv run python tools/knowledge.py search`.
-- `data/policy/answer-facts.json`: 80 finite reviewed answers with source/date bindings.
+- `data/policy/answer-facts.json`: 89 finite reviewed answers with source/date bindings.
 - `sources/images/manifest.json`: 510 downloaded official printing-image records.
 - `sources/gaps.json`: exact cooperative/progressive booklet and new-set evidence queue.
+- `sources/providers.json`: 18 researched providers, access requirements and evidence URLs.
+- `sources/provider-snapshots.json`: six isolated public API payload snapshots and hashes.
 - `method/knowledge-engine.md`: tool setup, review lifecycle and evaluation boundaries.
+- `data/strategy/archetypes.json` and `review-plans.json`: six sourced profiles and
+  two exact-input-bound revision/coaching plans; strategic inference, not results.
+- `research/2026-10-04/`: three recent Core events, eight exact lists and exclusions;
+  secondary finishes, partial standings and hashed excerpts.
+- `reports/deck-reviews/2026-10-04/`: saved-deck reviews, legal candidates and joint
+  baseline collection demand.
 
 ## Date and format boundary
 

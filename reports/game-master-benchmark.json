@@ -1,14 +1,14 @@
 {
   "suite": "game-master-2026-10-04",
   "scope": "Deterministic curated answer/citation, card correction, calculation and uncertainty checks. Topic-directed cases do not measure unrestricted natural-language understanding.",
-  "cases": 100,
-  "passed": 100,
+  "cases": 109,
+  "passed": 109,
   "failed": 0,
   "domains": {
     "rules": 11,
     "international": 2,
     "cards": 2,
-    "learning": 8,
+    "learning": 10,
     "multiplayer": 4,
     "keywords": 23,
     "deckbuilding": 1,
@@ -21,16 +21,17 @@
     "organized_play": 3,
     "cooperative": 1,
     "metagame": 1,
-    "collection": 3,
+    "collection": 4,
     "coaching": 1,
     "simulation": 1,
-    "lore": 1,
+    "lore": 6,
     "strategy": 2,
     "probability": 5,
     "card_review": 6,
     "uncertainty": 4,
     "date_policy": 3,
-    "question_lookup": 3
+    "question_lookup": 3,
+    "research": 1
   },
   "results": [
     {
@@ -436,7 +437,7 @@
       "failures": []
     },
     {
-      "case_id": "boundary-gateway-progression",
+      "case_id": "gateway-progression",
       "domain": "learning",
       "passed": true,
       "failures": []
@@ -630,6 +631,60 @@
     {
       "case_id": "question-resist-moved",
       "domain": "question_lookup",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "gateway-first-game",
+      "domain": "learning",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "gateway-current-rules",
+      "domain": "learning",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "lore-glimmers",
+      "domain": "lore",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "lore-floodborn",
+      "domain": "lore",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "lore-belle",
+      "domain": "lore",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "lore-ursula-investigation",
+      "domain": "lore",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "lore-crown-fragment",
+      "domain": "lore",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "provider-data-boundary",
+      "domain": "research",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "collection-quest",
+      "domain": "collection",
       "passed": true,
       "failures": []
     }

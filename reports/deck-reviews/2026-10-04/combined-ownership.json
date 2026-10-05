@@ -1,0 +1,340 @@
+{
+  "required_copies": 120,
+  "covered_copies": 83,
+  "missing_copies": 37,
+  "missing_cards": [
+    {
+      "identity_id": "cb878152b6ffe069a87f49091e1ef762cd612744",
+      "full_name": "Bobby Zimuruski - Spray Cheese Kid",
+      "needed": 4,
+      "owned": 0,
+      "missing": 4
+    },
+    {
+      "identity_id": "658c40f7316edca54df15e4dd250912fc172584b",
+      "full_name": "Dale - Ready for His Shot",
+      "needed": 4,
+      "owned": 2,
+      "missing": 2
+    },
+    {
+      "identity_id": "754975b423fd73f951d33d2a0b695136a1c5e3b8",
+      "full_name": "Donald Duck - Perfect Gentleman",
+      "needed": 4,
+      "owned": 0,
+      "missing": 4
+    },
+    {
+      "identity_id": "5fceee195609a118cf899d396da71d7bef49b8b1",
+      "full_name": "Dr. Bushroot - Evil Botanist",
+      "needed": 4,
+      "owned": 2,
+      "missing": 2
+    },
+    {
+      "identity_id": "89f9ee7889da4ebacb49419bd4b8dae4220a5c7c",
+      "full_name": "Hades - Infernal Schemer",
+      "needed": 2,
+      "owned": 0,
+      "missing": 2
+    },
+    {
+      "identity_id": "18946699cef53f88e95079513efd6645e23daf3c",
+      "full_name": "Mickey Mouse & Minnie Mouse - Adventuring Duo",
+      "needed": 4,
+      "owned": 2,
+      "missing": 2
+    },
+    {
+      "identity_id": "132fe371ee1996c1db47f7b3f11e121247269425",
+      "full_name": "Mickey Mouse - Bob Cratchit",
+      "needed": 4,
+      "owned": 0,
+      "missing": 4
+    },
+    {
+      "identity_id": "f6d5d539a411651374ae418f08e3d379fcb13ff5",
+      "full_name": "Mickey Mouse - Detective",
+      "needed": 4,
+      "owned": 2,
+      "missing": 2
+    },
+    {
+      "identity_id": "6725c8eed5b1da959eb350f6c3be592e925ce635",
+      "full_name": "Minnie Mouse - Spinning Skater",
+      "needed": 4,
+      "owned": 1,
+      "missing": 3
+    },
+    {
+      "identity_id": "1c83fd32d4a179f9672af28642b26fba727cb8a8",
+      "full_name": "Mushu - Stealthy Dragon",
+      "needed": 5,
+      "owned": 1,
+      "missing": 4
+    },
+    {
+      "identity_id": "66140b66c2bc1f20ba729220ec7325594431879b",
+      "full_name": "Pocahontas - Peacekeeper",
+      "needed": 4,
+      "owned": 1,
+      "missing": 3
+    },
+    {
+      "identity_id": "8ded4e32f6390106d15d72e5aab8aa2ebd2b2963",
+      "full_name": "Scuttle - Birdbrained",
+      "needed": 4,
+      "owned": 3,
+      "missing": 1
+    },
+    {
+      "identity_id": "e41d63dec20f63664cf1d0fa42b721e0f7d72447",
+      "full_name": "Strike A Good Match",
+      "needed": 4,
+      "owned": 1,
+      "missing": 3
+    },
+    {
+      "identity_id": "e81fec386fd1647801df51920cfaf2d60ad090b5",
+      "full_name": "Under the Sea",
+      "needed": 2,
+      "owned": 1,
+      "missing": 1
+    }
+  ],
+  "all_cards": [
+    {
+      "identity_id": "b2e4454088493f11ad6048c6b396d2c646a96a35",
+      "full_name": "Aurora - Holding Court",
+      "needed": 4,
+      "owned": 4,
+      "missing": 0
+    },
+    {
+      "identity_id": "cb878152b6ffe069a87f49091e1ef762cd612744",
+      "full_name": "Bobby Zimuruski - Spray Cheese Kid",
+      "needed": 4,
+      "owned": 0,
+      "missing": 4
+    },
+    {
+      "identity_id": "98a41ededf0b9cfe8fa7096aaf97b6290be8f370",
+      "full_name": "Pluto - Friendly Pooch",
+      "needed": 4,
+      "owned": 4,
+      "missing": 0
+    },
+    {
+      "identity_id": "edc8d296f601e44b6311621379644a538907c472",
+      "full_name": "The Queen - Regal Monarch",
+      "needed": 3,
+      "owned": 4,
+      "missing": 0
+    },
+    {
+      "identity_id": "176d4f9ef0f3934a4e2e165efe91f2668911a73b",
+      "full_name": "Thomas - Wide-Eyed Recruit",
+      "needed": 3,
+      "owned": 6,
+      "missing": 0
+    },
+    {
+      "identity_id": "fe426a6642fdf84207e8082b4576aa424c939d4a",
+      "full_name": "David - Protective Snowboarder",
+      "needed": 4,
+      "owned": 4,
+      "missing": 0
+    },
+    {
+      "identity_id": "62092be95228b2e9c3a084edd89921802d742013",
+      "full_name": "Grandmother Willow - Ancient Advisor",
+      "needed": 4,
+      "owned": 4,
+      "missing": 0
+    },
+    {
+      "identity_id": "b52f0412172a907036023f0ba0143a7e3a43cca0",
+      "full_name": "Mike Wazowski - Heroic Climber",
+      "needed": 4,
+      "owned": 4,
+      "missing": 0
+    },
+    {
+      "identity_id": "50b8acc5a7f2a8afabe9284202005b34f69e21e1",
+      "full_name": "Mowgli - Man Cub",
+      "needed": 2,
+      "owned": 2,
+      "missing": 0
+    },
+    {
+      "identity_id": "bc89124dd0201cff9c7f741f524790400b1c49d3",
+      "full_name": "Pocahontas - Guiding the Tribe",
+      "needed": 4,
+      "owned": 4,
+      "missing": 0
+    },
+    {
+      "identity_id": "2f0ee159014b24c95f95963bdfa4b8ec79329fac",
+      "full_name": "Ursula - Deceiver",
+      "needed": 3,
+      "owned": 4,
+      "missing": 0
+    },
+    {
+      "identity_id": "1c83fd32d4a179f9672af28642b26fba727cb8a8",
+      "full_name": "Mushu - Stealthy Dragon",
+      "needed": 5,
+      "owned": 1,
+      "missing": 4
+    },
+    {
+      "identity_id": "0ffddb242b1306d0c67490363616322fb5fe1356",
+      "full_name": "Nani - Stage Manager",
+      "needed": 4,
+      "owned": 4,
+      "missing": 0
+    },
+    {
+      "identity_id": "658c40f7316edca54df15e4dd250912fc172584b",
+      "full_name": "Dale - Ready for His Shot",
+      "needed": 4,
+      "owned": 2,
+      "missing": 2
+    },
+    {
+      "identity_id": "f8991ab7e9bf5831166232c5770b5d0f569a005f",
+      "full_name": "Elinor - Renowned Diplomat",
+      "needed": 4,
+      "owned": 4,
+      "missing": 0
+    },
+    {
+      "identity_id": "88945d3273317af28c2c7c71dc04d35bba89c0ab",
+      "full_name": "Mickey Mouse - Expedition Leader",
+      "needed": 2,
+      "owned": 4,
+      "missing": 0
+    },
+    {
+      "identity_id": "3b52a9168d6e9dac096984ef92ece7df337589c7",
+      "full_name": "The Queen - Devious Disguise",
+      "needed": 2,
+      "owned": 2,
+      "missing": 0
+    },
+    {
+      "identity_id": "66140b66c2bc1f20ba729220ec7325594431879b",
+      "full_name": "Pocahontas - Peacekeeper",
+      "needed": 4,
+      "owned": 1,
+      "missing": 3
+    },
+    {
+      "identity_id": "3b0e8334ac0212cfffe798056686d118756c12f3",
+      "full_name": "Minnie Mouse - Curious Adventurer",
+      "needed": 4,
+      "owned": 8,
+      "missing": 0
+    },
+    {
+      "identity_id": "164a897757ef09cdbcfbd9297c439bef7067dd54",
+      "full_name": "Minnie Mouse - Practical Traveler",
+      "needed": 4,
+      "owned": 8,
+      "missing": 0
+    },
+    {
+      "identity_id": "132fe371ee1996c1db47f7b3f11e121247269425",
+      "full_name": "Mickey Mouse - Bob Cratchit",
+      "needed": 4,
+      "owned": 0,
+      "missing": 4
+    },
+    {
+      "identity_id": "6725c8eed5b1da959eb350f6c3be592e925ce635",
+      "full_name": "Minnie Mouse - Spinning Skater",
+      "needed": 4,
+      "owned": 1,
+      "missing": 3
+    },
+    {
+      "identity_id": "e41d63dec20f63664cf1d0fa42b721e0f7d72447",
+      "full_name": "Strike A Good Match",
+      "needed": 4,
+      "owned": 1,
+      "missing": 3
+    },
+    {
+      "identity_id": "f6d5d539a411651374ae418f08e3d379fcb13ff5",
+      "full_name": "Mickey Mouse - Detective",
+      "needed": 4,
+      "owned": 2,
+      "missing": 2
+    },
+    {
+      "identity_id": "d4b995ae6e9058a22b8f025d86e5606e0f4b410c",
+      "full_name": "Tod - Clever Fox",
+      "needed": 4,
+      "owned": 6,
+      "missing": 0
+    },
+    {
+      "identity_id": "754975b423fd73f951d33d2a0b695136a1c5e3b8",
+      "full_name": "Donald Duck - Perfect Gentleman",
+      "needed": 4,
+      "owned": 0,
+      "missing": 4
+    },
+    {
+      "identity_id": "5fceee195609a118cf899d396da71d7bef49b8b1",
+      "full_name": "Dr. Bushroot - Evil Botanist",
+      "needed": 4,
+      "owned": 2,
+      "missing": 2
+    },
+    {
+      "identity_id": "8ded4e32f6390106d15d72e5aab8aa2ebd2b2963",
+      "full_name": "Scuttle - Birdbrained",
+      "needed": 4,
+      "owned": 3,
+      "missing": 1
+    },
+    {
+      "identity_id": "83ae92739e6a362a7d610972a8e1d9ba8a64006a",
+      "full_name": "Hades - Meticulous Schemer",
+      "needed": 4,
+      "owned": 7,
+      "missing": 0
+    },
+    {
+      "identity_id": "89f9ee7889da4ebacb49419bd4b8dae4220a5c7c",
+      "full_name": "Hades - Infernal Schemer",
+      "needed": 2,
+      "owned": 0,
+      "missing": 2
+    },
+    {
+      "identity_id": "18946699cef53f88e95079513efd6645e23daf3c",
+      "full_name": "Mickey Mouse & Minnie Mouse - Adventuring Duo",
+      "needed": 4,
+      "owned": 2,
+      "missing": 2
+    },
+    {
+      "identity_id": "9fa7b16fb37ecae141b2538615e97ce845b0026e",
+      "full_name": "Milo Thatch - Getting His Hands Dirty",
+      "needed": 4,
+      "owned": 6,
+      "missing": 0
+    },
+    {
+      "identity_id": "e81fec386fd1647801df51920cfaf2d60ad090b5",
+      "full_name": "Under the Sea",
+      "needed": 2,
+      "owned": 1,
+      "missing": 1
+    }
+  ],
+  "unresolved_collection_rows": [],
+  "limits": "Gameplay identities aggregate finishes/reprints. Inventory date appears in the report's collection metadata; no prices or purchase total inferred. Per-deck allocation unless explicitly combined. Combined baseline demand assumes both decks are assembled simultaneously; variants are alternatives, not extra decks."
+}

@@ -29,9 +29,10 @@ and an alternate if the draw changes. Explain why one quest or challenge helps t
 lore race. Ask the learner to predict the result, then correct the specific point.
 Keep feedback about controllable choices separate from an unlucky outcome.
 
-Gateway uses its own progressive learning materials; do not skip progression rules
-or invent unlock conditions. Exact contents, booklet instructions and supported
-player configurations must come from that edition's official product/materials.
+Gateway's original English rules, guidebook and Deck Tips are now cached. Follow
+[the Gateway guide](gateway.md) for its four gates, exact source pages and transition
+from older teaching instructions to current rules. Keep edition-specific progression
+separate from tournament deck eligibility.
 
 Sources: current official quick-start documents from
 [Resources](https://www.disneylorcana.com/en-US/resources),

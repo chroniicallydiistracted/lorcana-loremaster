@@ -1,0 +1,473 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-04",
+  "scope": "Provider documentation and public entry points, not blanket verification of card coverage, exports, pricing or rules accuracy.",
+  "providers": [
+    {
+      "provider_id": "official-resources",
+      "name": "Disney Lorcana Resources",
+      "categories": [
+        "rules",
+        "legality",
+        "organized_play"
+      ],
+      "url": "https://www.disneylorcana.com/en-US/resources",
+      "checked_at": "2026-10-04",
+      "authority": "official_lorcana",
+      "access": "public_documents",
+      "use_for": [
+        "Controlling rules, tournament documents, set clarifications and event terms."
+      ],
+      "limitations": [
+        "Select the current linked version and effective date; posting is not tournament eligibility."
+      ],
+      "evidence_urls": [
+        "https://www.disneylorcana.com/en-US/resources"
+      ],
+      "endpoints": []
+    },
+    {
+      "provider_id": "official-card-gallery",
+      "name": "Official Card Gallery",
+      "categories": [
+        "cards",
+        "images"
+      ],
+      "url": "https://cards.disneylorcana.com/en-US/",
+      "checked_at": "2026-10-04",
+      "authority": "official_lorcana",
+      "access": "public_pages",
+      "use_for": [
+        "Exact card/printing inspection alongside the supplied API and review ledger."
+      ],
+      "limitations": [
+        "Base-set completeness does not establish all physical variants. Public API support and service limits not established."
+      ],
+      "evidence_urls": [
+        "https://cards.disneylorcana.com/en-US/?cardId=2876&search=ursula"
+      ],
+      "endpoints": []
+    },
+    {
+      "provider_id": "official-app",
+      "name": "Disney Lorcana Companion App",
+      "categories": [
+        "cards",
+        "collection",
+        "learning",
+        "cooperative"
+      ],
+      "url": "https://www.disneylorcana.com/en-US/app",
+      "checked_at": "2026-10-04",
+      "authority": "official_lorcana",
+      "access": "mobile_app",
+      "use_for": [
+        "Visual card catalog, collection/deck tools, lore counters and how-to-play help."
+      ],
+      "limitations": [
+        "App behavior and update status require checking the installed version; no export/API contract verified. Palace Heist page advertises its special lore/draw counter."
+      ],
+      "evidence_urls": [
+        "https://www.disneylorcana.com/en-US/app",
+        "https://www.disneylorcana.com/en-US/product/palace-heist"
+      ],
+      "endpoints": []
+    },
+    {
+      "provider_id": "ravensburger-play-hub",
+      "name": "Ravensburger Play Hub / Carde.io",
+      "categories": [
+        "events",
+        "organized_play"
+      ],
+      "url": "https://www.ravensburgerplay.com/",
+      "checked_at": "2026-10-04",
+      "authority": "official_lorcana",
+      "access": "public_event_pages_and_account_tools",
+      "use_for": [
+        "Event/store discovery; registration and organizer workflows."
+      ],
+      "limitations": [
+        "Public visibility of standings, submitted decks and round results varies. Event registration is separate from read-only research. No public ingestion API contract verified."
+      ],
+      "evidence_urls": [
+        "https://www.ravensburgerplay.com/",
+        "https://support.carde.io/en/articles/14466191-running-an-event-on-carde-io",
+        "https://support.carde.io/en/articles/15415209-create-and-run-a-swiss-tournament-event"
+      ],
+      "endpoints": []
+    },
+    {
+      "provider_id": "ravensburger-instructions",
+      "name": "Ravensburger instruction servers",
+      "categories": [
+        "learning",
+        "product_manuals"
+      ],
+      "url": "https://www.ravensburger.org/",
+      "checked_at": "2026-10-04",
+      "authority": "official_lorcana",
+      "access": "public_product_linked_pdfs",
+      "use_for": [
+        "Gateway rules, guidebook and two deck-tip pamphlets recovered."
+      ],
+      "limitations": [
+        "Read the PDF title; numeric filenames may identify a different pamphlet. Regional manual discovery remains incomplete."
+      ],
+      "evidence_urls": [
+        "https://www.ravensburger.org/dk/produkte/disney-lorcana/gift-sets/disney-lorcana-gateway-11098399/index.html",
+        "https://www.ravensburger.org/spielanleitungen/ecm/Spielanleitungen/241531_11098399_X_web.pdf"
+      ],
+      "endpoints": []
+    },
+    {
+      "provider_id": "lorcanajson",
+      "name": "LorcanaJSON",
+      "categories": [
+        "cards",
+        "bulk_data",
+        "identity_links",
+        "localization",
+        "coconut"
+      ],
+      "url": "https://lorcanajson.org",
+      "checked_at": "2026-10-04",
+      "authority": "provider_primary_documentation",
+      "access": "published_bulk_files_and_open_source",
+      "use_for": [
+        "Enriched card fields, image-derived text, external marketplace identifiers and separate Coconut downloads."
+      ],
+      "limitations": [
+        "Secondary data: reconcile field conflicts against official evidence. Repository code is MIT; that does not license Disney/Ravensburger artwork. Bulk-file URLs documented but not downloaded in this pass; website access restrictions respected."
+      ],
+      "evidence_urls": [
+        "https://github.com/LorcanaJSON/LorcanaJSON",
+        "https://github.com/LorcanaJSON/LorcanaJSON-website/blob/main/index.html"
+      ],
+      "endpoints": []
+    },
+    {
+      "provider_id": "lorcast",
+      "name": "Lorcast",
+      "categories": [
+        "cards",
+        "images",
+        "prices"
+      ],
+      "url": "https://lorcast.com",
+      "checked_at": "2026-10-04",
+      "authority": "provider_primary_documentation",
+      "access": "documented_public_api",
+      "use_for": [
+        "Supplemental set/printing lookup and cached USD price fields."
+      ],
+      "limitations": [
+        "Beta v0: plan for breaking changes. Request spacing 50–100 ms; cache at least 24 hours. Gameplay refresh weekly or after releases; provider prices daily. Do not import its legality flags as policy. Documentation describes one ink string; inspect dual-ink payloads."
+      ],
+      "evidence_urls": [
+        "https://lorcast.com/docs/api",
+        "https://lorcast.com/docs/api/cards",
+        "https://lorcast.com/docs/api/sets",
+        "https://lorcast.com/docs/api/images"
+      ],
+      "endpoints": [
+        {
+          "endpoint_id": "sets",
+          "url": "https://api.lorcast.com/v0/sets",
+          "shape": "results_object",
+          "cache_hours": 24
+        },
+        {
+          "endpoint_id": "hyperia-cards",
+          "url": "https://api.lorcast.com/v0/sets/14/cards",
+          "shape": "array",
+          "cache_hours": 24
+        }
+      ]
+    },
+    {
+      "provider_id": "dreamborn",
+      "name": "Dreamborn.ink",
+      "categories": [
+        "decks",
+        "collection",
+        "card_scanning"
+      ],
+      "url": "https://dreamborn.ink",
+      "checked_at": "2026-10-04",
+      "authority": "provider_primary_documentation",
+      "access": "public_decks_and_account_collection_tools",
+      "use_for": [
+        "Deck construction/discovery and companion-app card scanning into collections."
+      ],
+      "limitations": [
+        "Deck popularity is not measured strength. No documented public API contract verified; use intentional exports or public list pages. Existing personal CSV remains authoritative for its export date."
+      ],
+      "evidence_urls": [
+        "https://dreamborn.ink"
+      ],
+      "endpoints": []
+    },
+    {
+      "provider_id": "inkdecks",
+      "name": "InkDecks",
+      "categories": [
+        "decks",
+        "events",
+        "metagame"
+      ],
+      "url": "https://inkdecks.com",
+      "checked_at": "2026-10-04",
+      "authority": "provider_primary_documentation",
+      "access": "public_pages",
+      "use_for": [
+        "Tournament deck discovery and event-specific metagame/winrate pages."
+      ],
+      "limitations": [
+        "Check registered field, published lists and paired results separately; coverage varies by event. API/access limits not verified. Color-pair share need not describe the full field."
+      ],
+      "evidence_urls": [
+        "https://inkdecks.com/contact",
+        "https://inkdecks.com/lorcana-tournaments/inkinc-invitational-3k-tournament-decks-2348",
+        "https://inkdecks.com/lorcana-tournaments/inkinc-invitational-3k-tournament-decks-2348/winrates"
+      ],
+      "endpoints": []
+    },
+    {
+      "provider_id": "lorcanahunter",
+      "name": "LorcanaHunter",
+      "categories": [
+        "decks",
+        "events",
+        "metagame"
+      ],
+      "url": "https://lorcanahunter.com/",
+      "checked_at": "2026-10-04",
+      "authority": "provider_primary_documentation",
+      "access": "public_pages",
+      "use_for": [
+        "Discover events, list transcriptions and upstream tournament links."
+      ],
+      "limitations": [
+        "Homepage displayed an October 5 update despite the October 4 workspace date; do not use that timestamp or summary as a date-qualified dataset. Color order may duplicate pairs. Verify per-event provenance and denominators."
+      ],
+      "evidence_urls": [
+        "https://lorcanahunter.com/"
+      ],
+      "endpoints": []
+    },
+    {
+      "provider_id": "elorcana",
+      "name": "Elorcana",
+      "categories": [
+        "events",
+        "player_ratings"
+      ],
+      "url": "https://elorcana.com/",
+      "checked_at": "2026-10-04",
+      "authority": "provider_primary_documentation",
+      "access": "public_pages",
+      "use_for": [
+        "Player result history and tournament discovery."
+      ],
+      "limitations": [
+        "Fan Elo is a provider model, not official ranking or deck strength. Its published scope selects major/qualified events rather than all local play."
+      ],
+      "evidence_urls": [
+        "https://elorcana.com/",
+        "https://elorcana.com/tournaments/3e44a154-8c09-4e88-888f-4a0fd0b3deed"
+      ],
+      "endpoints": []
+    },
+    {
+      "provider_id": "lore-guide-institute",
+      "name": "Lore Guide Institute",
+      "categories": [
+        "learning",
+        "judge_training"
+      ],
+      "url": "https://institute.lorcanajudges.com/",
+      "checked_at": "2026-10-04",
+      "authority": "provider_primary_documentation",
+      "access": "free_content_account_for_progress",
+      "use_for": [
+        "Structured rules, teaching and enforcement practice."
+      ],
+      "limitations": [
+        "Independent community education; badges are its records, not official certification. Official PDFs control adjudication."
+      ],
+      "evidence_urls": [
+        "https://institute.lorcanajudges.com/"
+      ],
+      "endpoints": []
+    },
+    {
+      "provider_id": "tcgcsv",
+      "name": "TCGCSV",
+      "categories": [
+        "prices",
+        "product_catalog",
+        "price_history"
+      ],
+      "url": "https://tcgcsv.com/",
+      "checked_at": "2026-10-04",
+      "authority": "provider_primary_documentation",
+      "access": "documented_public_cached_json_csv",
+      "use_for": [
+        "Daily TCGplayer-derived product/price observations and archives from February 8, 2024."
+      ],
+      "limitations": [
+        "Provider update target 20:00 UTC; record actual payload update time. Join products/prices by productId and keep subTypeName. No condition/language SKU data or individual sold/listed transactions. Public files are separate from TCGplayer API authorization."
+      ],
+      "evidence_urls": [
+        "https://tcgcsv.com/",
+        "https://tcgcsv.com/faq",
+        "https://tcgcsv.com/docs"
+      ],
+      "endpoints": [
+        {
+          "endpoint_id": "categories",
+          "url": "https://tcgcsv.com/tcgplayer/categories",
+          "shape": "results_object",
+          "cache_hours": 24
+        },
+        {
+          "endpoint_id": "lorcana-groups",
+          "url": "https://tcgcsv.com/tcgplayer/71/groups",
+          "shape": "results_object",
+          "cache_hours": 24
+        },
+        {
+          "endpoint_id": "hyperia-products",
+          "url": "https://tcgcsv.com/tcgplayer/71/24740/products",
+          "shape": "results_object",
+          "cache_hours": 24
+        },
+        {
+          "endpoint_id": "hyperia-prices",
+          "url": "https://tcgcsv.com/tcgplayer/71/24740/prices",
+          "shape": "results_object",
+          "cache_hours": 24
+        }
+      ]
+    },
+    {
+      "provider_id": "tcgplayer",
+      "name": "TCGplayer",
+      "categories": [
+        "prices",
+        "marketplace"
+      ],
+      "url": "https://docs.tcgplayer.com/docs/getting-started",
+      "checked_at": "2026-10-04",
+      "authority": "provider_primary_documentation",
+      "access": "new_api_access_closed",
+      "use_for": [
+        "Regional listing inspection; existing authorized integrations follow provider terms."
+      ],
+      "limitations": [
+        "Getting-started docs say new API access is not granted. September 2026 seller API program update does not establish open new developer access. Do not design a dependency around obtaining a new key."
+      ],
+      "evidence_urls": [
+        "https://docs.tcgplayer.com/docs/getting-started",
+        "https://seller.tcgplayer.com/blog/building-a-more-scalable-and-secure-api-program-at-tcgplayer"
+      ],
+      "endpoints": []
+    },
+    {
+      "provider_id": "cardmarket",
+      "name": "Cardmarket",
+      "categories": [
+        "prices",
+        "product_catalog",
+        "marketplace"
+      ],
+      "url": "https://www.cardmarket.com/en/Lorcana/Data/Price-Guide",
+      "checked_at": "2026-10-04",
+      "authority": "provider_primary_documentation",
+      "access": "public_bulk_downloads_new_api_access_closed",
+      "use_for": [
+        "Regional public price guide and catalog with native product IDs."
+      ],
+      "limitations": [
+        "Public download availability documented; direct download access not verified here. API applications closed. January 2026 API base moved to apiv2.cardmarket.com for existing users. Catalog/price aggregates are not condition-specific purchase quotes."
+      ],
+      "evidence_urls": [
+        "https://help.cardmarket.com/en/cardmarket-api",
+        "https://news.cardmarket.com/en/Lorcana/adding-non-singles-and-accessories-to-the-price-guide",
+        "https://insight.cardmarket.com/en/Articles/whats-new-on-cardmarket-7-2025",
+        "https://apiv2.cardmarket.com/ws/documentation/API_Main_Page"
+      ],
+      "endpoints": []
+    },
+    {
+      "provider_id": "cardtrader",
+      "name": "CardTrader",
+      "categories": [
+        "prices",
+        "marketplace",
+        "identity_links"
+      ],
+      "url": "https://www.cardtrader.com/en/docs/api/full/reference",
+      "checked_at": "2026-10-04",
+      "authority": "provider_primary_documentation",
+      "access": "authenticated_api",
+      "use_for": [
+        "Blueprint/product distinction, expansion catalog and marketplace listings."
+      ],
+      "limitations": [
+        "Bearer token required; no account or credential configured. Marketplace documentation contains both 1-call/second cache guidance and a 10-request/second limit: use the conservative 1/second pending clarification. Purchasing endpoints require separate explicit user instructions."
+      ],
+      "evidence_urls": [
+        "https://www.cardtrader.com/en/docs/api/full/reference"
+      ],
+      "endpoints": []
+    },
+    {
+      "provider_id": "inktable",
+      "name": "Ink Table",
+      "categories": [
+        "learning",
+        "practice"
+      ],
+      "url": "https://www.inktable.net/",
+      "checked_at": "2026-10-04",
+      "authority": "provider_primary_documentation",
+      "access": "browser_ai_practice",
+      "use_for": [
+        "Fan solo practice against heuristic AI."
+      ],
+      "limitations": [
+        "Provider describes short-horizon heuristic decisions. Current Set 14 coverage and interaction correctness not tested; games here do not measure human tournament matchups."
+      ],
+      "evidence_urls": [
+        "https://www.inktable.net/",
+        "https://www.inktable.net/faq"
+      ],
+      "endpoints": []
+    },
+    {
+      "provider_id": "tcg-online",
+      "name": "TCG Online (formerly Lorcanito)",
+      "categories": [
+        "practice",
+        "multiplayer",
+        "replays"
+      ],
+      "url": "https://tcg.online/lorcana/matchmaking",
+      "checked_at": "2026-10-04",
+      "authority": "provider_primary_documentation",
+      "access": "guest_watch_practice_account_for_queue",
+      "use_for": [
+        "Community online games, rooms and replay discovery."
+      ],
+      "limitations": [
+        "Provider announces Lorcanito migration July 23, 2026. Unofficial engine: check current implementation, queue format and match structure; homepage default Infinity best-of-one is not Core evidence. No gameplay sessions run in this pass."
+      ],
+      "evidence_urls": [
+        "https://tcg.online/lorcana/matchmaking"
+      ],
+      "endpoints": []
+    }
+  ]
+}
