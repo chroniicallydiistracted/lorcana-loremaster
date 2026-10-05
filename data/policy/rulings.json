@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-04",
+  "coverage": "Curated policy and mechanics records, not a complete card oracle or errata history.",
+  "records": [
+    {
+      "id": "core-bans-2026-07-14",
+      "format": "core",
+      "effective_date": "2026-07-14",
+      "summary": "No current banned cards in Core under this policy.",
+      "source_id": "tournament-rules-2026-07-14",
+      "section": "1.6.2"
+    },
+    {
+      "id": "infinity-bans-2026-07-14",
+      "format": "infinity",
+      "effective_date": "2026-07-14",
+      "summary": "Hiram Flaversham - Toymaker is banned in Infinity.",
+      "source_id": "tournament-rules-2026-07-14",
+      "section": "1.6.2"
+    },
+    {
+      "id": "reprints",
+      "summary": "Any printing of a card legal in a format may be used in that format; promos inherit assigned-set timing and rotation.",
+      "source_id": "tournament-rules-2026-07-14",
+      "section": "1.6"
+    },
+    {
+      "id": "ink-drop-preview",
+      "published_date": "2026-09-29",
+      "summary": "Ink drops provide one temporary ink each, can be used the turn they are made, and leave the game when used. They can be saved for later turns.",
+      "source_id": "ink-drop-deep-dive",
+      "status": "Official introductory article; detailed timing awaits applicable comprehensive rules/release notes."
+    },
+    {
+      "id": "pack-rush-reshuffle-wording",
+      "summary": "CR 2.2.0 section 10.2.5 describes reshuffling when a player runs out of deck cards; the older Pack Rush quick sheet frames this at a needed draw. Preserve the wording discrepancy and use current variant rules for timing.",
+      "source_id": "comprehensive-rules-2.2.0",
+      "section": "10.2.5",
+      "related_source_id": "pack-rush",
+      "status": "Source wording discrepancy; do not silently merge."
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "name": "Elinor Amber/Emerald — Moluk European Championship Winner",
+  "format": "Core Constructed",
+  "ink_colors": [
+    "Amber",
+    "Emerald"
+  ],
+  "card_count": 60,
+  "unique_card_count": 18,
+  "source": {
+    "player": "Wojciech Złomek ([OSA] Moluk)",
+    "event": "2026 European Championship — Main Event",
+    "placement": 1,
+    "event_date": "2026-09-12",
+    "field_size": 200,
+    "deck_id": "iRYEIcqlK0GcMPBqWtrm"
+  },
+  "cards": [
+    {
+      "quantity": 4,
+      "deck_building_id": "b2e4454088493f11ad6048c6b396d2c646a96a35",
+      "card_identifier": "6/204 EN 9",
+      "name": "Aurora",
+      "subtitle": "Holding Court",
+      "type": "character",
+      "ink_cost": 1,
+      "inkable": true,
+      "ink_colors": [
+        "Amber"
+      ],
+      "strength": 1,
+      "willpower": 2,
+      "lore": 1,
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "rules_text": "\\Royal Welcome\\ Whenever this character quests, you pay 1 {I} less for the next Princess or Queen character you play this turn."
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "98a41ededf0b9cfe8fa7096aaf97b6290be8f370",
+      "card_identifier": "21/204 EN 9",
+      "name": "Pluto",
+      "subtitle": "Friendly Pooch",
+      "type": "character",
+      "ink_cost": 1,
+      "inkable": false,
+      "ink_colors": [
+        "Amber"
+      ],
+      "strength": 0,
+      "willpower": 2,
+      "lore": 1,
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "rules_text": "\\Good Dog\\ {E} — You pay 1 {I} less for the next character you play this turn."
+    },
+    {
+      "quantity": 3,
+      "deck_building_id": "edc8d296f601e44b6311621379644a538907c472",
+      "card_identifier": "7/204 EN 9",
+      "name": "The Queen",
+      "subtitle": "Regal Monarch",
+      "type": "character",
+      "ink_cost": 1,
+      "inkable": true,
+      "ink_colors": [
+        "Amber"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore": 1,
+      "classifications": [
+        "Storyborn",
+        "Villain",
+        "Queen"
+      ]
+    },
+    {
+      "quantity": 3,
+      "deck_building_id": "176d4f9ef0f3934a4e2e165efe91f2668911a73b",
+      "card_identifier": "1/204 EN 11",
+      "name": "Thomas",
+      "subtitle": "Wide-Eyed Recruit",
+      "type": "character",
+      "ink_cost": 1,
+      "inkable": true,
+      "ink_colors": [
+        "Amber"
+      ],
+      "strength": 0,
+      "willpower": 4,
+      "lore": 1,
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ]
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "fe426a6642fdf84207e8082b4576aa424c939d4a",
+      "card_identifier": "9/204 EN 11",
+      "name": "David",
+      "subtitle": "Protective Snowboarder",
+      "type": "character",
+      "ink_cost": 2,
+      "inkable": true,
+      "ink_colors": [
+        "Amber"
+      ],
+      "strength": 1,
+      "willpower": 4,
+      "lore": 1,
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "keywords": [
+        "Bodyguard"
+      ],
+      "rules_text": "<Bodyguard> (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)"
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "62092be95228b2e9c3a084edd89921802d742013",
+      "card_identifier": "13/204 EN 11",
+      "name": "Grandmother Willow",
+      "subtitle": "Ancient Advisor",
+      "type": "character",
+      "ink_cost": 2,
+      "inkable": false,
+      "ink_colors": [
+        "Amber"
+      ],
+      "strength": 1,
+      "willpower": 2,
+      "lore": 1,
+      "classifications": [
+        "Storyborn",
+        "Mentor"
+      ],
+      "rules_text": "\\Smooth the Way\\ Once during your turn, you pay 1 {I} less for the next character you play this turn."
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "b52f0412172a907036023f0ba0143a7e3a43cca0",
+      "card_identifier": "18/207 EN 13",
+      "name": "Mike Wazowski",
+      "subtitle": "Heroic Climber",
+      "type": "character",
+      "ink_cost": 2,
+      "inkable": false,
+      "ink_colors": [
+        "Amber"
+      ],
+      "strength": 0,
+      "willpower": 4,
+      "lore": 1,
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Monster"
+      ],
+      "rules_text": "\\Find a Friend\\ When you play this character and whenever he quests, each player reveals the top card of their deck. If it's a character card, they may put it into their hand. Otherwise, put it on the bottom of their deck."
+    },
+    {
+      "quantity": 2,
+      "deck_building_id": "50b8acc5a7f2a8afabe9284202005b34f69e21e1",
+      "card_identifier": "19/204 EN 10",
+      "name": "Mowgli",
+      "subtitle": "Man Cub",
+      "type": "character",
+      "ink_cost": 2,
+      "inkable": true,
+      "ink_colors": [
+        "Amber"
+      ],
+      "strength": 1,
+      "willpower": 2,
+      "lore": 1,
+      "classifications": [
+        "Storyborn",
+        "Hero"
+      ],
+      "rules_text": "\\Have a Better Look\\ When you play this character, chosen opponent reveals their hand and discards a non-character card of their choice."
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "bc89124dd0201cff9c7f741f524790400b1c49d3",
+      "card_identifier": "12/207 EN 13",
+      "name": "Pocahontas",
+      "subtitle": "Guiding the Tribe",
+      "type": "character",
+      "ink_cost": 2,
+      "inkable": true,
+      "ink_colors": [
+        "Amber"
+      ],
+      "strength": 2,
+      "willpower": 3,
+      "lore": 1,
+      "classifications": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "rules_text": "\\Stay Close\\ When you play this character, you may play a character with cost 1 for free."
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "0ffddb242b1306d0c67490363616322fb5fe1356",
+      "card_identifier": "20/204 EN 11",
+      "name": "Nani",
+      "subtitle": "Stage Manager",
+      "type": "character",
+      "ink_cost": 3,
+      "inkable": true,
+      "ink_colors": [
+        "Amber"
+      ],
+      "strength": 3,
+      "willpower": 3,
+      "lore": 1,
+      "classifications": [
+        "Dreamborn",
+        "Hero"
+      ],
+      "rules_text": "\\That's Your Cue\\ When you play this character, look at the top 4 cards of your deck. You may reveal a character card with cost 2 or less and put it into your hand. Put the rest on the bottom of your deck in any order."
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "658c40f7316edca54df15e4dd250912fc172584b",
+      "card_identifier": "22/204 EN 12",
+      "name": "Dale",
+      "subtitle": "Ready for His Shot",
+      "type": "character",
+      "ink_cost": 4,
+      "inkable": true,
+      "ink_colors": [
+        "Amber"
+      ],
+      "strength": 0,
+      "willpower": 4,
+      "lore": 2,
+      "classifications": [
+        "Dreamborn",
+        "Hero"
+      ],
+      "rules_text": "\\Spike Suit\\ During challenges, your characters deal damage with their {W} instead of their {S}."
+    },
+    {
+      "quantity": 2,
+      "deck_building_id": "88945d3273317af28c2c7c71dc04d35bba89c0ab",
+      "card_identifier": "26/204 EN 12",
+      "name": "Mickey Mouse",
+      "subtitle": "Expedition Leader",
+      "type": "character",
+      "ink_cost": 4,
+      "inkable": true,
+      "ink_colors": [
+        "Amber"
+      ],
+      "strength": 2,
+      "willpower": 3,
+      "lore": 2,
+      "classifications": [
+        "Dreamborn",
+        "Hero"
+      ],
+      "rules_text": "\\Long Journey\\ This character may enter play exerted.\n\n\\Secret Path\\ While this character is exerted, whenever one of your other characters quests, chosen opposing character gets -2 {S} until the start of your next turn."
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "66140b66c2bc1f20ba729220ec7325594431879b",
+      "card_identifier": "22/204 EN 11",
+      "name": "Pocahontas",
+      "subtitle": "Peacekeeper",
+      "type": "character",
+      "ink_cost": 5,
+      "inkable": true,
+      "ink_colors": [
+        "Amber"
+      ],
+      "strength": 3,
+      "willpower": 6,
+      "lore": 2,
+      "classifications": [
+        "Floodborn",
+        "Hero",
+        "Princess"
+      ],
+      "keywords": [
+        "Shift"
+      ],
+      "rules_text": "<Shift> 3 {I} (You may pay 3 {I} to play this on top of one of your characters named Pocahontas.)\n\n\\Calming Words\\ When you play this character, if you used <Shift> to play her and none of your characters challenged this turn, characters can't challenge until the start of your next turn."
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "cb878152b6ffe069a87f49091e1ef762cd612744",
+      "card_identifier": "78/204 EN 9",
+      "name": "Bobby Zimuruski",
+      "subtitle": "Spray Cheese Kid",
+      "type": "character",
+      "ink_cost": 1,
+      "inkable": true,
+      "ink_colors": [
+        "Emerald"
+      ],
+      "strength": 1,
+      "willpower": 2,
+      "lore": 1,
+      "classifications": [
+        "Storyborn",
+        "Ally"
+      ],
+      "rules_text": "\\So Cheesy\\ When you play this character, you may draw a card, then choose and discard a card."
+    },
+    {
+      "quantity": 3,
+      "deck_building_id": "2f0ee159014b24c95f95963bdfa4b8ec79329fac",
+      "card_identifier": "90/204 EN 9",
+      "name": "Ursula",
+      "subtitle": "Deceiver",
+      "type": "character",
+      "ink_cost": 2,
+      "inkable": true,
+      "ink_colors": [
+        "Emerald"
+      ],
+      "strength": 1,
+      "willpower": 3,
+      "lore": 1,
+      "classifications": [
+        "Storyborn",
+        "Villain",
+        "Sorcerer"
+      ],
+      "rules_text": "\\You'll Never Even Miss It\\ When you play this character, chosen opponent reveals their hand and discards a song card of your choice."
+    },
+    {
+      "quantity": 1,
+      "deck_building_id": "1c83fd32d4a179f9672af28642b26fba727cb8a8",
+      "card_identifier": "97/207 EN 13",
+      "name": "Mushu",
+      "subtitle": "Stealthy Dragon",
+      "type": "character",
+      "ink_cost": 3,
+      "inkable": true,
+      "ink_colors": [
+        "Emerald"
+      ],
+      "strength": 3,
+      "willpower": 2,
+      "lore": 1,
+      "classifications": [
+        "Storyborn",
+        "Ally",
+        "Dragon"
+      ],
+      "keywords": [
+        "Evasive"
+      ],
+      "rules_text": "<Evasive> (Only characters with Evasive can challenge this character.)\n\n\\Tip the Scales\\ Whenever this character quests, if an opponent has more cards in their hand than you, you may draw a card."
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "f8991ab7e9bf5831166232c5770b5d0f569a005f",
+      "card_identifier": "86/204 EN 12",
+      "name": "Elinor",
+      "subtitle": "Renowned Diplomat",
+      "type": "character",
+      "ink_cost": 4,
+      "inkable": false,
+      "ink_colors": [
+        "Emerald"
+      ],
+      "strength": 3,
+      "willpower": 4,
+      "lore": 1,
+      "classifications": [
+        "Storyborn",
+        "Mentor",
+        "Queen"
+      ],
+      "rules_text": "\\Coordinated Efforts\\ At the end of your turn, if you have 3 or more exerted characters in play, deal 1 damage to chosen opposing character, gain 1 lore, and draw a card."
+    },
+    {
+      "quantity": 2,
+      "deck_building_id": "3b52a9168d6e9dac096984ef92ece7df337589c7",
+      "card_identifier": "90/204 EN 12",
+      "name": "The Queen",
+      "subtitle": "Devious Disguise",
+      "type": "character",
+      "ink_cost": 4,
+      "inkable": true,
+      "ink_colors": [
+        "Emerald"
+      ],
+      "strength": 5,
+      "willpower": 3,
+      "lore": 1,
+      "classifications": [
+        "Storyborn",
+        "Villain",
+        "Queen",
+        "Sorcerer"
+      ],
+      "rules_text": "\\Evil Scheme\\ When you play this character, you may draw a card. If you do, each opponent gains 2 lore.\n\n\\Jealous Heart\\ While an opponent has more lore than you, this character gets +2 {L}."
+    }
+  ]
+}

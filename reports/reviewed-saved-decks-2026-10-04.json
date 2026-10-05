@@ -1,0 +1,62 @@
+[
+  {
+    "format": "core",
+    "as_of": "2026-10-04",
+    "policy_checked_at": "2026-10-04",
+    "verdict": "passes_supported_checks",
+    "issues": [],
+    "review_required": [],
+    "card_count": 60,
+    "ink_colors": [
+      "AMBER",
+      "EMERALD"
+    ],
+    "inkable": 44,
+    "uninkable": 16,
+    "printed_cost_curve": {
+      "1": 18,
+      "2": 21,
+      "3": 5,
+      "4": 12,
+      "5": 4
+    },
+    "card_types": {
+      "character": 60
+    },
+    "limits": "Snapshot checks, not event certification; verify current sources, card text, and event terms.",
+    "path": "decks/elinor_moluk_champ.json",
+    "original_file_sha256": "30bbfc6ec67ea658c47d384eae96c565686a6b753cf4de5b334acca3353cf053"
+  },
+  {
+    "format": "core",
+    "as_of": "2026-10-04",
+    "policy_checked_at": "2026-10-04",
+    "verdict": "passes_supported_checks",
+    "issues": [],
+    "review_required": [],
+    "card_count": 60,
+    "ink_colors": [
+      "EMERALD",
+      "SAPPHIRE"
+    ],
+    "inkable": 52,
+    "uninkable": 8,
+    "printed_cost_curve": {
+      "1": 8,
+      "2": 12,
+      "3": 12,
+      "4": 4,
+      "5": 8,
+      "6": 4,
+      "7": 10,
+      "8": 2
+    },
+    "card_types": {
+      "character": 54,
+      "action": 6
+    },
+    "limits": "Snapshot checks, not event certification; verify current sources, card text, and event terms.",
+    "path": "decks/mickey_minnie_baha.json",
+    "original_file_sha256": "69f0d81aadeb421e7b3faeb18b53404963a7ec953d19d4128f160f9c50b0a52e"
+  }
+]

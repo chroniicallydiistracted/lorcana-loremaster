@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-04",
+  "timezone": "America/Phoenix",
+  "status": "passed",
+  "original_files_audited": 333,
+  "regression_tests": 19,
+  "regression_tests_passed": 19,
+  "catalog_check": {
+    "status": "passed",
+    "printing_records": 3515,
+    "gameplay_identities": 2784
+  },
+  "documentation_check": {
+    "status": "passed",
+    "issues": [],
+    "knowledge_documents": 27,
+    "official_source_records": 19,
+    "upstream_files_preserved": 76
+  },
+  "preservation": {
+    "original_backup": "archive/original-workspace-2026-10-04.tar.gz",
+    "raw_catalog_unchanged": true,
+    "collection_unchanged": true,
+    "saved_decks_unchanged": true,
+    "vendored_files_unchanged": 76
+  },
+  "collection": {
+    "rows": 915,
+    "unresolved_rows": 0,
+    "mapped_copies": 3296,
+    "physical_variant_matching": "requires separate verification"
+  },
+  "smoke_checks": [
+    "rules/name search",
+    "flavor search",
+    "franchise-tag search",
+    "show with printings",
+    "saved-deck checks",
+    "collection reconciliation",
+    "exact draw probability",
+    "Resources source discovery"
+  ],
+  "material_limits": [
+    "137 raw printing-difference identity groups remain review items",
+    "Set 14 variants are not exhaustive",
+    "No new ink-drop CR/release notes linked at source check",
+    "Exact cooperative scenario booklets and full story books require retrieval",
+    "No measured Set 14 meta or full gameplay engine"
+  ],
+  "test_output": "test_dual_ink_adds_both_colors (test_lorcana.CorpusTests.test_dual_ink_adds_both_colors) ... ok\ntest_encounter_card_excluded_from_constructed (test_lorcana.CorpusTests.test_encounter_card_excluded_from_constructed) ... ok\ntest_format_specific_ban_and_rotation (test_lorcana.CorpusTests.test_format_specific_ban_and_rotation) ... ok\ntest_future_and_historical_policy_require_review (test_lorcana.CorpusTests.test_future_and_historical_policy_require_review) ... ok\ntest_hunny_exception_excludes_provider_itself (test_lorcana.CorpusTests.test_hunny_exception_excludes_provider_itself) ... ok\ntest_invalid_catalog_import_preserves_last_good_bytes (test_lorcana.CorpusTests.test_invalid_catalog_import_preserves_last_good_bytes) ... ok\ntest_limited_uses_pool_not_constructed_copy_ink_limits (test_lorcana.CorpusTests.test_limited_uses_pool_not_constructed_copy_ink_limits) ... ok\ntest_old_printing_legal_through_reprint_identity (test_lorcana.CorpusTests.test_old_printing_legal_through_reprint_identity) ... ok\ntest_prerelease_gate_is_not_api_rotation (test_lorcana.CorpusTests.test_prerelease_gate_is_not_api_rotation) ... ok\ntest_printings_aggregate_for_copy_limit (test_lorcana.CorpusTests.test_printings_aggregate_for_copy_limit) ... ok\ntest_rebuild_is_deterministic (test_lorcana.CorpusTests.test_rebuild_is_deterministic) ... ok\ntest_saved_deck_quantities_and_ink_metrics (test_lorcana.CorpusTests.test_saved_deck_quantities_and_ink_metrics) ... ok\ntest_set14_complete_base_pool (test_lorcana.CorpusTests.test_set14_complete_base_pool) ... ok\ntest_text_conflicts_not_silently_resolved (test_lorcana.CorpusTests.test_text_conflicts_not_silently_resolved) ... ok\ntest_unknown_identity_and_nonpositive_quantities_rejected (test_lorcana.CorpusTests.test_unknown_identity_and_nonpositive_quantities_rejected) ... ok\ntest_unlimited_microbots_and_99_puppies (test_lorcana.CorpusTests.test_unlimited_microbots_and_99_puppies) ... ok\ntest_invalid_inputs (test_lorcana.ProbabilityTests.test_invalid_inputs) ... ok\ntest_jsonl_keeps_unicode_separators_inside_card_text (test_lorcana.ProbabilityTests.test_jsonl_keeps_unicode_separators_inside_card_text) ... ok\ntest_matches_exhaustive_small_population (test_lorcana.ProbabilityTests.test_matches_exhaustive_small_population) ... ok\n\n----------------------------------------------------------------------\nRan 19 tests in 1.530s\n\nOK\n"
+}

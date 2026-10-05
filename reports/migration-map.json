@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-04",
+  "documents": {
+    "01_COMPREHENSIVE_RULES.md": "knowledge/rules/comprehensive.md",
+    "02_TOURNAMENT_RULES_AND_FORMATS.md": "knowledge/rules/tournament.md",
+    "03_KEYWORDS_AND_MECHANICS.md": "knowledge/rules/keywords.md",
+    "05_RULINGS_ERRATA_AND_CORRECTIONS.md": "knowledge/rules/rulings.md",
+    "06_FORMAT_LEGALITY_AND_ROTATION.md": "knowledge/formats/legality.md",
+    "07_DECK_BUILDING_FRAMEWORK.md": "knowledge/strategy/deckbuilding.md",
+    "08_ARCHETYPE_LIBRARY.md": "knowledge/strategy/archetypes.md",
+    "11_MATCHUP_AND_TECH_GUIDE.md": "knowledge/strategy/matchups.md",
+    "12_MULLIGAN_AND_SEQUENCING_GUIDE.md": "knowledge/strategy/mulligan.md",
+    "13_LIMITED_SEALED_AND_DRAFT.md": "knowledge/formats/limited.md",
+    "14_DECK_TESTING_LOG.md": "knowledge/method/testing.md",
+    "15_ANALYSIS_OUTPUT_TEMPLATES.md": "knowledge/method/templates.md",
+    "00_LORCANA_SOURCE_INDEX.md": "knowledge/INDEX.md",
+    "16_LORCANA_EXPERT_SYSTEM.md": "knowledge/method/expert-system.md",
+    "19_LORCANA_WEB_RESOURCES.md": "knowledge/method/web-resources.md"
+  },
+  "raw_catalog": "data/raw/ravensburger/catalog.en.json",
+  "historical_csvs": "archive/knowledge-2026-07/",
+  "collection": "data/collections/andys-lore-library-2026-09-15.csv",
+  "upstream_code": "vendor/lorcanajson/",
+  "browser_captures": "archive/browser-2026-09-15/",
+  "backup": "archive/original-workspace-2026-10-04.tar.gz",
+  "historical_tables": {
+    "04_CARD_CATALOG_CURRENT.csv": "archive/knowledge-2026-07/04_CARD_CATALOG_CURRENT.csv",
+    "17_FORMAT_LEGALITY_SNAPSHOTS.csv": "archive/knowledge-2026-07/17_FORMAT_LEGALITY_SNAPSHOTS.csv",
+    "18_OFFICIAL_RULINGS_AND_CORRECTIONS.csv": "archive/knowledge-2026-07/18_OFFICIAL_RULINGS_AND_CORRECTIONS.csv"
+  },
+  "collection_research_reference_updated": "research/2026-09-15/analyze.py"
+}

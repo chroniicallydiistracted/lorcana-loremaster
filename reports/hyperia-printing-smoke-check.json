@@ -1,0 +1,104 @@
+{
+  "name": "Madam Mim",
+  "subtitle": "Resourceful Trickster",
+  "card_type": "character",
+  "ink_cost": 8,
+  "inkable": true,
+  "ink_colors": [
+    "AMETHYST"
+  ],
+  "strength": 7,
+  "willpower": 5,
+  "lore": 3,
+  "move_cost": null,
+  "classifications": [
+    "Dreamborn",
+    "Sorcerer",
+    "Villain"
+  ],
+  "rules_text": "\\Upper Hand\\ When you play this character, if you removed an ink drop to play her, draw 2 cards.\n\n\\Bauble Game\\ Once during your turn, whenever you remove an ink drop, draw a card.",
+  "copy_limit": 4,
+  "extra_character_classification": null,
+  "identity_id": "803b46dc0fe13c34cd7c901c2243d4707a3c6001",
+  "full_name": "Madam Mim - Resourceful Trickster",
+  "aliases": [
+    "Madam Mim - Resourceful Trickster"
+  ],
+  "printing_ids": [
+    3324
+  ],
+  "assigned_sets": [
+    "set14"
+  ],
+  "candidate_printing_id": 3324,
+  "text_status": "api_consistent_unreviewed",
+  "conflict_fields": [],
+  "source_id": "ravensburger-catalog-en",
+  "printings": [
+    {
+      "printing_id": 3324,
+      "identity_id": "803b46dc0fe13c34cd7c901c2243d4707a3c6001",
+      "card_identifier": "59/204 EN 14",
+      "name": "Madam Mim",
+      "subtitle": "Resourceful Trickster",
+      "full_name": "Madam Mim - Resourceful Trickster",
+      "card_type": "character",
+      "assigned_sets": [
+        "set14"
+      ],
+      "printed_set_number": 14,
+      "collector_number": 59,
+      "base_denominator": 204,
+      "is_base": true,
+      "ink_cost": 8,
+      "inkable": true,
+      "ink_colors": [
+        "AMETHYST"
+      ],
+      "strength": 7,
+      "willpower": 5,
+      "lore": 3,
+      "move_cost": null,
+      "classifications": [
+        "Dreamborn",
+        "Sorcerer",
+        "Villain"
+      ],
+      "rules_text": "\\Upper Hand\\ When you play this character, if you removed an ink drop to play her, draw 2 cards.\n\n\\Bauble Game\\ Once during your turn, whenever you remove an ink drop, draw a card.",
+      "flavor_text": "",
+      "copy_limit": 4,
+      "extra_character_classification": null,
+      "rarity": "LEGENDARY",
+      "special_rarity": null,
+      "artist": "Marcel Berg",
+      "search_tags": [
+        "Sword in the Stone"
+      ],
+      "additional_info": [],
+      "variants": [
+        {
+          "detail_image_url": "https://api.lorcana.ravensburger.com/images/en/set14/59_8711a5df397390abc5a733cdbd284d7fc3a8172b.jpg",
+          "foil_top_layer": "HighGloss",
+          "foil_top_layer_mask_url": "https://api.lorcana.ravensburger.com/images/en/set14/59_ac17c104f9574feba1ebcc8689cac76d56c01efd.jpg",
+          "variant_id": "Regular"
+        },
+        {
+          "detail_image_url": "https://api.lorcana.ravensburger.com/images/en/set14/59_8711a5df397390abc5a733cdbd284d7fc3a8172b.jpg",
+          "foil_mask_url": "https://api.lorcana.ravensburger.com/images/en/set14/59_8757eb536c7b6ffe375c81a4f2c9f925e0498c37.jpg",
+          "foil_top_layer": "HighGloss",
+          "foil_top_layer_mask_url": "https://api.lorcana.ravensburger.com/images/en/set14/59_ac17c104f9574feba1ebcc8689cac76d56c01efd.jpg",
+          "foil_type": "Silver",
+          "variant_id": "Foiled"
+        },
+        {
+          "detail_image_url": "https://api.lorcana.ravensburger.com/images/en/set14/59_8711a5df397390abc5a733cdbd284d7fc3a8172b.jpg",
+          "foil_mask_url": "https://api.lorcana.ravensburger.com/images/en/set14/59_8757eb536c7b6ffe375c81a4f2c9f925e0498c37.jpg",
+          "foil_type": "RainbowPillars",
+          "variant_id": "StarterFoil"
+        }
+      ],
+      "api_rotation_state": "CoreConstructed",
+      "source_id": "ravensburger-catalog-en"
+    }
+  ]
+}

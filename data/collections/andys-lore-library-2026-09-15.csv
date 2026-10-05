@@ -1,0 +1,916 @@
+Set Number,Card Number,Variant,Count,Name,Color,Rarity
+009,48,normal,4,"Elsa - Gloves Off",Amethyst,Common
+009,21,normal,4,"Pluto - Friendly Pooch",Amber,Common
+009,22,normal,4,"Ursula - Vanessa",Amber,Common
+009,7,normal,4,"The Queen - Regal Monarch",Amber,Common
+009,30,normal,4,"World's Greatest Criminal Mind",Amber,Uncommon
+011,89,normal,4,"White Rabbit - Late Again",Emerald,Uncommon
+012,85,normal,3,"Buzz Lightyear - On the Way",Emerald,Rare
+009,179,normal,4,"Tiana - Diligent Waitress",Steel,Common
+009,200,normal,3,"Fire the Cannons!",Steel,Common
+009,117,normal,4,"Powerline - Musical Superstar",Ruby,Rare
+009,109,normal,4,"Powerline - Taking the Stage",Ruby,Common
+009,112,normal,4,"Max Goof - Rockin' Teen",Ruby,Common
+009,110,normal,3,"Powerline - World's Greatest Rock Star",Ruby,Super Rare
+009,6,normal,4,"Aurora - Holding Court",Amber,Uncommon
+012,94,foil,2,"The Huntsman - On the Queen's Orders",Emerald,Uncommon
+012,76,foil,1,"Buzz Lightyear - Space Ranger",Emerald,Common
+012,97,normal,3,"The Family Scattered",Emerald,Super Rare
+012,97,foil,1,"The Family Scattered",Emerald,Super Rare
+012,79,normal,4,"Lenny - Toy Binoculars",Emerald,Rare
+012,70,normal,7,"Hamish, Hubert & Harris - Troublemaking Triplets",Emerald,Common
+012,75,normal,7,"The Queen - Evil Ruler",Emerald,Common
+012,102,foil,1,"Pizza Planet - Spaceport",Emerald,Rare
+012,74,foil,1,"The Witch - Wily Woodcarver",Emerald,Common
+012,89,normal,2,"Merida - Gifted Archer",Emerald,Rare
+012,71,normal,7,"Young MacGuffin - Soft-Spoken Son",Emerald,Common
+012,101,normal,10,"Merida's Bow",Emerald,Common
+012,82,foil,1,"Milo Thatch - Getting His Hands Dirty",Emerald,Super Rare
+012,77,normal,9,"RC - Remote-Controlled Car",Emerald,Common
+012,95,normal,5,"Strange Things",Emerald,Uncommon
+012,93,normal,4,"Helga Sinclair - Prepared for Anything",Emerald,Rare
+012,84,normal,6,"Donald Duck - Distracted Traveler",Emerald,Uncommon
+012,98,normal,6,"Buzz's Arm",Emerald,Uncommon
+012,94,normal,8,"The Huntsman - On the Queen's Orders",Emerald,Uncommon
+012,99,foil,1,"The Claw",Emerald,Rare
+012,99,normal,3,"The Claw",Emerald,Rare
+012,72,foil,1,"Tod - Nimble Fox",Emerald,Common
+012,72,normal,12,"Tod - Nimble Fox",Emerald,Common
+012,102,normal,4,"Pizza Planet - Spaceport",Emerald,Rare
+012,81,normal,7,"Peter Pan - Searching Far and Wide",Emerald,Uncommon
+012,86,normal,4,"Elinor - Renowned Diplomat",Emerald,Super Rare
+012,92,normal,5,"Cruella De Vil - Judgmental Traveler",Emerald,Rare
+012,69,foil,1,"Merida - Defiant Daughter",Emerald,Common
+012,76,normal,9,"Buzz Lightyear - Space Ranger",Emerald,Common
+012,69,normal,6,"Merida - Defiant Daughter",Emerald,Common
+012,83,normal,6,"Alien - True Believer",Emerald,Rare
+012,70,foil,2,"Hamish, Hubert & Harris - Troublemaking Triplets",Emerald,Common
+012,74,normal,9,"The Witch - Wily Woodcarver",Emerald,Common
+012,71,foil,2,"Young MacGuffin - Soft-Spoken Son",Emerald,Common
+012,78,normal,4,"Lord MacGuffin - Clever Swordsman",Emerald,Uncommon
+012,82,normal,5,"Milo Thatch - Getting His Hands Dirty",Emerald,Super Rare
+012,73,normal,12,"Helga Sinclair - No Backup Needed",Emerald,Common
+012,88,foil,1,"Joshua Sweet - Field Surgeon",Emerald,Common
+012,88,normal,10,"Joshua Sweet - Field Surgeon",Emerald,Common
+012,87,normal,2,"Lyle Tiberius Rourke - Adventurer for Hire",Emerald,Uncommon
+012,80,foil,1,"Gaetan Moliere - Clever Burrower",Emerald,Uncommon
+012,80,normal,8,"Gaetan Moliere - Clever Burrower",Emerald,Uncommon
+012,96,normal,13,"Sabotage",Emerald,Common
+012,100,foil,1,"Gyro-Evac",Emerald,Uncommon
+012,100,normal,6,"Gyro-Evac",Emerald,Uncommon
+012,106,foil,2,"Pegasus - Searching High and Low",Ruby,Common
+012,122,normal,2,"Queen of Hearts - Impatient Traveler",Ruby,Rare
+012,118,normal,6,"Dash Parr - Super Speedy",Ruby,Uncommon
+012,128,normal,11,"Pterodactyl Janie Doll - Sid's Toy",Ruby,Common
+012,131,normal,5,"Like A Bird In the Sky",Ruby,Common
+012,116,normal,5,"Copper - Big Dog",Ruby,Uncommon
+012,109,normal,7,"Zeus - Defiant God",Ruby,Uncommon
+012,121,normal,4,"Jack-Jack Parr - Incredible Potential",Ruby,Super Rare
+012,106,normal,9,"Pegasus - Searching High and Low",Ruby,Common
+012,104,foil,1,"Mr. Incredible - Bob Parr",Ruby,Common
+012,112,foil,2,"Wind-Up Frog - Sid's Toy",Ruby,Common
+012,113,normal,9,"Roller Bob - Sid's Toy",Ruby,Uncommon
+012,115,normal,6,"Daisy Duck - Trendy Traveler",Ruby,Uncommon
+012,134,normal,8,"Amazu's Inkcaster",Ruby,Uncommon
+012,123,normal,4,"Hercules - Young Rescuer",Ruby,Super Rare
+012,104,normal,10,"Mr. Incredible - Bob Parr",Ruby,Common
+012,132,normal,4,"Hero Work",Ruby,Rare
+012,112,normal,12,"Wind-Up Frog - Sid's Toy",Ruby,Common
+012,140,normal,9,"Fauna - Good-Natured Fairy",Sapphire,Common
+012,111,normal,9,"Jingle Joe - Sid's Toy",Ruby,Common
+012,135,normal,6,"Remote Inklands - Desert Ruins",Ruby,Rare
+012,113,foil,1,"Roller Bob - Sid's Toy",Ruby,Uncommon
+012,120,normal,3,"Bouncing Ducky - Sid's Toy",Ruby,Rare
+012,103,foil,2,"Lyle Tiberius Rourke - Crystallized Commander",Ruby,Rare
+012,103,normal,4,"Lyle Tiberius Rourke - Crystallized Commander",Ruby,Rare
+012,136,normal,3,"Leviathan's Lair - Dangerous Ground",Ruby,Rare
+012,117,normal,8,"Jebidiah Farnsworth - Cookie",Ruby,Uncommon
+012,149,foil,1,"Edna Mode - Super Suit Designer",Sapphire,Rare
+012,130,normal,10,"Firefly Swarm",Ruby,Uncommon
+012,159,normal,8,"Minnie Mouse - Practical Traveler",Sapphire,Uncommon
+012,137,normal,8,"Robin Hood - Desert Wanderer",Sapphire,Common
+012,158,foil,1,"Kashekim - Wise King",Sapphire,Uncommon
+012,169,normal,6,"Shepherd's Journal",Sapphire,Uncommon
+012,138,normal,10,"Prince Charming - Searching for Answers",Sapphire,Common
+012,139,foil,2,"Merryweather - Feisty Fairy",Sapphire,Uncommon
+012,141,normal,4,"Flora - Strong-Willed Fairy",Sapphire,Rare
+012,155,foil,2,"Cinderella - Resourceful Traveler",Sapphire,Rare
+012,107,normal,10,"Audrey Ramirez - Gutsy Mechanic",Ruby,Common
+012,119,normal,4,"Babyhead - Leader of Sid's Toys",Ruby,Rare
+012,125,normal,1,"The Leviathan - Guardian of Atlantis",Ruby,Super Rare
+012,131,foil,2,"Like A Bird In the Sky",Ruby,Common
+012,108,foil,2,"Milo Thatch - Courageous Explorer",Ruby,Common
+012,133,normal,13,"Dangerous Plan",Ruby,Common
+012,105,foil,2,"Lyle Tiberius Rourke - Looking for His Moment",Ruby,Common
+012,149,normal,3,"Edna Mode - Super Suit Designer",Sapphire,Rare
+012,143,normal,8,"Syndrome - Evil Inventor",Sapphire,Common
+012,162,normal,7,"Someone Will Lose His Head",Sapphire,Common
+012,144,normal,10,"Kida - Guardian of the Path",Sapphire,Common
+012,158,normal,8,"Kashekim - Wise King",Sapphire,Uncommon
+012,108,normal,11,"Milo Thatch - Courageous Explorer",Ruby,Common
+012,110,normal,9,"Preston Whitmore - Expedition Financier",Ruby,Common
+012,105,normal,8,"Lyle Tiberius Rourke - Looking for His Moment",Ruby,Common
+012,124,normal,3,"Vincenzo Santorini - On the Run",Ruby,Rare
+012,129,foil,1,"Inner Strength",Ruby,Common
+012,129,normal,6,"Inner Strength",Ruby,Common
+012,138,foil,2,"Prince Charming - Searching for Answers",Sapphire,Common
+012,157,normal,5,"Kida - Discovering the Unknown",Sapphire,Rare
+012,152,foil,1,"Dr. Sara Bellum - Head of Research",Sapphire,Common
+012,152,normal,10,"Dr. Sara Bellum - Head of Research",Sapphire,Common
+012,150,normal,3,"Zipper - Big Helper",Sapphire,Super Rare
+012,148,normal,5,"Zipper - Tiny Helper",Sapphire,Uncommon
+012,146,foil,1,"Norton Nimnul - Misanthropic Genius",Sapphire,Uncommon
+012,165,foil,1,"Salvage Operation",Sapphire,Uncommon
+012,164,normal,3,"Escape Plan",Sapphire,Rare
+012,167,normal,3,"Ranger Plane",Sapphire,Rare
+012,139,normal,7,"Merryweather - Feisty Fairy",Sapphire,Uncommon
+012,168,normal,7,"Gadget's Goggles",Sapphire,Uncommon
+012,155,normal,2,"Cinderella - Resourceful Traveler",Sapphire,Rare
+012,147,foil,1,"Gadget Hackwrench - Finder of Lost Parts",Sapphire,Common
+012,153,normal,2,"Isabela Madrigal - Perfectly in Control",Sapphire,Super Rare
+012,166,normal,17,"Julieta's Arepas",Sapphire,Common
+012,147,normal,9,"Gadget Hackwrench - Finder of Lost Parts",Sapphire,Common
+012,145,normal,2,"Gadget Hackwrench - Resourceful Mechanic",Sapphire,Super Rare
+012,142,foil,3,"Mirabel Madrigal - Resourceful Daughter",Sapphire,Common
+012,142,normal,13,"Mirabel Madrigal - Resourceful Daughter",Sapphire,Common
+012,154,normal,7,"Bruno Madrigal - Oasis Oracle",Sapphire,Rare
+012,156,normal,6,"Bruno Madrigal - Seeing the Future",Sapphire,Common
+012,156,foil,1,"Bruno Madrigal - Seeing the Future",Sapphire,Common
+012,163,normal,2,"What Else Can I Do?",Sapphire,Rare
+012,146,normal,2,"Norton Nimnul - Misanthropic Genius",Sapphire,Uncommon
+012,176,foil,1,"Wee Dingwall - Scrappy Lad",Steel,Common
+012,165,normal,9,"Salvage Operation",Sapphire,Uncommon
+012,176,normal,8,"Wee Dingwall - Scrappy Lad",Steel,Common
+012,197,foil,1,"Three Arrows",Steel,Uncommon
+012,151,normal,8,"Luisa Madrigal - No Pressure",Sapphire,Uncommon
+012,187,foil,1,"Fat Cat - Criminal Businessman",Steel,Rare
+012,187,normal,4,"Fat Cat - Criminal Businessman",Steel,Rare
+012,166,foil,1,"Julieta's Arepas",Sapphire,Common
+012,172,normal,4,"Syndrome - Out for Revenge",Steel,Super Rare
+012,170,foil,1,"Casa Madrigal - Courtyard",Sapphire,Common
+012,170,normal,18,"Casa Madrigal - Courtyard",Sapphire,Common
+012,199,normal,5,"Touch the Sky",Steel,Rare
+012,182,normal,9,"Fat Cat - Felonious Feline",Steel,Common
+010,183,normal,1,"Lexington - Small in Stature",Steel,Uncommon
+012,186,normal,5,"Lord Dingwall - Bullheaded",Steel,Uncommon
+012,202,normal,6,"Club Door",Steel,Uncommon
+012,171,normal,4,"Pocahontas - Steadfast Traveler",Steel,Rare
+012,173,foil,1,"Omnidroid - V.8",Steel,Common
+012,192,normal,7,"John Smith - Skillful Explorer",Steel,Rare
+012,204,foil,1,"The Island of Nomanisan - Syndrome's Headquarters",Steel,Rare
+012,193,normal,2,"Gizmoduck - Duckburg Defender",Steel,Rare
+012,200,foil,1,"Plunger Crossbow",Steel,Common
+012,189,normal,6,"Goofy - Determined Traveler",Steel,Uncommon
+012,183,normal,15,"Rat Capone - Rodent Gangster",Steel,Common
+012,184,normal,4,"Omnidroid - V.9",Steel,Uncommon
+012,178,normal,13,"Violet Parr - At Wits' End",Steel,Common
+012,201,normal,3,"Syndrome's Remote",Steel,Rare
+012,177,normal,9,"Incrediboy - Buddy Pine",Steel,Common
+012,180,normal,6,"Young Macintosh - Proud Son",Steel,Common
+012,194,normal,4,"Fergus - Outpost Builder",Steel,Super Rare
+012,181,normal,8,"Lord Macintosh - Wiry and High-Strung",Steel,Uncommon
+009,201,normal,4,"Strength of a Raging Fire",Steel,Rare
+010,185,normal,1,"Chief Bogo - Calling the Shots",Steel,Rare
+010,181,normal,5,"Minnie Mouse - Ghost Hunter",Steel,Common
+011,177,normal,3,"Launchpad - Trusty Sidekick",Steel,Common
+011,198,normal,2,"Let's Get Dangerous",Steel,Rare
+011,197,foil,1,"The Terror That Flaps in the Night",Steel,Common
+011,197,normal,3,"The Terror That Flaps in the Night",Steel,Common
+011,202,normal,1,"The Thunderquack",Steel,Rare
+011,201,normal,2,"Infra-Pink Ultra Scan Specs",Steel,Common
+011,204,normal,2,"Darkwing Tower - Icy Headquarters",Steel,Uncommon
+011,184,foil,1,"Nani - No Worries",Steel,Common
+012,192,foil,1,"John Smith - Skillful Explorer",Steel,Rare
+012,200,normal,11,"Plunger Crossbow",Steel,Common
+012,182,foil,1,"Fat Cat - Felonious Feline",Steel,Common
+012,203,foil,1,"Fat Cat's Club - Seedy Headquarters",Steel,Common
+012,203,normal,7,"Fat Cat's Club - Seedy Headquarters",Steel,Common
+012,196,normal,3,"Diablo - Stone Servant",Steel,Super Rare
+012,179,normal,9,"Mrs. Incredible - Helen Parr",Steel,Common
+012,198,foil,3,"Card Advantage",Steel,Uncommon
+012,198,normal,7,"Card Advantage",Steel,Uncommon
+012,183,foil,1,"Rat Capone - Rodent Gangster",Steel,Common
+012,177,foil,1,"Incrediboy - Buddy Pine",Steel,Common
+012,173,normal,8,"Omnidroid - V.8",Steel,Common
+012,190,normal,4,"Omnidroid - V.10",Steel,Rare
+012,185,foil,1,"Mr. Incredible - Taking Out the Trash",Steel,Uncommon
+012,185,normal,6,"Mr. Incredible - Taking Out the Trash",Steel,Uncommon
+012,175,normal,11,"Fergus - King of DunBroch",Steel,Common
+012,194,foil,1,"Fergus - Outpost Builder",Steel,Super Rare
+012,174,normal,14,"Angus - Mighty Horse",Steel,Common
+012,188,normal,7,"Maudie - Exasperated Nursemaid",Steel,Uncommon
+012,197,normal,6,"Three Arrows",Steel,Uncommon
+012,204,normal,1,"The Island of Nomanisan - Syndrome's Headquarters",Steel,Rare
+010,184,normal,3,"David Xanatos - Steel Clan Leader",Steel,Uncommon
+010,197,normal,1,"He Hurled His Thunderbolt",Steel,Uncommon
+010,191,normal,1,"Pluto - Steel Champion",Steel,Rare
+011,174,normal,4,"Darkwing Duck - Crime Fighter",Steel,Common
+011,185,normal,2,"Stitch - High Badness Level",Steel,Common
+011,184,normal,4,"Nani - No Worries",Steel,Common
+011,176,normal,1,"Gantu - Hamsterviel's Accomplice",Steel,Uncommon
+011,190,normal,1,"Grand Councilwoman - Galactic Authority",Steel,Rare
+011,189,normal,3,"Gigi - Best in Snow",Steel,Uncommon
+011,178,normal,1,"Donald Duck - Along for the Ride",Steel,Common
+009,163,normal,4,"Develop Your Brain",Sapphire,Common
+009,164,normal,4,"Four Dozen Eggs",Sapphire,Uncommon
+010,141,normal,3,"Daisy Duck - Ghost Finder",Sapphire,Common
+010,144,normal,1,"Fergus McDuck - Scrooge's Father",Sapphire,Common
+011,183,normal,1,"Li Shang - Valiant Leader",Steel,Uncommon
+011,173,normal,1,"Prince Naveen - Bundled Up",Steel,Common
+009,165,normal,4,"One Jump Ahead",Sapphire,Common
+011,190,foil,1,"Grand Councilwoman - Galactic Authority",Steel,Rare
+011,194,normal,1,"Judy Hopps - Snowball Patrol",Steel,Uncommon
+011,179,normal,3,"Chief - Seasoned Tracker",Steel,Uncommon
+010,143,normal,2,"Rapunzel - Creative Captor",Sapphire,Common
+011,180,normal,2,"Amos Slade - Tenacious Tracker",Steel,Common
+011,175,normal,2,"Li Shang - Solemn Son",Steel,Common
+010,167,normal,1,"Ink Amplifier",Sapphire,Rare
+011,140,normal,3,"Mickey Mouse - Tiny Tim's Father",Sapphire,Common
+011,153,normal,1,"Splatter Phoenix - Rejected Artist",Sapphire,Uncommon
+011,147,normal,3,"Piglet - Cocoa Maker",Sapphire,Rare
+011,138,foil,1,"Kanga - Peaceful Gatherer",Sapphire,Common
+011,161,normal,2,"Chief Tui - Weaving a Tale",Sapphire,Common
+011,158,normal,2,"Belle - Snowfield Strategist",Sapphire,Super Rare
+011,151,normal,1,"Winnie the Pooh - Hungry Bear",Sapphire,Common
+010,159,normal,2,"Kristoff - Mining the Ruins",Sapphire,Rare
+010,152,normal,1,"Ichabod Crane - Scared Out of His Mind",Sapphire,Uncommon
+010,156,normal,1,"Judy Hopps - Uncovering Clues",Sapphire,Super Rare
+011,200,normal,1,"Nearly Indestructible",Steel,Common
+011,181,normal,4,"McHorn - Ice-Cold Officer",Steel,Common
+011,196,normal,4,"Keep the Ancient Ways",Steel,Uncommon
+011,187,normal,1,"Angela - Night Warrior",Steel,Super Rare
+009,169,normal,3,"Coconut Basket",Sapphire,Common
+011,141,normal,2,"Minnie Mouse - Tiny Tim's Mother",Sapphire,Common
+009,150,normal,2,"Grand Pabbie - Oldest and Wisest",Sapphire,Rare
+011,144,normal,1,"Daisy Duck - Isabel",Sapphire,Uncommon
+011,167,normal,3,"Tiny Tim's Crutch",Sapphire,Common
+011,143,normal,1,"Honker Muddlefoot - Timid Genius",Sapphire,Common
+011,169,normal,2,"Darkwing's Gas Device",Sapphire,Uncommon
+011,138,normal,2,"Kanga - Peaceful Gatherer",Sapphire,Common
+011,156,normal,1,"Tamatoa - Seeker of Shine",Sapphire,Super Rare
+011,142,normal,2,"Sina - Vigilant Parent",Sapphire,Common
+011,165,normal,2,"Wipe Out!",Sapphire,Uncommon
+009,125,normal,1,"Mulan - Injured Soldier",Ruby,Common
+010,114,normal,1,"Bronx - Ferocious Beast",Ruby,Common
+010,108,normal,1,"Shere Khan - Keen-Eyed Hunter",Ruby,Common
+010,136,normal,1,"Sleepy Hollow - The Bridge",Ruby,Uncommon
+011,110,normal,1,"Fa Zhou - Honorable Warrior",Ruby,Common
+011,149,normal,3,"Gosalyn Mallard - Curious Child",Sapphire,Uncommon
+011,108,normal,1,"Mulan - Ready for Battle",Ruby,Uncommon
+011,168,normal,1,"Darkwing's Chair Set",Sapphire,Rare
+011,151,foil,1,"Winnie the Pooh - Hungry Bear",Sapphire,Common
+010,164,normal,1,"Sudden Scare",Sapphire,Uncommon
+011,128,normal,1,"Force of a Great Typhoon",Ruby,Common
+011,160,normal,3,"Scrooge McDuck - Miserly Ebenezer",Sapphire,Common
+011,115,normal,3,"Negaduck - Evil Doppelganger",Ruby,Common
+010,105,normal,1,"Peter Pan - High Flyer",Ruby,Common
+011,164,normal,1,"Distract",Sapphire,Common
+011,164,foil,1,"Distract",Sapphire,Common
+011,166,normal,2,"Blue Smoke",Sapphire,Common
+011,145,normal,3,"Darkwing Duck - Drake Mallard",Sapphire,Uncommon
+010,110,normal,1,"Mother Gothel - Underhanded Schemer",Ruby,Common
+011,116,normal,3,"Negaduck - Public Enemy Number One",Ruby,Rare
+011,113,normal,3,"Iduna - Alarmed Queen",Ruby,Common
+011,112,normal,1,"Elisa Maza - Transformed Gargoyle",Ruby,Rare
+011,125,normal,3,"Elsa - Concerned Sister",Ruby,Uncommon
+011,105,normal,1,"Donald Duck - Nephew Fred",Ruby,Common
+011,133,normal,2,"Kristoff's Lute",Ruby,Rare
+011,134,normal,4,"Scrooge's Counting House - Ebenezer's Office",Ruby,Uncommon
+011,135,normal,1,"Graveyard of Christmas Future - Lonely Resting Place",Ruby,Rare
+011,132,normal,1,"Lonely Grave",Ruby,Uncommon
+010,75,normal,2,"Vladimir - Ceramic Unicorn Fan",Emerald,Common
+010,87,normal,1,"Goldie O'Gilt - Cunning Prospector",Emerald,Rare
+011,95,normal,3,"Snowball Fight",Emerald,Common
+011,87,normal,4,"Tod - All Alone",Emerald,Common
+011,84,normal,2,"Copper - Champion of the Forest",Emerald,Rare
+011,78,normal,2,"Dinky - Has the Brains",Emerald,Common
+011,97,foil,1,"Education or Elimination",Emerald,Uncommon
+011,102,normal,2,"Game Preserve - Protected Land",Emerald,Common
+011,82,normal,1,"Mushu - Sneaky Dragon",Emerald,Uncommon
+011,73,normal,3,"Yao - Snow Warrior",Emerald,Common
+011,98,normal,2,"Snow Fort",Emerald,Uncommon
+011,101,normal,1,"Battering Ram",Emerald,Rare
+011,79,normal,1,"Stegmutt - Clumsy Dinosaur",Emerald,Rare
+011,74,normal,3,"Chien-Po - Snow Warrior",Emerald,Uncommon
+011,117,normal,5,"Hercules - Spectral Demigod",Ruby,Common
+011,94,normal,1,"Strike A Good Match",Emerald,Common
+011,109,normal,4,"Maui - Snow Slider",Ruby,Common
+011,81,normal,2,"Aladdin - On the Edge of Adventure",Emerald,Common
+011,91,normal,1,"Mickey Mouse - Snowboard Ace",Emerald,Uncommon
+011,88,normal,1,"Minnie Mouse - Mrs. Cratchit",Emerald,Rare
+011,163,normal,1,"Let It Go",Sapphire,Rare
+009,133,normal,4,"Be King Undisputed",Ruby,Uncommon
+010,106,normal,1,"Tinker Bell - Fancy Footwork",Ruby,Common
+010,119,normal,1,"Goliath - Guardian of Castle Wyvern",Ruby,Uncommon
+010,133,normal,2,"Dragon Fire",Ruby,Common
+010,109,normal,1,"Rama - Vigilant Father",Ruby,Common
+010,104,foil,1,"Ares - God of War",Ruby,Uncommon
+011,114,normal,1,"Agnarr - King of Arendelle",Ruby,Common
+011,130,normal,2,"The Cold Never Bothered Me",Ruby,Rare
+011,129,normal,1,"Marching Off to Battle",Ruby,Common
+010,72,normal,1,"Kaa - Suspicious Serpent",Emerald,Common
+011,136,normal,2,"Beast's Castle - Winter Gardens",Ruby,Common
+010,70,normal,4,"Big Nose - Lovesick Poet",Emerald,Common
+010,92,normal,1,"Little John - Impermanent Outlaw",Emerald,Super Rare
+010,99,normal,1,"Inscrutable Map",Emerald,Uncommon
+011,95,foil,1,"Snowball Fight",Emerald,Common
+011,85,normal,1,"Copper - Hound Pup",Emerald,Common
+011,86,normal,4,"Vixey - Forest Friend",Emerald,Uncommon
+011,71,normal,1,"Big Mama - Clever and Calming",Emerald,Uncommon
+011,80,normal,3,"Squeaks - Cozy Caterpillar",Emerald,Common
+011,76,normal,2,"Boomer - Has the Beak",Emerald,Common
+011,97,normal,1,"Education or Elimination",Emerald,Uncommon
+011,100,foil,1,"Retro Evolution Device",Emerald,Rare
+009,52,normal,4,"Camilo Madrigal - Prankster",Amethyst,Uncommon
+009,58,normal,4,"Luisa Madrigal - Magically Strong One",Amethyst,Common
+010,37,normal,1,"Gwythaint - Savage Hunter",Amethyst,Uncommon
+010,51,normal,1,"Coldstone - Reincarnated Cyborg",Amethyst,Rare
+010,40,normal,1,"Demona - Betrayer of the Clan",Amethyst,Common
+010,61,normal,1,"Begone!",Amethyst,Common
+011,55,normal,4,"Christopher Robin - Joining the Fun",Amethyst,Uncommon
+011,45,normal,1,"Eeyore - In the Way",Amethyst,Rare
+011,41,normal,2,"Rabbit - Fed Up",Amethyst,Uncommon
+011,43,normal,3,"Darkwing Duck - Darkwolf Dog",Amethyst,Common
+011,40,normal,1,"Morgana Macawber - Self-Centered Spellcaster",Amethyst,Common
+011,115,foil,1,"Negaduck - Evil Doppelganger",Ruby,Common
+011,106,normal,1,"Taurus Bulba - Steerminator",Ruby,Common
+011,131,normal,6,"Grab Your Bow",Ruby,Uncommon
+011,104,normal,3,"Scrooge McDuck - Ghostly Ebenezer",Ruby,Uncommon
+011,118,foil,1,"Beast - Snowfield Troublemaker",Ruby,Super Rare
+011,118,normal,1,"Beast - Snowfield Troublemaker",Ruby,Super Rare
+009,97,normal,1,"Under the Sea",Emerald,Rare
+010,83,normal,1,"Launchpad - Exceptional Pilot",Emerald,Common
+011,70,normal,1,"Stitch - Naughty Experiment",Emerald,Common
+011,77,normal,3,"Chernabog - Unnatural Force",Emerald,Super Rare
+011,72,normal,1,"Minnie Mouse - Spinning Skater",Emerald,Common
+010,37,foil,1,"Gwythaint - Savage Hunter",Amethyst,Uncommon
+010,39,normal,1,"Cauldron Born - Mindless Horde",Amethyst,Common
+010,44,normal,1,"Violet Sabrewing - Senior Junior Woodchuck",Amethyst,Common
+010,65,foil,1,"Fragile as a Flower",Amethyst,Common
+011,99,normal,1,"Rafiki's Bakora Staff",Emerald,Uncommon
+011,96,foil,2,"Freeze the Vine",Emerald,Rare
+009,51,normal,4,"Dolores Madrigal - Easy Listener",Amethyst,Common
+010,60,normal,1,"Cheshire Cat - Inexplicable",Amethyst,Super Rare
+009,68,normal,5,"Casa Madrigal - Casita",Amethyst,Common
+011,56,normal,1,"Lumpy - Playful Heffalump",Amethyst,Common
+011,47,normal,1,"Morgana Macawber - Reformed Spellcaster",Amethyst,Rare
+011,38,normal,4,"Isis Vanderchill - Ice Queen of St. Canard",Amethyst,Common
+011,64,foil,1,"Colors of the Wind",Amethyst,Super Rare
+011,64,normal,1,"Colors of the Wind",Amethyst,Super Rare
+011,46,normal,5,"Meeko - Skittish Scrounger",Amethyst,Uncommon
+011,53,normal,1,"Marshmallow - Cranky Climber",Amethyst,Rare
+011,62,normal,2,"Come Out and Fight!",Amethyst,Common
+011,66,normal,1,"Mystical Inkcaster",Amethyst,Rare
+009,3,normal,2,"Stitch - Rock Star",Amber,Super Rare
+009,18,normal,8,"Julieta Madrigal - Excellent Cook",Amber,Uncommon
+011,68,normal,1,"The Frozen Vine - Monstrous Plant",Amethyst,Uncommon
+009,31,normal,4,"Be Our Guest",Amber,Common
+010,66,normal,1,"Junior Woodchuck Guidebook",Amethyst,Common
+010,43,normal,1,"Iago - Stompin' Mad",Amethyst,Uncommon
+011,37,normal,3,"Tigger - Bouncing All the Way",Amethyst,Common
+011,41,foil,1,"Rabbit - Fed Up",Amethyst,Uncommon
+011,67,normal,2,"Pot of Honey",Amethyst,Common
+011,1,foil,1,"Thomas - Wide-Eyed Recruit",Amber,Common
+011,54,foil,1,"Space Cows - Unexpected Allies",Amethyst,Common
+011,54,normal,1,"Space Cows - Unexpected Allies",Amethyst,Common
+011,3,normal,1,"Pudge - Controls the Weather",Amber,Uncommon
+011,46,foil,1,"Meeko - Skittish Scrounger",Amethyst,Uncommon
+011,44,normal,1,"Taran - Magically Armed",Amethyst,Uncommon
+011,63,foil,1,"Swordplay",Amethyst,Common
+011,63,normal,4,"Swordplay",Amethyst,Common
+011,23,normal,1,"Simba - Playful Pouncer",Amber,Uncommon
+011,58,normal,2,"Heihei - Persistent Presence",Amethyst,Common
+011,35,normal,3,"Nala - Romping in the Snow",Amethyst,Common
+011,4,normal,1,"Pumbaa - Winter Warthog",Amber,Common
+010,19,foil,1,"Mowgli - Man Cub",Amber,Super Rare
+010,13,normal,1,"Shanti - Village Girl",Amber,Common
+010,1,normal,1,"Baloo - Friend and Guardian",Amber,Rare
+010,10,normal,1,"Gurgi - Apple Lover",Amber,Common
+010,31,normal,4,"Webby's Diary",Amber,Uncommon
+011,17,normal,2,"Lilo - Rock Star",Amber,Super Rare
+011,2,normal,3,"Lilo - Snow Artist",Amber,Common
+011,9,normal,4,"David - Protective Snowboarder",Amber,Common
+011,18,normal,1,"Pleakley - Arctic Naturalist",Amber,Uncommon
+011,27,foil,1,"Percy - Pupsicle",Amber,Common
+011,10,normal,1,"Fangmeyer - Icy Officer",Amber,Common
+011,13,normal,4,"Grandmother Willow - Ancient Advisor",Amber,Uncommon
+011,15,normal,1,"John Smith - Snow Tracker",Amber,Uncommon
+011,26,normal,1,"Widow Tweed - Kindly Soul",Amber,Rare
+011,36,normal,1,"Alice - Well-Read Whisper",Amethyst,Uncommon
+009,25,normal,2,"Look at This Family",Amber,Rare
+009,29,normal,3,"Bruno's Return",Amber,Uncommon
+009,8,normal,4,"Rapunzel - Sunshine",Amber,Common
+009,27,normal,4,"Heal What Has Been Hurt",Amber,Common
+010,19,normal,1,"Mowgli - Man Cub",Amber,Super Rare
+010,4,normal,1,"Headless Manhorse - Manny",Amber,Common
+010,15,normal,1,"Taran - Pig Keeper",Amber,Uncommon
+010,22,normal,3,"Della Duck - Returning Mother",Amber,Common
+010,27,normal,1,"Or Rewrite History!",Amber,Uncommon
+011,31,normal,1,"Wisdom of the Willow",Amber,Uncommon
+011,33,normal,2,"John Smith's Compass",Amber,Rare
+011,30,normal,2,"Mother Will Protect You",Amber,Common
+010,20/P3,foil,1,"The Horseman Strikes!",Amber,Promo
+010,28,normal,6,"Della's Moon Lullaby",Amber,Common
+011,20,normal,4,"Nani - Stage Manager",Amber,Uncommon
+010,29,normal,2,"The Horseman Strikes!",Amber,Rare
+011,29,normal,2,"Akood et Emuti",Amber,Rare
+011,12,normal,2,"Sarabi - Protecting the Pride",Amber,Common
+012,11,foil,1,"Hamm - Piggy Bank",Amber,Uncommon
+011,27,normal,2,"Percy - Pupsicle",Amber,Common
+011,34,normal,5,"Zootopia - Tundratown",Amber,Common
+011,5,normal,1,"Tiana - Warm and Happy",Amber,Common
+011,24,normal,1,"Bambi - Ethereal Fawn",Amber,Super Rare
+011,14,normal,1,"Cobra Bubbles - Dedicated Official",Amber,Rare
+011,19,normal,1,"Jumba Jookiba - Prolific Inventor",Amber,Rare
+011,25,normal,7,"Angel - Siren Singer",Amber,Uncommon
+011,8,foil,2,"Pocahontas - Finding the Way",Amber,Common
+011,8,normal,3,"Pocahontas - Finding the Way",Amber,Common
+011,11,normal,4,"Chief Powhatan - Protective Leader",Amber,Uncommon
+011,33,foil,1,"John Smith's Compass",Amber,Rare
+011,1,normal,5,"Thomas - Wide-Eyed Recruit",Amber,Common
+012,30,foil,1,"You've Got a Friend in Me",Amber,Super Rare
+012,20,normal,4,"Jessie - Lively Cowgirl",Amber,Super Rare
+012,3,foil,2,"Woody - Waiting for a Friend",Amber,Common
+012,126,normal,5,"Sid Phillips - Toy Surgeon",Ruby,Legendary
+012,17,foil,1,"Bullseye - Loyal Horse",Amber,Common
+012,10,foil,2,"Rex - Protective Dinosaur",Amber,Rare
+012,114,normal,7,"Hand-in-the-Box - Sid's Toy",Ruby,Uncommon
+012,15,normal,4,"Woody - Jungle Guide",Amber,Legendary
+012,128,foil,1,"Pterodactyl Janie Doll - Sid's Toy",Ruby,Common
+009,103,normal,4,"LeFou - Instigator",Ruby,Uncommon
+012,22,normal,2,"Dale - Ready for His Shot",Amber,Legendary
+011,22,normal,1,"Pocahontas - Peacekeeper",Amber,Legendary
+012,90,normal,2,"The Queen - Devious Disguise",Emerald,Legendary
+008,137,normal,1,"Lilo - Causing an Uproar",Ruby,Legendary
+005,118,normal,1,"Robin Hood - Sharpshooter",Ruby,Legendary
+006,124,normal,1,"Maui - Half-Shark",Ruby,Legendary
+009,9/P3,foil,1,"Sisu - Daring Visitor",Ruby,Promo
+012,47/P3,foil,1,"Cinderella - Resourceful Traveler",Sapphire,Promo
+012,218,foil,2,"Bruno Madrigal - Oasis Oracle",Sapphire,Epic
+012,217,foil,1,"Kida - Guardian of the Path",Sapphire,Epic
+012,160,normal,2,"Kida - Crystal Scion",Sapphire,Legendary
+012,161,normal,2,"Ursula - Deal Maker",Sapphire,Legendary
+011,191,normal,1,"Angel - Experiment 624",Steel,Legendary
+010,125,normal,4,"The Headless Horseman - Terror of Sleepy Hollow",Ruby,Legendary
+012,207,foil,1,"Isabela Madrigal - Such a Lovely Voice",Amber,Epic
+011,32,normal,1,"Ohana Means Family",Amber,Legendary
+012,224,foil,2,"Isabela Madrigal - Caring Cultivator",Amber,Enchanted
+005,3/P2,foil,1,"Nala - Mischievous Cub",Amber,Promo
+006,25/P2,foil,1,"Lilo - Escape Artist",Amber,Promo
+012,210,foil,1,"Doc - Taking Notes",Amethyst,Epic
+011,50,normal,1,"Anna - Soothing Sister",Amethyst,Legendary
+005,6/P3,foil,3,"Elsa - The Fifth Spirit",Amethyst,Promo
+012,37,normal,2,"Snow White - Merry as the Morning",Amethyst,Legendary
+012,91,normal,2,"Buzz Lightyear - Jungle Ranger",Emerald,Legendary
+003,210,foil,1,"The Sorcerer's Hat",Amethyst,Enchanted
+007,74,normal,1,"The Queen - Jealous Beauty",Amethyst,Legendary
+012,237,foil,1,"What Else Can I Do?",Sapphire,Enchanted
+012,195,normal,5,"Mrs. Incredible - Determined Rescuer",Steel,Legendary
+012,211,foil,1,"Buzz Lightyear - Space Ranger",Emerald,Epic
+011,103,normal,1,"Wreck-It Ralph - Raging Wrecker",Ruby,Legendary
+006,18/P2,foil,1,"Mickey Mouse - Pirate Captain",Ruby,Promo
+012,191,foil,1,"Merida - Formidable Archer",Steel,Legendary
+012,127,normal,3,"Mr. Incredible - Super Strong",Ruby,Legendary
+012,161,foil,1,"Ursula - Deal Maker",Sapphire,Legendary
+012,195,foil,1,"Mrs. Incredible - Determined Rescuer",Steel,Legendary
+012,191,normal,2,"Merida - Formidable Archer",Steel,Legendary
+012,3,normal,9,"Woody - Waiting for a Friend",Amber,Common
+012,11,normal,4,"Hamm - Piggy Bank",Amber,Uncommon
+012,30,normal,5,"You've Got a Friend in Me",Amber,Super Rare
+012,1,foil,1,"Gosalyn Mallard - The Quiverwing Quack",Amber,Common
+012,1,normal,10,"Gosalyn Mallard - The Quiverwing Quack",Amber,Common
+012,27,normal,7,"Chip - Team Player",Amber,Common
+012,18,normal,5,"Ariel - Curious Traveler",Amber,Rare
+012,8,normal,7,"Prince Eric - Noble Swordsman",Amber,Common
+012,17,normal,8,"Bullseye - Loyal Horse",Amber,Common
+012,5,foil,2,"Pedro Madrigal - Family Patriarch",Amber,Uncommon
+012,6,foil,1,"Agustin Madrigal - Exceptionally Kind",Amber,Common
+012,13,normal,5,"Bo Peep - Caring Shepherd",Amber,Uncommon
+012,10,normal,3,"Rex - Protective Dinosaur",Amber,Rare
+012,23,foil,3,"The Prince - Searching for His Love",Amber,Rare
+012,23,normal,2,"The Prince - Searching for His Love",Amber,Rare
+012,26,normal,4,"Mickey Mouse - Expedition Leader",Amber,Super Rare
+012,25,normal,5,"Pluto - Vigilant Traveler",Amber,Uncommon
+012,7,foil,2,"Alan-a-Dale - Loyal Bard",Amber,Common
+012,7,normal,11,"Alan-a-Dale - Loyal Bard",Amber,Common
+012,12,normal,3,"Monterey Jack - Hypnotized by Cheese",Amber,Rare
+012,28,normal,7,"Ranger Team-Up",Amber,Uncommon
+012,18,foil,2,"Ariel - Curious Traveler",Amber,Rare
+012,21,normal,6,"Woody - Leader of the Toys",Amber,Uncommon
+012,34,normal,8,"Andy's Room - Home Base",Amber,Rare
+012,32,foil,1,"When You Need Help, Just Call",Amber,Rare
+012,32,normal,2,"When You Need Help, Just Call",Amber,Rare
+012,33,normal,7,"Safety Rope",Amber,Uncommon
+012,16,foil,1,"Isabela Madrigal - Such a Lovely Voice",Amber,Uncommon
+012,16,normal,11,"Isabela Madrigal - Such a Lovely Voice",Amber,Uncommon
+012,14,normal,7,"Chip - Retrieval Expert",Amber,Uncommon
+012,5,normal,13,"Pedro Madrigal - Family Patriarch",Amber,Uncommon
+012,27,foil,2,"Chip - Team Player",Amber,Common
+012,4,normal,12,"Dale - Excited Friend",Amber,Common
+012,24,foil,1,"Julieta Madrigal - Caring Baker",Amber,Common
+012,24,normal,11,"Julieta Madrigal - Caring Baker",Amber,Common
+012,2,normal,9,"Monterey Jack - Watchful Ranger",Amber,Common
+012,6,normal,13,"Agustin Madrigal - Exceptionally Kind",Amber,Common
+012,9,foil,2,"Dolores Madrigal - Hears Everything",Amber,Common
+012,9,normal,12,"Dolores Madrigal - Hears Everything",Amber,Common
+012,19,normal,6,"Isabela Madrigal - Caring Cultivator",Amber,Rare
+012,29,foil,1,"This Growing Pressure",Amber,Common
+012,29,normal,12,"This Growing Pressure",Amber,Common
+012,31,normal,2,"Metamorphosis",Amber,Rare
+012,36,normal,5,"Alma Madrigal - Leading the Way",Amethyst,Uncommon
+012,58,normal,2,"Alma Madrigal - Keeper of the Flame",Amethyst,Rare
+012,56,normal,2,"Pepa Madrigal - Calm Before the Storm",Amethyst,Super Rare
+012,62,foil,2,"Luisa Madrigal - Pushing Through",Amethyst,Common
+012,51,normal,9,"Elinor - Bespelled Queen",Amethyst,Uncommon
+012,55,normal,3,"Maleficent - Imperious Traveler",Amethyst,Rare
+012,52,normal,5,"Mickey Mouse - Experienced Traveler",Amethyst,Uncommon
+012,45,normal,10,"Alma Madrigal - Heart of the Family",Amethyst,Common
+012,49,normal,4,"Mrs. Incredible - Super Stretchy",Amethyst,Rare
+012,52/P3,foil,2,"Dash Parr - Lava Runner",Amethyst,Promo
+012,62,normal,7,"Luisa Madrigal - Pushing Through",Amethyst,Common
+012,61,normal,2,"Dash Parr - Lava Runner",Amethyst,Super Rare
+012,50,normal,2,"Hamish, Hubert & Harris - Making Mischief",Amethyst,Uncommon
+012,67,normal,2,"DunBroch Family Tapestry",Amethyst,Rare
+012,68,foil,1,"Ring of Stones - Place of Legends",Amethyst,Rare
+012,54,normal,4,"Edna Mode - Fashion Designer",Amethyst,Rare
+012,48,foil,1,"Violet Parr - Learning New Powers",Amethyst,Uncommon
+012,48,normal,5,"Violet Parr - Learning New Powers",Amethyst,Uncommon
+012,59,foil,1,"Frozone - Super Cool",Amethyst,Rare
+012,59,normal,8,"Frozone - Super Cool",Amethyst,Rare
+012,53,normal,10,"Mirage - Super Recruiter",Amethyst,Common
+012,63,normal,10,"Super Relocation Program",Amethyst,Common
+012,66,normal,8,"Super Suit",Amethyst,Uncommon
+012,41,foil,1,"Grumpy - Soreheaded Miner",Amethyst,Common
+012,41,normal,11,"Grumpy - Soreheaded Miner",Amethyst,Common
+012,44,normal,12,"Sleepy - Deep Sleeper",Amethyst,Common
+012,47,normal,10,"Will o' the Wisp - Forest Spirit",Amethyst,Common
+012,57,normal,1,"Mor'du - Savage Cursed Prince",Amethyst,Super Rare
+012,35,normal,9,"Mor'du - Wicked with Pride",Amethyst,Common
+012,68,normal,5,"Ring of Stones - Place of Legends",Amethyst,Rare
+012,46,normal,9,"Frozone - Super Slick",Amethyst,Common
+012,40,normal,10,"Doc - Taking Notes",Amethyst,Uncommon
+012,43,normal,10,"Happy - Joyful Adventurer",Amethyst,Common
+012,38,normal,4,"Dopey - Drawn to Music",Amethyst,Uncommon
+012,39,foil,2,"Bashful - Riding the Rails",Amethyst,Common
+012,42,normal,10,"Sneezy - Startlingly Loud",Amethyst,Common
+012,65,foil,2,"Don't Be Nervous",Amethyst,Rare
+012,65,normal,6,"Don't Be Nervous",Amethyst,Rare
+012,39,normal,9,"Bashful - Riding the Rails",Amethyst,Common
+012,64,normal,6,"Right Behind You",Amethyst,Uncommon
+012,232,foil,1,"Jack-Jack Parr - Incredible Potential",Ruby,Enchanted
+003,109,normal,1,"Jim Hawkins - Space Traveler",Ruby,Legendary
+012,221,foil,1,"Incrediboy - Buddy Pine",Steel,Epic
+012,215,foil,1,"Mr. Incredible - Bob Parr",Ruby,Epic
+012,209,foil,1,"Edna Mode - Fashion Designer",Amethyst,Epic
+013,10,foil,2,"Lilo - Patient Weaver",Amber,Common
+013,3,normal,7,"Isabela Madrigal - Kind Cultivator",Amber,Common
+013,18,normal,4,"Mike Wazowski - Heroic Climber",Amber,Super Rare
+013,23,normal,8,"Kanga - Hunny Bard",Amber,Common
+013,10,normal,7,"Lilo - Patient Weaver",Amber,Common
+013,31,normal,3,"Lilo & Stitch - Fun-Loving Friends",Amber Steel,Super Rare
+013,24,normal,3,"Sulley - The New Boss",Amber,Super Rare
+013,21,normal,6,"Mike Wazowski - Well-Rounded Entertainer",Amber,Common
+013,37,normal,4,"Rapunzel's Tower - Taken by the Vine",Amber,Uncommon
+013,2,normal,4,"Ming Lee - Proud Parent",Amber,Rare
+013,29,foil,2,"Sulley & Boo - Scare Buddies",Amber Ruby,Super Rare
+013,29,normal,2,"Sulley & Boo - Scare Buddies",Amber Ruby,Super Rare
+013,5,normal,6,"Rabbit - Hunny Paladin",Amber,Uncommon
+013,13,normal,7,"Woody - Town Sheriff",Amber,Common
+013,21,foil,1,"Mike Wazowski - Well-Rounded Entertainer",Amber,Common
+013,1,normal,3,"Woody - Helping a Friend",Amber,Rare
+013,11,normal,8,"Kocoum - Defender of the Tribe",Amber,Common
+013,12,foil,1,"Pocahontas - Guiding the Tribe",Amber,Rare
+013,12,normal,3,"Pocahontas - Guiding the Tribe",Amber,Rare
+013,30,normal,1,"The Madrigal Family - Every Generation",Amber Sapphire,Rare
+013,20,normal,8,"Jasmine - Vine Expert",Amber,Common
+013,6,normal,4,"Celia Mae - Friendly Receptionist",Amber,Uncommon
+013,26,normal,3,"Ursula - Created by the Vine",Amber,Rare
+013,15,normal,4,"Gaston - Superior Archer",Amber,Uncommon
+013,36,normal,8,"Powhatan's Staff",Amber,Uncommon
+013,7,normal,3,"Meilin Lee - Lead Vocalist",Amber,Uncommon
+013,16,normal,2,"Meilin Lee - Losing Control",Amber,Rare
+013,19,normal,4,"Boo - In Disguise",Amber,Uncommon
+013,32,normal,8,"If I Didn't Have You",Amber,Common
+013,14,normal,5,"Abby Park - Over the Top",Amber,Uncommon
+013,34,normal,8,"Besties, Assemble!",Amber,Common
+013,35,normal,2,"Nobody Like U",Amber,Rare
+013,8,normal,7,"Priya Mangal - Serious Music Lover",Amber,Common
+013,4,normal,8,"Tyler Nguyen-Baker - 4*Town Fan",Amber,Common
+013,9,normal,12,"Miriam Mendelsohn - Ticket Holder",Amber,Common
+013,4,foil,1,"Tyler Nguyen-Baker - 4*Town Fan",Amber,Common
+013,17,foil,1,"4*Town - Hottest Band of the Year",Amber,Rare
+013,17,normal,3,"4*Town - Hottest Band of the Year",Amber,Rare
+013,33,normal,7,"I'm Never Not by Your Side",Amber,Uncommon
+013,55,normal,4,"Hera - Created by the Vine",Amethyst,Uncommon
+013,51,normal,3,"Mrs. Incredible - Created by the Vine",Amethyst,Rare
+013,68,normal,7,"Protective Aura",Amethyst,Uncommon
+013,72,normal,4,"Source of the Vine",Amethyst,Super Rare
+013,52,normal,7,"Pete - Created by the Vine",Amethyst,Common
+013,43,normal,7,"Abu - Wise Sultan",Amethyst,Uncommon
+013,45,normal,6,"Genie - Hard to Grasp",Amethyst,Uncommon
+013,68,foil,1,"Protective Aura",Amethyst,Uncommon
+013,55,foil,1,"Hera - Created by the Vine",Amethyst,Uncommon
+013,73,normal,4,"Ring of Stones - Taken by the Vine",Amethyst,Rare
+013,48,normal,5,"Pain - Running with Scissors",Amethyst,Common
+013,41,normal,7,"Panic - Hammer Enthusiast",Amethyst,Common
+013,67,normal,4,"One and Only",Amethyst,Uncommon
+013,66,normal,8,"Petrify",Amethyst,Common
+013,58,normal,8,"Peter Pan - Playful Prankster",Amethyst,Common
+013,47,normal,7,"Meeko - Lucky Raccoon",Amethyst,Common
+013,64,normal,9,"You've Got Some Punch",Amethyst,Common
+013,38,foil,1,"Fflewddur Fflam - Luckless Bard",Amethyst,Common
+013,69,normal,7,"Narrow Escape",Amethyst,Common
+013,42,normal,7,"Lumpy - Hunny Druid",Amethyst,Uncommon
+013,39,foil,3,"Maleficent - Exultant Spellcaster",Amethyst,Common
+013,66,foil,1,"Petrify",Amethyst,Common
+013,38,normal,9,"Fflewddur Fflam - Luckless Bard",Amethyst,Common
+013,65,normal,1,"With a Few Good Friends",Amethyst,Rare
+013,62,normal,2,"Winnie the Pooh & Piglet - Hunny Mages",Amethyst Sapphire,Super Rare
+013,40,normal,8,"Winnie the Pooh - Hunny Archmage",Amethyst,Common
+013,39,normal,10,"Maleficent - Exultant Spellcaster",Amethyst,Common
+013,63,normal,2,"Maleficent & Diablo - Evil Incarnate",Amethyst Steel,Rare
+013,49,normal,2,"Ming Lee - Overprotective Parent",Amethyst,Rare
+013,46,foil,1,"Vixey - Expert Fisher",Amethyst,Rare
+013,71,normal,4,"Magical Hunny Staff",Amethyst,Rare
+013,44,normal,8,"Meilin Lee - Superficially Obedient",Amethyst,Common
+013,82,normal,9,"Russell - Junior Wilderness Explorer",Emerald,Common
+013,98,normal,2,"Carl Fredricksen & Russell - Intrepid Explorers",Emerald Ruby,Rare
+013,75,normal,8,"Ellie Fredricksen - Loving Wife",Emerald,Common
+013,82,foil,1,"Russell - Junior Wilderness Explorer",Emerald,Common
+013,76,normal,8,"Buzz Lightyear - Grounded",Emerald,Common
+013,106,normal,4,"My Adventure Book",Emerald,Uncommon
+013,108,normal,3,"Paradise Falls - Exotic Destination",Emerald,Rare
+013,87,normal,8,"Minnie Mouse - Curious Adventurer",Emerald,Common
+013,91,normal,9,"Posey - Vampire Potato",Emerald,Uncommon
+013,74,normal,4,"Carl Fredricksen - Loving Husband",Emerald,Uncommon
+013,77,foil,1,"Buzz Lightyear - Providing Cover",Emerald,Rare
+013,83,normal,5,"Roo - Hunny Rogue",Emerald,Uncommon
+013,96,normal,7,"Cetus - Mighty Serpent",Emerald,Common
+013,88,normal,4,"Kevin - Flightless Bird",Emerald,Uncommon
+013,77,normal,3,"Buzz Lightyear - Providing Cover",Emerald,Rare
+013,85,foil,2,"Aladdin - Doing His Part",Emerald,Common
+013,78,normal,2,"Gopher - Hunny Cook",Emerald,Rare
+013,92,normal,2,"Dr. Bushroot - Evil Botanist",Emerald,Rare
+013,85,normal,9,"Aladdin - Doing His Part",Emerald,Common
+013,86,foil,1,"Madam Mim - Hummingbird",Emerald,Uncommon
+013,84,normal,10,"Winifred - Exasperated Elephant",Emerald,Common
+013,101,normal,4,"To Wither a Flower",Emerald,Rare
+013,95,foil,1,"Rapunzel - Escaping the Tower",Emerald,Super Rare
+013,93,normal,8,"Mother Gothel - Evil as Ever",Emerald,Common
+013,104,normal,7,"Scout Ahead",Emerald,Common
+013,81,normal,6,"Tod - Clever Fox",Emerald,Uncommon
+013,90,foil,1,"Copper - Creative Storyteller",Emerald,Uncommon
+013,90,normal,3,"Copper - Creative Storyteller",Emerald,Uncommon
+013,93,foil,3,"Mother Gothel - Evil as Ever",Emerald,Common
+013,102,normal,8,"Piercing Attack",Emerald,Common
+013,105,foil,1,"Potato",Emerald,Common
+013,107,normal,2,"Vine Pod",Emerald,Rare
+013,80,normal,5,"Rapunzel - Tower Defender",Emerald,Common
+013,95,normal,5,"Rapunzel - Escaping the Tower",Emerald,Super Rare
+013,103,normal,7,"Put That Thing Back",Emerald,Uncommon
+013,105,normal,8,"Potato",Emerald,Common
+013,86,normal,8,"Madam Mim - Hummingbird",Emerald,Uncommon
+013,122,foil,1,"Beast - Fierce Defender",Ruby,Common
+013,122,normal,8,"Beast - Fierce Defender",Ruby,Common
+013,130,normal,6,"Captain Hook - Conniving Pirate",Ruby,Uncommon
+013,115,normal,7,"Gaston - Created by the Vine",Ruby,Common
+013,112,normal,7,"The Bear - Territorial Animal",Ruby,Common
+013,126,normal,2,"Tigger - Hunny Barbarian",Ruby,Rare
+013,121,normal,8,"King Louie - King of Swing",Ruby,Common
+013,131,normal,6,"Peter Pan - Vine Duelist",Ruby,Common
+013,124,normal,9,"Donald Duck - Vineling Rider",Ruby,Common
+013,137,normal,5,"Prophetic Vision",Ruby,Uncommon
+013,117,normal,10,"Splodyhead - Experiment 619",Ruby,Common
+013,138,foil,2,"It's Gonna Be Great!",Ruby,Common
+013,113,normal,3,"Carl Fredricksen - On the Move",Ruby,Super Rare
+013,141,normal,3,"Beast's Castle - Overrun by the Vine",Ruby,Rare
+013,109,foil,1,"Dash Parr - Super Fast",Ruby,Rare
+013,111,normal,4,"Kuzco - Picky Customer",Ruby,Uncommon
+013,123,foil,2,"Randall Boggs - Envious Coworker",Ruby,Rare
+013,135,normal,4,"Red Alert",Ruby,Uncommon
+013,129,normal,4,"Ming Lee - Giant Red Panda",Ruby,Super Rare
+013,120,normal,3,"Grandma Wu - Fierce Red Panda",Ruby,Rare
+013,140,normal,4,"Bunch of Balloons",Ruby,Rare
+013,109,normal,2,"Dash Parr - Super Fast",Ruby,Rare
+013,110,foil,1,"Yzma - Choosy Customer",Ruby,Common
+013,118,normal,4,"Pacha - Panicked Customer",Ruby,Uncommon
+013,128,normal,6,"Sulley - Protective Monster",Ruby,Uncommon
+013,119,normal,6,"Sun Yee - Red Panda Spirit",Ruby,Uncommon
+013,114,normal,10,"Dash Parr - Dodgeball Dynamo",Ruby,Common
+013,110,normal,7,"Yzma - Choosy Customer",Ruby,Common
+013,118,foil,1,"Pacha - Panicked Customer",Ruby,Uncommon
+013,123,normal,1,"Randall Boggs - Envious Coworker",Ruby,Rare
+013,136,normal,7,"RAHR!",Ruby,Common
+013,139,normal,5,"Scream Canister",Ruby,Uncommon
+013,134,normal,7,"Red Moon Ritual",Ruby,Uncommon
+013,166,normal,3,"Power Surge",Sapphire,Uncommon
+013,170,normal,3,"Closet Door Portal",Sapphire,Super Rare
+013,145,normal,9,"Roz - Always Watching",Sapphire,Common
+013,146,normal,3,"Merlin - Envisioning the Future",Sapphire,Rare
+013,155,foil,2,"Mickey Mouse - Inquisitive Explorer",Sapphire,Common
+013,155,normal,7,"Mickey Mouse - Inquisitive Explorer",Sapphire,Common
+013,156,normal,6,"Hades - Meticulous Schemer",Sapphire,Uncommon
+013,150,normal,3,"Mrs. Hasagawa - Fruit Vendor",Sapphire,Uncommon
+013,160,normal,1,"Boo - Human Child",Sapphire,Rare
+013,161,normal,9,"Pluto - Suspicious Sentry",Sapphire,Common
+013,172,normal,2,"Laugh Canister",Sapphire,Rare
+013,152,normal,7,"Sulley - Strategic Scarer",Sapphire,Common
+013,163,normal,3,"Henry J. Waternoose III - Chief Executive Officer",Sapphire,Rare
+013,143,normal,9,"Launchpad - Sky Patrol",Sapphire,Common
+013,150,foil,2,"Mrs. Hasagawa - Fruit Vendor",Sapphire,Uncommon
+013,160,foil,1,"Boo - Human Child",Sapphire,Rare
+013,159,foil,2,"Robin Hood - Created by the Vine",Sapphire,Common
+013,144,normal,8,"Dug - Good Boy",Sapphire,Uncommon
+013,165,normal,2,"Darkwing Duck & Launchpad - St. Canard's Finest",Sapphire Steel,Super Rare
+013,159,normal,7,"Robin Hood - Created by the Vine",Sapphire,Common
+013,148,normal,7,"Belle - Always Reading",Sapphire,Common
+013,157,normal,7,"Antonio Madrigal - Animal Doctor",Sapphire,Uncommon
+013,154,normal,9,"Piglet - Hunny Mage Apprentice",Sapphire,Common
+013,162,normal,3,"Charles Muntz - Obsessive Explorer",Sapphire,Super Rare
+013,173,foil,1,"Translation Collar",Sapphire,Rare
+013,173,normal,2,"Translation Collar",Sapphire,Rare
+013,164,normal,7,"Eeyore - Hunny Scholar",Sapphire,Uncommon
+013,158,normal,4,"Maid Marian - Created by the Vine",Sapphire,Rare
+013,149,normal,9,"Ellie Fredricksen - Adventure Partner",Sapphire,Common
+013,169,normal,9,"Startle",Sapphire,Common
+013,168,normal,9,"We've Got a Lot to Do!",Sapphire,Common
+013,175,normal,6,"Hundred Acre Wood - Hunny Campsite",Sapphire,Uncommon
+013,169,foil,1,"Startle",Sapphire,Common
+013,174,normal,6,"Big Book of Hunny",Sapphire,Uncommon
+013,171,normal,4,"Hana's Inkcaster",Sapphire,Uncommon
+013,176,normal,2,"Violet Parr - Super Resilient",Steel,Super Rare
+013,192,normal,8,"Mulan - Created by the Vine",Steel,Common
+013,180,normal,9,"Stitch - Protector of Frogs",Steel,Common
+013,196,normal,4,"Omnidroid - Ultimate Iteration",Steel,Rare
+013,184,normal,3,"Dr. Hamsterviel - Evil Observer",Steel,Uncommon
+013,178,normal,7,"Willie the Giant - Created by the Vine",Steel,Uncommon
+013,191,foil,1,"Kronk - Meat Hut Cook",Steel,Rare
+013,179,normal,2,"Sprout - Experiment 509",Steel,Rare
+013,182,normal,8,"Mata - Meat Hut Waitress",Steel,Common
+013,188,normal,7,"Omnidroid - Scanning for Threats",Steel,Common
+013,185,normal,9,"Owl - Hunny Ranger",Steel,Common
+013,187,foil,1,"Darkwing Duck - Shadowy Superhero",Steel,Common
+013,190,normal,5,"The Irate Chef - Meat Hut Cook",Steel,Uncommon
+013,195,normal,3,"Maximus - Relentless Stallion",Steel,Rare
+013,184,foil,1,"Dr. Hamsterviel - Evil Observer",Steel,Uncommon
+013,187,normal,9,"Darkwing Duck - Shadowy Superhero",Steel,Common
+013,186,normal,8,"Megavolt - Electrical Menace",Steel,Uncommon
+013,182,foil,1,"Mata - Meat Hut Waitress",Steel,Common
+013,189,normal,5,"Flynn Rider - High-Climbing Rogue",Steel,Common
+013,205,normal,4,"The Weedwhacker",Steel,Uncommon
+013,199,normal,7,"We'll Save Our Village",Steel,Common
+013,203,foil,2,"Windstorm",Steel,Rare
+013,201,normal,5,"You Broke My Smolder",Steel,Uncommon
+013,207,normal,3,"Vine Entrance - Ominous Passageway",Steel,Rare
+013,204,normal,7,"Discarded Armor",Steel,Uncommon
+013,193,normal,9,"Diablo - Protecting His Mistress",Steel,Common
+013,181,normal,7,"Sheriff of Nottingham - Vine Slayer",Steel,Common
+013,203,normal,2,"Windstorm",Steel,Rare
+013,200,normal,5,"Look What You've Done",Steel,Uncommon
+013,198,normal,10,"Cower Before Me!",Steel,Common
+013,206,normal,7,"Absorbing Bloom",Steel,Uncommon
+013,210,foil,1,"Meilin Lee - Losing Control",Amber,Epic
+013,215,foil,1,"Kevin - Flightless Bird",Emerald,Epic
+013,211,foil,1,"Heihei - Created by the Vine",Amethyst,Epic
+013,50,normal,1,"Merida - Wisp Conjurer",Amethyst,Legendary
+013,28,normal,4,"Woody & Buzz Lightyear - Best Buddies",Amber Emerald,Legendary
+013,133,foil,1,"Dash Parr & Violet Parr - Super Siblings",Ruby Steel,Legendary
+013,61,normal,1,"Christopher Robin - Hunny Sage",Amethyst Sapphire,Legendary
+013,99,normal,2,"Mickey Mouse & Minnie Mouse - Adventuring Duo",Emerald Sapphire,Legendary
+013,100,normal,2,"Rapunzel & Flynn Rider - Unlikely Pair",Emerald Steel,Legendary
+013,147,normal,4,"Quackerjack - Loony Toymaker",Sapphire,Legendary
+013,4/PD1,foil,1,"Vixey - Expert Fisher",Amethyst,Promo
+013,125,normal,2,"Meilin Lee - Popular Red Panda",Ruby,Legendary
+013,27,foil,1,"Pocahontas & Meeko - Adventurous Friends",Amber Amethyst,Legendary
+013,133,normal,4,"Dash Parr & Violet Parr - Super Siblings",Ruby Steel,Legendary
+013,5/PD1,foil,1,"Buzz Lightyear - Providing Cover",Emerald,Promo
+010,22/P3,foil,1,"Elsa - Exploring the Unknown",Amethyst,Promo
+013,16,foil,1,"Meilin Lee - Losing Control",Amber,Rare
+013,2,foil,1,"Ming Lee - Proud Parent",Amber,Rare
+013,25,normal,1,"Mirabel Madrigal - Family Guardian",Amber,Rare
+013,63,foil,1,"Maleficent & Diablo - Evil Incarnate",Amethyst Steel,Rare
+013,54,foil,1,"Heihei - Created by the Vine",Amethyst,Rare
+013,48,foil,1,"Pain - Running with Scissors",Amethyst,Common
+013,54,normal,1,"Heihei - Created by the Vine",Amethyst,Rare
+013,47,foil,1,"Meeko - Lucky Raccoon",Amethyst,Common
+013,56,foil,1,"Tinker Bell - Finding a Way",Amethyst,Uncommon
+013,60,normal,1,"Peter Pan & Tinker Bell - Fast Friends",Amethyst Ruby,Super Rare
+013,56,normal,3,"Tinker Bell - Finding a Way",Amethyst,Uncommon
+013,59,normal,2,"Aladdin & Genie - Mischievous Pals",Amethyst Emerald,Super Rare
+013,59,foil,1,"Aladdin & Genie - Mischievous Pals",Amethyst Emerald,Super Rare
+013,53,normal,2,"Grandma Wu - Wise Grandmother",Amethyst,Rare
+013,57,foil,1,"Morph - Little Imitator",Amethyst,Uncommon
+013,46,normal,2,"Vixey - Expert Fisher",Amethyst,Rare
+013,57,normal,7,"Morph - Little Imitator",Amethyst,Uncommon
+013,70,normal,5,"Broken Pod",Amethyst,Uncommon
+013,96,foil,1,"Cetus - Mighty Serpent",Emerald,Common
+013,94,normal,2,"Tod & Copper - Best of Friends",Emerald,Rare
+013,89,normal,1,"Peter Pan - Created by the Vine",Emerald,Rare
+013,153,foil,1,"Randall Boggs - Scary Smart",Sapphire,Rare
+013,153,normal,2,"Randall Boggs - Scary Smart",Sapphire,Rare
+013,151,normal,3,"Alpha - Pack Leader",Sapphire,Rare
+013,152,foil,2,"Sulley - Strategic Scarer",Sapphire,Common
+013,156,foil,1,"Hades - Meticulous Schemer",Sapphire,Uncommon
+013,143,foil,1,"Launchpad - Sky Patrol",Sapphire,Common
+013,167,normal,7,"Focused Search",Sapphire,Common
+013,166,foil,1,"Power Surge",Sapphire,Uncommon
+013,213,foil,1,"Mrs. Incredible - Created by the Vine",Amethyst,Epic
+013,222,foil,2,"Hundred Acre Wood - Hunny Campsite",Sapphire,Epic
+013,194,normal,1,"Scar - Created by the Vine",Steel,Legendary
+013,61,foil,1,"Christopher Robin - Hunny Sage",Amethyst Sapphire,Legendary
+013,27,normal,1,"Pocahontas & Meeko - Adventurous Friends",Amber Amethyst,Legendary
+013,147,foil,1,"Quackerjack - Loony Toymaker",Sapphire,Legendary
+013,228,foil,1,"Woody & Buzz Lightyear - Best Buddies",Amber Emerald,Enchanted
+010,138,normal,3,"Hen Wen - Prophetic Pig",Sapphire,Common
+010,157,normal,2,"Pluto - Clever Cluefinder",Sapphire,Uncommon
+010,137,normal,3,"Judy Hopps - On the Case",Sapphire,Uncommon
+010,160,normal,2,"Mickey Mouse - Detective",Sapphire,Common
+010,149,normal,2,"Jasmine - Soothing Princess",Sapphire,Uncommon
+010,156,foil,1,"Judy Hopps - Uncovering Clues",Sapphire,Super Rare
+010,146,normal,2,"Genie - Investigative Mind",Sapphire,Common
+010,147,normal,3,"Scuttle - Birdbrained",Sapphire,Uncommon
+010,161,normal,2,"Hen Wen's Visions",Sapphire,Common
+010,182,normal,3,"Black Heron - Real Bad Egg",Steel,Uncommon
+010,179,normal,2,"Basil - Tenacious Mouse",Steel,Common
+010,193,normal,1,"Zeus - Missing His Spark",Steel,Uncommon
+010,172,normal,3,"Donald Duck - Ghost Hunter",Steel,Common
+010,171,foil,1,"Robin Hood - Ephemeral Archer",Steel,Rare
+010,194,normal,2,"The Headless Horseman - Relentless Spirit",Steel,Common
+010,187,normal,1,"Nick Wilde - Persistent Investigator",Steel,Rare
+010,175,normal,2,"Clawhauser - Donut Detective",Steel,Common
+010,7,normal,4,"Eilonwy - Princess of Llyr",Amber,Common
+010,81,normal,3,"Flynn Rider - Spectral Scoundrel",Emerald,Uncommon
+010,69,normal,3,"Baloo - Laid-Back Bear",Emerald,Common
+010,2,normal,3,"Gaston - Frightful Bully",Amber,Uncommon
+010,12,normal,2,"Bagheera - Cautious Explorer",Amber,Uncommon
+010,80,normal,1,"Emily Quackfaster - Level-Headed Librarian",Emerald,Uncommon
+010,8,normal,1,"Scrooge McDuck - On the Right Track",Amber,Uncommon
+010,9,normal,2,"Webby Vanderquack - Knowledge Seeker",Amber,Uncommon
+010,90,normal,2,"Akela - Forest Runner",Emerald,Common
+010,86,foil,1,"Megara - Secret Keeper",Emerald,Rare
+010,11,normal,3,"Mrs. Beakley - Former S.H.U.S.H. Agent",Amber,Common
+010,85,normal,2,"Baloo - Carefree Bear",Emerald,Rare
+010,78,normal,2,"Hook Hand - Unexpectedly Friendly",Emerald,Uncommon
+010,18,normal,1,"Scrooge McDuck - Cavern Prospector",Amber,Rare
+010,20,foil,1,"Simba - King in the Making",Amber,Super Rare
+010,96,normal,2,"Chomp!",Emerald,Common
+010,94,normal,2,"So Be It!",Emerald,Common
+010,33,normal,4,"Munchings and Crunchings",Amber,Common
+010,30,normal,2,"Recovered Page",Amber,Uncommon
+010,34,normal,1,"Duckburg - Funso's Funzone",Amber,Rare
+010,5,normal,3,"Higgins - Undercover Officer",Amber,Common
+010,71,normal,3,"Flotsam - Slippery as an Eel",Emerald,Common
+010,21,normal,2,"Goofy - Ghost Hunter",Amber,Common
+010,82,normal,2,"Bellwether - Master Manipulator",Emerald,Uncommon
+010,84,normal,1,"Penumbra - Moon Alien",Emerald,Rare
+010,77,normal,2,"Jetsam - Opportunistic Eel",Emerald,Common
+010,101,normal,2,"Blessed Bagpipes",Emerald,Uncommon
+010,196,normal,3,"Putting It All Together",Steel,Common
+010,199,normal,2,"The Robot Queen",Steel,Uncommon
+010,204,normal,1,"Castle Wyvern - Above the Clouds",Steel,Rare
+010,178,normal,3,"Nick Wilde - Sly Fox Sleuth",Steel,Common
+010,176,normal,2,"Francine - Eyeing the Evidence",Steel,Common
+010,139,normal,2,"Anna - Making Snow Plans",Sapphire,Common
+010,150,normal,1,"Judy Hopps - Lead Detective",Sapphire,Rare
+010,162,normal,2,"Promising Lead",Sapphire,Common
+010,166,normal,2,"Detective's Badge",Sapphire,Common
+010,203,normal,3,"Zootopia - Police Headquarters",Steel,Uncommon
+013,33,foil,1,"I'm Never Not by Your Side",Amber,Uncommon
+013,32,foil,1,"If I Didn't Have You",Amber,Common
+013,138,normal,9,"It's Gonna Be Great!",Ruby,Common
+013,117,foil,1,"Splodyhead - Experiment 619",Ruby,Common
+013,127,normal,2,"Boo - Energetic Child",Ruby,Rare
+013,139,foil,1,"Scream Canister",Ruby,Uncommon
+013,116,normal,7,"Colonel Hathi - On the March",Ruby,Common
+013,120,foil,1,"Grandma Wu - Fierce Red Panda",Ruby,Rare
+013,136,foil,1,"RAHR!",Ruby,Common
+013,111,foil,1,"Kuzco - Picky Customer",Ruby,Uncommon
+013,142,normal,1,"Carl's House - Flying High",Ruby,Rare
+013,116,foil,1,"Colonel Hathi - On the March",Ruby,Common
+013,113,foil,2,"Carl Fredricksen - On the Move",Ruby,Super Rare
+013,177,normal,2,"Aladdin - Created by the Vine",Steel,Rare
+013,197,normal,4,"The Vine - Towering Stalk",Steel,Super Rare
+013,191,normal,1,"Kronk - Meat Hut Cook",Steel,Rare
+013,190,foil,1,"The Irate Chef - Meat Hut Cook",Steel,Uncommon
+013,178,foil,2,"Willie the Giant - Created by the Vine",Steel,Uncommon
+013,180,foil,1,"Stitch - Protector of Frogs",Steel,Common
+013,183,normal,7,"Violet Parr - Force Field Practice",Steel,Common
+013,202,normal,2,"Attack of the Vine!",Steel,Rare
+013,198,foil,1,"Cower Before Me!",Steel,Common
+013,199,foil,1,"We'll Save Our Village",Steel,Common
+013,69,foil,1,"Narrow Escape",Amethyst,Common
+013,172,foil,1,"Laugh Canister",Sapphire,Rare
+011,49,normal,1,"Genie - Magical Researcher",Amethyst,Rare
+011,28,normal,1,"Raging Storm",Amber,Super Rare
+009,41,normal,4,"Winnie the Pooh - Hunny Wizard",Amethyst,Common
+009,84,normal,4,"Pegasus - Gift for Hercules",Emerald,Common
+003,26,normal,2,"Heal What Has Been Hurt",Amber,Common
+009,90,normal,4,"Ursula - Deceiver",Emerald,Uncommon
+011,111,normal,4,"Liquidator - Iced Over",Ruby,Uncommon
+004,60,normal,1,"Poor Unfortunate Souls",Amethyst,Common
+011,188,normal,2,"Darkwing Duck - Darkwarrior",Steel,Rare
+009,180,normal,4,"Benja - Guardian of the Dragon Gem",Steel,Common
+001,197,normal,1,"Fire the Cannons!",Steel,Common
+011,165,foil,1,"Wipe Out!",Sapphire,Uncommon
+011,198,foil,1,"Let's Get Dangerous",Steel,Rare
+013,97,normal,1,"Mushu - Stealthy Dragon",Emerald,Legendary

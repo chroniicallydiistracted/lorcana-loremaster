@@ -1,0 +1,638 @@
+{
+  "suite": "game-master-2026-10-04",
+  "scope": "Deterministic curated answer/citation, card correction, calculation and uncertainty checks. Topic-directed cases do not measure unrestricted natural-language understanding.",
+  "cases": 100,
+  "passed": 100,
+  "failed": 0,
+  "domains": {
+    "rules": 11,
+    "international": 2,
+    "cards": 2,
+    "learning": 8,
+    "multiplayer": 4,
+    "keywords": 23,
+    "deckbuilding": 1,
+    "formats": 4,
+    "limited": 3,
+    "pack_rush": 4,
+    "coconut": 1,
+    "products": 1,
+    "new_mechanics": 2,
+    "organized_play": 3,
+    "cooperative": 1,
+    "metagame": 1,
+    "collection": 3,
+    "coaching": 1,
+    "simulation": 1,
+    "lore": 1,
+    "strategy": 2,
+    "probability": 5,
+    "card_review": 6,
+    "uncertainty": 4,
+    "date_policy": 3,
+    "question_lookup": 3
+  },
+  "results": [
+    {
+      "case_id": "fact-card-over-rule",
+      "domain": "rules",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-cant-over-can",
+      "domain": "rules",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-do-as-much",
+      "domain": "rules",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-english-reference",
+      "domain": "international",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-reminder-text",
+      "domain": "cards",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-story-labels",
+      "domain": "cards",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-ordinary-victory",
+      "domain": "learning",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-empty-deck",
+      "domain": "rules",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-last-player",
+      "domain": "multiplayer",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-lethal-damage",
+      "domain": "rules",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-opening-hand",
+      "domain": "learning",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-mulligan-bottom",
+      "domain": "learning",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-mulligan-shuffle",
+      "domain": "learning",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-first-draw",
+      "domain": "learning",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-location-lore",
+      "domain": "rules",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-normal-inking",
+      "domain": "learning",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-one-normal-ink",
+      "domain": "learning",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-ink-private",
+      "domain": "rules",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-new-object",
+      "domain": "rules",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-zero-damage",
+      "domain": "rules",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-free-play",
+      "domain": "rules",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-bag-order",
+      "domain": "rules",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-alert",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-bodyguard-entry",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-bodyguard-target",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-boost-private",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-boost-not-play",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-challenger-defense",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-evasive",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-reckless-song",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-resist-moved",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-rush",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-shift-exerted",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-shift-dry",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-shift-damage",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-shift-stack",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-duo-dry",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-temporary-shift",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-potato-shift",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-singer-cost",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-sing-together",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-support",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-vanish-timing",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-ward-sweep",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-keyword-stack",
+      "domain": "keywords",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-construction-exception",
+      "domain": "deckbuilding",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-constructed-minimum",
+      "domain": "formats",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-core-current",
+      "domain": "formats",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-current-bans",
+      "domain": "formats",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-prerelease-legality",
+      "domain": "formats",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-limited-minimum",
+      "domain": "limited",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-sealed-packs",
+      "domain": "limited",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-draft-packs",
+      "domain": "limited",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-pack-rush-hand",
+      "domain": "pack_rush",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-pack-rush-victory",
+      "domain": "pack_rush",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-pack-rush-marketing",
+      "domain": "pack_rush",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-pack-rush-recycle",
+      "domain": "pack_rush",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-multiplayer-left",
+      "domain": "multiplayer",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-simultaneous-actions",
+      "domain": "multiplayer",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-simultaneous-bag",
+      "domain": "multiplayer",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-coconut",
+      "domain": "coconut",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-hyperia-dates",
+      "domain": "products",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-ink-drops",
+      "domain": "new_mechanics",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-event-deck-registration",
+      "domain": "organized_play",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-takeback-information",
+      "domain": "organized_play",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "fact-match-clock",
+      "domain": "organized_play",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "boundary-quest-rulebooks",
+      "domain": "cooperative",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "boundary-gateway-progression",
+      "domain": "learning",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "boundary-hyperia-meta",
+      "domain": "metagame",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "boundary-current-price",
+      "domain": "collection",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "boundary-pack-odds",
+      "domain": "collection",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "boundary-hidden-hand",
+      "domain": "coaching",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "boundary-simulation",
+      "domain": "simulation",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "boundary-localized-corpus",
+      "domain": "international",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "boundary-story-canon",
+      "domain": "lore",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "boundary-collection-variants",
+      "domain": "collection",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "boundary-ink-drop-edge",
+      "domain": "new_mechanics",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "boundary-deck-cuts",
+      "domain": "strategy",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "boundary-probability-model",
+      "domain": "probability",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "boundary-matchup-evidence",
+      "domain": "strategy",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "card-Bucky - Squirrel Squeak Tutor",
+      "domain": "card_review",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "card-Winnie the Pooh - Hunny Wizard",
+      "domain": "card_review",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "card-Mickey Mouse - True Friend",
+      "domain": "card_review",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "card-Sulley - Protective Monster",
+      "domain": "card_review",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "card-Robin Hood - Ephemeral Archer",
+      "domain": "card_review",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "card-Moana - Of Motunui",
+      "domain": "card_review",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "prob-4-1-1-1",
+      "domain": "probability",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "prob-4-1-2-1",
+      "domain": "probability",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "prob-4-2-2-1",
+      "domain": "probability",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "prob-4-2-2-2",
+      "domain": "probability",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "unknown-90",
+      "domain": "uncertainty",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "unknown-91",
+      "domain": "uncertainty",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "unknown-92",
+      "domain": "uncertainty",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "unknown-93",
+      "domain": "uncertainty",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "date-current-bans-2026-07-01",
+      "domain": "date_policy",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "date-current-bans-2026-10-16",
+      "domain": "date_policy",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "date-hyperia-dates-2026-10-03",
+      "domain": "date_policy",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "question-rush",
+      "domain": "question_lookup",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "question-empty-deck",
+      "domain": "question_lookup",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "case_id": "question-resist-moved",
+      "domain": "question_lookup",
+      "passed": true,
+      "failures": []
+    }
+  ],
+  "limitations": "This checks curated claims, retrieval bindings, corrected card data, exact calculations and refusal gates. It is not a blinded LLM evaluation or proof of comprehensive expert reasoning."
+}

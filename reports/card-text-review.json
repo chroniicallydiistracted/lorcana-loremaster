@@ -1,0 +1,16 @@
+{
+  "reviewed_at": "2026-10-04",
+  "identities": 137,
+  "statuses": {
+    "resolved": 137
+  },
+  "categories": {
+    "cosmetic": 30,
+    "functional": 9,
+    "reminder": 109,
+    "naming": 8,
+    "data_error": 5,
+    "classification": 1
+  },
+  "unresolved": []
+}

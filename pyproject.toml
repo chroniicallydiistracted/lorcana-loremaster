@@ -1,0 +1,24 @@
+[project]
+name = "lorcana-loremaster"
+version = "0.2.0"
+description = "Evidence-based local Disney Lorcana Game Master knowledge tools"
+requires-python = ">=3.12"
+dependencies = ["pydantic>=2.12,<3", "pymupdf>=1.27,<2"]
+
+[dependency-groups]
+dev = ["pytest>=9,<10", "ruff>=0.14,<1"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "tools"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 110
+include = ["loremaster/**/*.py", "tools/knowledge.py", "tools/review_cards.py", "tools/download_images.py", "tools/verify.py", "tests/test_knowledge.py"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

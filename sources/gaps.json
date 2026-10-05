@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-04",
+  "records": [
+    {"source_id": "deep-trouble-rulebook", "status": "not_discovered", "official_product_source": "deep-trouble", "needed_for": "Ursula setup, boss turn, difficulties and product overrides"},
+    {"source_id": "palace-heist-rulebook", "status": "not_discovered", "official_product_source": "palace-heist", "needed_for": "Jafar/crown procedures, boss turns and battleground restrictions"},
+    {"source_id": "great-hunny-rescue-rulebook", "status": "not_discovered", "official_product_source": "great-hunny-rescue", "needed_for": "Vine chambers, tendrils, encounter setup and difficulty"},
+    {"source_id": "gateway-progressive-booklet", "status": "not_discovered", "official_product_source": "gateway", "needed_for": "Exact teaching progression and unlock steps"},
+    {"source_id": "hyperia-release-notes", "status": "not_linked_at_check", "official_product_source": "resources", "needed_for": "New mechanic edge cases and card-specific official clarifications"},
+    {"source_id": "hyperia-matchup-data", "status": "no_verified_dataset", "needed_for": "Measured Set 14 matchup and metagame claims"}
+  ],
+  "search_scope": "Official Resources hub, English product pages, supplied API external-document links and web discovery queries. Not proof that no public copy exists elsewhere."
+}

@@ -1,0 +1,1814 @@
+{
+  "schema_version": 1,
+  "coverage": "Reviewed finite answers. Freeform unmatched questions retrieve evidence and require interpretation. Not a general natural-language rules engine.",
+  "records": [
+    {
+      "fact_id": "card-over-rule",
+      "domain": "rules",
+      "questions": [
+        "Does card text override a general rule?"
+      ],
+      "answer": "Specific card text overrides a contradictory general game rule.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 3,
+          "section": "1.2.1",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "cant-over-can",
+      "domain": "rules",
+      "questions": [
+        "Can permission override a prohibition?"
+      ],
+      "answer": "An effect preventing an event overrides permission to perform that event.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 3,
+          "section": "1.2.2",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "do-as-much",
+      "domain": "rules",
+      "questions": [
+        "What if part of an effect cannot happen?"
+      ],
+      "answer": "Perform as much of the effect as possible. Costs and dependent instructions still require their own checks.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 3,
+          "section": "1.2.3",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "english-reference",
+      "domain": "international",
+      "questions": [
+        "Which language controls gameplay?"
+      ],
+      "answer": "English cards, rules, rulings and clarifications are the official gameplay references.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 3,
+          "section": "1.1.4",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "reminder-text",
+      "domain": "cards",
+      "questions": [
+        "Is reminder text rules text?"
+      ],
+      "answer": "Parenthesized italic reminder text is a memory aid and can vary without changing the rule.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 3,
+          "section": "1.1.7",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "story-labels",
+      "domain": "cards",
+      "questions": [
+        "Do ability story names affect gameplay?"
+      ],
+      "answer": "A story ability name identifies the ability for reference; it does not determine gameplay.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 22,
+          "section": "5.2.8",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "ordinary-victory",
+      "domain": "learning",
+      "questions": [
+        "How much lore wins an ordinary game?"
+      ],
+      "answer": "In ordinary play, 20 or more lore wins at the game-state check. Mode-specific thresholds can override this.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 6,
+          "section": "1.8.1.1",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "empty-deck",
+      "domain": "rules",
+      "questions": [
+        "Do I lose immediately when I fail to draw?"
+      ],
+      "answer": "No. Under this rules snapshot, an empty deck causes a loss when your own turn ends. A failed draw alone is not an immediate loss.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 6,
+          "section": "1.8.1.2",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "last-player",
+      "domain": "multiplayer",
+      "questions": [
+        "Can the last remaining player win?"
+      ],
+      "answer": "The last player remaining in a multiplayer game wins.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 6,
+          "section": "1.8.1.3",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "lethal-damage",
+      "domain": "rules",
+      "questions": [
+        "When does marked damage banish a card?"
+      ],
+      "answer": "At a game-state check, a character or location is banished when its damage meets or exceeds its current willpower.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 6,
+          "section": "1.8.1.4",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "opening-hand",
+      "domain": "learning",
+      "questions": [
+        "How many cards are in a normal opening hand?"
+      ],
+      "answer": "Each player draws 7 cards for their ordinary opening hand.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 10,
+          "section": "2.2.1.4",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "mulligan-bottom",
+      "domain": "learning",
+      "questions": [
+        "Where do cards go during the opening-hand alteration?"
+      ],
+      "answer": "Select any number of opening cards and put them on the bottom without revealing them, then refill the hand to 7.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 10,
+          "section": "2.2.2.1",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "mulligan-shuffle",
+      "domain": "learning",
+      "questions": [
+        "When do I shuffle after altering my opening hand?"
+      ],
+      "answer": "After players finish altering their hands, every player who changed at least one card shuffles and offers an opponent the opportunity to cut or shuffle.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 10,
+          "section": "2.2.2.3",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "first-draw",
+      "domain": "learning",
+      "questions": [
+        "Does the starting player draw on the first turn?"
+      ],
+      "answer": "The starting player skips the Draw step on the first turn of the game.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 11,
+          "section": "3.2.3.1",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "location-lore",
+      "domain": "rules",
+      "questions": [
+        "Does location lore use the bag?"
+      ],
+      "answer": "Gain lore from locations during the Set step. This is not a triggered ability and does not use the bag.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 11,
+          "section": "3.2.2.2",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "normal-inking",
+      "domain": "learning",
+      "questions": [
+        "How does ordinary inking work?"
+      ],
+      "answer": "Reveal an inkable card from hand, allow all players to verify its symbol, then place it facedown and ready into your inkwell.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 12,
+          "section": "4.2.1",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        },
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 12,
+          "section": "4.2.1.3",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "one-normal-ink",
+      "domain": "learning",
+      "questions": [
+        "How many normal ink actions can I take?"
+      ],
+      "answer": "The ordinary ink-a-card turn action is limited to once during your turn; specific effects can grant additional resource actions.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 12,
+          "section": "4.2.3",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "ink-private",
+      "domain": "rules",
+      "questions": [
+        "Can I look at my own facedown ink?"
+      ],
+      "answer": "No. The inkwell is private even to its owner. Ink counts and ready/exerted status remain available information.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 39,
+          "section": "7.5.4",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "new-object",
+      "domain": "rules",
+      "questions": [
+        "Does a card keep gained effects when it leaves play?"
+      ],
+      "answer": "Moving from play to another zone removes gained effects, damage and gained characteristics; the card becomes a new card. Specific effects may still reference it.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 38,
+          "section": "7.1.6",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "zero-damage",
+      "domain": "rules",
+      "questions": [
+        "What if damage is reduced to zero?"
+      ],
+      "answer": "The source still deals damage, but the affected card takes no damage. Distinguish deals-damage triggers from takes-damage triggers.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 8,
+          "section": "1.9.5",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "free-play",
+      "domain": "rules",
+      "questions": [
+        "Can I Shift when an effect plays a card for free?"
+      ],
+      "answer": "No. This current rule instructs you to ignore all play costs and forbids choosing another alternate cost for that free play. Older release-note advice can differ.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 27,
+          "section": "6.1.7",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "bag-order",
+      "domain": "rules",
+      "questions": [
+        "Who resolves triggered abilities from the bag first?"
+      ],
+      "answer": "The active player resolves their effects one at a time until none remain, then the bag passes through players in turn order. New triggers and game-state checks apply during this process.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 40,
+          "section": "7.7.4.4",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        },
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 40,
+          "section": "7.7.4.2",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        },
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 40,
+          "section": "7.7.4.3",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "alert",
+      "domain": "keywords",
+      "questions": [
+        "Does Alert grant Evasive?"
+      ],
+      "answer": "No. Alert bypasses the Evasive challenge limiter but does not grant Evasive.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 41,
+          "section": "8.2.2",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "bodyguard-entry",
+      "domain": "keywords",
+      "questions": [
+        "Can Bodyguard enter exerted?"
+      ],
+      "answer": "Bodyguard allows the character to enter exerted rather than ready.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 41,
+          "section": "8.3.2",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "bodyguard-target",
+      "domain": "keywords",
+      "questions": [
+        "Does Bodyguard affect challenge targets?"
+      ],
+      "answer": "When challenging an opposing character, an opponent must choose an eligible character with Bodyguard if one can legally be chosen.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 41,
+          "section": "8.3.3",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "boost-private",
+      "domain": "keywords",
+      "questions": [
+        "Can I inspect a card placed facedown by Boost?"
+      ],
+      "answer": "No player may inspect the front of a facedown card under another card, including its owner.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 41,
+          "section": "8.4.2",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "boost-not-play",
+      "domain": "keywords",
+      "questions": [
+        "Does Boost play the card placed underneath?"
+      ],
+      "answer": "A card under another card is not considered in play; putting it underneath with Boost is not playing it.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 41,
+          "section": "8.4.3",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "challenger-defense",
+      "domain": "keywords",
+      "questions": [
+        "Does Challenger increase strength while defending?"
+      ],
+      "answer": "No. Challenger adds strength while the character is challenging, not while they are being challenged.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 41,
+          "section": "8.5.2",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "evasive",
+      "domain": "keywords",
+      "questions": [
+        "What restricts challenges against Evasive?"
+      ],
+      "answer": "Evasive restricts which characters can challenge that card. Apply permissions such as Alert and other challenge limiters together.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 41,
+          "section": "8.6.1",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "reckless-song",
+      "domain": "keywords",
+      "questions": [
+        "Can a Reckless character sing?"
+      ],
+      "answer": "Yes, a Reckless character can sing a song or use an exert ability when otherwise able.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 41,
+          "section": "8.7.4",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "resist-moved",
+      "domain": "keywords",
+      "questions": [
+        "Does Resist reduce moved or put damage?"
+      ],
+      "answer": "No. Resist reduces dealt damage; it does not reduce counters put or moved onto the card.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 42,
+          "section": "8.8.3",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "rush",
+      "domain": "keywords",
+      "questions": [
+        "Does Rush let a new character quest?"
+      ],
+      "answer": "Rush permits challenging during the turn the character is played. It does not grant permission to quest or pay an exert ability cost while drying.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 42,
+          "section": "8.9.1",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        },
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 6,
+          "section": "1.7.5",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "shift-exerted",
+      "domain": "keywords",
+      "questions": [
+        "Is a Shift played over an exerted character ready?"
+      ],
+      "answer": "No. Shifting on top of an exerted card makes the shifted character enter exerted.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 42,
+          "section": "8.10.2",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "shift-dry",
+      "domain": "keywords",
+      "questions": [
+        "Does Shift inherit dry state?"
+      ],
+      "answer": "A Shift played on a dry character enters dry; one played on a drying character enters drying.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 42,
+          "section": "8.10.4",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "shift-damage",
+      "domain": "keywords",
+      "questions": [
+        "Does Shift remove existing damage?"
+      ],
+      "answer": "No. A shifted character retains the damage on the character underneath.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 42,
+          "section": "8.10.6",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "shift-stack",
+      "domain": "keywords",
+      "questions": [
+        "What happens to a Shift stack leaving play?"
+      ],
+      "answer": "All cards in the stack go to the same destination when the shifted character leaves play, unless an applicable instruction specifies otherwise.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 42,
+          "section": "8.10.7",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "duo-dry",
+      "domain": "keywords",
+      "questions": [
+        "Is Duo Shift dry over one dry and one drying character?"
+      ],
+      "answer": "No. If either underlying character is drying, the Duo Shift or Combo Shift enters drying.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 42,
+          "section": "8.10.4.2",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "temporary-shift",
+      "domain": "keywords",
+      "questions": [
+        "What returns to hand after Temporary Shift?"
+      ],
+      "answer": "When its delayed end-of-turn trigger applies, remove damage and return only the Temporary Shift card to hand; apply the exact in-play condition.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 43,
+          "section": "8.10.8.5",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "potato-shift",
+      "domain": "keywords",
+      "questions": [
+        "What can Potato Shift be played on?"
+      ],
+      "answer": "Potato Shift uses an item named Potato. The resulting character is dry only if that item has been in play since the start of your turn.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 43,
+          "section": "8.10.8.6",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "singer-cost",
+      "domain": "keywords",
+      "questions": [
+        "Does Singer change printed cost?"
+      ],
+      "answer": "Singer changes the cost used to sing songs during their play process; it does not change the character's ink cost.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 43,
+          "section": "8.11.2",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "sing-together",
+      "domain": "keywords",
+      "questions": [
+        "How do multiple characters sing together?"
+      ],
+      "answer": "For Sing Together, add the qualifying ready characters' costs and meet or exceed the stated threshold. Normal ability-use eligibility still applies.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 43,
+          "section": "8.12.2",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "support",
+      "domain": "keywords",
+      "questions": [
+        "Is Support automatic strength transfer?"
+      ],
+      "answer": "Support is an optional triggered ability when the character quests, adding its strength to another chosen character for this turn.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 44,
+          "section": "8.13.1",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "vanish-timing",
+      "domain": "keywords",
+      "questions": [
+        "When does Vanish resolve?"
+      ],
+      "answer": "Vanish resolves after the action effect. If its character already moved to another zone, the waiting trigger has no effect.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 44,
+          "section": "8.14.2",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "ward-sweep",
+      "domain": "keywords",
+      "questions": [
+        "Does Ward stop effects that do not choose?"
+      ],
+      "answer": "No. Ward restricts opponents choosing the card during an effect; effects without a choice can still affect it.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 44,
+          "section": "8.15.2",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "keyword-stack",
+      "domain": "keywords",
+      "questions": [
+        "Do repeated keywords always stack?"
+      ],
+      "answer": "Keywords with a plus-number stack. Other repeated keyword instances do not stack; two grants of Support do not create two Support instances.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 41,
+          "section": "8.1.2",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "construction-exception",
+      "domain": "deckbuilding",
+      "questions": [
+        "Can construction exceptions make their own card eligible?"
+      ],
+      "answer": "A deck-construction modifier applies only if its source card could already be included in that deck. Christopher Robin cannot exempt himself from the ink restriction.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 8,
+          "section": "1.10.1.3",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "constructed-minimum",
+      "domain": "formats",
+      "questions": [
+        "What are ordinary Constructed deck requirements?"
+      ],
+      "answer": "At least 60 cards, at most two ink types, and normally at most four copies of one full English name. Apply printed construction exceptions and format eligibility.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-17",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "tournament-rules-2026-07-14",
+          "sha256": "752f0b4994e99547805fd6023d4bbb106a458e234243c37b8885ccc292ddb6ee",
+          "page": 5,
+          "section": "1.3.1.1",
+          "url": "https://files.disneylorcana.com/Tournament-Rules-7.14.2026_Update_EN.pdf",
+          "path": "sources/official/2026-10-04/tournament-rules-2026-07-14.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "core-current",
+      "domain": "formats",
+      "questions": [
+        "Which sets are current Core?"
+      ],
+      "answer": "At the October 4 snapshot, Core uses Sets 9 through 13. Eligible reprints allow their older printings; Hyperia remains prerelease-gated.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-17",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "tournament-rules-2026-07-14",
+          "sha256": "752f0b4994e99547805fd6023d4bbb106a458e234243c37b8885ccc292ddb6ee",
+          "page": 9,
+          "section": "1.6.1",
+          "url": "https://files.disneylorcana.com/Tournament-Rules-7.14.2026_Update_EN.pdf",
+          "path": "sources/official/2026-10-04/tournament-rules-2026-07-14.pdf"
+        },
+        {
+          "source_id": "hyperia-city",
+          "sha256": "daf934ba7e54c2db3f0dc64bef9c145891f2806fd1074ad5c7b597d640bee42b",
+          "page": null,
+          "section": null,
+          "url": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+          "path": "sources/official/2026-10-04/hyperia-city.html"
+        }
+      ]
+    },
+    {
+      "fact_id": "current-bans",
+      "domain": "formats",
+      "questions": [
+        "What are the current Core and Infinity bans?"
+      ],
+      "answer": "The July 14 tournament policy lists no Core bans and bans Hiram Flaversham - Toymaker in Infinity. This is the October 4 verified snapshot.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-17",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "tournament-rules-2026-07-14",
+          "sha256": "752f0b4994e99547805fd6023d4bbb106a458e234243c37b8885ccc292ddb6ee",
+          "page": 9,
+          "section": "1.6.2",
+          "url": "https://files.disneylorcana.com/Tournament-Rules-7.14.2026_Update_EN.pdf",
+          "path": "sources/official/2026-10-04/tournament-rules-2026-07-14.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "prerelease-legality",
+      "domain": "formats",
+      "questions": [
+        "When do new sets become tournament legal?"
+      ],
+      "answer": "The current tournament policy makes sets legal at hobby-store prerelease. Preview and promo versions wait until their respective set becomes legal.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-17",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "tournament-rules-2026-07-14",
+          "sha256": "752f0b4994e99547805fd6023d4bbb106a458e234243c37b8885ccc292ddb6ee",
+          "page": 8,
+          "section": "1.6",
+          "url": "https://files.disneylorcana.com/Tournament-Rules-7.14.2026_Update_EN.pdf",
+          "path": "sources/official/2026-10-04/tournament-rules-2026-07-14.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "limited-minimum",
+      "domain": "limited",
+      "questions": [
+        "What are Sealed and Draft deck minimums?"
+      ],
+      "answer": "Sealed requires at least 40 cards and Draft at least 35. Limited permits any ink combination and copies within the player's supplied or drafted pool.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-17",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "tournament-rules-2026-07-14",
+          "sha256": "752f0b4994e99547805fd6023d4bbb106a458e234243c37b8885ccc292ddb6ee",
+          "page": 5,
+          "section": "1.3.2",
+          "url": "https://files.disneylorcana.com/Tournament-Rules-7.14.2026_Update_EN.pdf",
+          "path": "sources/official/2026-10-04/tournament-rules-2026-07-14.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "sealed-packs",
+      "domain": "limited",
+      "questions": [
+        "How many packs does a Sealed event supply?"
+      ],
+      "answer": "At least six packs per player, with matching set allocation across players as chosen by the organizer.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-17",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "tournament-rules-2026-07-14",
+          "sha256": "752f0b4994e99547805fd6023d4bbb106a458e234243c37b8885ccc292ddb6ee",
+          "page": 6,
+          "section": "1.3.2.2",
+          "url": "https://files.disneylorcana.com/Tournament-Rules-7.14.2026_Update_EN.pdf",
+          "path": "sources/official/2026-10-04/tournament-rules-2026-07-14.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "draft-packs",
+      "domain": "limited",
+      "questions": [
+        "How many packs does a Draft event supply?"
+      ],
+      "answer": "At least four packs per player, with the same allocation of selected sets across players. Follow the organizer's draft procedure.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-17",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "tournament-rules-2026-07-14",
+          "sha256": "752f0b4994e99547805fd6023d4bbb106a458e234243c37b8885ccc292ddb6ee",
+          "page": 6,
+          "section": "1.3.2.4",
+          "url": "https://files.disneylorcana.com/Tournament-Rules-7.14.2026_Update_EN.pdf",
+          "path": "sources/official/2026-10-04/tournament-rules-2026-07-14.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "pack-rush-hand",
+      "domain": "pack_rush",
+      "questions": [
+        "What is the Pack Rush starting hand size?"
+      ],
+      "answer": "Pack Rush starts with 5 cards in hand.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 45,
+          "section": "10.2.3",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "pack-rush-victory",
+      "domain": "pack_rush",
+      "questions": [
+        "How much lore wins Pack Rush?"
+      ],
+      "answer": "Pack Rush uses a victory threshold of 15 or more lore.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 45,
+          "section": "10.2.4",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "pack-rush-marketing",
+      "domain": "pack_rush",
+      "questions": [
+        "Can Pack Rush marketing ink be chosen or moved?"
+      ],
+      "answer": "Marketing cards used as starting ink cannot be chosen by effects or moved out of the inkwell.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 45,
+          "section": "10.2.2.2",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        },
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 45,
+          "section": "10.2.2.1",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "pack-rush-recycle",
+      "domain": "pack_rush",
+      "questions": [
+        "Does an empty Pack Rush deck lose?"
+      ],
+      "answer": "No. When the deck runs out, shuffle the discard to form a new deck under current CR 10.2.5. The older quick sheet frames timing differently.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 45,
+          "section": "10.2.5",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "multiplayer-left",
+      "domain": "multiplayer",
+      "questions": [
+        "Which direction does multiplayer turn order follow?"
+      ],
+      "answer": "After a player's turn, play proceeds to their left.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 44,
+          "section": "9.2.1",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "simultaneous-actions",
+      "domain": "multiplayer",
+      "questions": [
+        "Can teammates start turn actions simultaneously?"
+      ],
+      "answer": "During a simultaneous Main phase, players choose their action order, but one turn action must finish before another begins.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 44,
+          "section": "9.3.1",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "simultaneous-bag",
+      "domain": "multiplayer",
+      "questions": [
+        "Who orders triggers on simultaneous team turns?"
+      ],
+      "answer": "The team collectively chooses the order of triggered effects in its shared bag during a simultaneous turn.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-09",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "comprehensive-rules-2.2.0",
+          "sha256": "5ffa31172fcaae2cbdbf127aebdd54987f01a4e72008812c96556c29d0942d8f",
+          "page": 44,
+          "section": "9.3.2",
+          "url": "https://files.disneylorcana.com/Comprehensive-Rules_2.2.0-EN.pdf",
+          "path": "sources/official/2026-10-04/comprehensive-rules-2.2.0.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "coconut",
+      "domain": "coconut",
+      "questions": [
+        "What are Coconut beta deck and victory rules?"
+      ],
+      "answer": "Choose a support card, include its ink among up to three inks, and build at least 60 cards. Up to four copies of its linked card; at most one of each other card. Victory is 25 lore; three or four players are recommended. Check the exact support card.",
+      "classification": "official_fact",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "format-coconut-rules",
+          "sha256": "78513b3f287c5f3dfd63f700732f6a9a71434fd523d9cca73448388cf510336f",
+          "page": null,
+          "section": null,
+          "url": "https://files.disneylorcana.com/FormatCoconut_Rules.pdf",
+          "path": "sources/official/2026-10-04/format-coconut-rules.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "hyperia-dates",
+      "domain": "products",
+      "questions": [
+        "When is Hyperia City released?"
+      ],
+      "answer": "The verified US page lists hobby prerelease October 16, 2026 and wide release October 23. Card publication alone does not establish present tournament eligibility.",
+      "classification": "official_fact",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "en-US product dates; verify local region",
+      "citations": [
+        {
+          "source_id": "hyperia-city",
+          "sha256": "daf934ba7e54c2db3f0dc64bef9c145891f2806fd1074ad5c7b597d640bee42b",
+          "page": null,
+          "section": null,
+          "url": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+          "path": "sources/official/2026-10-04/hyperia-city.html"
+        }
+      ]
+    },
+    {
+      "fact_id": "ink-drops",
+      "domain": "new_mechanics",
+      "questions": [
+        "What does an ink drop provide?"
+      ],
+      "answer": "The official introduction says each ink drop can pay one ink and is removed when used. It can be used immediately or saved. Exact interactions require applicable rules or release notes.",
+      "classification": "official_fact",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "ink-drop-deep-dive",
+          "sha256": "6d49754de793bbb7e60e1b8838291e59e377308183c8755c7701ddc4f2df3c6b",
+          "page": null,
+          "section": null,
+          "url": "https://www.disneylorcana.com/en-US/news/2026/09/ink-drop-deep-dive",
+          "path": "sources/official/2026-10-04/ink-drop-deep-dive.html"
+        }
+      ]
+    },
+    {
+      "fact_id": "event-deck-registration",
+      "domain": "organized_play",
+      "questions": [
+        "Must competitive players register decks?"
+      ],
+      "answer": "Competitive and Premier Play players register their decks by the organizer's deadline; absent a specified deadline, before the first round is created.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-17",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "tournament-rules-2026-07-14",
+          "sha256": "752f0b4994e99547805fd6023d4bbb106a458e234243c37b8885ccc292ddb6ee",
+          "page": 19,
+          "section": "3.8",
+          "url": "https://files.disneylorcana.com/Tournament-Rules-7.14.2026_Update_EN.pdf",
+          "path": "sources/official/2026-10-04/tournament-rules-2026-07-14.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "takeback-information",
+      "domain": "organized_play",
+      "questions": [
+        "Can I take back a play after seeing a new drawn card?"
+      ],
+      "answer": "A takeback after a triggered draw reveals new information is an ineligible example. Call the event Lore Guide for the applicable remedy.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-17",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "tournament-rules-2026-07-14",
+          "sha256": "752f0b4994e99547805fd6023d4bbb106a458e234243c37b8885ccc292ddb6ee",
+          "page": 19,
+          "section": "3.7.4",
+          "url": "https://files.disneylorcana.com/Tournament-Rules-7.14.2026_Update_EN.pdf",
+          "path": "sources/official/2026-10-04/tournament-rules-2026-07-14.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "match-clock",
+      "domain": "organized_play",
+      "questions": [
+        "What is the Swiss round time limit?"
+      ],
+      "answer": "Swiss rounds have a minimum 50-minute time limit; 60 minutes is the recommended maximum. Event terms and the actual match structure still matter.",
+      "classification": "official_fact",
+      "effective_from": "2026-07-17",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "tournament-rules-2026-07-14",
+          "sha256": "752f0b4994e99547805fd6023d4bbb106a458e234243c37b8885ccc292ddb6ee",
+          "page": 25,
+          "section": "6.1",
+          "url": "https://files.disneylorcana.com/Tournament-Rules-7.14.2026_Update_EN.pdf",
+          "path": "sources/official/2026-10-04/tournament-rules-2026-07-14.pdf"
+        }
+      ]
+    },
+    {
+      "fact_id": "quest-rulebooks",
+      "domain": "cooperative",
+      "questions": [
+        "Can you adjudicate any Illumineer's Quest scenario offline?"
+      ],
+      "answer": "Exact scenario rulebooks for Deep Trouble, Palace Heist and The Great Hunny Rescue are missing. Product pages and encounter cards support introductory guidance, not complete boss-turn or difficulty adjudication.",
+      "classification": "insufficient_evidence",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "project-knowledge-guides-multiplayer-and-cooperative.md",
+          "sha256": "c1d29718640ce9aa621ac461a3cb1f387eb5b9233825d399342c268458f67cff",
+          "page": null,
+          "section": null,
+          "url": "knowledge/guides/multiplayer-and-cooperative.md",
+          "path": "knowledge/guides/multiplayer-and-cooperative.md"
+        }
+      ]
+    },
+    {
+      "fact_id": "gateway-progression",
+      "domain": "learning",
+      "questions": [
+        "Can you give the exact Gateway unlock sequence?"
+      ],
+      "answer": "The Gateway product page is available, but its complete progressive instruction booklet is missing. Retrieve it before asserting the unlock sequence.",
+      "classification": "insufficient_evidence",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "project-knowledge-guides-learning.md",
+          "sha256": "0d2af2a6ab12a0bdc2a0d07503ff79bcb34926cea5bfdbb706397b82e3207e3a",
+          "page": null,
+          "section": null,
+          "url": "knowledge/guides/learning.md",
+          "path": "knowledge/guides/learning.md"
+        }
+      ]
+    },
+    {
+      "fact_id": "hyperia-meta",
+      "domain": "metagame",
+      "questions": [
+        "Which Hyperia deck has the highest measured win rate?"
+      ],
+      "answer": "There is no verified Set 14 matchup or field dataset here. September Set 13 observations cannot establish Hyperia win rates; evaluate proposed lists as strategic inference.",
+      "classification": "insufficient_evidence",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "project-knowledge-method-research.md",
+          "sha256": "96ae222e0f66dc2d7edd2b537dd4987fa039e9195da9029f8ec52c533f7354b9",
+          "page": null,
+          "section": null,
+          "url": "knowledge/method/research.md",
+          "path": "knowledge/method/research.md"
+        }
+      ]
+    },
+    {
+      "fact_id": "current-price",
+      "domain": "collection",
+      "questions": [
+        "What is the current price of a Hyperia Iconic?"
+      ],
+      "answer": "Current region, currency, condition, finish, seller stock and observed prices are needed. The stored September price snapshot does not establish today's Hyperia value.",
+      "classification": "insufficient_evidence",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "project-knowledge-guides-collection-and-products.md",
+          "sha256": "04f5fc9a5af15c8e417e21d1ecf692c142d6d802e017f786b4ceb3f2a094f43a",
+          "page": null,
+          "section": null,
+          "url": "knowledge/guides/collection-and-products.md",
+          "path": "knowledge/guides/collection-and-products.md"
+        }
+      ]
+    },
+    {
+      "fact_id": "pack-odds",
+      "domain": "collection",
+      "questions": [
+        "What are the exact Iconic pull odds?"
+      ],
+      "answer": "No verified official pack-odds source is present. Do not calculate or invent rarity odds from card counts alone.",
+      "classification": "insufficient_evidence",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "project-knowledge-guides-collection-and-products.md",
+          "sha256": "04f5fc9a5af15c8e417e21d1ecf692c142d6d802e017f786b4ceb3f2a094f43a",
+          "page": null,
+          "section": null,
+          "url": "knowledge/guides/collection-and-products.md",
+          "path": "knowledge/guides/collection-and-products.md"
+        }
+      ]
+    },
+    {
+      "fact_id": "hidden-hand",
+      "domain": "coaching",
+      "questions": [
+        "What exact card is my opponent holding?"
+      ],
+      "answer": "An unknown opposing hand is private information. Analyze only supplied public or known player-view information and compare scenarios; do not assert a hidden card.",
+      "classification": "insufficient_evidence",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "project-knowledge-strategy-gameplay.md",
+          "sha256": "084ce1d9348477cd5d7affce9d408310314112a0885e3ccaa3e5e2346607eea6",
+          "page": null,
+          "section": null,
+          "url": "knowledge/strategy/gameplay.md",
+          "path": "knowledge/strategy/gameplay.md"
+        }
+      ]
+    },
+    {
+      "fact_id": "simulation",
+      "domain": "simulation",
+      "questions": [
+        "Can you report simulated matchup win rates from this project?"
+      ],
+      "answer": "The project has no full gameplay engine or implemented matchup simulator. No simulated win rate can be reported without an actual model, validated coverage and run results.",
+      "classification": "insufficient_evidence",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "project-knowledge-method-testing.md",
+          "sha256": "cd07b82077cd9976a8f8a979503ffba6ea8c636b4367bd7be6edef073d6b2435",
+          "page": null,
+          "section": null,
+          "url": "knowledge/method/testing.md",
+          "path": "knowledge/method/testing.md"
+        }
+      ]
+    },
+    {
+      "fact_id": "localized-corpus",
+      "domain": "international",
+      "questions": [
+        "Is every localized card identity verified here?"
+      ],
+      "answer": "No. The English API identity corpus is available. Localized names, regional releases and event terms need their own verification.",
+      "classification": "insufficient_evidence",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "project-knowledge-COVERAGE.md",
+          "sha256": "284ba2cffe6f79931b1cd191f752cc01bfc1cda760095c070d0649913fe2c418",
+          "page": null,
+          "section": null,
+          "url": "knowledge/COVERAGE.md",
+          "path": "knowledge/COVERAGE.md"
+        }
+      ]
+    },
+    {
+      "fact_id": "story-canon",
+      "domain": "lore",
+      "questions": [
+        "Is every Lorcana glimmer story identical to its Disney film?"
+      ],
+      "answer": "Lorcana continuity must be distinguished from Disney film continuity. Attribute published narrative and flavor text; label connections and interpretations as inference.",
+      "classification": "insufficient_evidence",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "project-knowledge-guides-story-and-lore.md",
+          "sha256": "7ee84fd084868f9274ead304b0891911e913f9a95baf0c9b438b3867a435e824",
+          "page": null,
+          "section": null,
+          "url": "knowledge/guides/story-and-lore.md",
+          "path": "knowledge/guides/story-and-lore.md"
+        }
+      ]
+    },
+    {
+      "fact_id": "collection-variants",
+      "domain": "collection",
+      "questions": [
+        "Does the owned export verify every physical variant?"
+      ],
+      "answer": "The export resolves gameplay names and quantities. It does not establish matching physical finishes or complete collector ownership.",
+      "classification": "insufficient_evidence",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "project-knowledge-guides-collection-and-products.md",
+          "sha256": "04f5fc9a5af15c8e417e21d1ecf692c142d6d802e017f786b4ceb3f2a094f43a",
+          "page": null,
+          "section": null,
+          "url": "knowledge/guides/collection-and-products.md",
+          "path": "knowledge/guides/collection-and-products.md"
+        }
+      ]
+    },
+    {
+      "fact_id": "ink-drop-edge",
+      "domain": "new_mechanics",
+      "questions": [
+        "Can unused ink drops satisfy every special payment?"
+      ],
+      "answer": "The introductory article does not establish every timing, replacement or special-payment edge case. Retrieve the applicable Hyperia rules or release notes before adjudicating an unspecified interaction.",
+      "classification": "insufficient_evidence",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "project-knowledge-rules-ink-drops.md",
+          "sha256": "04eccf9fc5e12c6a92cedfb91081e02172f8369d5da97b10e4df457af00df9dd",
+          "page": null,
+          "section": null,
+          "url": "knowledge/rules/ink-drops.md",
+          "path": "knowledge/rules/ink-drops.md"
+        }
+      ]
+    },
+    {
+      "fact_id": "deck-cuts",
+      "domain": "strategy",
+      "questions": [
+        "Can you recommend additions without identifying cuts?"
+      ],
+      "answer": "Each addition to an existing deck needs a corresponding cut and net copy-count change, evaluated in its deck role, curve, ink plan and expected matchups.",
+      "classification": "project_method",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "project-knowledge-strategy-deckbuilding.md",
+          "sha256": "8c5007d2857f7897b5f676dd8a8aabff163b9800f4df3b8717b01e563415599e",
+          "page": null,
+          "section": null,
+          "url": "knowledge/strategy/deckbuilding.md",
+          "path": "knowledge/strategy/deckbuilding.md"
+        }
+      ]
+    },
+    {
+      "fact_id": "probability-model",
+      "domain": "probability",
+      "questions": [
+        "Does the draw calculator model mulligans?"
+      ],
+      "answer": "No. Its exact hypergeometric model assumes uniform draws without replacement and no selection. Mulligans and search need their own conditional model.",
+      "classification": "project_method",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "project-knowledge-strategy-probability.md",
+          "sha256": "8a5b9b167be761cac3a3dd603797bcb38d863073e91970e181f5798beee197ff",
+          "page": null,
+          "section": null,
+          "url": "knowledge/strategy/probability.md",
+          "path": "knowledge/strategy/probability.md"
+        }
+      ]
+    },
+    {
+      "fact_id": "matchup-evidence",
+      "domain": "strategy",
+      "questions": [
+        "Does deck popularity prove it is optimal?"
+      ],
+      "answer": "No. Treat tournament observations as weighted evidence. Winner-only samples cannot establish field metashare or prove an optimal deck.",
+      "classification": "project_method",
+      "effective_from": "2026-10-04",
+      "checked_at": "2026-10-04",
+      "region": "rules apply globally; source language English",
+      "citations": [
+        {
+          "source_id": "project-knowledge-method-research.md",
+          "sha256": "96ae222e0f66dc2d7edd2b537dd4987fa039e9195da9029f8ec52c533f7354b9",
+          "page": null,
+          "section": null,
+          "url": "knowledge/method/research.md",
+          "path": "knowledge/method/research.md"
+        }
+      ]
+    }
+  ]
+}

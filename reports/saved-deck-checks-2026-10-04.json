@@ -1,0 +1,71 @@
+[
+  {
+    "path": "decks/elinor_moluk_champ.json",
+    "exit_code": 2,
+    "format": "core",
+    "as_of": "2026-10-04",
+    "policy_checked_at": "2026-10-04",
+    "verdict": "review_required",
+    "issues": [],
+    "review_required": [
+      "Pocahontas - Peacekeeper: printing differences in rules_text"
+    ],
+    "card_count": 60,
+    "ink_colors": [
+      "AMBER",
+      "EMERALD"
+    ],
+    "inkable": 44,
+    "uninkable": 16,
+    "printed_cost_curve": {
+      "1": 18,
+      "2": 21,
+      "3": 5,
+      "4": 12,
+      "5": 4
+    },
+    "card_types": {
+      "character": 60
+    },
+    "limits": "Snapshot checks, not event certification; verify current sources, card text, and event terms.",
+    "catalog_sha256": "49266e492d7545c7c7c617d239c3eb3756794b56f485a4c0918e4e4fc1abe3c3"
+  },
+  {
+    "path": "decks/mickey_minnie_baha.json",
+    "exit_code": 2,
+    "format": "core",
+    "as_of": "2026-10-04",
+    "policy_checked_at": "2026-10-04",
+    "verdict": "review_required",
+    "issues": [],
+    "review_required": [
+      "Mickey Mouse & Minnie Mouse - Adventuring Duo: printing differences in rules_text",
+      "Donald Duck - Perfect Gentleman: printing differences in rules_text",
+      "Strike A Good Match: printing differences in name, rules_text",
+      "Under the Sea: printing differences in rules_text"
+    ],
+    "card_count": 60,
+    "ink_colors": [
+      "EMERALD",
+      "SAPPHIRE"
+    ],
+    "inkable": 52,
+    "uninkable": 8,
+    "printed_cost_curve": {
+      "1": 8,
+      "2": 12,
+      "3": 12,
+      "4": 4,
+      "5": 8,
+      "6": 4,
+      "7": 10,
+      "8": 2
+    },
+    "card_types": {
+      "character": 54,
+      "action": 6
+    },
+    "limits": "Snapshot checks, not event certification; verify current sources, card text, and event terms.",
+    "catalog_sha256": "49266e492d7545c7c7c617d239c3eb3756794b56f485a4c0918e4e4fc1abe3c3"
+  }
+]

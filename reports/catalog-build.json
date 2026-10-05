@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "source_sha256": "49266e492d7545c7c7c617d239c3eb3756794b56f485a4c0918e4e4fc1abe3c3",
+  "catalog_hash": "da34ef0bddb7938db9ce9d0b620941e531b98db5",
+  "printing_records": 3515,
+  "gameplay_identities": 2784,
+  "identities_with_conflicts": 137,
+  "coconut_records": 27,
+  "sets": [
+    {
+      "set_id": "set1",
+      "name": "The First Chapter",
+      "printing_records": 216,
+      "base_records": 204,
+      "base_numbers": 204,
+      "expected_base_numbers": 204,
+      "missing_numbers": [],
+      "base_number_coverage_complete": true,
+      "all_collectible_variants_complete": null
+    },
+    {
+      "set_id": "set2",
+      "name": "Rise of the Floodborn",
+      "printing_records": 216,
+      "base_records": 204,
+      "base_numbers": 204,
+      "expected_base_numbers": 204,
+      "missing_numbers": [],
+      "base_number_coverage_complete": true,
+      "all_collectible_variants_complete": null
+    },
+    {
+      "set_id": "set3",
+      "name": "Into the Inklands",
+      "printing_records": 227,
+      "base_records": 208,
+      "base_numbers": 204,
+      "expected_base_numbers": 204,
+      "missing_numbers": [],
+      "base_number_coverage_complete": true,
+      "all_collectible_variants_complete": null
+    },
+    {
+      "set_id": "set4",
+      "name": "Ursula's Return",
+      "printing_records": 225,
+      "base_records": 204,
+      "base_numbers": 204,
+      "expected_base_numbers": 204,
+      "missing_numbers": [],
+      "base_number_coverage_complete": true,
+      "all_collectible_variants_complete": null
+    },
+    {
+      "set_id": "set5",
+      "name": "Shimmering Skies",
+      "printing_records": 223,
+      "base_records": 204,
+      "base_numbers": 204,
+      "expected_base_numbers": 204,
+      "missing_numbers": [],
+      "base_number_coverage_complete": true,
+      "all_collectible_variants_complete": null
+    },
+    {
+      "set_id": "set6",
+      "name": "Azurite Sea",
+      "printing_records": 222,
+      "base_records": 204,
+      "base_numbers": 204,
+      "expected_base_numbers": 204,
+      "missing_numbers": [],
+      "base_number_coverage_complete": true,
+      "all_collectible_variants_complete": null
+    },
+    {
+      "set_id": "set7",
+      "name": "Archazia’s Island",
+      "printing_records": 224,
+      "base_records": 204,
+      "base_numbers": 204,
+      "expected_base_numbers": 204,
+      "missing_numbers": [],
+      "base_number_coverage_complete": true,
+      "all_collectible_variants_complete": null
+    },
+    {
+      "set_id": "set8",
+      "name": "Reign of Jafar",
+      "printing_records": 224,
+      "base_records": 204,
+      "base_numbers": 204,
+      "expected_base_numbers": 204,
+      "missing_numbers": [],
+      "base_number_coverage_complete": true,
+      "all_collectible_variants_complete": null
+    },
+    {
+      "set_id": "set9",
+      "name": "Fabled",
+      "printing_records": 243,
+      "base_records": 205,
+      "base_numbers": 205,
+      "expected_base_numbers": 204,
+      "missing_numbers": [],
+      "base_number_coverage_complete": true,
+      "all_collectible_variants_complete": null
+    },
+    {
+      "set_id": "set10",
+      "name": "Whispers in the Well",
+      "printing_records": 242,
+      "base_records": 204,
+      "base_numbers": 204,
+      "expected_base_numbers": 204,
+      "missing_numbers": [],
+      "base_number_coverage_complete": true,
+      "all_collectible_variants_complete": null
+    },
+    {
+      "set_id": "set11",
+      "name": "Winterspell",
+      "printing_records": 243,
+      "base_records": 204,
+      "base_numbers": 204,
+      "expected_base_numbers": 204,
+      "missing_numbers": [],
+      "base_number_coverage_complete": true,
+      "all_collectible_variants_complete": null
+    },
+    {
+      "set_id": "set12",
+      "name": "Wilds Unknown",
+      "printing_records": 243,
+      "base_records": 204,
+      "base_numbers": 204,
+      "expected_base_numbers": 204,
+      "missing_numbers": [],
+      "base_number_coverage_complete": true,
+      "all_collectible_variants_complete": null
+    },
+    {
+      "set_id": "set13",
+      "name": "Attack of the Vine!",
+      "printing_records": 247,
+      "base_records": 207,
+      "base_numbers": 207,
+      "expected_base_numbers": 207,
+      "missing_numbers": [],
+      "base_number_coverage_complete": true,
+      "all_collectible_variants_complete": null
+    },
+    {
+      "set_id": "set14",
+      "name": "Hyperia City",
+      "printing_records": 216,
+      "base_records": 204,
+      "base_numbers": 204,
+      "expected_base_numbers": 204,
+      "missing_numbers": [],
+      "base_number_coverage_complete": true,
+      "all_collectible_variants_complete": null
+    }
+  ],
+  "note": "Number coverage verifies mechanical base coverage, not every finish or variant."
+}

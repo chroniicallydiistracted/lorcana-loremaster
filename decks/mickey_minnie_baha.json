@@ -1,0 +1,367 @@
+{
+  "name": "Mickey & Minnie — Baha",
+  "archetype": "Mickey & Minnie",
+  "format": "Core Constructed",
+  "ink_colors": [
+    "Emerald",
+    "Sapphire"
+  ],
+  "card_count": 60,
+  "unique_card_count": 16,
+  "cards": [
+    {
+      "quantity": 4,
+      "deck_building_id": "3b0e8334ac0212cfffe798056686d118756c12f3",
+      "card_identifier": "87/207 EN 13",
+      "name": "Minnie Mouse",
+      "subtitle": "Curious Adventurer",
+      "type": "character",
+      "ink_cost": 1,
+      "inkable": true,
+      "ink_colors": [
+        "Emerald"
+      ],
+      "strength": 2,
+      "willpower": 2,
+      "lore": 1,
+      "classifications": [
+        "Dreamborn",
+        "Hero"
+      ]
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "6725c8eed5b1da959eb350f6c3be592e925ce635",
+      "card_identifier": "72/204 EN 11",
+      "name": "Minnie Mouse",
+      "subtitle": "Spinning Skater",
+      "type": "character",
+      "ink_cost": 2,
+      "inkable": true,
+      "ink_colors": [
+        "Emerald"
+      ],
+      "strength": 3,
+      "willpower": 3,
+      "lore": 1,
+      "classifications": [
+        "Storyborn",
+        "Hero"
+      ]
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "e41d63dec20f63664cf1d0fa42b721e0f7d72447",
+      "card_identifier": "94/204 EN 11",
+      "name": "Strike A Good Match",
+      "type": "action",
+      "ink_cost": 2,
+      "inkable": true,
+      "ink_colors": [
+        "Emerald"
+      ],
+      "classifications": [
+        "Song"
+      ],
+      "rules_text": "(A character with cost 2 or more can {E} to sing this song for free.) \n\nDraw 2 cards, then choose and discard a card."
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "1c83fd32d4a179f9672af28642b26fba727cb8a8",
+      "card_identifier": "97/207 EN 13",
+      "name": "Mushu",
+      "subtitle": "Stealthy Dragon",
+      "type": "character",
+      "ink_cost": 3,
+      "inkable": true,
+      "ink_colors": [
+        "Emerald"
+      ],
+      "strength": 3,
+      "willpower": 2,
+      "lore": 1,
+      "classifications": [
+        "Storyborn",
+        "Ally",
+        "Dragon"
+      ],
+      "keywords": [
+        "Evasive"
+      ],
+      "rules_text": "<Evasive> (Only characters with Evasive can challenge this character.)\n\n\\Tip the Scales\\ Whenever this character quests, if an opponent has more cards in their hand than you, you may draw a card."
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "d4b995ae6e9058a22b8f025d86e5606e0f4b410c",
+      "card_identifier": "81/207 EN 13",
+      "name": "Tod",
+      "subtitle": "Clever Fox",
+      "type": "character",
+      "ink_cost": 3,
+      "inkable": true,
+      "ink_colors": [
+        "Emerald"
+      ],
+      "strength": 1,
+      "willpower": 2,
+      "lore": 1,
+      "classifications": [
+        "Storyborn",
+        "Hero"
+      ],
+      "rules_text": "\\Problem Solving\\ When you play this character, draw 2 cards, then choose and discard a card."
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "754975b423fd73f951d33d2a0b695136a1c5e3b8",
+      "card_identifier": "85/204 EN 9",
+      "name": "Donald Duck",
+      "subtitle": "Perfect Gentleman",
+      "type": "character",
+      "ink_cost": 4,
+      "inkable": true,
+      "ink_colors": [
+        "Emerald"
+      ],
+      "strength": 2,
+      "willpower": 5,
+      "lore": 2,
+      "classifications": [
+        "Floodborn",
+        "Ally"
+      ],
+      "keywords": [
+        "Shift"
+      ],
+      "rules_text": "<Shift> 3 {I} (You may pay 3 {I} to play this on top of one of your characters named Donald Duck.)\n\n\\Allow Me\\ At the start of your turn, each player may draw a card."
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "5fceee195609a118cf899d396da71d7bef49b8b1",
+      "card_identifier": "92/207 EN 13",
+      "name": "Dr. Bushroot",
+      "subtitle": "Evil Botanist",
+      "type": "character",
+      "ink_cost": 5,
+      "inkable": true,
+      "ink_colors": [
+        "Emerald"
+      ],
+      "strength": 4,
+      "willpower": 3,
+      "lore": 3,
+      "classifications": [
+        "Storyborn",
+        "Super",
+        "Villain"
+      ],
+      "keywords": [
+        "Ward"
+      ],
+      "rules_text": "<Ward> (Opponents can't choose this character except to challenge.)\n\n\\Fair is Fair\\ Whenever this character is challenged, chosen opponent chooses and discards a card."
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "9fa7b16fb37ecae141b2538615e97ce845b0026e",
+      "card_identifier": "82/204 EN 12",
+      "name": "Milo Thatch",
+      "subtitle": "Getting His Hands Dirty",
+      "type": "character",
+      "ink_cost": 7,
+      "inkable": true,
+      "ink_colors": [
+        "Emerald"
+      ],
+      "strength": 5,
+      "willpower": 5,
+      "lore": 3,
+      "classifications": [
+        "Dreamborn",
+        "Hero"
+      ],
+      "keywords": [
+        "Ward"
+      ],
+      "rules_text": "<Ward>\n\n\\Scholar's Gambit\\ When you play this character, you may choose and discard a card to return chosen character to their player's hand.\n\n\\Practical Knowledge\\ At the end of your turn, if 2 or more cards were put into your discard this turn, draw a card."
+    },
+    {
+      "quantity": 2,
+      "deck_building_id": "e81fec386fd1647801df51920cfaf2d60ad090b5",
+      "card_identifier": "97/204 EN 9",
+      "name": "Under the Sea",
+      "type": "action",
+      "ink_cost": 8,
+      "inkable": false,
+      "ink_colors": [
+        "Emerald"
+      ],
+      "classifications": [
+        "Song"
+      ],
+      "keywords": [
+        "Sing Together"
+      ],
+      "rules_text": "<Sing Together> 8 (Any number of your or your teammates’ characters with total cost 8 or more may {E} to sing this song for free.)\nPut all opposing characters with 2 {S} or less on the bottom of their players’ decks in any order."
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "18946699cef53f88e95079513efd6645e23daf3c",
+      "card_identifier": "99/207 EN 13",
+      "name": "Mickey Mouse & Minnie Mouse",
+      "subtitle": "Adventuring Duo",
+      "type": "character",
+      "ink_cost": 7,
+      "inkable": true,
+      "ink_colors": [
+        "Emerald",
+        "Sapphire"
+      ],
+      "strength": 5,
+      "willpower": 5,
+      "lore": 5,
+      "classifications": [
+        "Dreamborn",
+        "Team",
+        "Hero"
+      ],
+      "keywords": [
+        "Shift"
+      ],
+      "rules_text": "<Duo Shift> 0 {I} (You may pay 0 {I} to play this on top of two of your characters, one named Mickey Mouse and one named Minnie Mouse.)\n\n\\Thinking of You\\ If this character would be banished, put them into your inkwell facedown and exerted instead."
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "164a897757ef09cdbcfbd9297c439bef7067dd54",
+      "card_identifier": "159/204 EN 12",
+      "name": "Minnie Mouse",
+      "subtitle": "Practical Traveler",
+      "type": "character",
+      "ink_cost": 1,
+      "inkable": true,
+      "ink_colors": [
+        "Sapphire"
+      ],
+      "strength": 1,
+      "willpower": 1,
+      "lore": 1,
+      "classifications": [
+        "Dreamborn",
+        "Hero"
+      ],
+      "rules_text": "\\Discerning Eye\\ Whenever this character quests, if you played another character this turn, gain 1 lore."
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "132fe371ee1996c1db47f7b3f11e121247269425",
+      "card_identifier": "159/204 EN 11",
+      "name": "Mickey Mouse",
+      "subtitle": "Bob Cratchit",
+      "type": "character",
+      "ink_cost": 2,
+      "inkable": true,
+      "ink_colors": [
+        "Sapphire"
+      ],
+      "strength": 3,
+      "willpower": 2,
+      "lore": 1,
+      "classifications": [
+        "Storyborn",
+        "Hero"
+      ],
+      "rules_text": "\\Hard Work\\ Whenever this character quests, put the top card of your deck facedown under him.\n\n\\A Giving Heart\\ When this character is banished in a challenge, you may put all cards that were under him under another chosen character or location of yours."
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "f6d5d539a411651374ae418f08e3d379fcb13ff5",
+      "card_identifier": "160/204 EN 10",
+      "name": "Mickey Mouse",
+      "subtitle": "Detective",
+      "type": "character",
+      "ink_cost": 3,
+      "inkable": false,
+      "ink_colors": [
+        "Sapphire"
+      ],
+      "strength": 1,
+      "willpower": 3,
+      "lore": 1,
+      "classifications": [
+        "Dreamborn",
+        "Hero",
+        "Detective"
+      ],
+      "rules_text": "\\Get a Clue\\ When you play this character, you may put the top card of your deck into your inkwell facedown and exerted."
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "8ded4e32f6390106d15d72e5aab8aa2ebd2b2963",
+      "card_identifier": "147/204 EN 10",
+      "name": "Scuttle",
+      "subtitle": "Birdbrained",
+      "type": "character",
+      "ink_cost": 5,
+      "inkable": true,
+      "ink_colors": [
+        "Sapphire"
+      ],
+      "strength": 5,
+      "willpower": 5,
+      "lore": 2,
+      "classifications": [
+        "Dreamborn",
+        "Ally"
+      ],
+      "keywords": [
+        "Ward"
+      ],
+      "rules_text": "<Ward> (Opponents can't choose this character except to challenge.)"
+    },
+    {
+      "quantity": 4,
+      "deck_building_id": "83ae92739e6a362a7d610972a8e1d9ba8a64006a",
+      "card_identifier": "156/207 EN 13",
+      "name": "Hades",
+      "subtitle": "Meticulous Schemer",
+      "type": "character",
+      "ink_cost": 6,
+      "inkable": true,
+      "ink_colors": [
+        "Sapphire"
+      ],
+      "strength": 5,
+      "willpower": 5,
+      "lore": 3,
+      "classifications": [
+        "Storyborn",
+        "Villain"
+      ],
+      "keywords": [
+        "Ward"
+      ],
+      "rules_text": "<Ward> (Opponents can't choose this character except to challenge.)"
+    },
+    {
+      "quantity": 2,
+      "deck_building_id": "89f9ee7889da4ebacb49419bd4b8dae4220a5c7c",
+      "card_identifier": "151/204 EN 9",
+      "name": "Hades",
+      "subtitle": "Infernal Schemer",
+      "type": "character",
+      "ink_cost": 7,
+      "inkable": false,
+      "ink_colors": [
+        "Sapphire"
+      ],
+      "strength": 3,
+      "willpower": 6,
+      "lore": 2,
+      "classifications": [
+        "Dreamborn",
+        "Villain",
+        "Deity"
+      ],
+      "rules_text": "\\Is There a Downside to This?\\ When you play this character, you may put chosen opposing character into their player's inkwell facedown."
+    }
+  ]
+}
